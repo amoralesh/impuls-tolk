@@ -1,0 +1,172 @@
+
+/*Agegamos bordes al navbar de acciones de usaurio*/
+.justify-content-center>.navbar-nav >.nav-item{
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    margin:0 10px;
+}
+
+/*Agegamos bordes al navbar de acciones de usaurio (solo al primero)*/
+.justify-content-center>.navbar-nav >.nav-item:nth-child(1){
+    border-left: 0px solid black;
+}
+
+
+/*Quitamos padding y box-shadow de los navbar */
+.skin-light .navbar {
+    min-height: 20px;
+    padding: 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 4, 255, 0);
+    box-shadow: 0 13px 20px 0 rgba(243, 0, 0, 0);
+    
+}
+
+/*Modificamos  margin-left (Separación entre palabras) de navbar categorias */
+.justify-content-left>.navbar-nav >.nav-item{
+    margin-left: 6px;
+}
+
+/*Modificamos  margin-left de navbar categorias (solo al primero)*/
+.justify-content-left>.navbar-nav >.nav-item:nth-child(1){
+    margin-left: 20px;
+}
+
+/*Agregamos negritas a los small de categorias */
+.justify-content-left>.navbar-nav >.nav-item>a>small{
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+/*Agregamos padding arriba y abajo en navbar categorias */
+.skin-light .navbarCategorias {
+    padding: 20px 0px;
+}
+
+/*Modificación al form de busqueda */
+.md-form {
+    /* position: relative; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+    /*Categorías*/
+    .justify-content-left>.navbar-nav >.nav-item>a>small{
+        margin-left: 0px;
+        font-size: 9.5px;
+    
+    }
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+        /*Modificamos  margin-left de navbar categorias */
+        .justify-content-left>.navbar-nav >.nav-item>a>small{
+            margin-left: 0px;
+            font-size: 12px;
+        
+        }
+
+        /*Modificamos  margin-left de navbar categorias (solo al primero)*/
+        .justify-content-left>.navbar-nav >.nav-item:nth-child(1){
+
+            margin-left: 0px;
+        }
+
+        /*Modificamos  margin-left de navbar de categorias*/
+        .justify-content-left>.navbar-nav >.nav-item>a>small{
+            margin-left: 0px;
+            font-size: 10px;
+        }
+
+        /*Modificación al form de busqueda */
+        .md-form {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-left: 4px;
+        }
+
+
+         /*Modificamos  carrito de compras/lupa/corazón navbar de categorias*/
+        .col-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%;
+            padding-left: 2px;
+        }
+
+        /*BOTON VER MAS DESTACADOS*/
+        .skin-light .btn.btn-md {
+            font-size: 15.24px;
+            padding: 5px;
+            width: 100%;
+            margin-top:17px ;
+        }
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    /*Modificamos  Acciones del cliente */
+    .justify-content-center>.navbar-nav >.nav-item{
+        border-left: 0px solid black;
+        margin:0px;
+    }
+
+        /*Modificamos  margin-left de navbar categorias */
+        .justify-content-left>.navbar-nav >.nav-item>a>small{
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    /*Modificamos  margin-left de navbar categorias (solo al primero)*/
+        .justify-content-left>.navbar-nav >.nav-item:nth-child(1){
+
+            margin-left: 0px;
+        }
+
+        /*Modificación al form de busqueda */
+        .md-form {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-left: 4px;
+        }
+
+    /*Modificamos  carrito de compras/lupa/corazón navbar de categorias*/       
+        .col-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%;
+            padding-left: 2px;
+        }
+        
+}
+

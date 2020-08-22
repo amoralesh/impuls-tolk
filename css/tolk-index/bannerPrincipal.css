@@ -1,0 +1,153 @@
+
+
+
+.carrucelPrincipal,.bannerPrincipal {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+
+/*Imagen Flotante Banner Principal*/
+.imagenBannerPrincipal{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    right: -1%;
+    top: -15%;
+}
+
+/*TEXTO Flotante Banner Principal*/
+.textosBanner{
+    position:absolute;
+    color: #ffffff;
+    top:20%;
+    left:8%;
+    width:40%
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .carrucelPrincipal,.bannerPrincipal {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    /*TEXTO Flotante Banner Principal*/
+    .textosBanner{
+        position:absolute;
+        color: #ffffff;
+        font-size: 5px;
+        top:10%;
+        left:15%;
+        width:60%
+    }
+
+    .textosBanner >h2{
+        font-size: 25px;
+    }
+    .textosBanner >h1{
+        font-size: 37px;
+    }
+
+    /*Imagen Flotante Banner Principal*/
+    .imagenBannerPrincipal{
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        right: 2%;
+        top: 0%;
+    }
+
+    .btnBannerprincipal{
+       text-transform: none;
+       padding: 3px 13px!important;
+       border-radius: 5px!important;
+    }
+
+    .btnBannerprincipal>.textoBtnBanner{
+        margin-bottom: 0rem!important;
+        font-size: 15px;
+     }
+
+
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .carrucelPrincipal,.bannerPrincipal {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    /*TEXTO Flotante Banner Principal*/
+    .textosBanner{
+        position:absolute;
+        color: #ffffff;
+        font-size: 5px;
+        top:10%;
+        left:8%;
+        width:40%
+    }
+
+    .textosBanner >h2{
+        font-size: 15px;
+    }
+    .textosBanner >h1{
+        font-size: 27px;
+    }
+
+    /*Imagen Flotante Banner Principal*/
+    .imagenBannerPrincipal{
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        right: 2%;
+        top: 0%;
+    }
+
+    .btnBannerprincipal{
+       text-transform: none;
+       padding: 3px 13px!important;
+       border-radius: 5px!important;
+    }
+
+    .btnBannerprincipal>.textoBtnBanner{
+        margin-bottom: 0rem!important;
+        font-size: 15px;
+     }
+
+	
+}
+

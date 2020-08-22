@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+ /*Degradado azul/morado*/
+.infoEntregas{
+    color: #ffffff;
+    background: rgba(74,95,204,1);
+    background: -moz-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(74,95,204,1)), color-stop(0%, rgba(74,95,204,1)), color-stop(51%, rgba(74,95,204,1)), color-stop(100%, rgba(164,64,184,1)));
+    background: -webkit-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
+    background: -o-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
+    background: -ms-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
+    background: linear-gradient(to right, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a5fcc', endColorstr='#a440b8', GradientType=1 );
+}
+    
+.infoEntregas>small{
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0.7;
+}
+    
+.infoEntregas>small>a{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 14px;
+}
+    
+/*opacidad de los badge Nuevo*/
+.opacity-badge{
+   opacity: 0.5;
+}
+    
+    
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+}
+    
+    

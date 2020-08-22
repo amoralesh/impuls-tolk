@@ -1,0 +1,145 @@
+
+/*BOTON VER MAS DE RECOMENDADOS*/
+.skin-light .btn.btn-md {
+    font-size: 12.24px;
+    padding: 5px;
+}
+
+
+/*Fodo Recomendados*/
+.recomendados{
+    background: rgba(214,214,214,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 1%, rgba(227,227,227,1) 36%, rgba(250,250,250,1) 99%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(214,214,214,1)), color-stop(1%, rgba(214,214,214,1)), color-stop(36%, rgba(227,227,227,1)), color-stop(99%, rgba(250,250,250,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 1%, rgba(227,227,227,1) 36%, rgba(250,250,250,1) 99%);
+background: -o-radial-gradient(center, ellipse cover, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 1%, rgba(227,227,227,1) 36%, rgba(250,250,250,1) 99%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 1%, rgba(227,227,227,1) 36%, rgba(250,250,250,1) 99%);
+background: radial-gradient(ellipse at center, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 1%, rgba(227,227,227,1) 36%, rgba(250,250,250,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#fafafa', GradientType=1 );
+}
+
+/*Imagenes de tarjetas*/
+.imgRadius {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 90%;
+    top: -45px;
+    position: relative;
+    align-self: center;
+    border-radius: 25px;
+    left: 5%;
+
+}
+/*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
+.skin-light .card-img-top {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/*Acortamos la distancia entre la imagen y la descripcion*/
+.h6Imagen{
+    margin-top: -12%;
+}
+
+/*Posición de badge Recomendados*/
+.badgeRecomendadosNuevo{
+    position: absolute;
+    top: -6%;
+    left: 12%;
+}
+
+/*Posición de badge Recomendados*/
+.badgeRecomendadosOferta{
+    position: absolute;
+    bottom: 55%;
+    left: 52%;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+            /*Posición de badge Recomendados*/
+        .badgeRecomendadosOferta{
+            position: absolute;
+            bottom: 62%;
+            left: 47%;
+        } 
+   
+
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+        /*Posición de badge Recomendados*/
+        .badgeRecomendadosNuevo{
+            position: absolute;
+            top: -2%;
+            left: 17%;
+        }
+
+        /*Posición de badge Recomendados*/
+        .badgeRecomendadosOferta{
+            position: absolute;
+            bottom: 45%;
+            left: 62%;
+        }
+
+        /*Acortamos la distancia entre la imagen y la descripcion*/
+        .h6Imagen{
+            margin-top: -7%;
+        }
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+    
+    /*BOTON VER MAS Recomendados*/
+    .skin-light .btn.btn-md {
+        font-size: 15.24px;
+        padding: 5px;
+        width: 100%;
+        margin-top:17px ;
+    }
+
+
+    /*Posición de badge Recomendados*/
+    .badgeRecomendadosOferta{
+        position: absolute;
+        bottom: 57%;
+        left: 52%;
+    }
+
+
+    /*Acortamos la distancia entre la imagen y la descripcion*/
+    .h6Imagen{
+        margin-top: -4%;
+    }
+
+
+ 
+
+	
+}
+
