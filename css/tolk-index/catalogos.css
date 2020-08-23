@@ -1,0 +1,23 @@
+.textoCataologos{
+    font-family: Poppins;
+    font-size: 40px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 46px!important;
+}
+.textoTarjetaCatalogos{
+    font-family: Poppins;
+    font-size: 18px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  
+}

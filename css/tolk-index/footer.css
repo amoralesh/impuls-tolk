@@ -1,0 +1,32 @@
+.footerImpuls{
+    height: 514px!important;
+    background-color: black;
+    padding: 162px  172px 0px 125px!important;
+}
+
+.textoFoooter{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.29px;
+    color: #ffffff;
+}
+
+.textoFoooterSecundario{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #ffffff;
+  margin-bottom: 0rem!important;
+}
+
+.imgFooter{
+    padding-top: -30px!important;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,33 +33,18 @@
       <link rel="stylesheet" href="css/tolk-index/navbars.css">
       <!-- Estilos TOLK RECOMENDADOS -->
       <link rel="stylesheet" href="css/tolk-index/recomendados.css">
-      <!-- Estilos TOLK OTROS SERVICIOS -->
-      <link rel="stylesheet" href="css/tolk-index/otrosServicios.css">
-      <!-- Estilos TOLK MARCAS PROPIAS -->
-      <link rel="stylesheet" href="css/tolk-index/marcasPropias.css">
-      <!-- Estilos TOLK VIDEO -->
-      <link rel="stylesheet" href="css/tolk-index/videoImpuls.css">
-      <!-- Estilos TOLK CATÁLOGOS -->
-      <link rel="stylesheet" href="css/tolk-index/catalogos.css">
-      <!-- Estilos TOLK VISTOS RECIENTEMENTE -->
-      <link rel="stylesheet" href="css/tolk-index/vistosRecientemente.css">
-      <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
-      <link rel="stylesheet" href="css/tolk-index/pagosCertificados.css">
-      <!-- Estilos TOLK FOOTER -->
-      <link rel="stylesheet" href="css/tolk-index/footer.css">
       <!-- FUENTE POPPING -->
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
       <!-- Your custom styles (optional) -->
       <link rel="stylesheet" href="css/style.css">
-      <style>
-         @import url('https://fonts.googleapis.com/css?family=Poppins');
-      </style>
    </head>
    <body class="skin-light">
       <div class="container-fluid"></div>
-         <div class="row justify-content-center infoEntregas align-items-center m-0 p-0">
-            <div class="col-8  infoEntregasTexto text-center m-0 p-0">
-                Información sobre las entregas y promociones. <a href="#"><u>Aquí</u></a>
+         <div class="row justify-content-center">
+            <div class="col-12  infoEntregas">
+               <div class="infoEntregasTexto ">
+                Información sobre las entregas y promociones. <a class="text-style-2" href="#"> Ver Aquí</a>
+               </div>
             </div>
          </div>
       </div>
@@ -258,7 +243,58 @@
          <!--===============================================
             FIN CARRUSEL PRINCIPAL
             ================================================= -->
-        
+         <!--===============================================
+            PRODUCTOS FLOTANTES
+            ================================================= -->
+         <div class="container-fluid">
+            <div class="row rowFlotante">
+               <div class="col-12 p-0">
+
+               <div class="divFlotante1">
+                  <div class="textosImgFlotante1">
+                     <h6 ><u>Caballero</u></h6>
+                     <h2>Hasta<br><strong class="display-3">50%</strong><br> de descuento</h2>
+                     <a href="#">
+                        <button class="btnImgFlotante1 btn btn-warning">
+                           <h6 class="textoBtn1">Ver Más</h6>
+                        </button>
+                     </a>
+                  </div>
+                  <div data-aos="fade-up"><img class="imagenFlotante1" src="img/calzado/zapatos-h-1.png">
+                  </div>
+               </div>
+               <div class="divFlotante2">
+                  <div class="textosImgFlotante2">
+                     <h6 ><u>Caballero</u></h6>
+                     <h2>Nueva Temporada<br>Otoño-Invierno<br>2020</h2>
+                     <a href="#">
+                      <button class="btnImgFlotante2 btn btn-info">
+                         <h6 class="textoBtn2">Ver Más</h6>
+                      </button>
+                   </a>
+                  </div>
+                  <div data-aos="fade-left"> <img class="imagenFlotante2" src="img/calzado/tenis-4.png"></div>
+               </div>
+
+               <div class="divFlotante3">
+                  <div class="textosImgFlotante3 text-left">
+                     <h6 ><u>Caballero</u></h6>
+                     <h2>Ahorra hasta<br><strong class="display-3">32%</strong><br>como socio</h2>
+                     <a href="#">
+                      <button class="btnImgFlotante3 btn btn-secondary">
+                         <h6 class="textoBtn3">Ver Más</h6>
+                      </button>
+                   </a>
+                  </div>
+                  <div data-aos="fade-right"><img class="imagenFlotante3" src="img/calzado/tenis-1.png"></div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      <!--===============================================
+         FIN PRODUCTOS FLOTANTES
+         ================================================= -->
       <!--===============================================
          LOS MÁS VENDIDOS
          ================================================= -->
@@ -285,7 +321,7 @@
                         <span class="text-grey"><s>$36.99</s></span>
                         <span class="text-danger mr-1">$12.99</span>
                      </h6>
-                     <button class="btn btn-dark btn-md" style="text-transform: none;">Agregar a carrito</button>
+                     <button class="btn btn-dark btn-md text-lowercase">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -430,12 +466,11 @@
       </div>
       <!-- Fin container -->
       <!--===============================================
-                 FIN LO MAS VENDIDO
-      ================================================= -->
-
+         FIN LO MAS VENDIDO
+         ================================================= -->
       <!--===============================================
-                    RECOMENDADOS
-      ================================================= -->
+         RECOMENDADOS
+         ================================================= -->
       <!-- container -->
       <div class="container-fluid recomendados">
          <div class="row justify-content-center">
@@ -637,13 +672,13 @@
       </div>
       <!-- Fin container -->
       <!--===============================================
-                    FIN RECOMENDADOS
-      ================================================= -->
+         FIN RECOMENDADOS
+         ================================================= -->
       <!--===============================================
          MARCAS GLOBALES
          ================================================= -->
       <div class="container text-center my-3 mt-5">
-         <label class="tituloMarcasCarrucel">Marcas Globales</label>
+         <h2 style="color: black;">Marcas Globales</h2>
          <div id="recipeCarousel" class="carousel slide w-100 mt-5" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
                <div class="carousel-item row no-gutters active">
@@ -663,531 +698,19 @@
                   <div class="col-1 float-left"></div>
                </div>
             </div>
-            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="next">
             <span class="carousel-control-prev-icon opacityMarcasCarrusel" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="prev">
             <span class="carousel-control-next-icon opacityMarcasCarrusel" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
             </a>
          </div>
       </div>
       <!--===============================================
-                  FIN MARCAS GLOBALES
-      ================================================= -->
-
-      <!--===============================================
-                         OTROS 
-      ================================================= -->
-
-         <div class="container-fluid p-0 m-0">
-            <div class="row p-0 m-0 otrosServicios">
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4 borderbottomRight text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Beneficios de ser cliente</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4 borderbottomRight text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio-2.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Catálogos o productos de temporada</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4 borderbottom text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio-3.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Catálogos o productos de temporada</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4 borderRight text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio-4.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Catálogos o productos de temporada</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4 borderRight text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio-5.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Catálogos o productos de temporada</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-               <div class="col-12 col-sm-12 col-md-6 col-lg-4  text-center p-0 m-0">
-                  <img src="img/iconos/icono-socio-6.png" alt="" class="pb-3 pt-5">
-                  <br>
-                  <label class="beneficiosTexto">Catálogos o productos de temporada</label>
-                  <label class="beneficiosTextoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma.</label>
-                  <button type="button" class="btn btn-danger btnOtrosServicios mt-3"><label class="ver-mas">Ver Más</label></button>
-               </div>
-
-            </div>
-         </div>
-
-      <!--===============================================
-                       FIN OTROS 
-      ================================================= -->
-
-      <!--===============================================
-                      MARCAS PROPIAS
-      ================================================= -->
-      <div class="container text-center my-3 mt-5">
-         <div class="row">
-            <div class="col-8 offset-2">
-               <label class="tituloMarcasPropiasCarrucel">Nuestras marcas propias</label>
-               <p>Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
-           </div>
-
-           <div class="col-12">
-            <div id="carruselMarcasPropias" class="carousel slide w-100 mt-5" data-ride="carousel">
-               <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item row no-gutters active">
-                     <div class="col-2 float-left offset-1"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/converse.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/puma.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/converse.png"></div>
-                     <div class="col-1"></div>
-                  </div>
-                  <div class="carousel-item row no-gutters">
-                     <div class="col-2 float-left offset-1"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/puma.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
-                     <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
-                     <div class="col-1 float-left"></div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#carruselMarcasPropias" role="button" data-slide="prev">
-               <span class="carousel-control-prev-icon opacityMarcasCarrusel" aria-hidden="true"></span>
-               <span class="sr-only">Previous</span>
-               </a>
-               <a class="carousel-control-next" href="#carruselMarcasPropias" role="button" data-slide="next">
-               <span class="carousel-control-next-icon opacityMarcasCarrusel" aria-hidden="true"></span>
-               <span class="sr-only">Next</span>
-               </a>
-            </div>
-           </div>
-         </div>
-      </div>
-      <!--===============================================
-                    FIN MARCAS PROPIAS
-      ================================================= -->
-
-      <!--===============================================
-                       VIDEO IMPULS
-      ================================================= -->
-
-      <div class="container-fluid p-0 m-0">
-         <div class="row videoImpuls p-0 m-0">
-
-            <div class="col-7 video">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/Y93XG7_3XdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="col-5">
-               <h1 class="tituloVideoImpuls">Lorem ipsum dolor sit amet.</h1>
-               <p class="tituloVideoImpuls2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia accusamus dolores numquam! Sequi voluptatibus nihil earum alias veniam distinctio totam culpa, eligendi illo neque. Ad culpa laboriosam ab ullam?</p>
-               <button type="button" class="btn btn-light btnVideoImpuls"><h2 class="textoBtnVideoImpils">Afíliate</h2></button>
-            </div>
-
-         </div>
-      </div>
-
-       <!--===============================================
-                       VIDEO IMPULS
-      ================================================= -->
-
-      <!--===============================================
-                    CATÁLOGOS
-      ================================================= -->
-      <!-- container -->
-      <div class="container-fluid recomendados">
-
-         <div class="row justify-content-center">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center">
-               <h1 style="color: black;">Catálogos</h1>
-            </div>
-         </div>
-
-         <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="img/catalogos/catalogo-1.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title textoTarjetaCatalogos">Colección Dama</h6>
-                     <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text textoTarjetaCatalogos mb-3"><a href="">Ver Catálogo</a></h6>
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-                <!-- card -->
-                <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="img/catalogos/catalogo-2.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title textoTarjetaCatalogos">Colección Caballero</h6>
-                     <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text textoTarjetaCatalogos mb-3"><a href="">Ver Catálogo</a></h6>
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-                <!-- card -->
-                <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="img/catalogos/catalogo-5.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h3 class="card-title textoTarjetaCatalogos">Colección Niño</h3>
-                     <h3 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h3>
-                     <h3 class="card-text textoTarjetaCatalogos mb-3"><a href="">Ver Catálogo</a></h3>
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-                <!-- card -->
-                <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="img/catalogos/catalogo-6.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title textoTarjetaCatalogos">Colección Niña</h6>
-                     <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text textoTarjetaCatalogos mb-3"><a href="">Ver Catálogo</a></h6>
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-         </div>
-         <!-- Fin row -->
-      </div>
-      <!-- Fin container -->
-      <!--===============================================
-                     FIN CATÁLOGOS
-      ================================================= -->
-
-      <!--===============================================
-                  VISTOS RECIENTEMENTE
-      ================================================= -->
-      <!-- container -->
-      <div class="container-fluid recomendados">
-
-         <div class="row justify-content-center">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-5">
-               <h1 class="textoVistosRecientemente">Productos vistos recientemente</h1>
-            </div>
-         </div>
-
-         <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1016575-0005V1.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <h4 class="mb-0"><span class="badge bg-dark  badge-pill
-                     opacity-badge badgeRecomendadosNuevo">NUEVO</span></h4>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 h6Imagen"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1">Nombre producto</h6>
-                     <h6 class="card-text mb-3">Código: 243567</h6>
-                     <h6 class="card-text">$ 200.00</h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 p-0 align-items-end justify-content-center">
-                        <div class="col-12 col-sm-12 col-md-auto col-lg-auto order-2 order-sm-2 order-md-0 order-lg-0 m-0 p-0 pr-md-4">
-                           <a href="#!" class="pl-4 pr-4 btn btn-dark btn-md">Ver más</a>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-auto col-lg-auto p-1 p-lg-0 mr-2">
-                           <a href="#">
-                           <i class="fas fa-search"></i>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-heart"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-shopping-cart pl-0"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1016575-0005V1.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <h4 class="mb-0"><span class="badge bg-danger  badge-pill
-                     badgeRecomendadosOferta">OFERTA</span></h4>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 h6Imagen"><u>Caballero</u></h6>
-                     <h6 class="card-title mb-1">Nombre producto</h6>
-                     <h6 class="card-text mb-3">Código: 243567</h6>
-                     <h6 class="card-text">$ 200.00</h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 p-0 align-items-end justify-content-center">
-                        <div class="col-12 col-sm-12 col-md-auto col-lg-auto order-2 order-sm-2 order-md-0 order-lg-0 m-0 p-0 pr-md-4">
-                           <a href="#!" class="pl-4 pr-4 btn btn-dark btn-md">Ver más</a>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-auto col-lg-auto p-1 p-lg-0 mr-2">
-                           <a href="#">
-                           <i class="fas fa-search"></i>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-heart"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-shopping-cart pl-0"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1016575-0005V1.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <h4 class="mb-0"><span class="badge bg-dark  badge-pill
-                     opacity-badge badgeRecomendadosNuevo">NUEVO</span></h4>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 h6Imagen"><u>Niña</u></h6>
-                     <h6 class="card-title mb-1">Nombre producto</h6>
-                     <h6 class="card-text mb-3">Código: 243567</h6>
-                     <h6 class="card-text">$ 200.00</h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 p-0 align-items-end justify-content-center">
-                        <div class="col-12 col-sm-12 col-md-auto col-lg-auto order-2 order-sm-2 order-md-0 order-lg-0 m-0 p-0 pr-md-4">
-                           <a href="#!" class="pl-4 pr-4 btn btn-dark btn-md">Ver más</a>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-auto col-lg-auto p-1 p-lg-0 mr-2">
-                           <a href="#">
-                           <i class="fas fa-search"></i>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-heart"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-shopping-cart pl-0"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <div data-aos="fade-down">
-                     <img
-                        src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1016575-0005V1.jpg"
-                        class="card-img-top imgRadius"
-                        alt="..."/>
-                  </div>
-                  <h4 class="mb-0"><span class="badge bg-danger  badge-pill
-                     badgeRecomendadosOferta">OFERTA</span></h4>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 h6Imagen"><u>Niño</u></h6>
-                     <h6 class="card-title mb-1">Nombre producto</h6>
-                     <h6 class="card-text mb-3">Código: 243567</h6>
-                     <h6 class="card-text">$ 200.00</h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 p-0 align-items-end justify-content-center">
-                        <div class="col-12 col-sm-12 col-md-auto col-lg-auto order-2 order-sm-2 order-md-0 order-lg-0 m-0 p-0 pr-md-4">
-                           <a href="#!" class="pl-4 pr-4 btn btn-dark btn-md">Ver más</a>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-auto col-lg-auto p-1 p-lg-0 mr-2">
-                           <a href="#">
-                           <i class="fas fa-search"></i>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-heart"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-auto col-lg-auto p-1 p-lg-0 m-0">
-                           <a href="#" class="">
-                           <i class="fas fa-shopping-cart pl-0"></i>
-                           <span class="badge badge-pill red">1</span>
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-         </div>
-         <!-- Fin row -->
-      </div>
-      <!-- Fin container -->
-      <!--===============================================
-                    VISTOS RECIENTEMENTE
-      ================================================= -->
-
-      <!--===============================================
-               METODOS DE PAGO Y CERTIFICADO
-      ================================================= -->
-
-      <div class="container">
-         <div class="row">
-            <div class="col-6 p-0 imgPagos">
-               <img src="img/certificado/pagos.png" alt="">
-            </div>
-            <div class="col-6 pl-4">
-               <div class="row">
-                  <div class="col-8">
-                     <h2 class="textoCertificado">Certificado de Garantía</h2>
-                     <h3 class="textoCertificado2">Certificado de Compra Segura.</h3>
-                  </div>
-                  <div class="col-4">
-                     <img src="img/certificado/sello_logo.png" alt="">
-                  </div>
-               </div>
-               
-            </div>
-         </div>
-      </div>
-
-      <!--===============================================
-               FIN METODOS DE PAGO Y CERTIFICADO
-      ================================================= -->
-
-      <!--===============================================
-                        FOOTER
-      ================================================= -->
-
-      <div class="container-fluid p-0 m-0">
-         <div class="row p-0 m-0 footerImpuls">
-            <div class="col-3 p-0 m-0 imgFooter">
-               <img src="img/footer/footer.png" alt="">
-
-            </div>
-            <div class="col-3 p-0 m-0">
-               <h4 class="textoFoooter">Tienda en línea</h4>
-               <p class="textoFoooterSecundario">Términos y Condiciones</p>
-               <p class="textoFoooterSecundario">Preguntas frecuentes</p>
-               <p class="textoFoooterSecundario">Politicas de devolución</p>
-               <p class="textoFoooterSecundario">Como comprar</p>
-               <p class="textoFoooterSecundario">Aviso de privacidad</p>
-            </div>
-
-            <div class="col-3 p-0 m-0">
-               <h4 class="textoFoooter">Inicia tu propio negocio</h4>
-               <p class="textoFoooterSecundario">Afíliate a Impuls</p>
-               <p class="textoFoooterSecundario">Descuentos y Beneficios</p>
-               <p class="textoFoooterSecundario">Beneficios de ser socio</p>
-               <p class="textoFoooterSecundario">Tutoriales para socio</p>
-               <p class="textoFoooterSecundario">Materiales para socio</p>
-            </div>
-
-            <div class="col-3 p-0 m-0">
-               <h4 class="textoFoooter">Acerca de Nosotros</h4>
-               <p class="textoFoooterSecundario">Historia</p>
-               <p class="textoFoooterSecundario">Misión y Visión</p>
-               <p class="textoFoooterSecundario">Contáctanos</p>
-               <p class="textoFoooterSecundario">Sucursales</p>
-               <p class="textoFoooterSecundario">Compra segura</p>
-            </div>
-   
-         </div>
-      </div>
-
-      <!--===============================================
-                       FIN FOOTER
-      ================================================= -->
-
-
-     <!--===============================================
-                          SCRIPTS
-      ================================================= -->
+         FIN MARCAS GLOBALES
+         ================================================= -->
       <!-- jQuery -->
       <script type="text/javascript" src="js/jquery.min.js"></script>
       <!-- Bootstrap tooltips -->
@@ -1201,17 +724,14 @@
       <!--Banner-Principal-->
       <script type="text/javascript" src="js/tolk-index/bannerPrincipal.js"></script>
       <!--Animaciones-->
-      <!-- AOS -->
+      <!-- AoS -->
       <script type="text/javascript" src="js/aos-master/dist/aos.js"></script>
-
       <script>
          AOS.init({
            delay: 990,
            duration: 1900,
          });
+         
       </script>
-   <!--===============================================
-                          SCRIPTS
-   ================================================= -->
    </body>
 </html>

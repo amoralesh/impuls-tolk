@@ -1,0 +1,29 @@
+.textoCertificado{
+
+    font-family: Poppins!important;
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+
+}
+
+.textoCertificado2{
+
+    font-family: Poppins!important;
+    font-size: 18px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    color: #000000;
+
+}
+
+.imgPagos{
+    border-right: 2px solid #ABA8A8;
+}

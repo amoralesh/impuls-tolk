@@ -1,0 +1,73 @@
+.otrosServicios{
+   position: relative;
+   height: 843px;
+   background-image:url("../../img/iconos/fondo-otros-servicios-2.png");
+   padding: 100px 117px 99px 77px!important;
+   margin-top: 120px!important;
+   margin-bottom: 77px!important;
+}
+
+.borderbottomRight{
+    border-bottom: 2px #ffffff solid;
+    border-right: 2px #ffffff solid;
+}
+
+.borderbottom{
+    border-bottom: 2px #ffffff solid;
+
+}
+.borderRight{
+    border-right: 2px #ffffff solid;
+
+}
+
+.beneficiosTexto{
+    color: #ffffff;
+    opacity: 1!important;
+    font-family: Poppins;
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.25!important;
+    letter-spacing: normal!important;
+    padding: 0px 10px;
+}
+
+.beneficiosTextoSecundario{
+    color: #ffffff;
+    opacity: 1!important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.04px;
+}
+
+.btnOtrosServicios{
+    border-radius: 10px!important;
+    background-color: #7588b1!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    padding: 9px!important;
+}
+
+.ver-mas {
+    width: 81px;
+    height: 17px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.14px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    margin-bottom: 0;
+  }

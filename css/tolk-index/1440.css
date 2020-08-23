@@ -1,36 +1,39 @@
-
-/*opacidad de las imagenes de carisel de Marcas Globales*/
-.opacityMarcasCarrusel{
-    opacity: 0.3;
-}
-
-.carousel .carousel-control-prev-icon{
-    height: 40px;
-    width: 50px;
-    position: relative;
-    left: -60px;
-}
-
-.carousel .carousel-control-next-icon{
-    height: 40px;
-    width: 50px;
-    position: relative;
-    left: 10px;
-}
-
-.tituloMarcasCarrucel{
+body{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: normal!important;
-    text-align: center;
-    color: #000000;
+    width: 1440px;
 }
 
-
+ /*Degradado azul/morado*/
+.infoEntregas{
+    width: 1440px;
+    height: 30px;
+    background-color: #7588b1;
+    padding: 0px !important;
+}
+    
+.infoEntregasTexto {
+    position: relative;
+    width: 970px;
+    background-color: red;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration:none ;
+  }
+  .infoEntregasTexto .text-style-1 {
+    font-weight: normal;
+  }
+  .infoEntregasTexto >.text-style-2 {
+    font-weight: bold;
+  } 
+    
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
@@ -45,8 +48,6 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-
-
 }
 
 /*=============================================
@@ -55,8 +56,6 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-
-    
 }
 
 /*=============================================
@@ -65,7 +64,6 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-
-	
 }
-
+    
+    
