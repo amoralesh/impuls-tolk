@@ -1,0 +1,43 @@
+.categoriasNavbar {
+    height: 100%!important;
+    background-color: #ffffff!important;
+}
+
+.textoTitulosCategorias{
+
+    font-family: Poppins!important;
+    font-size: 15px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.13!important;
+    letter-spacing: 0.11px!important;
+    color: #000000!important;
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+/*ELIMINAR EL MARGIN DE BUSCAR Y CARRTIO*/
+.buscarCarrito{
+    margin-top: 0px!important;
+}
+
+
+/*Modificación al form de busqueda */
+
+.md-form {
+    /* position: relative; */
+    margin-bottom: 0px!important;
+    margin-top: 0px!important;
+} 
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
