@@ -1,6 +1,6 @@
 .categoriasNavbar {
     height: 100%!important;
-    background-color: #ffffff!important;
+    /* background-color: #ffffff!important;  */
 }
 
 .textoTitulosCategorias{
@@ -40,4 +40,8 @@ input.empty {
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
+}
+
+@media (max-width:767px){
+
 }

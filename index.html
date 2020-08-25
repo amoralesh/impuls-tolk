@@ -134,7 +134,8 @@
             <!--col-6 navbar-->
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-md-3 order-lg-2">
                               <!-- Navbar -->
-                              <nav class="navbar navbar-expand-lg navbar-dark special-color-dark categoriasNavbar">
+                              <nav class="navbar navbar-expand-lg navbar-light white categoriasNavbar" id="menuCategorias">
+
 
                         <!-- Navbar brand -->
                         <!-- <a class="navbar-brand text-uppercase" href="#">Navbar</a> -->
@@ -2038,6 +2039,33 @@
     } else {
         input.removeClass('empty');
     }
+});
+      </script>
+
+      <script>
+         $(window).resize(function(){
+
+               if($(window).width() <= 767){
+
+                 
+                  $("#menuCategorias").removeClass("navbar-light");
+                  $("#menuCategorias").removeClass("white");
+                  $("#menuCategorias").addClass("navbar-dark");
+                  $("#menuCategorias").addClass("special-color-dark");
+           
+   
+               }else{
+
+               console.log($(window).width());
+
+                  $("#menuCategorias").removeClass("navbar-dark");
+                  $("#menuCategorias").removeClass("special-color-dark");
+                  $("#menuCategorias").addClass("navbar-light");
+                  $("#menuCategorias").addClass("white");
+                
+               
+               }
+
 });
       </script>
    <!--===============================================
