@@ -5,16 +5,29 @@ body{
 
 /*Degradado azul/morado*/
 .infoEntregas{
-  color: #ffffff;
-  background: rgba(74,95,204,1);
-  background: -moz-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(74,95,204,1)), color-stop(0%, rgba(74,95,204,1)), color-stop(51%, rgba(74,95,204,1)), color-stop(100%, rgba(164,64,184,1)));
-  background: -webkit-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
-  background: -o-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
-  background: -ms-linear-gradient(left, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
-  background: linear-gradient(to right, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 0%, rgba(74,95,204,1) 51%, rgba(164,64,184,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a5fcc', endColorstr='#a440b8', GradientType=1 );
-  
+  background-color: #7588b1;
+  }
+
+  .infoEntregasTexto{
+    font-family: Poppins;
+    font-size: 13px!important;
+    font-weight: 500!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.77;
+    letter-spacing: -0.18px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .aqui{
+    font-weight: bold!important;
+    outline:none;text-decoration:none;
+  }
+
+  .aqui:link, .aqui:visited{
+    text-decoration: none;
+    color: #ffffff;
   }
 
 /*=============================================

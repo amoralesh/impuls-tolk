@@ -31,11 +31,45 @@
     margin-left: 20px;
 }
 
-/*Agregamos negritas a los small de categorias */
-.justify-content-left>.navbar-nav >.nav-item>a>small{
-    font-family: sans-serif;
-    font-weight: 900;
+/*Agregamos EStilos al texto al primer navbar */
+.textoNavbar{
+
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: -0.09px;
+    text-align: center;
+    color: #6f6f6f;
 }
+
+.textNavbarNegro{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: -0.17px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Agregamos EStilos al texto al segundo navbar categorias */
+
+.textoNavbarCategorias{
+    font-family: Poppins!important;
+    font-size: 15px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.13!important;
+    letter-spacing: 0.11px!important;
+    color: #000000!important;
+}
+
 
 /*Agregamos padding arriba y abajo en navbar categorias */
 .skin-light .navbarCategorias {

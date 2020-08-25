@@ -1,7 +1,7 @@
 .otrosServicios{
    position: relative;
    height: 843px;
-   background-image:url("../../img/iconos/fondo-otros-servicios-2.png");
+   background-image:url("../../img/iconos/fondo-otros-servicios-3.jpg");
    padding: 100px 117px 99px 77px!important;
    margin-top: 120px!important;
    margin-bottom: 77px!important;
@@ -37,13 +37,13 @@
 .beneficiosTextoSecundario{
     color: #ffffff;
     opacity: 1!important;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: -0.04px;
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: normal!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.5!important;
+    letter-spacing: -0.04px!important;
 }
 
 .btnOtrosServicios{
@@ -59,7 +59,7 @@
 .ver-mas {
     width: 81px;
     height: 17px;
-    font-family: Poppins;
+    font-family: Poppins!important;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;

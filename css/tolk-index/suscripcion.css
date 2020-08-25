@@ -1,0 +1,49 @@
+.contenedorSuscripcion{
+    position: relative;
+}
+.suscripcion{
+    position: absolute;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3);
+    background-color: #f3f3f3;
+    top:-75px
+}
+
+.textoSuscripcion{
+    font-family: Poppins!important;
+    font-size: 18px!important;
+    font-weight: normal!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.11!important;
+    letter-spacing: normal!important;
+    color: #000000;
+}
+
+input{
+    height: 50px!important;
+}
+
+.btnSuscripcion{
+    width: 150px!important;
+    height: 48px!important;
+    border-radius: 10px!important;
+    background-color: #7588b1!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+}
+
+.textoBtnSuscripcion{
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal!important;
+    letter-spacing: normal!important;
+    text-align: center!important;
+    color: #ffffff;
+}

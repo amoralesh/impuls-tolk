@@ -1,7 +1,7 @@
 .footerImpuls{
     height: 514px!important;
     background-color: black;
-    padding: 162px  172px 0px 125px!important;
+    padding: 162px  172px 110px 125px!important;
 }
 
 .textoFoooter{
@@ -29,4 +29,22 @@
 
 .imgFooter{
     padding-top: -30px!important;
+}
+
+.linea{
+    border-bottom: 0.5px solid #ffff;
+
+}
+
+.derechosReservados{
+    font-family: Poppins!important;
+    font-size: 15px!important;
+    font-weight: normal!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal!important;
+    letter-spacing: -0.27px!important;
+    color: #ffffff;
+    margin-top: 15px!important;
+
 }

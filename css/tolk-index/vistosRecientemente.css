@@ -1,13 +1,11 @@
 .textoVistosRecientemente{
-    margin-bottom: 46px!important;
-    font-family: Poppins;
+    font-family: Poppins!important;
     font-size: 40px!important;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal!important;
+    letter-spacing: normal!important;
     text-align: center;
     color: #000000;
-
 }
