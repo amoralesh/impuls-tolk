@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="65px" viewBox="0 0 73 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="01_Home" transform="translate(-245.000000, -3449.000000)" stroke="#FFFFFF" stroke-width="2.5">
+            <g id="Group-23" transform="translate(247.000000, 3451.000000)">
+                <path d="M26.2941517,48 L55.535182,48 C57.4705743,48 57.7729794,43.6705527 54.7571297,43.0008268 L27.7210934,38.521518 L22,23 L61,23" id="Stroke-1" stroke-linecap="round"></path>
+                <polyline id="Stroke-3" stroke-linecap="round" points="57 39 63.409523 18 69 18"></polyline>
+                <path d="M28,57.4994973 C28,59.4317105 29.5685148,61 31.5010055,61 C33.4324907,61 35,59.4317105 35,57.4994973 C35,55.5672842 33.4324907,54 31.5010055,54 C29.5685148,54 28,55.5672842 28,57.4994973 Z" id="Stroke-5" stroke-linecap="round"></path>
+                <path d="M48,57.4994973 C48,59.4317105 49.5675093,61 51.5010055,61 C53.4324907,61 55,59.4317105 55,57.4994973 C55,55.5672842 53.4324907,54 51.5010055,54 C49.5675093,54 48,55.5672842 48,57.4994973 Z" id="Stroke-7" stroke-linecap="round"></path>
+                <line x1="22.5" y1="18" x2="22.5" y2="0" id="Stroke-9"></line>
+                <line x1="18" y1="22.5" x2="1" y2="22.5" id="Stroke-11"></line>
+                <path d="M20,0 C20,0 -0.25,18.5681131 20,43" id="Stroke-13"></path>
+                <path d="M23,0 C23,0 30.8756394,7.00378726 32,18" id="Stroke-15"></path>
+                <path d="M20,31 C15.7462896,31.3170351 11.0358443,32.758205 6,36" id="Stroke-17"></path>
+                <path d="M39,8.06501562 C32.6161865,12.138617 20.6017519,16.7877665 6,8" id="Stroke-19"></path>
+                <path d="M24.0035771,42.8711731 C23.2203238,42.9557158 22.424927,43 21.6194107,43 C9.67935141,43 0,33.3742159 0,21.5010065 C0,9.6257841 9.67935141,0 21.6194107,0 C32.4706062,0 41.4537325,7.95304747 43,18.3185797" id="Stroke-21"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,13 +1,25 @@
-.categoriasNavbar {
-    height: 99px!important;
+
+
+
+.contenedorCategorias{
+height: 99px;
+}
+.logoInicial{
+    margin-left: 110px!important;
+}
+
+.categoriasNavbar{
+    border-bottom: 0px solid #ffff!important;
+    max-width: 46%!important;
+    margin-left: 45px;
 }
 
 .textoTitulosCategorias{
-    font-family: Poppins!important;
-    font-size: 15px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
+    font-family: PoppinsExtramBold;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.13!important;
     letter-spacing: 0.11px!important;
     color: #000000!important;
@@ -22,7 +34,7 @@
 /*ELIMINAR EL MARGIN DE BUSCAR Y CARRTIO*/
 .buscarCarrito{
     margin-top: 0px!important;
-    padding-top: 11px!important;
+    padding-top: 0px!important;
 }
 
 
@@ -31,7 +43,7 @@
     height: auto!important;
     padding: .0rem 0 .0rem 0!important;
     margin: 0 0 .0rem 0!important;
-    background-color: transparent!important;
+    background-color: transparent;
     border-radius: 0!important;
     -webkit-border-radius: 0!important;
     -moz-border-radius: 0!important;
@@ -48,56 +60,12 @@
 font-size: 22px;
 }
 
+.carritoCorazon{
+    padding: 10px 0px 0px 3px!important;
+}
+
 
 @media (max-width:767px){
-    .categoriasNavbar {
-        height: 50px!important;
-    }
-    
-    .textoTitulosCategorias{
-        font-family: Poppins!important;
-        font-size: 15px!important;
-        font-weight: bold!important;
-        font-stretch: normal!important;
-        font-style: normal!important;
-        line-height: 1.13!important;
-        letter-spacing: 0.11px!important;
-        color: #000000!important;
-    }
-    
-    .dropdown:hover .dropdown-menu {display: block;}
-    
-    .dropdown-toggle::after {
-        display: none!important;
-    }
-    
-    /*ELIMINAR EL MARGIN DE BUSCAR Y CARRTIO*/
-    .buscarCarrito{
-        margin-top: 0px!important;
-        padding-top: 11px!important;
-    }
-    
-    
-    /*Modificación al form de busqueda */
-    #buscarProducto {
-        height: auto!important;
-        padding: .0rem 0 .0rem 0!important;
-        margin: 0 0 .0rem 0!important;
-        background-color: transparent!important;
-        border-radius: 0!important;
-        -webkit-border-radius: 0!important;
-        -moz-border-radius: 0!important;
-        -ms-border-radius: 0!important;
-        -o-border-radius: 0!important;
-    }
-    /* .md-form {
-        margin-bottom: 0px!important;
-        margin-top: 0px!important;
-    }  */
-    
-    
-    .fa-lg{
-    font-size: 22px;
-    }
+
     
 }

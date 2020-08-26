@@ -1,7 +1,5 @@
-body{
-  font-family: 'Poppins', sans-serif;
 
-}
+
 
 /*Degradado azul/morado*/
 .infoEntregas{
@@ -10,10 +8,10 @@ body{
 
   .infoEntregasTexto{
     font-family: Poppins;
-    font-size: 13px!important;
-    font-weight: 500!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
     line-height: 1.77;
     letter-spacing: -0.18px;
     text-align: center;
@@ -21,8 +19,9 @@ body{
   }
 
   .aqui{
-    font-weight: bold!important;
-    outline:none;text-decoration:none;
+    font-weight: bold;
+    outline:none;
+    text-decoration:none;
   }
 
   .aqui:link, .aqui:visited{

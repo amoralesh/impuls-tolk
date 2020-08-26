@@ -1,8 +1,18 @@
 
+.navbarAcciones{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-left: 70px!important;
+    }
+
+    .waves-effect {
+        padding: 8px!important;
+    }
+
 /*Agegamos bordes al navbar de acciones de usaurio*/
 .itemsNavbarUsuario{
     border-left: 2px solid rgba(0, 0, 0, 0.1);
-    margin:0 10px;
+    margin:0 6px;
+    
 }
 
 /*Agegamos bordes al navbar de acciones de usaurio (solo al primero)*/
@@ -15,7 +25,7 @@
 .skin-light .navbar {
     min-height: 20px;
     padding: 0px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
     -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 4, 255, 0);
     box-shadow: 0 13px 20px 0 rgba(243, 0, 0, 0);
 }
@@ -26,25 +36,25 @@
 
     font-family: Poppins!important;
     font-size: 13px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.77!important;
-    letter-spacing: -0.09px!important;
-    text-align: center!important;
-    color: #6f6f6f;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: -0.09px;
+    text-align: center;
+    color: #6f6f6f!important;
 }
 
 .textoGratis{
-    font-family: Poppins!important;
+    font-family: PoppinsBold!important;
     font-size: 13px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.77!important;
-    letter-spacing: -0.09px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: -0.09px;
     text-align: center;
-    color: #6f6f6f;
+    color: #6f6f6f!important;
 }
 
 .textNavbarNegro{
@@ -150,39 +160,7 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-    /*Modificamos  Acciones del cliente */
-    .justify-content-center>.navbar-nav >.nav-item{
-        border-left: 0px solid black;
-        margin:0px;
-    }
-
-        /*Modificamos  margin-left de navbar categorias */
-        .justify-content-left>.navbar-nav >.nav-item>a>small{
-        margin-left: 0px;
-        font-size: 12px;
-    }
-
-    /*Modificamos  margin-left de navbar categorias (solo al primero)*/
-        .justify-content-left>.navbar-nav >.nav-item:nth-child(1){
-
-            margin-left: 0px;
-        }
-
-        /*Modificación al form de busqueda */
-        .md-form {
-            margin-bottom: 0px;
-            margin-top: 0px;
-            padding-left: 4px;
-        }
-
-    /*Modificamos  carrito de compras/lupa/corazón navbar de categorias*/       
-        .col-auto {
-            -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-            width: auto;
-            max-width: 100%;
-            padding-left: 2px;
-        }
+   
         
 }
 

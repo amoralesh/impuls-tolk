@@ -19,6 +19,8 @@
       <link rel="stylesheet" href="css/mdb.ecommerce.min.css">
       <!-- AOS -->
       <link rel="stylesheet" href="js/aos-master/dist/aos.css">
+      <!-- FUENTE POPPING -->
+      <link rel="stylesheet" href="css/tolk-index/1-fuentes.css">
       <!-- Estilos TOLK BANNER-PRINCIPAL -->
       <link rel="stylesheet" href="css/tolk-index/bannerPrincipal.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES -->
@@ -51,12 +53,11 @@
       <link rel="stylesheet" href="css/tolk-index/suscripcion.css">
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="css/tolk-index/footer.css">
-      <!-- FUENTE POPPING -->
-      <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-      <!-- Your custom styles (optional) -->
+      
+   <!-- Your custom styles (optional) -->
       <link rel="stylesheet" href="css/style.css">
       <style>
-         @import url('https://fonts.googleapis.com/css?family=Poppins');
+         /* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
       </style>
    </head>
    <body class="skin-light">
@@ -70,8 +71,11 @@
    <!--================================
          NAVBAR ACCIONES CLIENTE 
     ==================================== -->
+    <div class="container-fluid p-0">
+       <div class="row navbarAcciones m-0">
+          <div class="col-12 m-0 -p-0">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md navbar-light navbarAcciones">
+      <nav class="navbar navbar-expand-md navbar-light ">
          <!-- Collapse button -->
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#despliegueNavBar1"
             aria-controls="despliegueNavBar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,28 +86,28 @@
             <!-- Right -->
             <ul class="navbar-nav">
                <li class="nav-item itemsNavbarUsuario">
-                  <a href="#!" class="nav-link waves-effect">
+                  <a href="#!" class="nav-link waves-effect ">
                   <small class="textoGratis">¿Dónde está mi pedido?</small>
                   </a>
                </li>
                <li class="nav-item itemsNavbarUsuario">
-                  <a href="#!" class="nav-link waves-effect">
+                  <a href="#!" class="nav-link waves-effect ">
                   <small class="textoNavbar">  ¿Quieres envíos <strong class="textoGratis">GRATIS</strong>?</small>
                   </a>
                </li>
                <li class="nav-item itemsNavbarUsuario">
-                  <a href="#!" class="nav-link waves-effect">
+                  <a href="#!" class="nav-link waves-effect ">
                   <small class="textoNavbar">Cambios y Devoluciones</small>
                   </a>
                </li>
                <li class="nav-item itemsNavbarUsuario">
-                  <a href="#!" class="nav-link waves-effect">
+                  <a href="#!" class="nav-link waves-effect ">
                   <small class="textoNavbar">Afiliate a impuls</small>
                   </a>
                </li>
                <li class="nav-item itemsNavbarUsuario">
-                  <a href="#!" class="nav-link waves-effect">
-                  <small class="textoNavbar"> Login / Registro</small><i class="far fa-user"></i>
+                  <a href="#!" class="nav-link waves-effect ">
+                  <small class="textoNavbar"> Login / Registro</small><img src="img/imgOficial/iconos_logos/" alt="">
                   </a>
                </li>
                <li class="nav-item itemsNavbarUsuario">
@@ -115,26 +119,33 @@
          </div>
          <!-- Links -->
       </nav>
+          </div>
+
+       </div>
+    </div>
+
       <!-- Navbar -->
       <!--================================
          FIN NAVBAR ACCIONES CLIENTE 
          ==================================== -->
+
+
       <!--===========================================
          NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
          =============================================== -->
       <!-- continer-fluid -->
-      <div class="container-fluid">
-         <div class="row">
+      <div class="container-fluid p-0 contenedorCategorias">
+         <div class="row align-items-center m-0">
             <!-- row (img/navbar/carrito)--->
             <!--col-2 logo-->
-            <div class="col-4 col-sm-4 col-md-2 offset-0 offset-sm-0 offset-md-0 offset-lg-1">
-               <img class="img-fluid" src="img/logo.jpg" alt="">
+            <div class="p-0 m-0 col-4 col-sm-4 col-md-2 offset-0 offset-sm-0 offset-md-0 logoInicial">
+               <img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="" class="">
             </div>
             <!--col-2 fin logo-->
             <!--col-6 navbar-->
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-md-3 order-lg-2">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-md-3 order-lg-2 align-self-end categoriasNavbar">
                               <!-- Navbar -->
-                              <nav class="navbar navbar-expand-lg navbar-light white categoriasNavbar" id="menuCategorias">
+                              <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
 
 
                         <!-- Navbar brand -->
@@ -147,7 +158,7 @@
                         </button>
                      
                         <!-- Collapsible content -->
-                        <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent2">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
                            <!-- margin-left: 2.5rem!important; -->
                      
                         <!-- Links -->
@@ -985,22 +996,21 @@
             <div class="col-8 col-sm-8 col-md-3 col-lg-3 p-0  order-2 order-sm-2 order-md-2 order-lg-2">
                <div class="container-fluid mt-3 buscarCarrito pl-0">
                   <div class="row align-items-end">
-                     <div class="col-6 p-0 align-self-end">
-                        <form class="form-inline d-flex justify-content-center md-form form-sm">
+                     <div class="col-5 p-0 ml-3 align-self-end">
+                        <form class="form-inline d-flex justify-content-center md-form form-sm mb-0">
                            <input class="form-control form-control-sm ml-3 w-75" id="buscarProducto" type="text" placeholder="Buscar"
                               aria-label="Search">
                               <!-- <i class="fas fa-search" style="color: black;"></i> -->
                         </form>
                      </div>
-                     <div class="col-auto align-self-center pl-0">
-                        <a href="#" class=" navbar-link-2 waves-effect">
-                           <i class="far fa-heart fa-lg" style="color: black;"></i>
-                        </a>
-                     </div>
-                     <div class="col-auto align-self-center pl-0">
-                        <a href="#!" class=" navbar-link-2 waves-effect">
-                           <i class="fas fa-shopping-cart fa-lg" style="color: black;"></i>
-                        <span class="badge badge-pill black" >4</span>
+                     <div class="col-6 align-self-center p-0">
+                        <a href="#" class="navbar-link-2 waves-effect carritoCorazon">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="">
+                           <!-- <i class="far fa-heart fa-lg" style="color: black;"></i> -->
+                           <a href="#!" class="navbar-link-2 waves-effect carritoCorazon">
+                              <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="">
+                           <span class="badge badge-pill black" >4</span>
+                           </a>
                         </a>
                      </div>
                   </div>
@@ -1014,6 +1024,7 @@
       <!--===============================================
          FIN  NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
          ================================================= -->
+         
       <!--===============================================
          BANNER PRINCIPAL
          ================================================= -->
@@ -1028,9 +1039,9 @@
                      <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                            <div>
-                              <img class="bannerPrincipal" src="img/banner/banner_2.jpg"
+                              <img class="bannerPrincipal" src="img/imgOficial/fotos/01 home/foto3.png"
                                  >
-                              <img class="imagenBannerPrincipal" src="img/calzado/tenis-4.png">
+                              <!-- <img class="imagenBannerPrincipal" src="img/calzado/tenis-4.png"> -->
                               <div>
                                  <h2 class="textosTituloBanner "><u>Dama Deportivo</u></h2>
                                  <h1 class="textosTitulo2Banner">Favoritos</h1>
@@ -1059,7 +1070,7 @@
          LOS MÁS VENDIDOS
          ================================================= -->
       <div class="container contenedorMasVendido">
-         <h2 class="text-center tituloMasVendido">Los más vendidos</h2>
+         <h5 class="tituloMasVendido text-center">Los más vendidos</h5>
          <div class="row margenProductos">
             <div class="col-6 col-sm-6 col-md-3 col-lg-2">
                <!-- Card -->
@@ -1075,12 +1086,9 @@
                         </div>
                      </a>
                   </div>
-                  <div class="card-body text-center m-0 p-0">
+                  <div class="card-body  m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey"><s>$36.99</s></span>
-                        <span class="text-danger mr-1">$12.99</span>
-                     </h6>
+                     <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
                      <button class="btn btn-md btnMasVendido"><h1 class="textoBtnMasVendido">Agregar a carrito</h1></button>
                   </div>
                </div>
@@ -1101,11 +1109,11 @@
                         </div>
                      </a>
                   </div>
-                    <div class="card-body text-center m-0 p-0">
+                    <div class="card-body m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey precioMasVendido"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 precioMasVendido">$12.99</span>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
                      <button class="btn btn-md btnMasVendido"><h6 class="textoBtnMasVendido">Agregar a carrito</h6></button>
                   </div>
@@ -1128,11 +1136,11 @@
                         </div>
                      </a>
                   </div>
-                  <div class="card-body text-center m-0 p-0">
+                  <div class="card-body m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey precioMasVendido"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 precioMasVendido">$12.99</span>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
                      <button class="btn btn-md btnMasVendido"><h6 class="textoBtnMasVendido">Agregar a carrito</h6></button>
                   </div>
@@ -1155,11 +1163,11 @@
                         </div>
                      </a>
                   </div>
-                  <div class="card-body text-center m-0 p-0">
+                  <div class="card-body m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey precioMasVendido"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 precioMasVendido">$12.99</span>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
                      <button class="btn btn-md btnMasVendido"><h6 class="textoBtnMasVendido">Agregar a carrito</h6></button>
                   </div>
@@ -1182,11 +1190,11 @@
                      </a>
                   </div>
                   <!-- Image with zoom -->
-                  <div class="card-body text-center m-0 p-0">
+                  <div class="card-body m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey precioMasVendido"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 precioMasVendido">$12.99</span>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
                      <button class="btn btn-md btnMasVendido"><h6 class="textoBtnMasVendido">Agregar a carrito</h6></button>
                   </div>
@@ -1209,11 +1217,11 @@
                         </div>
                      </a>
                   </div>
-                  <div class="card-body text-center m-0 p-0">
+                  <div class="card-body m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3">
-                        <span class="text-grey precioMasVendido"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 precioMasVendido">$12.99</span>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
                      <button class="btn btn-md btnMasVendido"><h6 class="textoBtnMasVendido">Agregar a carrito</h6></button>
                   </div>
@@ -1236,10 +1244,10 @@
       <div class="container-fluid recomendados">
          <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-5">
-               <h2 class="tituloMasVendido">Productos recomendados</h2>
+               <h2 class="tituloRecomendados">Productos recomendados</h2>
             </div>
             <div class="col-12 col-sm-12 col-md-10 col-lg-8 text-center mb-3">
-               <p  class="tituloMasVendidoSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
+               <p  class="tituloRecomendadosSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
             </div>
          </div>
          <!-- Row -->
