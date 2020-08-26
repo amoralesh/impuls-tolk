@@ -1,42 +1,51 @@
-.pagosCertificados{
-    position: relative;
-    padding-bottom: 156px;
-}
+    .pagosCertificados{
+        position: relative;
+        padding: 0px 25px 156px 100px;
+    }
 
-.textoPagos{
-    font-family: Poppins!important;
-    font-size: 24px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: normal!important;
-    color: #000000;
-}
+    .textoPagos{
+        font-family: Poppins!important;
+        font-size: 24px!important;
+        font-weight: bold!important;
+        font-stretch: normal!important;
+        font-style: normal!important;
+        line-height: normal!important;
+        letter-spacing: normal!important;
+        color: #000000;
+        padding-top: 20px!important;
+    }
 
-.textoCertificado{
-    font-family: Poppins!important;
-    font-size: 24px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-}
+    .textoCertificado{
+        font-family: Poppins!important;
+        font-size: 24px!important;
+        font-weight: bold!important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
 
-.textoCertificado2{
+    .textoCertificado2{
+        font-family: Poppins!important;
+        font-size: 18px!important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: -0.5px;
+        color: #000000;
+    }
 
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: -0.5px;
-    color: #000000;
-}
+    .imgPagos{
+        border-right: 2px solid #ABA8A8; 
+    }
 
-.imgPagos{
-    border-right: 2px solid #ABA8A8;
-}
+    #formasPagos{
+        position: relative;
+        left: -30px;
+    }
+
+    .certificadosSello{
+        padding-top: 6%;
+    }

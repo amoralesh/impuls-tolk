@@ -239,7 +239,7 @@ MOVIL (XS revisamos en 320px)
 
 /*Fodo Recomendados*/
 .recomendados{
-    height: 280px;
+    height: auto;
     background-color: #efefef;
     margin-bottom: 114px !important;
 }

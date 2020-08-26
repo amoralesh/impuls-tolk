@@ -8,4 +8,56 @@
     letter-spacing: normal!important;
     text-align: center;
     color: #000000;
+    margin-top: 86px;
+    margin-bottom: 45px;
+
+ 
 }
+
+/*Fodo Recomendados*/
+.visto{
+    height: 580px;
+    background-color: #efefef;
+    margin-bottom: 214px !important;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+  
+/*Fodo Recomendados*/
+.visto{
+    height: auto;
+    background-color: #efefef;
+    margin-bottom: 114px !important;
+}
+}
+

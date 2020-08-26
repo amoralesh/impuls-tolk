@@ -5,25 +5,25 @@
 }
 
 .textoFoooter{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.29px;
-    color: #ffffff;
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal!important;
+    letter-spacing: -0.29px!important;
+    color: #ffffff!important;
 }
 
 .textoFoooterSecundario{
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.27px;
-  color: #ffffff;
+  font-family: Poppins!important;
+  font-size: 15px!important;
+  font-weight: normal!important;
+  font-stretch: normal!important;
+  font-style: normal!important;
+  line-height: normal!important;
+  letter-spacing: -0.27px!important;
+  color: #ffffff!important;
   margin-bottom: 0rem!important;
 }
 
@@ -46,5 +46,9 @@
     letter-spacing: -0.27px!important;
     color: #ffffff;
     margin-top: 15px!important;
+}
 
+.vinculoTerminosPrivacidad {
+    text-decoration: none;
+    color: black;
 }

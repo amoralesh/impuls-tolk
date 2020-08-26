@@ -19,7 +19,7 @@
 
 .textosTituloBanner{
     position: absolute;
-    top:20%;
+    top:15%;
     left:117px;
     font-family: Poppins!important;
     font-size: 35px!important;
@@ -34,7 +34,7 @@
 .textosTitulo2Banner{
     position: absolute;
     left:117px;
-    top: 24%;
+    top: 22%;
     font-family: Poppins;
     font-size: 75px;
     font-weight: bold;
@@ -50,7 +50,7 @@
 .textosTitulo3Banner{
     position: absolute;
     left:117px;
-    top: 34%;
+    top: 33%;
     font-family: Poppins;
     font-size: 75px;
     font-weight: bold;
@@ -65,7 +65,7 @@
 .btnBannerprincipal{
     position: absolute;
     left:117px;
-    top: 50%;
+    top: 47%;
     width: 196px!important;
     height: 51px!important;
     border-radius: 10px!important;
@@ -75,6 +75,7 @@
     -ms-border-radius: 10px!important;
     -o-border-radius: 10px!important;
     text-transform: none;
+    padding: 17px 29px 17px 29px!important;
 }
 
 .textoBtnBanner{
@@ -206,9 +207,9 @@ MOVIL (XS revisamos en 320px)
     .textosTitulo2Banner{
         position: absolute;
         left:20px;
-        top: 24%;
+        top: 28%;
         font-family: Poppins;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -222,9 +223,9 @@ MOVIL (XS revisamos en 320px)
     .textosTitulo3Banner{
         position: absolute;
         left:20px;
-        top: 34%;
+        top: 40%;
         font-family: Poppins;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;

@@ -9,6 +9,7 @@
     text-align: center;
     color: #000000;
     margin-top: 86px;
+    margin-bottom: 45px;
     
 }
 .textoTarjetaCatalogos{
@@ -21,4 +22,17 @@
     letter-spacing: normal!important;
     color: #000000;
   
+}
+
+.textoTarjetaCatalogosVer{
+    font-family: Poppins!important;
+    font-size: 18px!important;
+    font-weight: 600!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1.67!important;
+    letter-spacing: normal!important;
+    color: #7588b1!important;
+    text-decoration: none;
+    text-transform: none;
 }
