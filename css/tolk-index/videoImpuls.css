@@ -50,7 +50,7 @@
   -moz-border-radius: 10px!important;
   -ms-border-radius: 10px!important;
   -o-border-radius: 10px!important;
-  margin: 0px 25px 0px 70px!important;
+  margin: 45px 25px 0px 70px!important;
   
 }
 
@@ -64,6 +64,7 @@
     letter-spacing: -0.3px;
     text-align: center;
     color: #000000;
+    margin-bottom: 0px;
  }
 
  
