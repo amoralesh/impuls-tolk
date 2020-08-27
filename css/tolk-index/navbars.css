@@ -67,7 +67,7 @@
     letter-spacing: -0.17px;
     text-align: center;
     color: #ffffff;
-    padding: 0px 21px;
+    padding: 0px 17px;
 }
 
 
@@ -91,12 +91,7 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-    /*Categorías*/
-    .justify-content-left>.navbar-nav >.nav-item>a>small{
-        margin-left: 0px;
-        font-size: 9.5px;
-    
-    }
+  
 
 
 }
@@ -107,51 +102,7 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-        /*Modificamos  margin-left de navbar categorias */
-        .justify-content-left>.navbar-nav >.nav-item>a>small{
-            margin-left: 0px;
-            font-size: 12px;
-        
-        }
-
-        /*Modificamos  margin-left de navbar categorias (solo al primero)*/
-        .justify-content-left>.navbar-nav >.nav-item:nth-child(1){
-
-            margin-left: 0px;
-        }
-
-        /*Modificamos  margin-left de navbar de categorias*/
-        .justify-content-left>.navbar-nav >.nav-item>a>small{
-            margin-left: 0px;
-            font-size: 10px;
-        }
-
-        /*Modificación al form de busqueda */
-        .md-form {
-            margin-bottom: 0px;
-            margin-top: 0px;
-            padding-left: 4px;
-        }
-
-
-         /*Modificamos  carrito de compras/lupa/corazón navbar de categorias*/
-        .col-auto {
-            -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-            width: auto;
-            max-width: 100%;
-            padding-left: 2px;
-        }
-
-        /*BOTON VER MAS DESTACADOS*/
-        .skin-light .btn.btn-md {
-            font-size: 15.24px;
-            padding: 5px;
-            width: 100%;
-            margin-top:17px ;
-        }
-
-
+    
 }
 
 /*=============================================

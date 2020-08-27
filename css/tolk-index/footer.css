@@ -1,29 +1,29 @@
 .footerImpuls{
     height: 514px!important;
     background-color: black;
-    padding: 162px  172px 110px 125px!important;
+    padding: 162px  172px 25px 125px!important;
 }
 
 .textoFoooter{
-    font-family: Poppins!important;
-    font-size: 16px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: -0.29px!important;
-    color: #ffffff!important;
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.29px;
+    color: #ffffff;
 }
 
 .textoFoooterSecundario{
-  font-family: Poppins!important;
-  font-size: 15px!important;
-  font-weight: normal!important;
-  font-stretch: normal!important;
-  font-style: normal!important;
-  line-height: normal!important;
-  letter-spacing: -0.27px!important;
-  color: #ffffff!important;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #ffffff;
   margin-bottom: 0rem!important;
 }
 
@@ -32,20 +32,24 @@
 }
 
 .linea{
+    margin-bottom: -25px!important;
     border-bottom: 0.5px solid #ffff;
+}
 
+.impulsBlanco{
+    margin: 0px 80px 58px 0px;
 }
 
 .derechosReservados{
-    font-family: Poppins!important;
-    font-size: 15px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: -0.27px!important;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.27px;
     color: #ffffff;
-    margin-top: 15px!important;
+    margin-top: 30px!important;
 }
 
 .vinculoTerminosPrivacidad {

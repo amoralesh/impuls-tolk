@@ -1,11 +1,11 @@
 .tituloCatalogos{
-    font-family: Poppins!important;
-    font-size: 40px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: normal!important;
+    font-family: PoppinsExtramBold;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
     text-align: center;
     color: #000000;
     margin-top: 86px;
@@ -13,26 +13,41 @@
     
 }
 .textoTarjetaCatalogos{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
+    font-family: PoppinsBold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.7;
+    letter-spacing: normal;
     color: #000000;
   
 }
 
 .textoTarjetaCatalogosVer{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.67!important;
-    letter-spacing: normal!important;
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.50;
+    letter-spacing: normal;
     color: #7588b1!important;
     text-decoration: none;
     text-transform: none;
+}
+
+
+    /*Imagenes de tarjetas catálogos*/
+.imgRadiusCatalogo{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 90%;
+    top: -45px;
+    position: relative;
+    align-self: center;
+    border-radius: 25px;
+    left: 5%;
+    height: auto;
+    width: 244px;
 }

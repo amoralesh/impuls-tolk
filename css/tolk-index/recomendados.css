@@ -5,15 +5,7 @@
     padding: 5px;
 }
 
-.card{
-    box-shadow: 0 29px 10px 0 rgba(0,0,0,0.1)!important;
-    border-radius: 0.375rem!important;
-    -webkit-border-radius: 0.375rem!important;
-    -moz-border-radius: 0.375rem!important;
-    -ms-border-radius: 0.375rem!important;
-    -o-border-radius: 0.375rem!important;
 
-}
 
 
 /*Fodo Recomendados*/
@@ -49,13 +41,13 @@
 }
 
 .precioTarjeta{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
     color: #000000!important;
 }
 
@@ -85,7 +77,6 @@
     left: 5%;
     height: 213px;
     width: 244px;
-
 }
 /*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
 .skin-light .card-img-top {
@@ -96,34 +87,34 @@
 /*Acortamos la distancia entre la imagen y la descripcion*/
 .textoTarjeta1{
     margin-top: -12%;
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
     color: #000000!important;
 }
 .textoTarjeta2{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
+    font-family: PoppinsBold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
     color: #000000!important;
 }
 
 .textoTarjeta3{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.6!important;
-    letter-spacing: -0.42!important;
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.42;
     color: #000000!important;
 }
 
@@ -197,24 +188,6 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-        /*Posición de badge Recomendados*/
-        .badgeRecomendadosNuevo{
-            position: absolute;
-            top: -2%;
-            left: 17%;
-        }
-
-        /*Posición de badge Recomendados*/
-        .badgeRecomendadosOferta{
-            position: absolute;
-            bottom: 45%;
-            left: 62%;
-        }
-
-        /*Acortamos la distancia entre la imagen y la descripcion*/
-        .h6Imagen{
-            margin-top: -7%;
-        }
     
 }
 
@@ -224,169 +197,7 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
   
-/*BOTON VER MAS DE RECOMENDADOS*/
-.skin-light .btn.btn-md {
-    font-size: 12.24px;
-    padding: 5px;
-}
 
-.card{
-    box-shadow: 0 29px 10px 0 rgba(0,0,0,0.1)!important;
-    border-radius: 0.375rem!important;
-    -webkit-border-radius: 0.375rem!important;
-    -moz-border-radius: 0.375rem!important;
-    -ms-border-radius: 0.375rem!important;
-    -o-border-radius: 0.375rem!important;
-}
-
-
-/*Fodo Recomendados*/
-.recomendados{
-    height: auto;
-    background-color: #efefef;
-    margin-bottom: 114px !important;
-}
-
-.tituloMasVendido{
-    font-family: Poppins!important;
-    font-size: 40px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: normal!important;
-    text-align: center!important;
-    color: #000000!important;
-}
-
-.tituloMasVendidoSecundario{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
-    text-align: center!important;
-    color: #000000!important;
-
-}
-
-.precioTarjeta{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
-    color: #000000!important;
-}
-
-.btnRecomendados{
-    width: 99px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #7588b1;
-}
-
-.TextoBtnRecomendados{
-    width: 99px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #7588b1;
-}
-
-/*Imagenes de tarjetas*/
-.imgRadius {
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 90%;
-    top: -45px;
-    position: relative;
-    align-self: center;
-    border-radius: 25px;
-    left: 5%;
-
-}
-/*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
-.skin-light .card-img-top {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-
-/*Acortamos la distancia entre la imagen y la descripcion*/
-.textoTarjeta1{
-    margin-top: -12%;
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
-    color: #000000!important;
-}
-.textoTarjeta2{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.33!important;
-    letter-spacing: normal!important;
-    color: #000000!important;
-}
-
-.textoTarjeta3{
-    font-family: Poppins!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1.6!important;
-    letter-spacing: -0.42!important;
-    color: #000000!important;
-}
-
-/*Posición de badge Recomendados*/
-.etiquetaRecomendados{
-     position: absolute;
-     top: -6%;
-     left: 12%;
-     width: 74px!important;
-     height: 30px!important;
-     border-radius: 5px!important;
-     background-color: #888888!important;
-     -webkit-border-radius: 5px!important;
-     -moz-border-radius: 5px!important;
-     -ms-border-radius: 5px!important;
-     -o-border-radius: 5px!important;
-}
-
-/*Posición de badge Recomendados*/
-.etiquetaRecomendadosOferta{
-    position: absolute;
-    bottom: 60%;
-    left: 62%;
-    width: 74px!important;
-    height: 30px!important;
-    border-radius: 5px!important;
-    background-color: #f75454!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    -ms-border-radius: 5px!important;
-    -o-border-radius: 5px!important;
-}
-
-.btnRecomendados{
-    width: 99px!important;
-    height: 30px!important;
-    border-radius: 5px!important;
-    background-color: #7588b1!important;
-}
-
-  
  
 }
 

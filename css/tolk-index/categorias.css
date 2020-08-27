@@ -11,7 +11,8 @@ height: 99px;
 .categoriasNavbar{
     border-bottom: 0px solid #ffff!important;
     max-width: 46%!important;
-    margin-left: 45px;
+    margin-left: 27px;
+    margin-right: 20px;
 }
 
 .textoTitulosCategorias{
@@ -31,37 +32,22 @@ height: 99px;
     display: none!important;
 }
 
-/*ELIMINAR EL MARGIN DE BUSCAR Y CARRTIO*/
-.buscarCarrito{
-    margin-top: 0px!important;
-    padding-top: 0px!important;
+.right-inner-addon {
+    position: relative;
+    
+    width: 200px;
 }
-
-
-/*Modificación al form de busqueda */
-#buscarProducto {
-    height: auto!important;
-    padding: .0rem 0 .0rem 0!important;
-    margin: 0 0 .0rem 0!important;
-    background-color: transparent;
-    border-radius: 0!important;
-    -webkit-border-radius: 0!important;
-    -moz-border-radius: 0!important;
-    -ms-border-radius: 0!important;
-    -o-border-radius: 0!important;
+.right-inner-addon input {
+    padding-right: 30px;
+    width: 120px; /* 200px - 30px */
+    height: 20px!important;
 }
-/* .md-form {
-    margin-bottom: 0px!important;
-    margin-top: 0px!important;
-}  */
-
-
-.fa-lg{
-font-size: 22px;
-}
-
-.carritoCorazon{
-    padding: 10px 0px 0px 3px!important;
+.right-inner-addon img {
+    position: absolute;
+    right: -19px;
+    padding: 10px 12px;
+    pointer-events: none;
+    top: -8px;
 }
 
 

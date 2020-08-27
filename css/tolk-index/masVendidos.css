@@ -84,6 +84,11 @@ margin-top: 93px!important;
   letter-spacing: normal;
   color: #000000;
 }
+
+.eliminarSombra {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0)!important;
+
+}
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
