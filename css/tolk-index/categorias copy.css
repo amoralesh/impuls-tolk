@@ -1,0 +1,52 @@
+.contenedorCategorias{
+height: 99px;
+}
+.logoInicial{
+    margin-left: 110px!important;
+}
+
+.categoriasNavbar{
+    border-bottom: 0px solid #ffff!important;
+    max-width: 46%!important;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.textoTitulosCategorias{
+    font-family: PoppinsExtramBold;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13!important;
+    letter-spacing: 0.11px!important;
+    color: #000000!important;
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+.right-inner-addon {
+    position: relative;
+    
+    width: 200px;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+    width: 120px; /* 200px - 30px */
+    height: 20px!important;
+}
+.right-inner-addon img {
+    position: absolute;
+    right: -19px;
+    padding: 10px 12px;
+    pointer-events: none;
+    top: -8px;
+}
+
+.iconos{
+padding-top: 20px!important;
+}

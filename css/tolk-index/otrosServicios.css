@@ -8,16 +8,16 @@
 }
 
 .borderbottomRight{
-    border-bottom: 2px #ffffff solid;
-    border-right: 2px #ffffff solid;
+    border-bottom:1.5px   solid rgb(255, 255, 255,0.5); 
+    border-right: 1.5px solid rgb(255, 255, 255,0.5); 
 }
 
 .borderbottom{
-    border-bottom: 2px #ffffff solid;
+    border-bottom: 1.5px solid rgb(255, 255, 255,0.5);
 
 }
 .borderRight{
-    border-right: 2px #ffffff solid;
+    border-right: 1.5px solid rgb(255, 255, 255,0.5);
 
 }
 
