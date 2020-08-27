@@ -79,10 +79,13 @@
       height: 100%;
     }
     .btnImgFlotante1{
+        width: 122px;
+        height: 38px;
        bottom: -325px;
        text-transform: none;
        padding: 14px 43px!important;
        border-radius: 11px!important;
+
     }
     .btnImgFlotante1>.textoBtn1{
         margin-bottom: 0rem!important;
@@ -104,6 +107,8 @@
         height: 100%;
       }
       .btnImgFlotante2{
+        width: 122px;
+        height: 38px;
          bottom: -45px;
          text-transform: none;
          padding: 14px 43px!important;
@@ -129,6 +134,8 @@
         height: 100%;
       }
       .btnImgFlotante3{
+        width: 122px;
+        height: 38px;
          bottom: 0px;
          text-transform: none;
          padding: 14px 43px!important;
