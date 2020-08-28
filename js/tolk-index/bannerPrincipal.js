@@ -1,7 +1,30 @@
-$(".imagenBannerPrincipal").animate({"top":-30+"%","opacity":0},10)
-$(".imagenBannerPrincipal").animate({"top":-15+"%","opacity":1},1600)
 
-$(".textosBanner").animate({"opacity":0},10)
-$(".textosBanner").animate({"opacity":1},3600)
+// if ($('.etiquetaRecomendados').isInViewport()) {
+//     $(".etiquetaRecomendados").animate({"opacity":0},10)
+//     $(".etiquetaRecomendados").animate({"opacity":1},3600)
+//     alert('sction 3 is now in viewport');
+// } else {
 
+//    alert('sction 3 is not in viewport');
+// }
+
+// $.fn.isInViewport = function() {
+//     var elementTop = $(this).offset().top;
+//     var elementBottom = elementTop + $(this).outerHeight();
+    
+//     var viewportTop = $(window).scrollTop();
+//     var viewportBottom = viewportTop + $(window).height();
+    
+//     return elementBottom > viewportTop && elementTop < viewportBottom;
+//     };
+    
+//         $(window).on('resize scroll', function() {
+        
+//          if ($('.etiquetaRecomendados').isInViewport()) {
+         
+//             $(".etiquetaRecomendados").animate({"opacity":0},10)
+//            $(".etiquetaRecomendados").animate({"opacity":1},1600)
+//          }
+         
+//     });
 

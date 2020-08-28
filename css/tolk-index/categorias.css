@@ -53,6 +53,8 @@
 
       
   .carrito{
+    position: relative;
+    top:3px;
     padding-top: 7px;
 }
 
