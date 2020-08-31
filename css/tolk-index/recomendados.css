@@ -51,12 +51,15 @@
     color: #000000!important;
 }
 
+
 .btnRecomendados{
-    width: 99px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #7588b1;
+    width: 99px!important;
+    height: 30px!important;
+    border-radius: 5px!important;
+    background-color: #7588b1!important;
 }
+
+
 
 .TextoBtnRecomendados{
     width: 99px;
@@ -67,16 +70,16 @@
 
 /*Imagenes de tarjetas*/
 .imgRadius {
+    position: relative;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 90%;
     top: -45px;
-    position: relative;
     align-self: center;
     border-radius: 25px;
     left: 5%;
-    height: 213px;
-    width: 244px;
+    height: 200%;
+    width: 90%
 }
 /*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
 .skin-light .card-img-top {
@@ -148,34 +151,60 @@
     -o-border-radius: 5px!important;
 }
 
-.btnRecomendados{
-    width: 99px!important;
-    height: 30px!important;
-    border-radius: 5px!important;
-    background-color: #7588b1!important;
+
+
+
+
+@media screen and (max-width:1230px){
+
+    /*Posición de badge Recomendados*/
+    .etiquetaRecomendados{
+        position: absolute;
+        top: -8%;
+        left: 12%;
+        width: 69px!important;
+        height: 25px!important;
+
+    }
+
+    /*Posición de badge Recomendados*/
+    .etiquetaRecomendadosOferta{
+        position: absolute;
+        bottom: 29%;
+        left: 62%;
+        width: 69px!important;
+        height: 25px!important;
+
+    }
+
 }
 
+@media screen and (max-width:1200px){
 
+        /*Posición de badge Recomendados*/
+    .etiquetaRecomendados{
+        position: absolute;
+        top: -8%;
+        left: 12%;
+        width: 69px!important;
+        height: 25px!important;
+    
+    }
+    
+    /*Posición de badge Recomendados*/
+    .etiquetaRecomendadosOferta{
+        position: absolute;
+        bottom: 34%;
+        left: 58%;
+        width: 65px!important;
+        height: 21px!important;
+    }
 
-
-
-
-@media screen and (min-width:1600px){
-   /*Imagenes de tarjetas*/
-.imgRadius {
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-
-    top: -45px;
-    position: relative;
-    align-self: center;
-    border-radius: 25px;
-    left: 5%;
-    height: 90%;
-    width: auto;
-} 
-
-}
+    .textoEtiqueta{
+        font-size: 10px;
+    }
+ 
+ }
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
@@ -191,13 +220,6 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-            /*Posición de badge Recomendados*/
-        .badgeRecomendadosOferta{
-            position: absolute;
-            bottom: 62%;
-            left: 47%;
-        } 
-   
 
 
 

@@ -1,61 +1,194 @@
-.contenedorCategorias{
-    height: 99px;
-    }
-    .logoInicial{
-        margin-left: 110px!important;
-    }
-    
-    .categoriasNavbar{
-        border-bottom: 0px solid #ffff!important;
-        max-width: 46%!important;
-        margin-left: 27px;
-        margin-right: 20px;
-    }
-    
-    .textoTitulosCategorias{
-        font-family: PoppinsExtramBold;
-        font-size: 15px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.13!important;
-        letter-spacing: 0.11px!important;
-        color: #000000!important;
-    }
-    
-    .dropdown:hover .dropdown-menu {display: block;}
-    
-    .dropdown-toggle::after {
-        display: none!important;
-    }
-    
-    .right-inner-addon {
-        position: relative;
-        
-        width: 200px;
-    }
-    .right-inner-addon input {
-        padding-right: 30px;
-        width: 120px; /* 200px - 30px */
-        height: 20px!important;
-    }
-    .right-inner-addon img {
-        position: absolute;
-        right: -19px;
-        padding: 10px 12px;
-        pointer-events: none;
-        top: -8px;
-    }
-    
-  .corazon{
-      padding-top: 3px;
-  }
-
-      
-  .carrito{
-    position: relative;
-    top:3px;
-    padding-top: 7px;
+.contenedorCategorias {
+	height: 99px;
 }
 
-  
+.logoInicial {
+	margin-left: 10%!important;
+}
+
+.categoriasNavbar {
+	border-bottom: 0px solid #ffff!important;
+	max-width: 46%!important;
+	margin-left: 27px;
+	margin-right: 20px;
+}
+
+.textoTitulosCategorias {
+	font-family: PoppinsExtramBold;
+	font-size: 15px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.13!important;
+	letter-spacing: 0.11px!important;
+	color: #000000!important;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-toggle::after {
+	display: none!important;
+}
+
+.right-inner-addon {
+	position: relative;
+	width: 200px;
+}
+
+.right-inner-addon input {
+	padding-right: 30px;
+	width: 120px;
+	/* 200px - 30px */
+	height: 20px!important;
+}
+
+.right-inner-addon img {
+	position: absolute;
+	right: -19px;
+	padding: 10px 12px;
+	pointer-events: none;
+	top: -8px;
+}
+
+.corazon {
+    position: relative;
+    top: 18%;
+
+}
+
+.carrito {
+	position: relative;
+	top: 21%
+}
+
+.carritoCantidad{
+    position: relative;
+	top: 21%
+}
+
+@media screen and (max-width:1330px) {
+
+    
+.logoInicial {
+	margin-left: 3%!important;
+}
+    .corazon {
+     left: 83px;
+    }
+    
+    .carrito {
+        left: 97px;
+    }
+    
+    .carritoCantidad{
+        position: relative;
+        left: 100px;
+    }
+
+    .buscarProducto{
+        position: relative;
+        left: 70px;
+    }
+
+
+}
+
+@media screen and (max-width:1280px) {
+    .logoInicial {
+        margin-left: 3%!important;
+    }
+        .corazon {
+         left: 103px;
+         width: 20px;
+         height: 18px;
+        }
+        
+        .carrito {
+            left: 117px;
+            width: 24px;
+            height: 20px;
+        }
+        .carritoCantidad{
+            position: relative;
+            left: 120px;
+        }
+    
+        .buscarProducto{
+            position: relative;
+            left: 90px;
+        }
+
+        .right-inner-addon img {
+ 
+            left: 95%;
+        }
+    
+    }
+
+    @media screen and (max-width:1140px) {
+        .logoInicial {
+            margin-left: 1%!important;
+        }
+            .corazon {
+             left: 145px;
+             width: 20px;
+             height: 18px;
+            }
+            
+            .carrito {
+                left: 147px;
+                width: 24px;
+                height: 20px;
+            }
+            .carritoCantidad{
+                position: relative;
+                left: 150px;
+            }
+        
+            .buscarProducto{
+                position: relative;
+                left: 120px;
+            }
+    
+            .right-inner-addon img {
+     
+                left: 100%;
+            }
+        
+        }
+
+        @media screen and (max-width:1060px) {
+
+            .textoTitulosCategorias {
+                font-size: 13px;
+            }
+
+                .corazon {
+                 left: 130px;
+                 width: 20px;
+                 height: 18px;
+                }
+                
+                .carrito {
+                    left: 137px;
+                    width: 24px;
+                    height: 20px;
+                }
+                .carritoCantidad{
+                    position: relative;
+                    left: 135px;
+                }
+            
+                .buscarProducto{
+                    position: relative;
+                    left: 90px;
+                }
+        
+                .right-inner-addon img {
+         
+                    left: 113%;
+                }
+            
+            }

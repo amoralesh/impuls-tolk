@@ -79,6 +79,7 @@
 
     }
 
+
     .divFlotante3{
         border-radius: 20px;
         box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
@@ -92,13 +93,39 @@
         padding: 2.5%;
     }
 
+    
+    .contenedorImgFlotante1{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedorImgFlotante2{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .contenedorImgFlotante3{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+
     /*IMAGEN FLOTANTE 1*/
     .imagenFlotante1{
         position:relative;
         left: 7%;
+        width: 100%;
+        height: 100%;
     } 
 
     .btnImgFlotante1{
+       bottom: 14px;
        width: 166px;
        height: 52px;
        border-radius: 10px;
@@ -114,14 +141,16 @@
     /*IMAGEN FLOTANTE 2*/
     .imagenFlotante2{
         position: relative;
-        bottom: 28px;
-        left: -35%;
-    } 
+        bottom: 8px;
+        left: -74%;
+        width: 165%;
+        height: 100%;
+        } 
     .btnImgFlotante2{
         position: relative;
         width: 166px;
         height: 52px;
-        top: 20px;
+        top: 27px;
         background-color: #ababab;
         text-transform: none;
         padding: 14px 43px!important;
@@ -136,8 +165,10 @@
     /*IMAGEN FLOTANTE 3*/
     .imagenFlotante3{
         position: relative;
-        bottom: 15px;
-        left: -12%;  
+        bottom: 0px;
+        left: -12%;
+        width: 115%;
+        height: 100%;
     } 
 
       .btnImgFlotante3{
@@ -154,41 +185,76 @@
          -o-border-radius: 10px;
 }
 
-
-/*=============================================
-ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
-=============================================*/
-
-@media (min-width:1200px){
-
+@media screen and (max-width:1174px) {
+    .btnImgFlotante2{
+        top: 7px;
+    }
+    .imagenFlotante2{
+        top: 32px;
+    } 
 }
 
-/*=============================================
-ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
-=============================================*/
+@media screen and (max-width:1069px) {
+   
+    .titulosFlotantes{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.94;
+        letter-spacing: 0.13px;
+        color: #ffffff;
+    }
 
-@media (max-width:1199px) and (min-width:992px){
- 
+    .subTitulosFlotantes1{
+        font-family: PoppinsSemiBold;
+        font-size: 32px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .subTitulosFlotantes2{
+        font-family: PoppinsExtramBold;
+        font-size: 60px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.53;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
 
+      .btnImgFlotante1{
+        width: 140px;
+        height: 36px;
+        top: 27px;
+    }
+
+    .btnImgFlotante2{
+        width: 140px;
+        height: 36px;
+        top: 0px;
+    }
+
+    .btnImgFlotante3{
+        width: 140px;
+        height: 36px;
+        top: 27px;
+    }
+
+    .rowFlotante{
+        height: 413px;
+    }
 }
 
-/*=============================================
-ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
-=============================================*/
-
-@media (max-width:991px) and (min-width:768px){
-
-
-    
+@media screen and (max-width:1047px) {
+    .btnImgFlotante3{
+        top: 0px;
+    }
 }
 
-/*=============================================
-MOVIL (XS revisamos en 320px)
-=============================================*/
-
-@media (max-width:767px){
-
-
-	
-}
 

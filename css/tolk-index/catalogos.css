@@ -1,53 +1,53 @@
-.tituloCatalogos{
-    font-family: PoppinsExtramBold;
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000;
-    margin-top: 86px;
-    margin-bottom: 45px;
-    
-}
-.textoTarjetaCatalogos{
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.7;
-    letter-spacing: normal;
-    color: #000000;
-  
+.tituloCatalogos {
+	font-family: PoppinsExtramBold;
+	font-size: 40px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+	margin-top: 86px;
+	margin-bottom: 45px;
 }
 
-.textoTarjetaCatalogosVer{
-    font-family: PoppinsSemiBold;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.50;
-    letter-spacing: normal;
-    color: #7588b1!important;
-    text-decoration: none;
-    text-transform: none;
+.textoTarjetaCatalogos {
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.7;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.textoTarjetaCatalogosVer {
+	font-family: PoppinsSemiBold;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.50;
+	letter-spacing: normal;
+	color: #7588b1!important;
+	text-decoration: none;
+	text-transform: none;
 }
 
 
-    /*Imagenes de tarjetas catálogos*/
-.imgRadiusCatalogo{
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 90%;
-    top: -45px;
-    position: relative;
-    align-self: center;
-    border-radius: 25px;
-    left: 5%;
-    height: auto;
-    width: 244px;
+/*Imagenes de tarjetas catálogos*/
+
+.imgRadiusCatalogo {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 90%;
+	top: -45px;
+	position: relative;
+	align-self: center;
+	border-radius: 25px;
+	left: 5%;
+	height: auto;
+	width: 90%;
 }

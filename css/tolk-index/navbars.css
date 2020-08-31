@@ -71,6 +71,18 @@
 }
 
 
+.textoTitulosCategorias {
+   font-size: 500%;
+   text-decoration: none;
+   background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+   transition: 1s background-size;
+}
+
+.textoTitulosCategorias:hover {
+   background-size: 100% .2em;
+}
+
+
 
 
 
