@@ -3,7 +3,8 @@
 }
 
 .logoInicial {
-	margin-left: 10%!important;
+    margin-left: 10%!important;
+     margin-top: 10px;
 }
 
 .categoriasNavbar {
@@ -24,6 +25,9 @@
 	color: #000000!important;
 }
 
+
+
+/* Mega Menu */
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
@@ -32,42 +36,35 @@
 	display: none!important;
 }
 
+
+/* BUSQUEDA FABORITOS CARRTIO */
 .right-inner-addon {
 	position: relative;
-	width: 200px;
+    width: 160px;
 }
 
 .right-inner-addon input {
-	padding-right: 30px;
 	width: 120px;
-	/* 200px - 30px */
 	height: 20px!important;
-}
-
-.right-inner-addon img {
-	position: absolute;
-	right: -19px;
-	padding: 10px 12px;
-	pointer-events: none;
-	top: -8px;
 }
 
 .corazon {
     position: relative;
-    top: 18%;
-
+    top: 20px;
 }
 
 .carrito {
 	position: relative;
-	top: 21%
+	top: 20px;
 }
 
 .carritoCantidad{
     position: relative;
-	top: 21%
+	top: 20px;
 }
 
+
+/* 
 @media screen and (max-width:1330px) {
 
     
@@ -191,4 +188,102 @@
                     left: 113%;
                 }
             
-            }
+            } */
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .contenedorCategorias {
+        height: 110px;
+    }
+    
+    .logoInicial {
+        margin-left: 3%!important;
+    }
+
+    /* BUSQUEDA FABORITOS CARRTIO */
+    .right-inner-addon {
+        position: relative;
+        width: 35px;
+    }
+    .right-inner-addon input {
+        width: 90px;
+        height: 20px!important;
+    }
+
+    .corazon {
+        left: 80px;
+        width: 20px;
+        height: 18px;
+    }
+
+    .carrito {
+        left: 84px;
+        width: 24px;
+        height: 20px;
+    }
+
+    .carritoCantidad{
+        position: relative;
+        top: 20px;
+    }
+
+
+    .carritoCantidad{
+        position: relative;
+        left: 83px;
+    }
+
+    .skin-light .navbar {
+        min-height: 20px;
+        padding: 0px;
+        -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 4, 255, 0);
+        box-shadow: 0 13px 20px 0 rgba(243, 0, 0, 0);
+        z-index: 9999999;
+    }
+
+    .categoriasNavbar {
+        max-width: 100%!important;
+    }
+
+    .iconos{
+        position: relative;
+        top: 10px;
+        left: 3%;
+    }
+        
+
+	
+}
+

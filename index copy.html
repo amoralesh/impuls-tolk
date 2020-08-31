@@ -54,12 +54,6 @@
       <link rel="stylesheet" href="css/tolk-index/suscripcion.css">
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="css/tolk-index/footer.css">
-
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-
-
-
-
    </head>
    <body class="skin-light">
       <header>
@@ -133,15 +127,15 @@
          =============================================== -->
       <!-- continer-fluid -->
       <section class="container-fluid p-0 contenedorCategorias">
-         <div class="row  m-0 align-items-center">
+         <div class="row  m-0 align-items-end">
             <!-- row (img/navbar/carrito)--->
             <!--col-2 logo-->
-            <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
+            <div class="col-2 offset-0 offset-sm-0 offset-md-0 logoInicial">
                <img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="" class="">
             </div>
             <!--col-2 fin logo-->
             <!--col-6 navbar-->
-            <div class="col-12 col-sm-12 col-md-2 col-lg-6 m-0 p-0 order-3 order-sm-3 order-md-3 order-lg-2 categoriasNavbar mb-2 mr-0">
+            <div class="col-6 p-0 order-3 order-sm-3 order-md-3 order-lg-2 categoriasNavbar mb-2 mr-0">
                <!-- Navbar -->
                <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
                   <!-- Navbar brand -->
@@ -980,16 +974,23 @@
             </div>
             <!--Fin col-6 navbar-->
             <!--col-3 Carrito de compras-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos">
- 
-               
-               <div class="right-inner-addon pull-left col-12 md-form ">
-                  <input type="text" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
-               </div>
+            <div class="col-3  p-0  order-2 order-sm-2 order-md-2 order-lg-2 iconos">
+               <div class="container-fluid ">
+                  <div class="row">
+                     <div class="col-5 p-0 m-0 ">
+                        <div class="right-inner-addon pull-left col-12 md-form buscarProducto">
+                           <input type="text" class="form-control input-append" />
+                           <img role="img" src="img/imgOficial/iconos_logos/search icon.svg" id="lupaBusqueda"/>
+                        </div>
+                     </div>
+                     <div class="col-6 p-0 pt-1 ml-3">
                         <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="corazon">
                         <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carrito">
                         <span class="badge badge-pill black carritoCantidad" >4</span>
-
+    
+                     </div>
+                  </div>
+               </div>
             </div>
             <!--Fin col-3 Carrito de compras-->
          </div>
@@ -2391,37 +2392,34 @@
            duration: 1900,
          });
       </script>
-
       <script>
-
-$(document).ready(function(){
-    adjustCSS();
-    $(window).resize(function(){ adjustCSS() });
-})
-
-function adjustCSS(){
-  
-      
-      if($(window).width() <= 767){
-         $("#menuCategorias").removeClass("navbar-light");
-         // $("#menuCategorias").removeClass("white");
-         $("#menuCategorias").addClass("navbar-dark");
-         $("#menuCategorias").addClass("special-color-dark")
-
-      }else{
-         $("#menuCategorias").removeClass("navbar-dark");
-         $("#menuCategorias").removeClass("special-color-dark");
-         $("#menuCategorias").addClass("navbar-light");
-         $("#menuCategorias").addClass("white");
-      }
-
-
-}
-     
-       
-         
+         $('#buscarProducto').on('keyup', function() {
+            var input = $(this);
+            if(input.val().length === 0) {
+               input.addClass('empty');
+            } else {
+               input.removeClass('empty');
+            }
+         });
       </script>
-
+      <script>
+         $(window).resize(function(){
+         
+               if($(window).width() <= 767){
+                  $("#menuCategorias").removeClass("navbar-light");
+                  $("#menuCategorias").removeClass("white");
+                  $("#menuCategorias").addClass("navbar-dark");
+                  $("#menuCategorias").addClass("special-color-dark")
+         
+               }else{
+                  $("#menuCategorias").removeClass("navbar-dark");
+                  $("#menuCategorias").removeClass("special-color-dark");
+                  $("#menuCategorias").addClass("navbar-light");
+                  $("#menuCategorias").addClass("white");
+               }
+         
+           });
+      </script>
       <!--===============================================
          SCRIPTS
          ================================================= -->
