@@ -80,6 +80,16 @@ MOVIL (XS revisamos en 320px)
         text-align: center;
         color: #000000;
     }
+
+    .opacityMarcasCarrusel{
+        opacity: 0.3;
+        width: 256%!important;
+        overflow: hidden!important;
+    }
+
+
+    
+
 	
 }
 

@@ -132,12 +132,12 @@ MOVIL (XS revisamos en 320px)
 		-ms-flex-negative: 0;
 		flex-shrink: 0;
 		width: 90%;
-		top: -30px;
+		top: -25px;
 		position: relative;
 		align-self: center;
 		border-radius: 25px;
 		left: 5%;
-		height: auto;
+		height: 188px;
 		width: 90%;
 	}
 

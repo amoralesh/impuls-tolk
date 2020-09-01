@@ -337,7 +337,7 @@ MOVIL (XS revisamos en 320px)
     /*Posición de badge Recomendados*/
     .etiquetaRecomendados{
         position: absolute;
-        top: -25%;
+        top: -13%;
         left: 12%;
         width: 40px!important;
         height: 15px!important;
@@ -365,7 +365,7 @@ MOVIL (XS revisamos en 320px)
     /*Posición de badge Recomendados*/
     .etiquetaRecomendadosOferta{
         position: absolute;
-        bottom: 50%;
+        bottom: 77%;
         left: 62%;
         width: 40px!important;
         height: 15px!important;
@@ -376,6 +376,20 @@ MOVIL (XS revisamos en 320px)
         -ms-border-radius: 5px!important;
         -o-border-radius: 5px!important;
     }
+
+    /*Imagenes de tarjetas*/
+.imgRadius {
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 90%;
+    top: -36px;
+    align-self: center;
+    border-radius: 25px;
+    left: 5%;
+    height: 200%;
+    width: 90%
+}
 
    
 
