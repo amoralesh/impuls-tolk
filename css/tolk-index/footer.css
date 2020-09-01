@@ -56,3 +56,53 @@
     text-decoration: none;
     color: black;
 }
+
+
+    
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .impulsBlanco{
+        margin: 0px 10px 18px 0px;
+    }
+
+    .footerImpuls{
+        height: 514px!important;
+        background-color: black;
+        padding: 10px  10px 10px 10px!important;
+    }
+
+
+ 
+}
