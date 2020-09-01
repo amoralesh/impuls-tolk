@@ -64,7 +64,7 @@ margin-top: 93px!important;
 
 .textoBtnMasVendido{
     font-family: PoppinsSemiBold;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -123,90 +123,17 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-       .contenedorMasVendido{
-        margin-bottom: 119px;
-        margin-top: 93px!important;
-        }
+    .textoPrecioProducto{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #000000;
+      }  
 
-        .margenProductos{
-            margin-top: 41px!important;
-        }
-
-        .tituloMasVendido{
-            font-family: Poppins!important;
-            font-size: 30px!important;
-            font-weight: bold!important;
-            font-stretch: normal!important;
-            font-style: normal!important;
-            line-height: normal!important;
-            letter-spacing: normal!important;
-            text-align: center;
-            color: #000000;
-        }
-        
-        .textoNombreProducto{
-            font-family: Poppins!important;
-            font-size: 15px!important;
-            font-weight: 600!important;
-            font-stretch: normal!important;
-            font-style: normal!important;
-            line-height: 1.6!important;
-            letter-spacing: normal!important;
-            color: #000000;
-        }
-        
-        .precioMasVendido{
-          font-family: Poppins!important;
-          font-size: 18px!important;
-          font-weight: normal!important;
-          font-stretch: normal!important;
-          font-style: normal;
-          line-height: 1.33!important;
-          letter-spacing: normal!important;
-          color: #000000;
-        }
-        .etiqueta{
-            width: 74px!important;
-            height: 30px!important;
-            border-radius: 5px!important;
-            background-color: #bababa!important;
-            -webkit-border-radius: 5px!important;
-            -moz-border-radius: 5px!important;
-            -ms-border-radius: 5px!important;
-            -o-border-radius: 5px!important;
-        }
-        
-        .textoEtiqueta{
-            font-family: Poppins!important;
-            font-size: 13px!important;
-            font-weight: 600!important;
-            font-stretch: normal!important;
-            font-style: normal!important;
-            line-height: 1.23!important;
-            letter-spacing: 0.01px!important;
-            text-align: center!important;
-            color: #ffffff!important;
-            margin-bottom: 2px!important;
-        }
-        .btnMasVendido{
-            width: 126px;
-            height: 30px;
-            border-radius: 5px;
-            background-color: #7588b1;
-        
-        }
-        
-        .textoBtnMasVendido{
-            font-family: Poppins!important;
-            font-size: 13px!important;
-            font-weight: bold!important;
-            font-stretch: normal!important;
-            font-style: normal!important;
-            line-height: 1.23!important;
-            letter-spacing: -0.2px!important;
-            color: #ffffff!important;
-            text-transform: none;
-        }
-	
+      
 }
 

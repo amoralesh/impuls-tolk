@@ -76,3 +76,121 @@
     text-transform: none;
     margin-bottom: 0;
   }
+
+
+  /*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+  
+    .otrosServicios {
+        position: relative;
+        height: 950px;
+        background-image: none;
+        background-color: #7588b1!important;
+        padding: 10px 10px 10px 10px!important;
+        margin-top: 50px!important;
+        margin-bottom: 17px!important;
+    }
+
+     .beneficiosTexto{
+        color: #ffffff;
+        opacity: 1;
+        font-family: PoppinsBold;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        padding: 0px 10px;
+    }
+    
+    .beneficiosTexto:first-of-type(1){
+        padding: 0px 65px!important;
+    }
+    
+    .beneficiosTextoSecundario{
+        color: #ffffff;
+        opacity: 1;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: -0.04px;
+    }
+
+    .borderbottomRight{
+        border-bottom:0px   solid rgb(255, 255, 255,0.5); 
+        border-right: 0px solid rgb(255, 255, 255,0.5); 
+    }
+    
+    .borderbottom{
+        border-bottom:0px solid rgb(255, 255, 255,0.5);
+    
+    }
+    .borderRight{
+        border-right: 0px solid rgb(255, 255, 255,0.5);
+    
+    }
+
+    .otrosServicios>.col-6{
+        margin-top: 20px!important;
+    }
+
+    .btnOtrosServicios{
+        border-radius: 10px;
+        background-color: #ffffff!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+        padding: 9px!important;
+        margin-top: 0px!important;
+    }
+    
+    .ver-mas {
+        width: 81px;
+        height: 17px;
+        font-family: PoppinsBold;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: -0.14px;
+        text-align: center;
+        color: black;
+        text-transform: none;
+        margin-bottom: 0;
+      }
+     
+}

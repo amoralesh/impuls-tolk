@@ -282,6 +282,17 @@ MOVIL (XS revisamos en 320px)
         top: 10px;
         left: 3%;
     }
+
+    .textoTitulosCategorias {
+        font-family: PoppinsExtramBold;
+        font-size: 17px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13!important;
+        letter-spacing: 0.11px!important;
+        color: #ffffff!important;
+    }
         
 
 	

@@ -1,16 +1,13 @@
-
 .videoImpuls{
     position: relative;
     height: 744px;
     background-image:url("../../img/iconos/fondo-otros-servicios-3.jpg");
     padding: 177px 1px 194px 117px!important;
     margin-top: 139px!important;
-
 }
 
 
 #videoPromosional {
-
    -webkit-box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
    -moz-box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
    box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
@@ -85,6 +82,7 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 
 
+
 }
 
 /*=============================================
@@ -93,7 +91,6 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
- 
     
 }
 
@@ -102,65 +99,41 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+  
 
    .videoImpuls{
       position: relative;
       height: 744px;
       background-image:url("../../img/iconos/fondo-otros-servicios-3.jpg");
-      padding: 177px 1px 194px 117px!important;
-      margin-top: 139px!important;
-  
-   }
-  
-  
-   .tituloVideoImpuls{
-    font-family: Poppins!important;
-    font-size: 40px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: normal!important;
-    letter-spacing: normal!important;
-    color: #ffffff;
-   }
-   
-   .tituloVideoImpuls2{
-      font-family: Poppins!important;
-      font-size: 17px!important;
-      font-weight: normal!important;
-      font-stretch: normal!important;
-      font-style: normal!important;
-      line-height: 1.41!important;
-      letter-spacing: -0.47px!important;
-      color: #ffffff!important;
-   }
-  
-   .btnVideoImpuls{
-    width: 60px!important;
-    height: 40px!important;
-    border-radius: 10px!important;
-    background-color: #ffffff;
-    text-transform: none;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
+      padding: 14px 14px 14px 14px!important;
+      margin-top: 19px!important;
+  }
+
+  .tituloVideoImpuls{
+   font-family: PoppinsExtramBold;
+   font-size: 40px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   padding: 0px 0px 0px 0px!important;
   }
   
-   .textoBtnVideoImpils{
-     font-family: Poppins!important;
-      font-size: 12!important;
-      font-weight: bold!important;
-      font-stretch: normal!important;
-      font-style: normal!important;
-      line-height: 1!important;
-      letter-spacing: -0.3px!important;
-      text-align: center!important;
-      color: #000000;
-   }
-    
-    }
-    
+  .tituloVideoImpuls2{
+     font-family: Poppins;
+     font-size: 17px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.41;
+     letter-spacing: -0.47px;
+     color: #ffffff;
+     padding: 0px 0px 0px 0px;
+  }
+ 
+}
 
 
     
