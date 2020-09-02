@@ -1,5 +1,6 @@
 .contenedorCategorias {
-	height: 99px;
+    height: 99px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .logoInicial {
@@ -11,7 +12,8 @@
 	border-bottom: 0px solid #ffff!important;
 	max-width: 46%!important;
 	margin-left: 27px;
-	margin-right: 20px;
+    margin-right: 20px;
+    margin-bottom: -1rem!important;
 }
 
 .textoTitulosCategorias {

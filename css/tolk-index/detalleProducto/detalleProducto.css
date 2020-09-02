@@ -1,0 +1,207 @@
+.califiacionesPreguntas{
+
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  color: #000000;
+  margin-left: 20px;
+}
+
+    .sku{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .nombreProductoDetalle{
+        font-family: PoppinsBold;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #000000; 
+    }
+
+    .textosPrecios{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #2c2c2c; 
+    }
+
+    .precioSocio{
+        font-family: PoppinsSemiBold;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+        color: #f75454;
+    }
+
+    .textoEligeTalla{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #2c2c2c;
+    }
+
+    .tallas{
+        border:  2px solid rgba(0, 0, 0, 0.1);
+        height: 39px;
+        padding: 3px 15px;
+    }
+
+   
+
+    .tallas>p{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2c2c2c;
+        text-align: center;
+        margin-bottom: 0px;
+       align-self: center;
+       cursor: pointer;
+    }
+
+    .tallas:active{
+        background-color: black;
+    }
+    .tallas>p:active{
+        color: #ffffff;
+    }
+
+    .guiaTallas{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #000000;
+        margin-right: 20px;
+    }
+
+    .skin-light .number-input.number-input {
+        width: 242px!important;
+        border-radius: 8px;
+        border: solid 0.8px #000000;
+        margin-right: -13px;
+    }
+
+    .disponibilidad{
+        width: 10.6rem!important;
+        border-radius: 8px;
+        border: solid 0.8px #000000;
+        margin-right: -13px;
+        cursor: pointer;
+    }
+
+    .textoDisponibilidad{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        padding: 0px 18px;
+        margin: 7px 0px!important;
+        cursor: pointer;
+    }
+
+    .cantidadProducto{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #2c2c2c;
+        margin: 0px 20px 0px 5px;
+    }
+
+    .skin-light .number-input.number-input button:before, .skin-light .number-input.number-input button:after {
+        width: .5rem;
+        background-color: #495057;
+        opacity: 0.3;
+    }
+
+    .skin-light .number-input.number-input input[type=number] {
+        max-width: 3rem;
+        padding: .5rem;
+        border: 1px solid #ced4da;
+        border-width: 0 1px;
+        font-size: 1rem;
+        height: 2rem;
+        color: #000000;
+    }
+
+    .botonesAgregarComprar{
+        width: 242px;
+        height: 45px;
+        border-radius: 8px;
+
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: none;
+
+    }
+
+    .btnAgregarCarritoDetalle{
+        background-color: #7588b1;  
+    }
+
+    .btnComprarDetalle{
+        background-color: #000000;
+    }
+
+    .textoProductoDisponible{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #3ea832;
+    }
+
+
+
