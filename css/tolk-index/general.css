@@ -1,0 +1,60 @@
+.colorPrimario{
+    background-color: #7588b1;
+    color: #ffffff;
+}
+
+
+/*=====================================
+============= TIPOGRAFIA ==============
+======================================*/
+
+.poppinsBold18LP{
+    font-family: PoppinsBold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.poppins15LP{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.42px;
+    color: #000000;
+}
+
+.poppinsSemiBold16LP{
+  font-family: PoppinsSemiBold;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.poppins12LP{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #6f6f6f;
+    margin: 0px;
+}
+
+/*=====================================
+============= TIPOGRAFIA ==============
+======================================*/
