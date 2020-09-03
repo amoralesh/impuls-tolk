@@ -69,6 +69,7 @@
         border:  2px solid rgba(0, 0, 0, 0.1);
         height: 39px;
         padding: 3px 15px;
+        cursor: pointer;
     }
 
    
@@ -89,10 +90,11 @@
        cursor: pointer;
     }
 
-    .tallas:active{
+
+    .tallas:hover{
         background-color: black;
     }
-    .tallas>p:active{
+    .tallas>p:hover{
         color: #ffffff;
     }
 
@@ -114,6 +116,37 @@
         border: solid 0.8px #000000;
         margin-right: -13px;
     }
+
+    .cantidadValor{
+        font-family: PoppinsSemiBold;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2c2c2c;
+    }
+
+    .btnFavoritoDetalle{
+        border-radius: 8px;
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+        border: solid 0.8px #000000;
+    }
+
+    .textoCompraProtegida{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        color: #6f6f6f;
+    }
+
+    
 
     .disponibilidad{
         width: 10.6rem!important;
@@ -159,7 +192,7 @@
     .skin-light .number-input.number-input input[type=number] {
         max-width: 3rem;
         padding: .5rem;
-        border: 1px solid #ced4da;
+        border: none!important;
         border-width: 0 1px;
         font-size: 1rem;
         height: 2rem;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="29px" viewBox="0 0 44 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>devoluciones</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03_Detalle-1" transform="translate(-844.000000, -932.000000)" stroke="#000000">
+            <g id="devoluciones" transform="translate(845.000000, 933.000000)">
+                <g id="Group-14">
+                    <line x1="27.8216885" y1="12.0388" x2="27.8216885" y2="15.4396" id="Stroke-1" stroke-width="1.8" stroke-linejoin="round"></line>
+                    <line x1="21.0454731" y1="18.35712" x2="35.1049731" y2="18.35712" id="Stroke-2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <g id="Group-7" transform="translate(23.423077, 4.863040)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8">
+                        <line x1="0.226476923" y1="17.75192" x2="16.7001692" y2="17.75192" id="Stroke-3"></line>
+                        <line x1="8.94858462" y1="0.82184" x2="18.3291231" y2="0.82184" id="Stroke-5"></line>
+                    </g>
+                    <line x1="27.8216885" y1="12.0212" x2="36.3194192" y2="12.0212" id="Stroke-8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <g id="Group-13" transform="translate(0.000000, 0.063040)" stroke-width="1.8">
+                        <polyline id="Stroke-9" points="28.1040577 18.3656 28.1040577 26.48 0.726519231 26.48 0.726519231 0.6568 28.1040577 0.6568 28.1040577 8.4968"></polyline>
+                        <polyline id="Stroke-11" points="11.5578346 0.78704 11.5578346 7.26064 17.2738731 7.26064 17.2738731 0.78704"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
