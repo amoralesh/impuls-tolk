@@ -38,13 +38,12 @@ $(document).ready(function() {
 });
 
 
-
-// $('#multi').mdbRange({
-//   single: {
-//     active: true,
-//     multi: {
-//       active: true,
-//       rangeLength: 1
-//     },
-//   }
-// });
+$('#multi').mdbRange({
+  single: {
+    active: true,
+    multi: {
+      active: true,
+      rangeLength: 1
+    },
+  }
+});

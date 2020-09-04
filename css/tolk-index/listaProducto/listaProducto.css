@@ -162,26 +162,11 @@ height: 12px!important;
     height: auto;
 }
 
-
-
-
 /*//////////////////////////////////7*/
 
 .borderNavbarPL{
     border-bottom: solid 0.5px #bababa;
 }
-
-.custom-range::-webkit-slider-thumb {
-    background: rgb(0, 0, 0);
-  }
-  
-  .custom-range::-moz-range-thumb {
-    background: rgb(0, 0, 0);
-  }
-  
-  .custom-range::-ms-thumb {
-    background: rgb(0, 0, 0);
-  }
 
 
   .tallas{
