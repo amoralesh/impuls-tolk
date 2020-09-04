@@ -2394,6 +2394,7 @@
       <!--===============================================
          SCRIPTS
          ================================================= -->
+
       <!-- jQuery -->
       <script type="text/javascript" src="js/jquery.min.js"></script>
       <!-- Bootstrap tooltips -->
@@ -2404,53 +2405,14 @@
       <script type="text/javascript" src="js/mdb.min.js"></script>
       <!-- MDB eCommerce -->
       <script type="text/javascript" src="js/mdb.ecommerce.min.js"></script>
-      <!--Banner-Principal-->
-      <script type="text/javascript" src="js/tolk-index/bannerPrincipal.js"></script>
       <!--Animaciones-->
       <!-- AOS -->
       <script type="text/javascript" src="js/aos-master/dist/aos.js"></script>
-      <script>
-         AOS.init({
-           delay: 990,
-           duration: 1900,
-         });
-      </script>
-
-      <script>
-
-$(document).ready(function(){
-    adjustCSS();
-    $(window).resize(function(){ adjustCSS() });
-})
-
-function adjustCSS(){
-  
-      
-      if($(window).width() <= 767){
-         $("#menuCategorias").removeClass("navbar-light");
-         // $("#menuCategorias").removeClass("white");
-         $("#menuCategorias").addClass("navbar-dark");
-         $("#menuCategorias").addClass("special-color-dark");
-
-         $(".efectosRecomendados").removeAttr("data-aos");
-
-      }else{
-         $("#menuCategorias").removeClass("navbar-dark");
-         $("#menuCategorias").removeClass("special-color-dark");
-         $("#menuCategorias").addClass("navbar-light");
-         $("#menuCategorias").addClass("white");
-         $(".efectosRecomendados").addattr("data-aos");
-      }
-
-
-}
-     
-       
-         
-      </script>
+      <!--General-->
+      <script type="text/javascript" src="js/tolk-index/general.js"></script>
 
       <!--===============================================
-         SCRIPTS
-         ================================================= -->
+                     FIN SCRIPTS
+      ================================================= -->
    </body>
 </html>
