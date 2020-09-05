@@ -15,31 +15,6 @@
     margin-bottom: 114px !important;
 }
 
-.tituloRecomendados{
-    font-family: PoppinsExtramBold;
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000!important;
-}
-
-.tituloRecomendadosSecundario{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000!important;
-
-}
-
 .precioTarjeta{
     font-family: Poppins;
     font-size: 18px;
@@ -55,12 +30,7 @@
 .btnRecomendados{
     width: 99px!important;
     height: 30px!important;
-    border-radius: 5px!important;
-    background-color: #7588b1!important;
-}
-
-
-.textoBtnRecomendados{
+   
     font-family: PoppinsSemiBold;
     font-size: 11px;
     font-weight: bold;
@@ -70,7 +40,10 @@
     letter-spacing: -0.2px;
     color: #ffffff!important;
     text-transform: none;
+
+    border-radius: 5px!important;
 }
+
 
 .lupaTarjeta{
     width:25px;
@@ -96,7 +69,9 @@
     border-radius: 25px;
     left: 5%;
     height: 200%;
-    width: 90%
+    width: 90%;
+    cursor: pointer;
+    
 }
 /*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
 .skin-light .card-img-top {
@@ -139,49 +114,21 @@
     color: #000000!important;
 }
 
+
 /*Posición de badge Recomendados*/
 .etiquetaRecomendados{
-     position: absolute;
-     top: -8%;
-     left: 12%;
-     width: 74px!important;
-     height: 30px!important;
-     border-radius: 5px!important;
-     background-color: #888888!important;
-     -webkit-border-radius: 5px!important;
-     -moz-border-radius: 5px!important;
-     -ms-border-radius: 5px!important;
-     -o-border-radius: 5px!important;
-}
-
-.textoEtiquetaRecomendados{
-
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: 0.01px;
-    text-align: center;
-    color: #ffffff!important;
-    margin-top: 4px!important;
-
+    position: absolute;
+    background-color: #888888!important;
+    top: -8%;
+    left: 12%;
 }
 
 /*Posición de badge Recomendados*/
 .etiquetaRecomendadosOferta{
-    position: absolute;
-    bottom: 29%;
-    left: 62%;
-    width: 74px!important;
-    height: 30px!important;
-    border-radius: 5px!important;
-    background-color: #f75454!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    -ms-border-radius: 5px!important;
-    -o-border-radius: 5px!important;
+   position: absolute;
+   bottom: 29%;
+   left: 62%;
+   background-color: #f75454!important;
 }
 
 
@@ -297,10 +244,7 @@ MOVIL (XS revisamos en 320px)
     .btnRecomendados{
         width: 50px!important;
         height: 20px!important;
-    }
-    
- 
-    .textoBtnRecomendados{
+
         font-family: PoppinsSemiBold;
         font-size: 8px;
         font-weight: bold;
@@ -311,6 +255,8 @@ MOVIL (XS revisamos en 320px)
         color: #ffffff!important;
         text-transform: none;
     }
+    
+ 
 
     .lupaTarjeta{
         width:15px;

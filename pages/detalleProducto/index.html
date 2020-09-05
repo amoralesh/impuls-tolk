@@ -21,24 +21,29 @@
       <link rel="stylesheet" href="../../css/mdb.ecommerce.min.css">
       <!-- AOS -->
       <link rel="stylesheet" href="../../js/aos-master/dist/aos.css">
-      <!-- FUENTE POPPING -->
-      <link rel="stylesheet" href="../../css/tolk-index/1-fuentes.css">
-      <!-- Estilos TOLK INDEX -->
-      <link rel="stylesheet" href="../../css/tolk-index/index.css">
-      <!-- Estilos TOLK MAS-VENDIDOS (TITULO RECOMENDADOS PARA TI)-->
-      <link rel="stylesheet" href="../../css/tolk-index/masVendidos.css">
-        <!-- Estilos TOLK RECOMENDADOS-->
-        <link rel="stylesheet" href="../../css/tolk-index/recomendados.css">
-      <!-- Estilos TOLK NAV-BAR -->
-      <link rel="stylesheet" href="../../css/tolk-index/navbars.css">
-      <!-- Estilos TOLK NAV-BAR CATEGORIAS -->
-      <link rel="stylesheet" href="../../css/tolk-index/categorias.css">
-      <!-- Estilos TOLK VISTOS RECIENTEMENTE -->
-      <link rel="stylesheet" href="../../css/tolk-index/vistosRecientemente.css">
-      <!-- Estilos TOLK PAGOS Y SESCRIPCION -->
-      <link rel="stylesheet" href="../../css/tolk-index/suscripcion.css">
-      <!-- Estilos TOLK FOOTER -->
-      <link rel="stylesheet" href="../../css/tolk-index/footer.css">
+    
+       <!-- TIPOGRAFIA -->
+       <link rel="stylesheet" href="../../css/tolk-index/general/general.css">
+       <!-- TIPOGRAFIA -->
+       <link rel="stylesheet" href="../../css/tolk-index/general/tipografia.css">
+       <!-- Estilos TOLK MAS-VENDIDOS -->
+       <link rel="stylesheet" href="../../css/tolk-index/general/masVendidos.css">
+       <!-- Estilos TOLK RECOMENDADOS -->
+       <link rel="stylesheet" href="../../css/tolk-index/general/recomendados.css">
+       <!-- Estilos TOLK VISTOS RECIENTEMENTE -->
+       <link rel="stylesheet" href="../../css/tolk-index/general/vistosRecientemente.css">
+ 
+       <!-- Estilos TOLK INFO ENTRGA -->
+       <link rel="stylesheet" href="../../css/tolk-index/layout/infoEntrega.css">
+       <!-- Estilos TOLK NAV-BAR LOGIN-->
+       <link rel="stylesheet" href="../../css/tolk-index/layout/navbarLogin.css">
+       <!-- Estilos TOLK NAV-BAR CATEGORIAS -->
+       <link rel="stylesheet" href="../../css/tolk-index/layout/categorias.css">
+       <!-- Estilos TOLK PAGOS Y SUSCRIPCION -->
+       <link rel="stylesheet" href="../../css/tolk-index/layout/suscripcion.css">
+       <!-- Estilos TOLK FOOTER -->
+       <link rel="stylesheet" href="../../css/tolk-index/layout/footer.css">
+
 
       <!--========= Estilos Pagina Detalle producto ==========-->
       <!--====================================================-->
@@ -53,9 +58,10 @@
    </head>
    <body class="skin-light">
       <header>
+         
          <div class="container-fluid p-0">
-            <div class="row justify-content-center infoEntregas align-items-center m-0 p-0">
-               <div class="col-12 col-sm-12 col-md-8  infoEntregasTexto text-center m-0 p-0">
+            <div class="row colorSecundario justify-content-center m-0">
+               <div class="col-12 textoInfoEntrega text-center">
                   Información sobre las entregas y promociones. <a href="#" class="aqui"><u>Ver aquí.</u></a>
                </div>
             </div>
@@ -64,47 +70,47 @@
             NAVBAR ACCIONES CLIENTE 
             ==================================== -->
          <section class="container-fluid p-0">
-            <div class="row navbarAcciones m-0">
-               <div class="d-none d-sm-none d-md-block  col-12 m-0 -p-0">
+            <div class="row navbarLogin m-0">
+               <div class="col-12 d-none d-sm-none d-md-block  m-0 p-0">
                   <!-- Navbar -->
-                  <nav class="navbar navbar-expand-md navbar-light ">
+                  <nav class="navbar navbar-expand-md navbar-light">
                      <!-- Collapse button -->
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#despliegueNavBar1"
-                        aria-controls="despliegueNavBar1" aria-expanded="false" aria-label="Toggle navigation">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapaseNavbarLogin"
+                        aria-controls="collapaseNavbarLogin" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                      </button>
                      <!-- Links -->
-                     <div class="collapse navbar-collapse justify-content-center" id="despliegueNavBar1">
+                     <div class="collapse navbar-collapse justify-content-center" id="collapaseNavbarLogin">
                         <!-- Right -->
-                        <ul class="navbar-nav">
-                           <li class="nav-item itemsNavbarUsuario">
+                        <ul class="navbar-nav textoNavbarLogin">
+                           <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect ">
-                              <small class="textoGratis">¿Dónde está mi pedido?</small>
+                              <strong class="negritasNavbarLogin">¿Dónde está mi pedido?</strong>
                               </a>
                            </li>
-                           <li class="nav-item itemsNavbarUsuario">
+                           <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect ">
-                              <small class="textoNavbar">  ¿Quieres envíos <strong class="textoGratis">GRATIS</strong>?</small>
+                              <small>  ¿Quieres envíos <strong class="negritasNavbarLogin">GRATIS</strong>?</small>
                               </a>
                            </li>
-                           <li class="nav-item itemsNavbarUsuario">
+                           <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect ">
-                              <small class="textoNavbar">Cambios y Devoluciones</small>
+                              <small>Cambios y Devoluciones</small>
                               </a>
                            </li>
-                           <li class="nav-item itemsNavbarUsuario">
+                           <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect ">
-                              <small class="textoNavbar">Afiliate a impuls</small>
+                              <small>Afiliate a impuls</small>
                               </a>
                            </li>
-                           <li class="nav-item itemsNavbarUsuario">
+                           <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLoginRegistro">
-                              <small class="textoNavbar mr-4"> Login / Registro</small><img src="../../img/imgOficial/iconos_logos/login icon.svg" alt="" >
+                              <small class=" mr-4"> Login / Registro</small><img src="../../img/imgOficial/iconos_logos/login icon.svg" alt="" >
                               </a>
                            </li>
-                           <li class="nav-item itemsNavbarUsuario">
-                              <a href="#!" class="nav-link waves-effect bg-dark">
-                              <small class="textNavbarNegro"><u>Captura tu pedido</u></small>
+                           <li class="nav-item">
+                              <a href="#!" class="nav-link waves-effect colorPrimario">
+                              <strong class="textoCapturaPedido"><u>Captura tu pedido</u></strong>
                               </a>
                            </li>
                         </ul>
@@ -115,8 +121,6 @@
             </div>
          </section>
          <!-- Navbar -->
-
-  
          <!--================================
             FIN NAVBAR ACCIONES CLIENTE 
             ==================================== -->
@@ -129,7 +133,7 @@
                <!-- row (img/navbar/carrito)--->
                <!--col-2 logo-->
                <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
-                  <img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="" class="">
+                  <a href="#!"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                </div>
                <!--col-2 fin logo-->
                <!--col-6 navbar-->
@@ -974,11 +978,11 @@
                <!--col-3 Carrito de compras-->
                <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos">
                   <div class="right-inner-addon pull-left col-12 md-form ">
-                     <input type="text" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
+                     <input type="text" name="buscar" id="buscar" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
                   </div>
-                  <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="corazon">
-                  <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carrito">
-                  <span class="badge badge-pill black carritoCantidad" >4</span>
+                     <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                     <a href="#!"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
+                     <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
                <!--Fin col-3 Carrito de compras-->
             </div>
@@ -1427,197 +1431,185 @@
       <!--===============================================
          PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
-      <section class="container contenedorMasVendido">
-         <h5 class="tituloMasVendido text-center">Productos recomendados para ti</h5>
-         <div class="row margenProductos">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-1-a.jpg" alt="Sample">
-                     <h4 class="mb-0">
-                        <span class="badge  badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100"
-                              src="../../img/mas vendido/tenis-1.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+         <section class="container contenedorMasVendido">
+            <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
+            <div class="row margenProductos">
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-1-a.jpg" alt="mas vendidos">
+                        <h4 class="mb-0">
+                           <span class="badge badge-pill badge-news etiqueta">
+                              <h6 class="textoEtiqueta">NUEVO</h6>
+                           </span>
+                        </h4>
+                        <a href="../../pages/detalleProducto/index.html" target="_blank">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto"
+                                 src="../../img/mas vendido/tenis-1.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body  m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body  m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h1 class="textoBtnMasVendido">Agregar a carrito</h1>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-2-a.jpg" alt="Sample">
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100"
-                              src="../../img/mas vendido/tenis-2.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto"
+                                 src="../../img/mas vendido/tenis-2.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-3-a.jpg" alt="Sample">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100"
-                              src="../../img/mas vendido/tenis-3.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-3-a.jpg" alt="mas vendidos">
+                        <h4 class="mb-0">
+                           <span class="badge badge-pill badge-news etiqueta">
+                              <h6 class="textoEtiqueta">NUEVO</h6>
+                           </span>
+                        </h4>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto"
+                                 src="../../img/mas vendido/tenis-3.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-4-a.jpg" alt="Sample">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100"
-                              src="../../img/mas vendido/tenis-4.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-4-a.jpg" alt="mas vendidos">
+                        <h4 class="mb-0">
+                           <span class="badge badge-pill badge-news etiqueta">
+                              <h6 class="textoEtiqueta">NUEVO</h6>
+                           </span>
+                        </h4>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto"
+                                 src="../../img/mas vendido/tenis-4.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <!-- Image with zoom -->
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-5-a.jpg" alt="Sample">
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100" src="../../img/mas vendido/tenis-5.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <!-- Image with zoom -->
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5-a.jpg" alt="mas vendidos">
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- Image with zoom -->
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <!-- Image with zoom -->
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="../../img/mas vendido/tenis-2-a.jpg" alt="Sample">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100"
-                              src="../../img/mas vendido/tenis-2.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
+                        <h4 class="mb-0">
+                           <span class="badge badge-pill badge-news etiqueta">
+                              <h6 class="textoEtiqueta">NUEVO</h6>
+                           </span>
+                        </h4>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 verProducto"
+                                 src="../../img/mas vendido/tenis-2.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class="textoPrecioProducto"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
+               <!-- Fin col-2 -->
             </div>
-            <!-- Fin col-2 -->
-         </div>
-         <!-- Fin row -->
-      </section>
+            <!-- Fin row -->
+         </section>
       <!-- Fin container -->
       <!--===============================================
          FIN  PRODUCTOS RECOMENTADOS PARA TI

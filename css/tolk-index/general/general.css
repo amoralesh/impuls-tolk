@@ -11,6 +11,47 @@
     background-color: #f8f8f8;
 }
 
+.textoTitulosSeccion{
+    font-family: PoppinsExtramBold;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+    
+.etiqueta{
+    width: 74px!important;
+    height: 30px!important;
+    background-color: #bababa!important;
+    border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -ms-border-radius: 5px!important;
+    -o-border-radius: 5px!important;
+}
+
+    .textoEtiqueta{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: 0.01px;
+        text-align: center;
+        color: #ffffff!important;
+        margin-top: 4px!important;
+    }
+
+
+
+
+
 
 /*=====================================
 ============= TIPOGRAFIA ==============
@@ -122,7 +163,7 @@
 }
 
 
-.poppins18pxLP{
+.poppins18{
     font-family: Poppins;
     font-size: 18px;
     font-weight: normal;

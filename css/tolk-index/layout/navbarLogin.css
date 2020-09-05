@@ -1,5 +1,5 @@
 
-.navbarAcciones{
+.navbarLogin{
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     padding-left: 70px!important;
     }
@@ -8,17 +8,7 @@
         padding: 8px!important;
     }
 
-/*Agegamos bordes al navbar de acciones de usaurio*/
-.itemsNavbarUsuario{
-    border-left: 2px solid rgba(0, 0, 0, 0.1);
-    margin:0 6px;
-    
-}
 
-/*Agegamos bordes al navbar de acciones de usaurio (solo al primero)*/
-.justify-content-center>.navbar-nav >.nav-item:nth-child(1){
-    border-left: 0px solid black;
-}
 
 
 /*Quitamos padding y box-shadow de los navbar */
@@ -30,9 +20,20 @@
     box-shadow: 0 13px 20px 0 rgba(243, 0, 0, 0);
 }
 
+/*Agegamos bordes al navbar login*/
+.textoNavbarLogin li{
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    margin:0 6px;
+}
 
-/*Agregamos EStilos al texto al primer navbar */
-.textoNavbar{
+/*Agegamos bordes al navbar login (solo al primero)*/
+.justify-content-center>.navbar-nav >.nav-item:nth-child(1){
+    border-left: 0px solid black;
+}
+
+
+
+.textoNavbarLogin li a small{
 
     font-family: Poppins!important;
     font-size: 13px!important;
@@ -45,7 +46,7 @@
     color: #6f6f6f!important;
 }
 
-.textoGratis{
+.negritasNavbarLogin{
     font-family: PoppinsBold!important;
     font-size: 13px!important;
     font-weight: bold;
@@ -57,7 +58,7 @@
     color: #6f6f6f!important;
 }
 
-.textNavbarNegro{
+.textoCapturaPedido{
     font-family: Poppins;
     font-size: 12px;
     font-weight: bold;
@@ -67,20 +68,10 @@
     letter-spacing: -0.17px;
     text-align: center;
     color: #ffffff;
+    background-color: black;
     padding: 0px 17px;
 }
 
-
-.textoTitulosCategorias {
-   font-size: 500%;
-   text-decoration: none;
-   background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
-   transition: 1s background-size;
-}
-
-.textoTitulosCategorias:hover {
-   background-size: 100% .2em;
-}
 
 
 

@@ -43,6 +43,9 @@
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="css/tolk-index/layout/footer.css">
 
+      <!--========= Estilos Pagina Home ==========-->
+      <!--====================================================-->
+
       <!-- Estilos TOLK BANNER-PRINCIPAL -->
       <link rel="stylesheet" href="css/tolk-index/home/bannerPrincipal.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES -->
@@ -68,7 +71,7 @@
       <header>
          
       <div class="container-fluid p-0">
-         <div class="row colorSecundario justify-content-center m-0 p-0">
+         <div class="row colorSecundario justify-content-center m-0">
             <div class="col-12 textoInfoEntrega text-center">
                Información sobre las entregas y promociones. <a href="#" class="aqui"><u>Ver aquí.</u></a>
             </div>
@@ -78,47 +81,47 @@
          NAVBAR ACCIONES CLIENTE 
          ==================================== -->
       <section class="container-fluid p-0">
-         <div class="row navbarAcciones m-0">
-            <div class="d-none d-sm-none d-md-block  col-12 m-0 -p-0">
+         <div class="row navbarLogin m-0">
+            <div class="col-12 d-none d-sm-none d-md-block  m-0 p-0">
                <!-- Navbar -->
-               <nav class="navbar navbar-expand-md navbar-light ">
+               <nav class="navbar navbar-expand-md navbar-light">
                   <!-- Collapse button -->
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#despliegueNavBar1"
-                     aria-controls="despliegueNavBar1" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapaseNavbarLogin"
+                     aria-controls="collapaseNavbarLogin" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
                   <!-- Links -->
-                  <div class="collapse navbar-collapse justify-content-center" id="despliegueNavBar1">
+                  <div class="collapse navbar-collapse justify-content-center" id="collapaseNavbarLogin">
                      <!-- Right -->
-                     <ul class="navbar-nav">
-                        <li class="nav-item itemsNavbarUsuario">
+                     <ul class="navbar-nav textoNavbarLogin">
+                        <li class="nav-item">
                            <a href="#!" class="nav-link waves-effect ">
-                           <small class="textoGratis">¿Dónde está mi pedido?</small>
+                           <strong class="negritasNavbarLogin">¿Dónde está mi pedido?</strong>
                            </a>
                         </li>
-                        <li class="nav-item itemsNavbarUsuario">
+                        <li class="nav-item">
                            <a href="#!" class="nav-link waves-effect ">
-                           <small class="textoNavbar">  ¿Quieres envíos <strong class="textoGratis">GRATIS</strong>?</small>
+                           <small>  ¿Quieres envíos <strong class="negritasNavbarLogin">GRATIS</strong>?</small>
                            </a>
                         </li>
-                        <li class="nav-item itemsNavbarUsuario">
+                        <li class="nav-item">
                            <a href="#!" class="nav-link waves-effect ">
-                           <small class="textoNavbar">Cambios y Devoluciones</small>
+                           <small>Cambios y Devoluciones</small>
                            </a>
                         </li>
-                        <li class="nav-item itemsNavbarUsuario">
+                        <li class="nav-item">
                            <a href="#!" class="nav-link waves-effect ">
-                           <small class="textoNavbar">Afiliate a impuls</small>
+                           <small>Afiliate a impuls</small>
                            </a>
                         </li>
-                        <li class="nav-item itemsNavbarUsuario">
+                        <li class="nav-item">
                            <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLoginRegistro">
-                           <small class="textoNavbar mr-4"> Login / Registro</small><img src="img/imgOficial/iconos_logos/login icon.svg" alt="" >
+                           <small class=" mr-4"> Login / Registro</small><img src="img/imgOficial/iconos_logos/login icon.svg" alt="" >
                            </a>
                         </li>
-                        <li class="nav-item itemsNavbarUsuario">
-                           <a href="#!" class="nav-link waves-effect bg-dark">
-                           <small class="textNavbarNegro"><u>Captura tu pedido</u></small>
+                        <li class="nav-item">
+                           <a href="#!" class="nav-link waves-effect colorPrimario">
+                           <strong class="textoCapturaPedido"><u>Captura tu pedido</u></strong>
                            </a>
                         </li>
                      </ul>
@@ -141,7 +144,7 @@
             <!-- row (img/navbar/carrito)--->
             <!--col-2 logo-->
             <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
-               <img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="" class="">
+               <a href="#!"><img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
             </div>
             <!--col-2 fin logo-->
             <!--col-6 navbar-->
@@ -985,15 +988,12 @@
             <!--Fin col-6 navbar-->
             <!--col-3 Carrito de compras-->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos">
- 
-               
                <div class="right-inner-addon pull-left col-12 md-form ">
-                  <input type="text" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
+                  <input type="text" name="buscar" id="buscar" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
                </div>
-                        <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="corazon">
-                        <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carrito">
-                        <span class="badge badge-pill black carritoCantidad" >4</span>
-
+                  <a href="#!"><img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                  <a href="#!"><img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
+                  <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
             </div>
             <!--Fin col-3 Carrito de compras-->
          </div>
@@ -1012,10 +1012,10 @@
          <div class="col-12 p-0 bannerPrincipal text-left">
             <img src="https://i.pinimg.com/originals/fa/45/96/fa4596ad9a9d39901eeb455ed4f74e44.jpg" alt="" class="img-fluid imgBannerHome">
 
-            <h3 class="textoBannerHome"><u>Niña Urbano</u></h3> 
+            <h3 class="textoBannerHome-1"><u>Niña Urbano</u></h3> 
                <h1 class="textoBannerHome-2">Hasta 50%</h1>
                <h1 class="textoBannerHome-3">de descuento</h1>
-               <button class="btn btnBannerprincipal colorPrimario ">Ver Catálogo</button>
+               <button class="btn btnBannerprincipal colorPrimario" id="btnVerBannerPrincipal">Ver Catálogo</button>
          
             </div>
          </div>
@@ -1034,27 +1034,25 @@
                <div class="divFlotante1">
 
                   <div class="row" style="position: relative;">
-                     <div class="col-7 col-sm-7 col-md-7 col-lg-12" style="position: relative;">
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
                         <h6 class="titulosFlotantes"><u>Caballero</u></h6>
                      </div>
-                     <div class="col-7 col-sm-7 col-md-7 col-lg-12" style="position: relative;">
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
                         <h6 class="subTitulosFlotantes1">Hasta</h6>
                      </div>
-                     <div class="col-7 col-sm-7 col-md-7 col-lg-12" style="position: relative;">
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
                         <h6 class="subTitulosFlotantes2">50%</h6>
                      </div>
-                     <div class="col-7 col-sm-7 col-md-7 col-lg-12" style="position: relative;">
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
                         <h6 class="subTitulosFlotantes1">de descuento</h6>
                      </div>
-                     <div class="col-5 col-sm-5 col-md-5 col-lg-12" style="position: relative;">
+                     <div class="col-5 col-sm-5 col-md-5 col-lg-12">
                         <div data-aos="fade-up">
                            <img class="imagenFlotante1" src="img/imgOficial/fotos/01 home/z2-a.png">
                         </div>
                      </div>
-                     <div class="col-7 col-sm-7 col-md-7 col-lg-12" style="position: relative;">
-                        <button class="btn btnImgFlotante1">
-                           <h6 class="textoBtnFlotante">Ver más</h6>
-                        </button>
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <button class="btn btnGeneralFlotante btnImgFlotante1" id="btnImgFlotante1">Ver más</button>
                      </div>
                     
                   </div>
@@ -1075,9 +1073,7 @@
                            <h6 class="subTitulosFlotantes1">Nueva Temporada</h6>
                            <h6 class="subTitulosFlotantes1">Otoño - Invierno</h6>
                            <h6 class="subTitulosFlotantes1">2020</h6>
-                           <button class="btn btnImgFlotante2">
-                              <h6 class="textoBtnFlotante">Ver más</h6>
-                           </button>
+                           <button class="btn btnGeneralFlotante btnImgFlotante2" id="btnImgFlotante2">Ver más</button>
                         </div>
                         <div class="col-4" style="height:100%;position: relative;">
                            <div data-aos="fade-down">
@@ -1105,12 +1101,9 @@
                         <h6 class="subTitulosFlotantes1">Ahorra hasta</h6>
                         <h6 class="subTitulosFlotantes2">32%</h6>
                         <h6 class="subTitulosFlotantes1">como socio</h6>
-                        <button class="btn btnImgFlotante3">
-                           <h6 class="textoBtnFlotante">Ver más</h6>
-                        </button>
+                        <button class="btn btnGeneralFlotante btnImgFlotante3" id="btnImgFlotante3">Ver más</h6></button>
                      </div>
                   </div>
-
 
                </div>
                <!-- Fin divFlotante3 -->
@@ -1135,21 +1128,21 @@
          LOS MÁS VENDIDOS
          ================================================= -->
       <section class="container contenedorMasVendido">
-         <h5 class="tituloMasVendido text-center">Los más vendidos</h5>
+         <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
          <div class="row margenProductos">
             <div class="col-6 col-sm-6 col-md-3 col-lg-2">
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-1-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-1-a.jpg" alt="mas vendidos">
                      <h4 class="mb-0">
-                        <span class="badge  badge-pill badge-news etiqueta">
+                        <span class="badge badge-pill badge-news etiqueta">
                            <h6 class="textoEtiqueta">NUEVO</h6>
                         </span>
                      </h4>
                      <a href="pages/detalleProducto/index.html" target="_blank">
                         <div class="mask">
-                           <img class="img-fluid w-100"
+                           <img class="img-fluid w-100 verProducto"
                               src="img/mas vendido/tenis-1.jpg">
                            <div class="mask"></div>
                         </div>
@@ -1158,9 +1151,7 @@
                   <div class="card-body  m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
                      <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h1 class="textoBtnMasVendido">Agregar a carrito</h1>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1171,10 +1162,10 @@
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-2-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
                      <a href="#!">
                         <div class="mask">
-                           <img class="img-fluid w-100"
+                           <img class="img-fluid w-100 verProducto"
                               src="img/mas vendido/tenis-2.jpg">
                            <div class="mask"></div>
                         </div>
@@ -1186,9 +1177,7 @@
                         <span class=" textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1199,7 +1188,7 @@
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-3-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-3-a.jpg" alt="mas vendidos">
                      <h4 class="mb-0">
                         <span class="badge badge-pill badge-news etiqueta">
                            <h6 class="textoEtiqueta">NUEVO</h6>
@@ -1207,7 +1196,7 @@
                      </h4>
                      <a href="#!">
                         <div class="mask">
-                           <img class="img-fluid w-100"
+                           <img class="img-fluid w-100 verProducto"
                               src="img/mas vendido/tenis-3.jpg">
                            <div class="mask"></div>
                         </div>
@@ -1219,9 +1208,7 @@
                         <span class=" textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1232,7 +1219,7 @@
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-4-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-4-a.jpg" alt="mas vendidos">
                      <h4 class="mb-0">
                         <span class="badge badge-pill badge-news etiqueta">
                            <h6 class="textoEtiqueta">NUEVO</h6>
@@ -1240,7 +1227,7 @@
                      </h4>
                      <a href="#!">
                         <div class="mask">
-                           <img class="img-fluid w-100"
+                           <img class="img-fluid w-100 verProducto"
                               src="img/mas vendido/tenis-4.jpg">
                            <div class="mask"></div>
                         </div>
@@ -1252,9 +1239,7 @@
                         <span class=" textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1266,10 +1251,10 @@
                <div class="card eliminarSombra">
                   <!-- Image with zoom -->
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-5-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-5-a.jpg" alt="mas vendidos">
                      <a href="#!">
                         <div class="mask">
-                           <img class="img-fluid w-100" src="img/mas vendido/tenis-5.jpg">
+                           <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-5.jpg">
                            <div class="mask"></div>
                         </div>
                      </a>
@@ -1281,9 +1266,7 @@
                         <span class=" textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1294,7 +1277,7 @@
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
-                     <img class="img-fluid w-100" src="img/mas vendido/tenis-2-a.jpg" alt="Sample">
+                     <img class="img-fluid w-100 verProducto" src="img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
                      <h4 class="mb-0">
                         <span class="badge badge-pill badge-news etiqueta">
                            <h6 class="textoEtiqueta">NUEVO</h6>
@@ -1302,7 +1285,7 @@
                      </h4>
                      <a href="#!">
                         <div class="mask">
-                           <img class="img-fluid w-100"
+                           <img class="img-fluid w-100 verProducto"
                               src="img/mas vendido/tenis-2.jpg">
                            <div class="mask"></div>
                         </div>
@@ -1314,9 +1297,7 @@
                         <span class="textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <button class="btn btn-md btnMasVendido">
-                        <h6 class="textoBtnMasVendido">Agregar a carrito</h6>
-                     </button>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
                <!-- Card -->
@@ -1336,10 +1317,10 @@
       <section class="container-fluid recomendados">
          <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-5">
-               <h2 class="tituloRecomendados">Productos recomendados</h2>
+               <h2 class="textoTitulosSeccion">Productos recomendados</h2>
             </div>
             <div class="col-12 col-sm-12 col-md-10 col-lg-8 text-center mb-3">
-               <p  class="tituloRecomendadosSecundario">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
+               <p  class="poppins18">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
             </div>
          </div>
          <!-- Row -->
@@ -1351,11 +1332,11 @@
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-1.jpg"
-                        class="card-img-top imgRadius"
+                        class="card-img-top imgRadius verProducto"
                         alt="..."/>
-                     <span class="badge badge-pill
+                     <span class="badge badge-pill etiqueta
                         etiquetaRecomendados">
-                        <h6 class="textoEtiquetaRecomendados">NUEVO</h6>
+                        <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
@@ -1369,23 +1350,21 @@
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -1402,11 +1381,11 @@
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-2.jpg"
-                        class="card-img-top imgRadius"
+                        class="card-img-top imgRadius verProducto"
                         alt="..."/>
-                     <span class="badge  badge-pill
+                     <span class="badge  badge-pill etiqueta
                         etiquetaRecomendadosOferta">
-                        <h6 class="textoEtiquetaRecomendados">OFERTA</h6>
+                        <h6 class="textoEtiqueta">OFERTA</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
@@ -1414,26 +1393,24 @@
                      <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
                      <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
                      <h6 class="mb-3 textoPrecioProducto"><span class="textoPrecioProducto">$36.99</span></h6>
-                      <!--row anidado -->
-                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
+                       <!--row anidado -->
+                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -1450,11 +1427,11 @@
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-3.jpg"
-                        class="card-img-top imgRadius"
+                        class="card-img-top imgRadius verProducto"
                         alt="..."/>
-                     <span class="badge  badge-pill
+                     <span class="badge  badge-pill etiqueta
                         etiquetaRecomendados">
-                        <h6 class="textoEtiquetaRecomendados">NUEVO</h6>
+                        <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
@@ -1468,23 +1445,21 @@
                       <!--row anidado -->
                       <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -1502,11 +1477,11 @@
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-4.jpg"
-                        class="card-img-top imgRadius"
+                        class="card-img-top imgRadius verProducto"
                         alt="..."/>
-                     <span class="badge  badge-pill
+                     <span class="badge  badge-pill etiqueta
                         etiquetaRecomendadosOferta">
-                        <h6 class="textoEtiquetaRecomendados">OFERTA</h6>
+                        <h6 class="textoEtiqueta">OFERTA</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
@@ -1517,23 +1492,21 @@
                       <!--row anidado -->
                       <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -1895,7 +1868,7 @@
       <section class="container-fluid visto">
          <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-md-5">
-               <h1 class="textoVistosRecientemente">Productos vistos recientemente</h1>
+               <h1 class="textoTitulosSeccion mt-5">Productos vistos recientemente</h1>
             </div>
          </div>
          <!-- Row -->
@@ -1921,23 +1894,21 @@
                       <!--row anidado -->
                       <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -1965,26 +1936,24 @@
                         <span class="textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
+                      <!--row anidado -->
+                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -2015,23 +1984,21 @@
                       <!--row anidado -->
                       <div class="row mt-4 pl-3 align-items-end justify-content-start">
                         <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                           <button class="btn btn-md btnRecomendados">
-                              <h6 class="textoBtnRecomendados">Ver más</h6>
-                           </button>
+                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                           <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                           <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
                         </div>
                      </div>
@@ -2059,26 +2026,24 @@
                         <span class="textoPrecioProducto"><s>$36.99</s></span>
                         <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                      </h6>
-                   <!--row anidado -->
-                   <div class="row mt-4 pl-3 align-items-end justify-content-start">
+                    <!--row anidado -->
+                    <div class="row mt-4 pl-3 align-items-end justify-content-start">
                      <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                        <button class="btn btn-md btnRecomendados">
-                           <h6 class="textoBtnRecomendados">Ver más</h6>
-                        </button>
+                        <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                        <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                        <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                        <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                         </a>
                      </div>
                   </div>

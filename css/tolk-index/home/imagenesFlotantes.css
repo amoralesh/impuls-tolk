@@ -1,161 +1,143 @@
-.rowFlotante{
-    position: relative;
-    height: 440px;
-}
+        .rowFlotante{
+            position: relative;
+            height: 440px;
+        }
 
-.rowFlotanteAnidado{
-    position: relative;
-    height: 440px;
-}
-
-
-
-.divFlotante1{
-    border-radius: 20px;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    background-image: radial-gradient(circle at 11% 1%, #c2bba1, #877548 117%);
-    position:absolute;
-    width:93%;
-    height:140%;
-    left: 0%;
-    bottom: 0px;
-    z-index: 999;
-    padding: 6%;
-}
-
-.divFlotante2{
-    border-radius: 20px;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(104deg, #616161 -10%, #616161 116%);
-    position: absolute;
-    width: 100%;
-    height:130%;
-    /* right: 4%; */
-    bottom: 50%;
-    z-index: 999;
-    padding: 4%;
-
-}
-
-.divFlotante3{
-    border-radius: 20px;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(110deg, #774363 -7%, #c26ea2 98%);
-    position: absolute;
-    width: 100%;
-    height:130%;
-    /* right: 4%; */
-    bottom: 0%;
-    z-index: 999;
-    padding: 4%;
-}
+        .rowFlotanteAnidado{
+            position: relative;
+            height: 440px;
+        }
 
 
-.btnImgFlotante1{
-    /* bottom: 14px; */
-     width: 166px;
-     height: 52px;
-     border-radius: 10px;
-     background-color: #c9be9b!important;
-     text-transform: none;
-     border-radius: 11px!important;
-     -webkit-border-radius: 11px!important;
-     -moz-border-radius: 11px!important;
-     -ms-border-radius: 11px!important;
-     -o-border-radius: 11px!important;
-  }
 
-  .btnImgFlotante2{
-    position: relative;
-    width: 166px;
-    height: 52px;
-    bottom: -17px;
-    background-color: #ababab;
-    text-transform: none;
-    padding: 14px 43px!important;
-    border-radius: 10px!important;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
-}
+        .divFlotante1{
+            border-radius: 20px;
+            box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+            background-image: radial-gradient(circle at 11% 1%, #c2bba1, #877548 117%);
+            position:absolute;
+            width:93%;
+            height:140%;
+            left: 0%;
+            bottom: 0px;
+            z-index: 999;
+            padding: 6%;
+        }
 
-.btnImgFlotante3{
-    bottom: -18px;
-    text-transform: none;
-    padding: 14px 43px!important;
-    width: 166px;
-    height: 52px;
-    background-color: #e98dc6;
-    border-radius: 10px!important;;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
+        .divFlotante2{
+            border-radius: 20px;
+            box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+            background-image: linear-gradient(104deg, #616161 -10%, #616161 116%);
+            position: absolute;
+            width: 100%;
+            height:130%;
+            /* right: 4%; */
+            bottom: 50%;
+            z-index: 999;
+            padding: 4%;
+
+        }
+
+        .divFlotante3{
+            border-radius: 20px;
+            box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+            background-image: linear-gradient(110deg, #774363 -7%, #c26ea2 98%);
+            position: absolute;
+            width: 100%;
+            height:130%;
+            /* right: 4%; */
+            bottom: 0%;
+            z-index: 999;
+            padding: 4%;
+        }
+
+        .titulosFlotantes{
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.94;
+            letter-spacing: 0.13px;
+            color: #ffffff;
+        }
+
+        .subTitulosFlotantes1{
+            font-family: PoppinsSemiBold;
+            font-size: 35px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+        .subTitulosFlotantes2{
+            font-family: PoppinsExtramBold;
+            font-size: 75px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.53;
+            letter-spacing: normal;
+            color: #ffffff;
+        }
+
+    .btnGeneralFlotante{
+        position: relative;
+        width: 166px;
+        height: 52px;
+        text-transform: none;
+        font-family: PoppinsBold;
+        font-size: 17px!important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+        color: #ffffff!important;
+        margin-bottom: 0px!important;
+        border-radius: 11px!important;
+        -webkit-border-radius: 11px!important;
+        -moz-border-radius: 11px!important;
+        -ms-border-radius: 11px!important;
+        -o-border-radius: 11px!important;
+    }
+
+    .btnImgFlotante1{
+        border-radius: 10px;
+        background-color: #c9be9b!important;
+    }
+
+    .btnImgFlotante2{
+        bottom: -17px;
+        background-color: #ababab;
+        padding: 14px 43px!important;
+    }
+
+    .btnImgFlotante3{
+        bottom: -18px;
+        padding: 14px 43px!important;
+        background-color: #e98dc6;
+    }
 
 
-.titulosFlotantes{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.94;
-    letter-spacing: 0.13px;
-    color: #ffffff;
-}
 
-.subTitulosFlotantes1{
-    font-family: PoppinsSemiBold;
-    font-size: 35px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: normal;
-    color: #ffffff;
-}
-.subTitulosFlotantes2{
-    font-family: PoppinsExtramBold;
-    font-size: 75px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.53;
-    letter-spacing: normal;
-    color: #ffffff;
-  }
-
-  .textoBtnFlotante{
-    font-family: PoppinsBold;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff!important;
-    margin-bottom: 0px!important;
-}
-
-.imagenFlotante2{
-    position: relative;
-    bottom: 8px;
-    left: -74%;
-    width: 163%;
-    height: 163%;
+    .imagenFlotante2{
+        position: relative;
+        bottom: 8px;
+        left: -74%;
+        width: 163%;
+        height: 163%;
     } 
 
-        /*IMAGEN FLOTANTE 3*/
-        .imagenFlotante3{
-            position: relative;
-            /* bottom: 0px;
-            left: -12%; */
-            width: 100%;
-            height: 100%;
-        } 
+    /*IMAGEN FLOTANTE 3*/
+    .imagenFlotante3{
+        position: relative;
+        /* bottom: 0px;
+        left: -12%; */
+        width: 100%;
+        height: 100%;
+    } 
 
 
         

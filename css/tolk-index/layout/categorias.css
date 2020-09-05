@@ -50,17 +50,17 @@
 	height: 20px!important;
 }
 
-.corazon {
+.verMisFavoritos {
     position: relative;
     top: 20px;
 }
 
-.carrito {
+.verCarritoCompras {
 	position: relative;
 	top: 20px;
 }
 
-.carritoCantidad{
+.cantidadCarrito{
     position: relative;
 	top: 20px;
 }
