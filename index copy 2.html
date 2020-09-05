@@ -21,7 +21,7 @@
       <!-- AOS -->
       <link rel="stylesheet" href="js/aos-master/dist/aos.css">
 
-      <!-- GENERAL -->
+      <!-- TIPOGRAFIA -->
       <link rel="stylesheet" href="css/tolk-index/general/general.css">
       <!-- TIPOGRAFIA -->
       <link rel="stylesheet" href="css/tolk-index/general/tipografia.css">
@@ -50,10 +50,8 @@
       <link rel="stylesheet" href="css/tolk-index/home/bannerPrincipal.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES -->
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes.css">
-      <!-- Estilos TOLK CARRUSEL MARCAS -->
-      <link href="js/slick-master/slick.css" rel="stylesheet"/>
-      <link href="js/slick-master/slick-theme.css" rel="stylesheet"/>
-      <link href="css/tolk-index/home/carruselMarcas.css" rel="stylesheet"/>
+      <!-- Estilos TOLK MARCAS-GLOBALES -->
+      <link rel="stylesheet" href="css/tolk-index/home/marcasGlobales.css">
       <!-- Estilos TOLK OTROS SERVICIOS -->
       <link rel="stylesheet" href="css/tolk-index/home/otrosServicios.css">
       <!-- Estilos TOLK MARCAS EXCLUSIVAS -->
@@ -68,10 +66,6 @@
       
 
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-
-
-     
-
    </head>
    <body class="skin-light">
       <header>
@@ -1027,7 +1021,7 @@
          </div>
       </section>
       <!--===============================================
-         FIN BANNER PRINCIPAL
+         FIN CARRUSEL PRINCIPAL
          ================================================= -->
       <!--===============================================
          PRODUCTOS FLOTANTES
@@ -1323,7 +1317,7 @@
       <section class="container-fluid recomendados">
          <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-5">
-               <h1 class="textoTitulosSeccion">Productos recomendados</h1>
+               <h2 class="textoTitulosSeccion">Productos recomendados</h2>
             </div>
             <div class="col-12 col-sm-12 col-md-10 col-lg-8 text-center mb-3">
                <p  class="poppins18">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
@@ -1532,41 +1526,37 @@
       <!--===============================================
          MARCAS GLOBALES
          ================================================= -->
-   <div class="container-fluid">
-      <h1 class="textoTitulosSeccion">Marcas globales</h1>
-      <section class="regular slider">
-         
-         <div>
-         <img src="https://i.pinimg.com/originals/e1/89/8f/e1898fe6b73a34816f0fa78d31ca9c43.png">
-         </div>
-         <div>
-         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1200px-Adidas_Logo.svg.png">
-         </div>
-         <div>
-         <img src="https://dojiw2m9tvv09.cloudfront.net/34418/1/article/6/15853399018759903.jpg">
-         </div>
-         <div>
-         <img src="https://1000marcas.net/wp-content/uploads/2019/12/PUMA-logo-tm.jpg">
-         </div>
-         <div>
-         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Reebok_logo20.png">
-         </div>
-         <div>
-         <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pirma_Logo.png">
-         </div>
-         <div>
-         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/1024px-Vans-logo.svg.png">
-         </div>
-         <div>
-         <img src="https://cdn.mos.cms.futurecdn.net/h28ZaxtM5kqAGb7587qns-320-80.jpg">
-         </div>
-         <div>
-         <img src="https://inussualbasket.com/wp-content/uploads/2019/04/logo-jordan-1024x587.jpg">
+      <section class="container text-center marcasCarrucel">
+         <label class="tituloMarcasCarrucel">Marcas globales</label>
+         <div id="recipeCarousel" class="carousel slide w-100 mt-5 opacityMarcasCarrusel" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+               <div class="carousel-item row no-gutters active">
+                  <div class="col-2 float-left offset-lg-1"><img class="img-fluid" src="img/marcas/converse.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/adidas.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/nike.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/puma.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/converse.png"></div>
+                  <div class="col-1"></div>
+               </div>
+               <div class="carousel-item row no-gutters">
+                  <div class="col-2 float-left offset-lg-1"><img class="img-fluid" src="img/marcas/adidas.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/nike.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/puma.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/adidas.png"></div>
+                  <div class="col-2 float-left"><img class="img-fluid" src="img/marcas/nike.png"></div>
+                  <div class="col-1 float-left"></div>
+               </div>
+            </div>
+            <a class="carousel-control-prev d-none d-sm-none d-md-none d-lg-block" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next d-none d-sm-none d-md-none d-lg-block" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
          </div>
       </section>
-
-   </div>
-        
       <!--===============================================
          FIN MARCAS GLOBALES
          ================================================= -->
@@ -1713,42 +1703,46 @@
          FIN OTROS 
          ================================================= -->
       <!--===============================================
-         MARCAS EXCLUSIVAS
+         MARCAS PROPIAS
          ================================================= -->
-         <div class="container-fluid">
-            <h1 class="textoTitulosSeccion">Marcas Exclusivas</h1>
-            <section class="regular slider">
-               
-               <div>
-               <img src="https://i.pinimg.com/originals/e1/89/8f/e1898fe6b73a34816f0fa78d31ca9c43.png">
+      <section class="container text-center my-3 mt-5">
+         <div class="row">
+            <div class="col-8 offset-2">
+               <label class="tituloMarcasPropias">Nuestras marcas exclusivas</label>
+               <p class="textoMarcasPropias mt-4">Vestibulum rutrum quam vitae fringilla trincidunt. Suspendisse nec tortor urma. Ut laoreet sodales nisi, qui.</p>
+            </div>
+            <div class="col-12">
+               <div id="carruselMarcasPropias" class="carousel slide w-100 mt-5" data-ride="carousel">
+                  <div class="carousel-inner w-100" role="listbox">
+                     <div class="carousel-item row no-gutters active">
+                        <div class="col-2 float-left offset-1"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/converse.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/puma.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/converse.png"></div>
+                        <div class="col-1"></div>
+                     </div>
+                     <div class="carousel-item row no-gutters">
+                        <div class="col-2 float-left offset-1"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/puma.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/adidas.png"></div>
+                        <div class="col-2 float-left"><img class="img-fluid opacityMarcasCarrusel" src="img/marcas/nike.png"></div>
+                        <div class="col-1 float-left"></div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev d-none d-sm-none d-md-none d-lg-block" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next d-none d-sm-none d-md-none d-lg-block" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
                </div>
-               <div>
-               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1200px-Adidas_Logo.svg.png">
-               </div>
-               <div>
-               <img src="https://dojiw2m9tvv09.cloudfront.net/34418/1/article/6/15853399018759903.jpg">
-               </div>
-               <div>
-               <img src="https://1000marcas.net/wp-content/uploads/2019/12/PUMA-logo-tm.jpg">
-               </div>
-               <div>
-               <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Reebok_logo20.png">
-               </div>
-               <div>
-               <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pirma_Logo.png">
-               </div>
-               <div>
-               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/1024px-Vans-logo.svg.png">
-               </div>
-               <div>
-               <img src="https://cdn.mos.cms.futurecdn.net/h28ZaxtM5kqAGb7587qns-320-80.jpg">
-               </div>
-               <div>
-               <img src="https://inussualbasket.com/wp-content/uploads/2019/04/logo-jordan-1024x587.jpg">
-               </div>
-            </section>
-      
+            </div>
          </div>
+      </section>
       <!--===============================================
          FIN MARCAS PROPIAS
          ================================================= -->
@@ -1788,7 +1782,7 @@
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-lg-5">
                <!-- card -->
                <div class="card">
-                  <div data-aos="flip-left">
+                  <div data-aos="flip-left" data-aos-duration="10000">
                      <img
                         src="img/catalogos/catalogo-1.jpg"
                         class="card-img-top imgRadiusCatalogo"
@@ -2368,13 +2362,6 @@
       <script type="text/javascript" src="js/aos-master/dist/aos.js"></script>
       <!--General-->
       <script type="text/javascript" src="js/tolk-index/general.js"></script>
-
-       <!--CARRUSEL MARCAS-->
-       <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
-       <script type="text/javascript" src="js/slick-master/slick.js"></script>
-       <script type="text/javascript" src="js/tolk-index/carruselMarcas.js"></script>
-
 
       <!--===============================================
                      FIN SCRIPTS

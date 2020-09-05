@@ -63,7 +63,7 @@
     position: relative;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 90%;
+    height: 217px!important;
     top: -45px;
     align-self: center;
     border-radius: 25px;
