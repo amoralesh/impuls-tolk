@@ -15,7 +15,7 @@
     color: #ffffff;
 }
 
-.textoFoooterSecundario{
+.linea p{
   font-family: Poppins;
   font-size: 15px;
   font-weight: normal;
@@ -25,10 +25,6 @@
   letter-spacing: -0.27px;
   color: #ffffff;
   margin-bottom: 0rem!important;
-}
-
-.imgFooter{
-    padding-top: -30px!important;
 }
 
 .linea{
@@ -55,6 +51,11 @@
 .vinculoTerminosPrivacidad {
     text-decoration: none;
     color: black;
+}
+
+.imgFooter >img{
+width: 35px;
+height: 34px;
 }
 
 

@@ -28,25 +28,25 @@ input{
 .btnSuscripcion{
     width: 150px;
     height: 48px;
-    border-radius: 10px;
     background-color: #7588b1;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.textoBtnSuscripcion{
-    font-family: PoppinsBold;
-    font-size: 16px;
-    font-weight: bold;
+    font-family: PoppinsBold!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
+
 
 .custom-control-label{
     font-family: Poppins;
