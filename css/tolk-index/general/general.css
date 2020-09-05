@@ -1,4 +1,8 @@
 .colorPrimario{
+    background-color: #000000;
+    /* color: #ffffff; */
+}
+.colorSecundario{
     background-color: #7588b1;
     color: #ffffff;
 }
