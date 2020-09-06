@@ -1,0 +1,33 @@
+.textoModalEnvios{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.tutuloModalEnvios{
+    font-family: PoppinsBold;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #000000;
+    padding-top: 37%;
+}
+
+.imgModalEnvios{
+    width: 300px!important;
+    height: 114px!important;
+}
+
+
+.textoModalEnvios a:link {text-decoration: none }
+.textoModalEnvios a:visited {color: black;  text-decoration: none }
+.textoModalEnvios a:hover { color: black; text-decoration: none }
+

@@ -53,8 +53,9 @@
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/detalleProducto.css">
       <!-- Estilos  Descripción Producto y Comentarios -->
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/descripcionyComentarios.css">
-      <!-- Your custom styles (optional) -->
-      <link rel="stylesheet" href="../../css/style.css">
+      <!-- Estilos  Modal Envio -->
+      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/modalEnvios.css">
+
    </head>
    <body class="skin-light">
       <header>
@@ -1300,7 +1301,7 @@
                            </div>
 
                            <div class="col-11 accionesCompra">
-                            <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Envío Gratis</strong></a>
+                            <a href="#!" class="caracteristicasDetalle borderDetalle" data-toggle="modal" data-target="#modalEnviosGratis"><strong>Envío Gratis</strong></a>
                             <p class="textoAccionesCompra">Envío gratis a todo México Recibelo de 3 a 5 días</p>
                            </div>
 
@@ -1444,7 +1445,7 @@
                               <h6 class="textoEtiqueta">NUEVO</h6>
                            </span>
                         </h4>
-                        <a href="../../pages/detalleProducto/index.html" target="_blank">
+                        <a href="pages/detalleProducto/index.html" target="_blank">
                            <div class="mask">
                               <img class="img-fluid w-100 verProducto"
                                  src="../../img/mas vendido/tenis-1.jpg">
@@ -1621,7 +1622,7 @@
     <section class="container-fluid visto">
       <div class="row justify-content-center">
          <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-md-5">
-            <h1 class="textoVistosRecientemente">Productos vistos recientemente</h1>
+            <h1 class="textoTitulosSeccion mt-5">Productos vistos recientemente</h1>
          </div>
       </div>
       <!-- Row -->
@@ -1630,12 +1631,12 @@
          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
             <!-- card -->
             <div class="card">
-               <div data-aos="zoom-in">
+               <!-- <div data-aos="zoom-in"> -->
                   <img
                      src="../../img/tenis/visto-1.jpg"
                      class="card-img-top imgVistos"
                      alt="..."/>
-               </div>
+               <!-- </div> -->
                <div class="card-body pt-0">
                   <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
                   <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
@@ -1647,23 +1648,21 @@
                    <!--row anidado -->
                    <div class="row mt-4 pl-3 align-items-end justify-content-start">
                      <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                        <button class="btn btn-md btnRecomendados">
-                           <h6 class="textoBtnRecomendados">Ver más</h6>
-                        </button>
+                        <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                         </a>
                      </div>
                   </div>
@@ -1677,59 +1676,12 @@
          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
             <!-- card -->
             <div class="card">
-               <div data-aos="zoom-in">
+               <!-- <div data-aos="zoom-in"> -->
                   <img
                      src="../../img/tenis/visto-2.jpg"
                      class="card-img-top imgVistos"
                      alt="..."/>
-               </div>
-               <div class="card-body pt-0">
-                  <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
-                  <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
-                  <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                  <h6 class="mb-3 textoPrecioProducto">
-                     <span class="textoPrecioProducto"><s>$36.99</s></span>
-                     <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                  </h6>
-                  <!--row anidado -->
-                  <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                     <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                        <button class="btn btn-md btnRecomendados">
-                           <h6 class="textoBtnRecomendados">Ver más</h6>
-                        </button>
-                     </div>
-                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                        <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
-                        </a>
-                     </div>
-                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                        <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
-                        </a>
-                     </div>
-                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                        <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
-                        </a>
-                     </div>
-                  </div>
-                  <!-- fin row anidado -->
-               </div>
-            </div>
-            <!-- fin card -->
-         </div>
-         <!-- Fin col-2 -->
-         <!-- col-2 -->
-         <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-            <!-- card -->
-            <div class="card">
-               <div data-aos="zoom-in">
-                  <img
-                     src="../../img/tenis/visto-3.jpg"
-                     class="card-img-top imgVistos"
-                     alt="..."/>
-               </div>
+               <!-- </div> -->
                <div class="card-body pt-0">
                   <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
                   <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
@@ -1741,23 +1693,21 @@
                    <!--row anidado -->
                    <div class="row mt-4 pl-3 align-items-end justify-content-start">
                      <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                        <button class="btn btn-md btnRecomendados">
-                           <h6 class="textoBtnRecomendados">Ver más</h6>
-                        </button>
+                        <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                         </a>
                      </div>
                      <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                         <a href="#">
-                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                         </a>
                      </div>
                   </div>
@@ -1771,12 +1721,12 @@
          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
             <!-- card -->
             <div class="card">
-               <div data-aos="zoom-in">
+               <!-- <div data-aos="zoom-in"> -->
                   <img
-                     src="../../img/tenis/visto-4.jpg"
+                     src="../../img/tenis/visto-3.jpg"
                      class="card-img-top imgVistos"
                      alt="..."/>
-               </div>
+               <!-- </div> -->
                <div class="card-body pt-0">
                   <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
                   <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
@@ -1785,26 +1735,69 @@
                      <span class="textoPrecioProducto"><s>$36.99</s></span>
                      <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
                   </h6>
-                <!--row anidado -->
-                <div class="row mt-4 pl-3 align-items-end justify-content-start">
+                   <!--row anidado -->
+                   <div class="row mt-4 pl-3 align-items-end justify-content-start">
+                     <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
+                        <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
+                     </div>
+                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <a href="#">
+                        <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
+                        </a>
+                     </div>
+                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <a href="#">
+                        <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
+                        </a>
+                     </div>
+                     <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <a href="#">
+                        <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
+                        </a>
+                     </div>
+                  </div>
+                  <!-- fin row anidado -->
+               </div>
+            </div>
+            <!-- fin card -->
+         </div>
+         <!-- Fin col-2 -->
+         <!-- col-2 -->
+         <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
+            <!-- card -->
+            <div class="card">
+               <!-- <div data-aos="zoom-in"> -->
+                  <img
+                     src="../../img/tenis/visto-4.jpg"
+                     class="card-img-top imgVistos"
+                     alt="..."/>
+               <!-- </div> -->
+               <div class="card-body pt-0">
+                  <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
+                  <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
+                  <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
+                  <h6 class="mb-3 textoPrecioProducto">
+                     <span class="textoPrecioProducto"><s>$36.99</s></span>
+                     <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                  </h6>
+                 <!--row anidado -->
+                 <div class="row mt-4 pl-3 align-items-end justify-content-start">
                   <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-4">
-                     <button class="btn btn-md btnRecomendados">
-                        <h6 class="textoBtnRecomendados">Ver más</h6>
-                     </button>
+                     <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
                   </div>
                   <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                      <a href="#">
-                     <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="" class="lupaTarjeta">
+                     <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
                      </a>
                   </div>
                   <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                      <a href="#">
-                     <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="favoritoTarjeta">
+                     <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                      </a>
                   </div>
                   <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
                      <a href="#">
-                     <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="" class="carritoTarjeta">
+                     <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                      </a>
                   </div>
                </div>
@@ -1823,7 +1816,7 @@
          ================================================= -->
 
          <!--===============================================
-        FIN VISTOS RECIENTEMENTE
+                  MUESTRANOS COMO LUCES
          ================================================= -->
          <section class="container mb-5">
             <h1 class="textoVistosRecientemente">Muestranos cómo luces</h1>
@@ -1847,82 +1840,83 @@
             </div>
          </section>
          <!--===============================================
-        FIN VISTOS RECIENTEMENTE
+                    FIN MUESTRANOS COMO LUCES
          ================================================= -->
 
 
       <!--===============================================
          SUSCRIPCIÓN
          ================================================= -->
-      <div class="container-fluid contenedorSuscripcion">
-         <div class="row">
-            <div class="offset-2 col-8  suscripcion pt-4 pl-5">
-               <div class="row">
-                  <div class="col-5">
-                     <h6 class="textoSuscripcion"><b>Newsletter</b></h6>
-                     <p class="textoSuscripcion">Suscríbete a nuestro Newsletter y conoce antes que nadie nuestras promociones</p>
-                  </div>
-                  <div class="col-7 pr-4">
-                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Correo electrónico">
-                        <span class="input-group-btn">
-                           <button class="btn btnSuscripcion p-0" type="button">
-                              <h6 class="textoBtnSuscripcion mb-0">Enviar</h6>
-                           </button>
-                        </span>
+         <section class="container-fluid contenedorSuscripcion">
+            <div class="row">
+               <div class="offset-lg-2 col-12 col-sm-12 col-md-12 col-lg-8  suscripcion pt-lg-4 pl-lg-5">
+                  <div class="row">
+                     <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                        <h6 class="textoSuscripcion"><b>Newsletter</b></h6>
+                        <p class="textoSuscripcion">Suscríbete a nuestro Newsletter y conoce antes que nadie nuestras promociones</p>
                      </div>
-                     <!-- Default unchecked -->
-                     <div class="custom-control custom-checkbox mt-3">
-                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
-                        <label class="custom-control-label" for="defaultUnchecked">Acepto <u><a href="#" data-toggle="modal" data-target="#terminosCondiciones" class="vinculoTerminosPrivacidad">Términos y Condiciones</a></u> y <a href="#" data-toggle="modal" data-target="#avisoPrivacidad" class="vinculoTerminosPrivacidad"><u>Aviso de Privacidad</u></a></label>
+                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 pr-lg-4">
+                        <form>
+                        <div class="input-group">
+                           <input type="text" class="form-control correoElectronico" placeholder="Correo electrónico">
+                           <span class="input-group-btn">
+                              <button class="btn btnSuscripcion p-0" type="submit">Enviar</button>
+                           </span>
+                        </div>
+   
+                        <!-- Default unchecked -->
+                        <div class="custom-control custom-checkbox mt-3">
+                           <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                           <label class="custom-control-label" for="defaultUnchecked">Acepto <u><a href="#" data-toggle="modal" data-target="#terminosCondiciones" class="vinculoTerminosPrivacidad">Términos y Condiciones</a></u> y <a href="#" data-toggle="modal" data-target="#avisoPrivacidad" class="vinculoTerminosPrivacidad"><u>Aviso de Privacidad</u></a></label>
+                        </div>
+                     </form>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-      </div>
+         </section>
       <!--===============================================
          FIN  SUSCRIPCIÓN
          ================================================= -->
       <!--===============================================
          FOOTER
          ================================================= -->
-      <div class="container-fluid p-0 m-0">
-         <div class="row p-0 m-0 footerImpuls">
-            <div class="col-3 p-0 m-0 linea imgFooter">
-               <img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco">
-               <img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid redesSociales">
-               <img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid redesSociales ml-4">
-               <img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid redesSociales ml-4">
-               <img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid redesSociales ml-4">
+         <footer class="container-fluid p-0 m-0">
+            <div class="row p-0 m-0 footerImpuls">
+               <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               </div>
+               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
+                  <a href="#!"><h4 class="textoFoooter pl-5">Tienda en línea</h4></a> 
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Términos y Condiciones</p></a> 
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Politicas de devolución</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Como comprar</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Aviso de privacidad</p></a>
+               </div>
+               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
+                  <a href="#!"><h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Tutoriales para socio</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Materiales para socio</p></a>
+               </div>
+               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
+                  <a href="#!"><h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Historia</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Misión y Visión</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Contáctanos</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Sucursales</p></a>
+                  <a href="#!"><p class="textoFoooterSecundario pl-5">Compra segura</p></a>
+               </div>
+               <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
             </div>
-            <div class="col-3 p-0 m-0 linea" >
-               <h4 class="textoFoooter pl-5">Tienda en línea</h4>
-               <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
-               <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
-               <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
-               <p class="textoFoooterSecundario pl-5">Como comprar</p>
-               <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
-            </div>
-            <div class="col-3 p-0 m-0 linea">
-               <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
-               <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
-               <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
-               <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
-               <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
-               <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
-            </div>
-            <div class="col-3 p-0 m-0 linea" >
-               <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
-               <p class="textoFoooterSecundario pl-5">Historia</p>
-               <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
-               <p class="textoFoooterSecundario pl-5">Contáctanos</p>
-               <p class="textoFoooterSecundario pl-5">Sucursales</p>
-               <p class="textoFoooterSecundario pl-5">Compra segura</p>
-            </div>
-            <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
-         </div>
-      </div>
+         </footer>
       <!--===============================================
          FIN FOOTER
          ================================================= -->
@@ -2019,9 +2013,7 @@
       <!--===============================================
          MODAL LOGIN/REGISTRO
          ================================================= -->
-      <!--===============================================
-         FIN MODAL LOGIN/REGISTRO
-         ================================================= -->
+
       <!--Modal: Login / Register Form-->
       <div class="modal fade" id="modalLoginRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
          <div class="modal-dialog cascading-modal" role="document">
@@ -2109,6 +2101,70 @@
          </div>
       </div>
       <!--Modal: Login / Register Form-->
+   <!--===============================================
+         FIN MODAL LOGIN/REGISTRO
+   ================================================= -->
+
+         <!--===============================================
+                       MODAL ENVIOS GRATIS
+         ================================================= -->
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalEnviosGratis" tabindex="-1" role="dialog" aria-labelledby="modalEnviosGratisTitle"
+                     aria-hidden="true">
+
+                     <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+
+
+                        <div class="modal-content">
+  
+                           
+                           <div class="modal-body">
+                              <div class="container p-5 text-justify">
+
+                                 
+                                 <div class="row">
+                                    <div class="col-4">
+                                       <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="Envíos gratis" class="img-fluid imgModalEnvios">
+                                    </div>
+                                    <div class="col-6">
+                                       <h1 class="tutuloModalEnvios">Envío Gratis</h1>
+                                    </div>
+                                    <div class="col-1">
+                                                
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                                    </div>
+
+                                 </div>
+
+                                 <div class="row">
+                                   
+
+                                    <div class="col-12 textoModalEnvios">
+                                       <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.</p>
+                                       <p>Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum.</p>
+                                       <p> Donec congue lorem a molestie bibendum. Etiam nisi ante, consectetur eget placerat a, tempus a neque. Donec ut elit urna. Etiam venenatis eleifend urna eget scelerisque. Aliquam in nunc quis dui sollicitudin ornare ac vitae lectus.</p>
+                                       
+                                      <a href="#!"><u>Ver más información</u></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           
+                           </div>
+                       
+
+                        </div>
+
+                     </div>
+                  </div>
+
+
+         <!--===============================================
+                    FIN MODAL ENVIOS GRATIS
+         ================================================= -->
       <!--===============================================
          SCRIPTS
          ================================================= -->

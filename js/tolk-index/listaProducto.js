@@ -37,6 +37,11 @@ $(document).ready(function() {
 
 });
 
+$(".irAFiltros").click(function(){
+  $(".contenedorCategoriasLP").hide();
+  $(".contenedorFiltrosLP").show();
+});
+
 
 $('#multi').mdbRange({
   single: {
