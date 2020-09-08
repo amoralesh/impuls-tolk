@@ -2,6 +2,13 @@
     position: relative;
     width: 1200px;
     height: 200px;
+   
+}
+
+.imgBannerLP{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
     .textoBannerLP-1{
@@ -208,6 +215,9 @@ height: 12px!important;
 .tallas>p:hover{
     color: #ffffff;
 }
+ .sombra{
+height: 20px;
+} 
 
 .vistaRapida {
    position: absolute;
