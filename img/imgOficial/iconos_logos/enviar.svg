@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="34px" viewBox="0 0 45 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9</title>
+    <g id="simbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="enviar-icono" transform="translate(-4.000000, -3.000000)" stroke="#6F6F6F" stroke-width="2">
+            <g id="Group-9" transform="translate(5.000000, 4.000000)">
+                <path d="M43,29.2730399 C43,30.5567965 41.9418906,31.6071429 40.6486457,31.6071429 L2.35135431,31.6071429 C1.05810944,31.6071429 0,30.5567965 0,29.2730399 L0,2.94124586 C0,1.65748921 1.05810944,0.607142857 2.35135431,0.607142857 L40.6486457,0.607142857 C41.9418906,0.607142857 43,1.65748921 43,2.94124586 L43,29.2730399 Z" id="Stroke-1"></path>
+                <line x1="11" y1="18.6071429" x2="1" y2="30.6071429" id="Stroke-3" stroke-linecap="round"></line>
+                <line x1="32" y1="18.6071429" x2="42" y2="30.6071429" id="Stroke-5" stroke-linecap="round"></line>
+                <polyline id="Stroke-7" stroke-linecap="round" points="1 0.73697134 21.5852431 16.6071429 42 0.607142857"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

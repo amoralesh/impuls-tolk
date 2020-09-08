@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>editar</title>
+    <g id="simbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="carrito-detallado-editar" transform="translate(-3.000000, -115.000000)">
+            <g id="Group" transform="translate(4.000000, 115.000000)">
+                <g transform="translate(0.000000, 1.370370)" id="Group-11">
+                    <path d="M6.35881458,15.6698207 L0.0886479167,17.938792 L1.90410625,11.5756124 L11.8636271,0.3919884 C12.2921688,-0.0796517121 13.1910437,0.00372075472 13.8614812,0.57595905 L16.0183563,2.42772355 C16.6880854,3.00237345 16.8857104,3.8598696 16.4561062,4.33254326 L6.35881458,15.6698207 Z" id="Stroke-1" stroke="#A6A7A9" stroke-linejoin="round"></path>
+                    <line x1="6.67214583" y1="15.314213" x2="1.99785417" y2="11.250322" id="Stroke-3" stroke="#A6A7A9" stroke-linejoin="round"></line>
+                    <polygon id="Fill-5" fill="#A6A7A9" points="0.762697917 16.0642896 1.99803125 17.1508878 0.08871875 17.938792"></polygon>
+                    <line x1="4.33999375" y1="13.331912" x2="11.1283063" y2="5.84079252" id="Stroke-7" stroke="#A6A7A9" stroke-linejoin="round"></line>
+                    <line x1="10.2983875" y1="2.3170311" x2="14.6882833" y2="6.08395073" id="Stroke-9" stroke="#A6A7A9" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

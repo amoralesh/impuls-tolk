@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <polygon id="path-1" points="0 0.1401 13.8528 0.1401 13.8528 13.9931 0 13.9931"></polygon>
+        <polygon id="path-3" points="0.7661 0.0171 6.47306782 0.0171 6.47306782 11 0.7661 11"></polygon>
+    </defs>
+    <g id="simbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconos" transform="translate(-3.000000, -1.000000)">
+            <g id="Group" transform="translate(3.000000, 1.859900)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M6.9268,0.1401 C3.1018,0.1401 -0.0002,3.2411 -0.0002,7.0671 C-0.0002,10.8921 3.1018,13.9931 6.9268,13.9931 C10.7518,13.9931 13.8528,10.8921 13.8528,7.0671 C13.8528,3.2411 10.7518,0.1401 6.9268,0.1401" id="Fill-1" fill="#1F79EB" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-6" transform="translate(3.000000, 3.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M6.1821,4.1411 L4.3551,4.1411 L4.3551,2.8631 C4.3551,2.2831 4.5161,1.8871 5.3481,1.8871 L6.1181,1.8871 C6.2781,1.8871 6.4081,1.7571 6.4081,1.5971 L6.4081,0.3081 C6.4081,0.1471 6.2781,0.0171 6.1181,0.0171 L4.8631,0.0171 C3.3341,0.0171 2.2871,0.9511 2.2871,2.6641 L2.2871,4.1411 L1.0571,4.1411 C0.8961,4.1411 0.7661,4.2721 0.7661,4.4331 L0.7731,5.9611 C0.7731,6.1211 0.9031,6.2511 1.0631,6.2511 L2.2951,6.2511 L2.2871,10.8031 C2.2871,10.8031 2.9491,11.0451 4.3551,10.9931 L4.3631,6.2511 L6.0011,6.2511 C6.1481,6.2511 6.2721,6.1411 6.2901,5.9951 L6.4711,4.4661 C6.4911,4.2931 6.3561,4.1411 6.1821,4.1411" id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

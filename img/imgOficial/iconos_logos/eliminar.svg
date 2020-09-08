@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="17px" viewBox="0 0 14 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eliminar</title>
+    <g id="simbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="carrito-detallado-editar" transform="translate(-101.000000, -117.000000)" stroke="#000000">
+            <g id="Group-2" transform="translate(101.000000, 115.000000)">
+                <g id="Group" transform="translate(0.000000, 2.187500)">
+                    <g id="Group-13" transform="translate(0.291667, 0.291667)">
+                        <path d="M3.9332125,2.486575 L3.9332125,1.09386667 C3.9332125,0.532408333 4.3925875,0.0730333333 4.95375417,0.0730333333 L8.17929583,0.0730333333 C8.74075417,0.0730333333 9.20012917,0.532408333 9.20012917,1.09386667 L9.20012917,2.486575" id="Stroke-1"></path>
+                        <path d="M12.0275458,4.10526667 L11.6186292,14.7858083 C11.5938375,15.4268917 11.0490042,15.9516 10.4070458,15.9516 L2.96954583,15.9516 C2.32787917,15.9516 1.77225417,15.427475 1.73462917,14.786975 L1.1060875,4.104975" id="Stroke-3"></path>
+                        <line x1="0" y1="2.54837917" x2="13.1334583" y2="2.54837917" id="Stroke-5"></line>
+                        <line x1="6.56646667" y1="14.2295708" x2="6.56646667" y2="4.07607083" id="Stroke-7"></line>
+                        <line x1="8.89697083" y1="14.2295708" x2="9.17434583" y2="4.0684875" id="Stroke-9"></line>
+                        <line x1="3.95914167" y1="4.0802125" x2="4.24526667" y2="14.2296292" id="Stroke-11"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="57px" viewBox="0 0 51 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 16</title>
+    <g id="simbolos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="print-icono" transform="translate(-4.000000, -5.000000)">
+            <g id="Group-16" transform="translate(5.000000, 6.000000)">
+                <line x1="19" y1="38.9067797" x2="31" y2="38.9067797" id="Stroke-1" stroke="#6F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="42" y1="29.9067797" x2="7" y2="29.9067797" id="Stroke-2" stroke="#6F6F6F" stroke-width="2"></line>
+                <line x1="19" y1="38.9067797" x2="31" y2="38.9067797" id="Stroke-3" stroke="#6F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="19" y1="45.9067797" x2="31" y2="45.9067797" id="Stroke-4" stroke="#6F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <g id="Group-15" transform="translate(0.000000, 0.406780)">
+                    <path d="M7.83709322,38.9163046 L2.69873729,38.9163046 C1.32922881,38.9163046 0.207211864,37.7939354 0.207211864,36.4239969 L0.207211864,16.1332892 C0.207211864,14.7633508 1.32922881,13.6409815 2.69873729,13.6409815 L46.4939407,13.6409815 C47.8634492,13.6409815 48.9854661,14.7633508 48.9854661,16.1332892 L48.9854661,36.4239969 C48.9854661,37.7939354 47.8634492,38.9163046 46.4939407,38.9163046 L41.2658898,38.9163046" id="Stroke-5" stroke="#6F6F6F" stroke-width="2" stroke-linejoin="round"></path>
+                    <polyline id="Stroke-7" stroke="#6F6F6F" stroke-width="2" points="37.2512119 30.1032554 37.2512119 53.79264 11.9414661 53.79264 11.9414661 30.1032554"></polyline>
+                    <polyline id="Stroke-9" stroke="#6F6F6F" stroke-width="2" points="11.9417983 13.5267508 11.9417983 0.789396923 37.2515441 0.789396923 37.2515441 13.5267508"></polyline>
+                    <path d="M8.44220169,20.7659908 C8.44220169,21.1248831 8.15484576,21.41316 7.79689661,21.41316 C7.43977797,21.41316 7.1491,21.1248831 7.1491,20.7659908 C7.1491,20.4070985 7.43977797,20.1188215 7.79689661,20.1188215 C8.15484576,20.1188215 8.44220169,20.4070985 8.44220169,20.7659908" id="Fill-11" fill="#394553"></path>
+                    <path d="M8.44220169,20.7659908 C8.44220169,21.1248831 8.15484576,21.41316 7.79689661,21.41316 C7.43977797,21.41316 7.1491,21.1248831 7.1491,20.7659908 C7.1491,20.4070985 7.43977797,20.1188215 7.79689661,20.1188215 C8.15484576,20.1188215 8.44220169,20.4070985 8.44220169,20.7659908 Z" id="Stroke-13" stroke="#6F6F6F" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
