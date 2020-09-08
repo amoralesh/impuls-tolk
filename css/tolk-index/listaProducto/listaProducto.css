@@ -209,3 +209,276 @@ height: 12px!important;
     color: #ffffff;
 }
 
+.vistaRapida {
+   position: absolute;
+   display: none;
+   bottom: 0px;
+   left: 15px;
+   text-transform: none;
+   background-color: #000000;
+   color: #fff;
+}
+
+img:hover + .vistaRapida, .vistaRapida:hover {
+    display: inline-block;
+    color: #fff;
+}
+/* 
+.sombra:hover{
+    padding: 15px;
+    -webkit-box-shadow:    inset 20px 16px 13px -11px #ABA8A8!important;
+    -moz-box-shadow:    inset 20px 16px 13px -11px #ABA8A8!important;
+    box-shadow:    inset 20px 16px 13px -11px #ABA8A8!important; 
+} */
+
+
+
+
+/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
+/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
+/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
+
+  
+      .sku{
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.71;
+          letter-spacing: normal;
+          color: #000000;
+      }
+      .nombreProductoDetalle{
+          font-family: PoppinsBold;
+          font-size: 24px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          color: #000000; 
+      }
+  
+      .textosPrecios{
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          color: #2c2c2c; 
+      }
+  
+      .precioSocio{
+          font-family: PoppinsSemiBold;
+          font-size: 22px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.91;
+          letter-spacing: normal;
+          color: #f75454;
+      }
+
+  
+      .skin-light .number-input.number-input {
+          width: 180px!important;
+          border-radius: 8px;
+          border: solid 0.1px #DCD4D4;
+          margin-right: -13px;
+      }
+
+      .skin-light .number-input.number-input button:before, .skin-light .number-input.number-input button:after {
+        width: .5rem;
+        background-color: #495057;
+        opacity: 0.3;
+    }
+
+    .skin-light .number-input.number-input input[type=number] {
+        max-width: 2rem;
+        padding: .5rem;
+        border: none!important;
+        border-width: 0 1px;
+        font-size: 1rem;
+        height: 2rem;
+        color: #000000;
+    }
+
+    .skin-light .number-input.number-input button {
+      width: 1.5rem;
+      height: .7rem;
+  }
+  
+      .cantidadValor{
+          font-family: PoppinsSemiBold;
+          font-size: 20px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          text-align: center;
+          color: #2c2c2c;
+      }
+  
+      .cantidadProducto{
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          color: #2c2c2c;
+          margin: 0px -5px 0px 5px;
+      }
+  
+      .btnFavorito{
+          border-radius: 8px;
+          box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+          border: solid 0.8px #000000;
+      }
+  
+      .textoCompraProtegida{
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.21;
+          letter-spacing: normal;
+          color: #6f6f6f;
+      }
+  
+      
+      .botonesAgregarComprar{
+          width: 180px;
+          height: 45px;
+          border-radius: 8px;
+  
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+          text-transform: none;
+      }
+  
+      .btnAgregarCarritoDetalle{
+          background-color: #7588b1;  
+      }
+  
+      .btnComprarDetalle{
+          background-color: #000000;
+      }
+  
+      .textoProductoDisponible{
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          color: #3ea832;
+      }
+
+      .seleccioneTalla{
+          height: 54px;
+      }
+
+      .textoDescripcionModal{
+        font-family: PoppinsSemiBold;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+        color: #2c2c2c;
+      }
+
+      .textoDescripcionModal >p{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #000000;
+      }
+  
+
+      .imgMarca {
+          width: 75px;
+          height: 40px;
+          float: right;
+      }
+
+      .borderMarca{
+          width: 160px;
+          height: 110px;
+          border: black 1px solid;
+          border-radius: 13px;
+          -webkit-border-radius: 13px;
+          -moz-border-radius: 13px;
+          -ms-border-radius: 13px;
+          -o-border-radius: 13px;
+}
+
+.list-group-flush .list-group-item{
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #000000;
+    padding:0px!important;
+  
+
+}
+
+.list-group-flush .list-group-item strong{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.irAFiltros{
+    text-align: left!important;
+    border-bottom: 1px solid black!important;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.89;
+    letter-spacing: normal;
+    color: #6f6f6f;
+}
+
+.subcategorias{
+    align-items: left!important;
+}
+
+.skin-light .navbar .navbar-nav {
+    -webkit-box-align: left!important;
+    -ms-flex-align: left!important;
+    align-items: left!important;
+}

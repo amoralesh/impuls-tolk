@@ -129,6 +129,18 @@
         color: #2c2c2c;
     }
 
+    .cantidadProducto{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #2c2c2c;
+        margin: 0px 20px 0px 5px;
+    }
+
     .btnFavoritoDetalle{
         border-radius: 8px;
         box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
@@ -171,17 +183,7 @@
         cursor: pointer;
     }
 
-    .cantidadProducto{
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.43;
-        letter-spacing: normal;
-        color: #2c2c2c;
-        margin: 0px 20px 0px 5px;
-    }
+
 
     .skin-light .number-input.number-input button:before, .skin-light .number-input.number-input button:after {
         width: .5rem;
