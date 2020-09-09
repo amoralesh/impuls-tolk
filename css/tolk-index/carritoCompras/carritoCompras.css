@@ -1,0 +1,200 @@
+    .tituloCarrito{
+        font-family: PoppinsBold;
+        font-size: 35px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .textDetalleCompra{
+        font-family: PoppinsSemiBold;
+        font-size: 22px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+        color: #2c2c2c;
+    }
+
+    .textAlerta{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #ffff;
+    }
+    
+    .skuCC{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .nombreProductoCC{
+        font-family: PoppinsSemiBold;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    #idCantidad{
+        height: 39px!important;
+        width: 65px!important;
+    }
+
+    .accionesCompraCarrito{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.54;
+        letter-spacing: normal;
+        color: #000000;
+        margin-right: 3px;
+    }
+
+    .accionesCompraCarrito ~ .fas{
+        position: relative!important;
+        bottom: -85px!important;
+    }
+
+    .btnsCarrito{
+        width: 310px;
+        height: 45px;
+        font-family: PoppinsSemiBold;
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 23px!important;
+        text-transform: none;
+        border-radius: 8px!important;
+        -webkit-border-radius: 8px!important;
+        -moz-border-radius: 8px!important;
+        -ms-border-radius: 8px!important;
+        -o-border-radius: 8px!important;
+}
+
+
+
+.caracteristicasDetalle{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+
+}
+
+.borderDetalle{
+    border-bottom: 1px solid black;
+}
+
+.caracteristicasDetalle>strong{
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #000000;
+}
+.necesitaAyuda{
+    list-style: none;
+    padding: 0px;
+
+font-family: PoppinsBold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.subNecesitasAyuda{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13!important;
+    letter-spacing: normal;
+    color: #6f6f6f;
+    text-decoration: none;
+ 
+}
+
+.necesitaAyuda >li{
+ margin-top: 7px;
+}
+
+.textResumenC{
+  font-family: PoppinsBold;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000; 
+}
+
+.subTotalGastos{
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000; 
+}
+
+.textoTotalPagar{
+    font-family: PoppinsBold!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.descargarPedido{
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000;
+}

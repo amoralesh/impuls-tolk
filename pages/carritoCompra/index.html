@@ -21,45 +21,37 @@
       <link rel="stylesheet" href="../../css/mdb.ecommerce.min.css">
       <!-- AOS -->
       <link rel="stylesheet" href="../../js/aos-master/dist/aos.css">
-    
-       <!-- TIPOGRAFIA -->
-       <link rel="stylesheet" href="../../css/tolk-index/general/general.css">
-       <!-- TIPOGRAFIA -->
-       <link rel="stylesheet" href="../../css/tolk-index/general/tipografia.css">
-       <!-- Estilos TOLK MAS-VENDIDOS -->
-       <link rel="stylesheet" href="../../css/tolk-index/general/masVendidos.css">
-       <!-- Estilos TOLK RECOMENDADOS -->
-       <link rel="stylesheet" href="../../css/tolk-index/general/recomendados.css">
-       <!-- Estilos TOLK VISTOS RECIENTEMENTE -->
-       <link rel="stylesheet" href="../../css/tolk-index/general/vistosRecientemente.css">
- 
-       <!-- Estilos TOLK INFO ENTRGA -->
-       <link rel="stylesheet" href="../../css/tolk-index/layout/infoEntrega.css">
-       <!-- Estilos TOLK NAV-BAR LOGIN-->
-       <link rel="stylesheet" href="../../css/tolk-index/layout/navbarLogin.css">
-       <!-- Estilos TOLK NAV-BAR CATEGORIAS -->
-       <link rel="stylesheet" href="../../css/tolk-index/layout/categorias.css">
-       <!-- Estilos TOLK PAGOS Y SUSCRIPCION -->
-       <link rel="stylesheet" href="../../css/tolk-index/layout/suscripcion.css">
-       <!-- Estilos TOLK FOOTER -->
-       <link rel="stylesheet" href="../../css/tolk-index/layout/footer.css">
-
-
-      <!--========= Estilos Pagina Detalle producto ==========-->
+      <!-- TIPOGRAFIA -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/general.css">
+      <!-- TIPOGRAFIA -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/tipografia.css">
+      <!-- Estilos TOLK MAS-VENDIDOS -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/masVendidos.css">
+      <!-- Estilos TOLK RECOMENDADOS -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/recomendados.css">
+      <!-- Estilos TOLK VISTOS RECIENTEMENTE -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/vistosRecientemente.css">
+      <!-- Estilos TOLK INFO ENTRGA -->
+      <link rel="stylesheet" href="../../css/tolk-index/layout/infoEntrega.css">
+      <!-- Estilos TOLK NAV-BAR LOGIN-->
+      <link rel="stylesheet" href="../../css/tolk-index/layout/navbarLogin.css">
+      <!-- Estilos TOLK NAV-BAR CATEGORIAS -->
+      <link rel="stylesheet" href="../../css/tolk-index/layout/categorias.css">
+      <!-- Estilos TOLK PAGOS Y SUSCRIPCION -->
+      <link rel="stylesheet" href="../../css/tolk-index/layout/suscripcion.css">
+      <!-- Estilos TOLK FOOTER -->
+      <link rel="stylesheet" href="../../css/tolk-index/layout/footer.css">
+      <!--========= Estilos Pagina CARRITO DE COMPRAS ==========-->
       <!--====================================================-->
       <!-- Estilos  MIGAS -->
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/migas.css">
-      <!-- Estilos  Detalle Producto -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/detalleProducto.css">
-      <!-- Estilos  Descripción Producto y Comentarios -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/descripcionyComentarios.css">
-      <!-- Estilos  Modal Envio -->
+      <!-- Estilos Carrito de Compras -->
+      <link rel="stylesheet" href="../../css/tolk-index/carritoCompras/carritoCompras.css">
+      <!-- Estilos Modal Envíos Gratis  -->
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/modalEnvios.css">
-
    </head>
    <body class="skin-light">
       <header>
-         
          <div class="container-fluid p-0">
             <div class="row colorSecundario justify-content-center m-0">
                <div class="col-12 textoInfoEntrega text-center">
@@ -981,9 +973,9 @@
                   <div class="right-inner-addon pull-left col-12 md-form ">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002; Buscar" style="font-family:Arial, FontAwesome" />
                   </div>
-                     <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
-                     <a href="#!"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
-                     <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
+                  <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
                <!--Fin col-3 Carrito de compras-->
             </div>
@@ -994,323 +986,546 @@
       <!--===============================================
          FIN  NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
          ================================================= -->
-
-          <!--===============================================
-                 LISTA DE PRODUCTOS CARRITO DE COMPRAS
+      <!--===============================================
+         LISTA DE PRODUCTOS CARRITO DE COMPRAS
          ================================================= -->
-
-         <section class="container">
+      <section class="colorFondoPrimario">
+         <div class="container">
+            <!--Grid row-->
             <div class="row">
-               <div class="col-8">
-
-                  <div class="row">
-                     <div class="col-3">
-                       <img src="../../img/calzado/zapatos-h-1.png" class="img-fluid" alt="">
-                     </div>
-
-                     <div class="col-6">
-
-                        <h6>Bubble Gum Kilian Tela VIR FUI/ROS 12/17</h6>
-                        <p>Sku: 637800</p>
-
-                        <div class="form-group row">
-                           <label for="staticEmail" class="col-sm-5 col-form-label pr-0">Ordenar por:</label>
-                           <div class="col-sm-7 pl-0">
-                              <select id="inputState" class="form-control">
-                                 <option selected>Relevancia</option>
-                                 <option>Precio</option>
-                                 <option>Fecha</option>
-                                 <option>A-Z</option>
-                              </select>
+               <!--===============================================
+                  MIGAS DE PAN
+                  ================================================= -->
+               <div class="container colorFondoPrimario">
+                  <!--Migas Migas Migas Migas-->
+                  <ul class="breadcrumb">
+                     <li><a href="#">Inicio</a></li>
+                     <li><a href="#">Carrito</a></li>
+                  </ul>
+               </div>
+               <!--===============================================
+                  FIN MIGAS DE PAN
+                  ================================================= -->
+               <div class="col-12">
+                  <div class="alert alert-dismissible fade show textAlerta colorSecundario mb-5" role="alert">
+                     <strong>¡Aviso!</strong> El tiempo de entrega comienza a partir de la confirmación del pago y validación de existencia del producto en el almacén (preventas), fecha que no necesariamente puede ser la del día en que generaste tu pedido, ya que la validación de pagos con tarjeta de crédito o débito puede durar hasta 48 horas hábiles.
+                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <h1 class="tituloCarrito">Carrito de Compra</h1>
+                  <hr>
+                  <h5 class="mb-4 textDetalleCompra">Detalle de la Compra (<span>2</span> items)</h5>
+               </div>
+               <!--Grid column-->
+               <div class="col-lg-8">
+                  <!-- Card -->
+                  <div class="card wish-list mb-4">
+                     <div class="card-body">
+                        <div class="row mb-4">
+                           <div class="col-md-6 col-lg-3 col-xl-3 align-self-center">
+                              <div class="view overlay z-depth-1 rounded mb-3 mb-md-0">
+                                 <img class="img-fluid w-100"
+                                    src="https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3011700.jpg" alt="Sample">
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-9 col-xl-9 pl-0">
+                              <div class="row">
+                                 <div class="col-8">
+                                    <h5 id="nombreProducto" class="nombreProductoCC">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
+                                    <h6  class="skuCC">SKU: 110290</h6>
+                                    <div class="row">
+                                       <div class="col-5">
+                                          <div class="form-group row">
+                                             <label for="staticEmail" class="col-sm-5 col-form-label pr-0">Talla:</label>
+                                             <div class="col-sm-7 pl-0">
+                                                <select id="inputState" class="form-control">
+                                                   <option>5</option>
+                                                   <option>5.5</option>
+                                                   <option>6</option>
+                                                   <option>6.5</option>
+                                                   <option>7</option>
+                                                   <option>7.5</option>
+                                                   <option>8</option>
+                                                   <option>8.5</option>
+                                                   <option>9</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-7 pl-0">
+                                          <div class="form-group row">
+                                             <label for="staticEmail" class="col-sm-5 col-form-label pr-0">Cantidad:</label>
+                                             <div class="col-sm-7 pl-0">
+                                                <input type="text" class="form-control" id="idCantidad" placeholder="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-4">
+                                    <a href="#" class="accionesCompraCarrito"><u>Agregar a wishlist</u>&nbsp;&nbsp;
+                                    <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
+                                    </a>
+                                    <i class="fas fa-pencil-alt"><a href="#" class="accionesCompraCarrito"><u>Editar</u>
+                                    </a></i>
+                                    <i class="fas fa-trash-alt pl-3"><a href="#" class="accionesCompraCarrito"><u>Eliminar</u>
+                                    </a></i>
+                                 </div>
+                              </div>
                            </div>
                         </div>
-
+                        <hr class="mb-4">
+                        <div class="row mb-4">
+                           <div class="col-md-6 col-lg-3 col-xl-3 align-self-center">
+                              <div class="view overlay z-depth-1 rounded mb-3 mb-md-0">
+                                 <img class="img-fluid w-100"
+                                    src="https://www.runnerinn.com/f/13741/137416992/reebok-run-pheehan-5.0.jpg" alt="Sample">
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-9 col-xl-9 pl-0">
+                              <div class="row">
+                                 <div class="col-8">
+                                    <h5 id="nombreProducto" class="nombreProductoCC">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
+                                    <h6  class="skuCC">SKU: 110290</h6>
+                                    <div class="row">
+                                       <div class="col-5">
+                                          <div class="form-group row">
+                                             <label for="staticEmail" class="col-sm-5 col-form-label pr-0">Talla:</label>
+                                             <div class="col-sm-7 pl-0">
+                                                <select id="inputState" class="form-control">
+                                                   <option>5</option>
+                                                   <option>5.5</option>
+                                                   <option>6</option>
+                                                   <option>6.5</option>
+                                                   <option>7</option>
+                                                   <option>7.5</option>
+                                                   <option>8</option>
+                                                   <option>8.5</option>
+                                                   <option>9</option>
+                                                </select>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-7 pl-0">
+                                          <div class="form-group row">
+                                             <label for="staticEmail" class="col-sm-5 col-form-label pr-0">Cantidad:</label>
+                                             <div class="col-sm-7 pl-0">
+                                                <input type="text" class="form-control" id="idCantidad" placeholder="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-4">
+                                    <a href="#" class="accionesCompraCarrito"><u>Agregar a wishlist</u>&nbsp;&nbsp;
+                                    <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
+                                    </a>
+                                    <i class="fas fa-pencil-alt"><a href="#" class="accionesCompraCarrito"><u>Editar</u>
+                                    </a></i>
+                                    <i class="fas fa-trash-alt pl-3"><a href="#" class="accionesCompraCarrito"><u>Eliminar</u>
+                                    </a></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <hr class="mb-4">
                      </div>
-
-                     <div class="col-3">
-
-                     </div>
-
                   </div>
-
-
+                  <!-- Card -->
+                  <!-- Card -->
                </div>
-
-               <div class="col-4">
-
+               <!--Grid column-->
+               <!--Grid column-->
+               <div class="col-lg-4">
+                  <!-- Card -->
+                  <div class="card mb-4">
+                     <div class="card-body">
+                        <h5 class="mb-1 textResumenC">Resumen de la cuenta</h5>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0 subTotalGastos">
+                              Subtotal:
+                              <span>$1,102.90</span>
+                           </li>
+                           <li class="list-group-item d-flex justify-content-between align-items-center px-0 subTotalGastos">
+                              Gastos de envío y empaque:
+                              <span>$0.00</span>
+                           </li>
+                        </ul>
+                        <hr>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0 textoTotalPagar">
+                              Total a pagar:
+                              <span>$1,102.90</span>
+                           </li>
+                        </ul>
+                        <button type="button" class="btn colorSecundario btn-block btnsCarrito">Seguir comprando</button>
+                        <button type="button" class="btn colorPrimario btn-block btnsCarrito">Proceder al pago</button>
+                     </div>
+                     <a href="#!" class="accionesCompraCarrito pb-3 pl-4 descargarPedido"><u>Descargar Pedido<i class="fas fa-download"></i></u>
+                     </a>
+                  </div>
+                  <!-- Card -->
                </div>
-
+               <!--Grid column-->
+               <!--Grid column-->
+               <div class="offset-8 col-lg-4">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-1 p-0">
+                           <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="" class="img-fluid" style="float: left;">
+                        </div>
+                        <div class="col-11 accionesCompra">
+                           <a href="#!" class="caracteristicasDetalle borderDetalle" data-toggle="modal" data-target="#modalEnviosGratis"><strong>Envío Gratis</strong></a>
+                           <p class="textoAccionesCompra">Envío gratis a todo México Recibelo de 3 a 5 días</p>
+                        </div>
+                        <div class="col-1 p-0">
+                           <img src="../../img/imgOficial/iconos_logos/devoluciones.svg" alt="" class="img-fluid" style="float: left;">
+                        </div>
+                        <div class="col-11 accionesCompra">
+                           <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Devoluciones</strong></a>
+                           <p class="textoAccionesCompra">¿No es tu talla? Devuelve en un plazo de 90 días</p>
+                        </div>
+                        <div class="col-1 p-0">
+                           <img src="../../img/imgOficial/iconos_logos/pago seguro.svg" alt="" class="img-fluid" style="float: left;">
+                        </div>
+                        <div class="col-11 accionesCompra">
+                           <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Pago Seguro</strong></a>
+                           <p class="textoAccionesCompra">Puedes pagar con tarjeta o en efectivo</p>
+                        </div>
+                     </div>
+                     <hr>
+                     <div class="col-12 pl-0">
+                        <ul class="necesitaAyuda">
+                           <h6>¿Necesitas Ayuda?</h6>
+                           <li><a href="#!" class="subNecesitasAyuda"><u>¿Puedo devolver mi pedido?</u></a></li>
+                           <li><a href="#!" class="subNecesitasAyuda"><u>Envíos y Plazaos de entrega</u></a></li>
+                           <li><a href="#!" class="subNecesitasAyuda"><u>Cambios y Devoluciones</u></a></li>
+                        </ul>
+                     </div>
+                     <hr>
+                     <div class="col-12 pl-0 mb-5">
+                        <h5 class="mb-4">Metodos de pago</h5>
+                        <img class="mr-2" width="45px"
+                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1000px-Visa_Inc._logo.svg.png"
+                           alt="Visa">
+                        <img class="mr-2" width="45px"
+                           src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                           alt="Mastercard">
+                        <img class="mr-2" width="45px"
+                           src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                           alt="American Express">
+                        <img class="mr-2" width="45px"
+                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1280px-PayPal.svg.png">
+                        <img class="mr-2" width="45px"
+                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Oxxo_Logo.svg/1200px-Oxxo_Logo.svg.png">
+                     </div>
+                  </div>
+               </div>
+               <!--Grid column-->
             </div>
-         </section>
-          <!--===============================================
-                FIN LISTA DE PRODUCTOS CARRITO DE COMPRAS
+            <!--Grid row-->
+         </div>
+      </section>
+      <!--===============================================
+         FIN LISTA DE PRODUCTOS CARRITO DE COMPRAS
          ================================================= -->
-
-
-
       <!--===============================================
          PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
-         <section class="container contenedorMasVendido">
-            <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
-            <div class="row margenProductos">
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-1-a.jpg" alt="mas vendidos">
-                        <h4 class="mb-0">
-                           <span class="badge badge-pill badge-news etiqueta">
-                              <h6 class="textoEtiqueta">NUEVO</h6>
-                           </span>
-                        </h4>
-                        <a href="pages/detalleProducto/index.html" target="_blank">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto"
-                                 src="../../img/mas vendido/tenis-1.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body  m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
+      <section class="container contenedorMasVendido">
+         <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
+         <div class="row margenProductos">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-1-a.jpg" alt="mas vendidos">
+                     <h4 class="mb-0">
+                        <span class="badge badge-pill badge-news etiqueta">
+                           <h6 class="textoEtiqueta">NUEVO</h6>
+                        </span>
+                     </h4>
+                     <a href="pages/detalleProducto/index.html" target="_blank">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto"
+                              src="../../img/mas vendido/tenis-1.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
                   </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto"
-                                 src="../../img/mas vendido/tenis-2.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
+                  <div class="card-body  m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                    <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
-                  <!-- Card -->
                </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-3-a.jpg" alt="mas vendidos">
-                        <h4 class="mb-0">
-                           <span class="badge badge-pill badge-news etiqueta">
-                              <h6 class="textoEtiqueta">NUEVO</h6>
-                           </span>
-                        </h4>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto"
-                                 src="../../img/mas vendido/tenis-3.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-4-a.jpg" alt="mas vendidos">
-                        <h4 class="mb-0">
-                           <span class="badge badge-pill badge-news etiqueta">
-                              <h6 class="textoEtiqueta">NUEVO</h6>
-                           </span>
-                        </h4>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto"
-                                 src="../../img/mas vendido/tenis-4.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <!-- Image with zoom -->
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5-a.jpg" alt="mas vendidos">
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <!-- Image with zoom -->
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
-                        <h4 class="mb-0">
-                           <span class="badge badge-pill badge-news etiqueta">
-                              <h6 class="textoEtiqueta">NUEVO</h6>
-                           </span>
-                        </h4>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 verProducto"
-                                 src="../../img/mas vendido/tenis-2.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class="textoPrecioProducto"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
+               <!-- Card -->
             </div>
-            <!-- Fin row -->
-         </section>
+            <!-- Fin col-2 -->
+            <!-- col-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
+                     <a href="#!">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto"
+                              src="../../img/mas vendido/tenis-2.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="card-body m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                     </h6>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  </div>
+               </div>
+               <!-- Card -->
+            </div>
+            <!-- Fin col-2 -->
+            <!-- col-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-3-a.jpg" alt="mas vendidos">
+                     <h4 class="mb-0">
+                        <span class="badge badge-pill badge-news etiqueta">
+                           <h6 class="textoEtiqueta">NUEVO</h6>
+                        </span>
+                     </h4>
+                     <a href="#!">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto"
+                              src="../../img/mas vendido/tenis-3.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="card-body m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                     </h6>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  </div>
+               </div>
+               <!-- Card -->
+            </div>
+            <!-- Fin col-2 -->
+            <!-- col-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-4-a.jpg" alt="mas vendidos">
+                     <h4 class="mb-0">
+                        <span class="badge badge-pill badge-news etiqueta">
+                           <h6 class="textoEtiqueta">NUEVO</h6>
+                        </span>
+                     </h4>
+                     <a href="#!">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto"
+                              src="../../img/mas vendido/tenis-4.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="card-body m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                     </h6>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  </div>
+               </div>
+               <!-- Card -->
+            </div>
+            <!-- Fin col-2 -->
+            <!-- col-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <!-- Image with zoom -->
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5-a.jpg" alt="mas vendidos">
+                     <a href="#!">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
+                  </div>
+                  <!-- Image with zoom -->
+                  <div class="card-body m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                     </h6>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  </div>
+               </div>
+               <!-- Card -->
+            </div>
+            <!-- Fin col-2 -->
+            <!-- col-2 -->
+            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+               <!-- Card -->
+               <div class="card eliminarSombra">
+                  <div class="view zoom overlay">
+                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
+                     <h4 class="mb-0">
+                        <span class="badge badge-pill badge-news etiqueta">
+                           <h6 class="textoEtiqueta">NUEVO</h6>
+                        </span>
+                     </h4>
+                     <a href="#!">
+                        <div class="mask">
+                           <img class="img-fluid w-100 verProducto"
+                              src="../../img/mas vendido/tenis-2.jpg">
+                           <div class="mask"></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="card-body m-0 p-0">
+                     <h6 class="textoNombreProducto">Nombre producto</h6>
+                     <h6 class="mb-3 textoPrecioProducto">
+                        <span class="textoPrecioProducto"><s>$36.99</s></span>
+                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                     </h6>
+                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  </div>
+               </div>
+               <!-- Card -->
+            </div>
+            <!-- Fin col-2 -->
+         </div>
+         <!-- Fin row -->
+      </section>
       <!-- Fin container -->
       <!--===============================================
          FIN  PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
-
-
- 
-
       <!--===============================================
          SUSCRIPCIÓN
          ================================================= -->
-         <section class="container-fluid contenedorSuscripcion">
-            <div class="row">
-               <div class="offset-lg-2 col-12 col-sm-12 col-md-12 col-lg-8  suscripcion pt-lg-4 pl-lg-5">
-                  <div class="row">
-                     <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                        <h6 class="textoSuscripcion"><b>Newsletter</b></h6>
-                        <p class="textoSuscripcion">Suscríbete a nuestro Newsletter y conoce antes que nadie nuestras promociones</p>
-                     </div>
-                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 pr-lg-4">
-                        <form>
+      <section class="container-fluid contenedorSuscripcion">
+         <div class="row">
+            <div class="offset-lg-2 col-12 col-sm-12 col-md-12 col-lg-8  suscripcion pt-lg-4 pl-lg-5">
+               <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                     <h6 class="textoSuscripcion"><b>Newsletter</b></h6>
+                     <p class="textoSuscripcion">Suscríbete a nuestro Newsletter y conoce antes que nadie nuestras promociones</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-7 pr-lg-4">
+                     <form>
                         <div class="input-group">
                            <input type="text" class="form-control correoElectronico" placeholder="Correo electrónico">
                            <span class="input-group-btn">
-                              <button class="btn btnSuscripcion p-0" type="submit">Enviar</button>
+                           <button class="btn btnSuscripcion p-0" type="submit">Enviar</button>
                            </span>
                         </div>
-   
                         <!-- Default unchecked -->
                         <div class="custom-control custom-checkbox mt-3">
                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
                            <label class="custom-control-label" for="defaultUnchecked">Acepto <u><a href="#" data-toggle="modal" data-target="#terminosCondiciones" class="vinculoTerminosPrivacidad">Términos y Condiciones</a></u> y <a href="#" data-toggle="modal" data-target="#avisoPrivacidad" class="vinculoTerminosPrivacidad"><u>Aviso de Privacidad</u></a></label>
                         </div>
                      </form>
-                     </div>
                   </div>
                </div>
             </div>
-         </section>
+         </div>
+      </section>
       <!--===============================================
          FIN  SUSCRIPCIÓN
          ================================================= -->
       <!--===============================================
          FOOTER
          ================================================= -->
-         <footer class="container-fluid p-0 m-0">
-            <div class="row p-0 m-0 footerImpuls">
-               <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-                  <a href="#!"><h4 class="textoFoooter pl-5">Tienda en línea</h4></a> 
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Términos y Condiciones</p></a> 
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Politicas de devolución</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Como comprar</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Aviso de privacidad</p></a>
-               </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
-                  <a href="#!"><h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Tutoriales para socio</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Materiales para socio</p></a>
-               </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-                  <a href="#!"><h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Historia</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Misión y Visión</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Contáctanos</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Sucursales</p></a>
-                  <a href="#!"><p class="textoFoooterSecundario pl-5">Compra segura</p></a>
-               </div>
-               <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
+      <footer class="container-fluid p-0 m-0">
+         <div class="row p-0 m-0 footerImpuls">
+            <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
+               <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
+               <a href="#!"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
+               <a href="#!"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               <a href="#!"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               <a href="#!"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
             </div>
-         </footer>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
+               <a href="#!">
+                  <h4 class="textoFoooter pl-5">Tienda en línea</h4>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Como comprar</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
+               </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
+               <a href="#!">
+                  <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
+               </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
+               <a href="#!">
+                  <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Historia</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Contáctanos</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Sucursales</p>
+               </a>
+               <a href="#!">
+                  <p class="textoFoooterSecundario pl-5">Compra segura</p>
+               </a>
+            </div>
+            <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
+         </div>
+      </footer>
       <!--===============================================
          FIN FOOTER
          ================================================= -->
@@ -1407,7 +1622,6 @@
       <!--===============================================
          MODAL LOGIN/REGISTRO
          ================================================= -->
-
       <!--Modal: Login / Register Form-->
       <div class="modal fade" id="modalLoginRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
          <div class="modal-dialog cascading-modal" role="document">
@@ -1495,90 +1709,67 @@
          </div>
       </div>
       <!--Modal: Login / Register Form-->
-   <!--===============================================
+      <!--===============================================
          FIN MODAL LOGIN/REGISTRO
-   ================================================= -->
-
-         <!--===============================================
-                       MODAL ENVIOS GRATIS
          ================================================= -->
-
-                  <!-- Modal -->
-                  <div class="modal fade" id="modalEnviosGratis" tabindex="-1" role="dialog" aria-labelledby="modalEnviosGratisTitle"
-                     aria-hidden="true">
-
-                     <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
-                     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-
-
-                        <div class="modal-content">
-  
-                           
-                           <div class="modal-body">
-                              <div class="container p-5 text-justify">
-
-                                 
-                                 <div class="row">
-                                    <div class="col-4">
-                                       <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="Envíos gratis" class="img-fluid imgModalEnvios">
-                                    </div>
-                                    <div class="col-6">
-                                       <h1 class="tutuloModalEnvios">Envío Gratis</h1>
-                                    </div>
-                                    <div class="col-1">
-                                                
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                 <span aria-hidden="true">&times;</span>
-                                 </button>
-                                    </div>
-
-                                 </div>
-
-                                 <div class="row">
-                                   
-
-                                    <div class="col-12 textoModalEnvios">
-                                       <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.</p>
-                                       <p>Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum.</p>
-                                       <p> Donec congue lorem a molestie bibendum. Etiam nisi ante, consectetur eget placerat a, tempus a neque. Donec ut elit urna. Etiam venenatis eleifend urna eget scelerisque. Aliquam in nunc quis dui sollicitudin ornare ac vitae lectus.</p>
-                                       
-                                      <a href="#!"><u>Ver más información</u></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           
-                           </div>
-                       
-
+      <!--===============================================
+         MODAL ENVIOS GRATIS
+         ================================================= -->
+      <!-- Modal -->
+      <div class="modal fade" id="modalEnviosGratis" tabindex="-1" role="dialog" aria-labelledby="modalEnviosGratisTitle"
+         aria-hidden="true">
+         <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+         <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <div class="container p-5 text-justify">
+                     <div class="row">
+                        <div class="col-4">
+                           <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="Envíos gratis" class="img-fluid imgModalEnvios">
                         </div>
-
+                        <div class="col-6">
+                           <h1 class="tutuloModalEnvios">Envío Gratis</h1>
+                        </div>
+                        <div class="col-1">
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12 textoModalEnvios">
+                           <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.</p>
+                           <p>Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum.</p>
+                           <p> Donec congue lorem a molestie bibendum. Etiam nisi ante, consectetur eget placerat a, tempus a neque. Donec ut elit urna. Etiam venenatis eleifend urna eget scelerisque. Aliquam in nunc quis dui sollicitudin ornare ac vitae lectus.</p>
+                           <a href="#!"><u>Ver más información</u></a>
+                        </div>
                      </div>
                   </div>
-
-
-         <!--===============================================
-                    FIN MODAL ENVIOS GRATIS
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--===============================================
+         FIN MODAL ENVIOS GRATIS
          ================================================= -->
       <!--===============================================
          SCRIPTS
          ================================================= -->
-       <!-- jQuery -->
-       <script type="text/javascript" src="../../js/jquery.min.js"></script>
-       <!-- Bootstrap tooltips -->
-       <script type="text/javascript" src="../../js/popper.min.js"></script>
-       <!-- Bootstrap core JavaScript -->
-       <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
-       <!-- MDB core JavaScript -->
-       <script type="text/javascript" src="../../js/mdb.min.js"></script>
-       <!-- MDB eCommerce -->
-       <script type="text/javascript" src="../../js/mdb.ecommerce.min.js"></script>
-       <!--Animaciones-->
-       <!-- AOS -->
-       <script type="text/javascript" src="../../js/aos-master/dist/aos.js"></script>
-       <!--General-->
-       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
-
-
+      <!-- jQuery -->
+      <script type="text/javascript" src="../../js/jquery.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="../../js/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="../../js/mdb.min.js"></script>
+      <!-- MDB eCommerce -->
+      <script type="text/javascript" src="../../js/mdb.ecommerce.min.js"></script>
+      <!--Animaciones-->
+      <!-- AOS -->
+      <script type="text/javascript" src="../../js/aos-master/dist/aos.js"></script>
+      <!--General-->
+      <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <!--===============================================
          SCRIPTS
          ================================================= -->
