@@ -1,0 +1,79 @@
+.estiloInput{
+    height: 40px!important;
+    border: 1px solid black!important;
+}
+
+.estiloInputRegistro{
+    height: 34px!important;
+    border: 1px solid black!important;
+}
+
+.textoNotas{
+    font-family: Poppins;
+    font-size: 18px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #000000!important;
+}
+
+.textoNotas-a{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.titutoInput{
+    font-family: PoppinsSemiBold;
+    font-size: 14px!important;
+    font-weight: 600!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000!important;
+}
+
+.btnIngresar{
+    text-transform: none;
+    width: 152px;
+    height: 45px;
+    background-color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px!important;
+    -webkit-border-radius: 8px!important;
+    -moz-border-radius: 8px!important;
+    -ms-border-radius: 8px!important;
+    -o-border-radius: 8px!important;
+}
+
+.olvidaste{
+    position: relative;
+    bottom: 20px;
+}
+
+.preguntasLogin{
+    font-family: PoppinsSemiBold;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #000000;
+}
