@@ -54,6 +54,10 @@ $(".irAFiltros").click(function(){
 
 
 $('#multi').mdbRange({
+  value: {
+    min: 80,
+    max: 2000
+  },
   single: {
     active: true,
     multi: {
@@ -62,3 +66,18 @@ $('#multi').mdbRange({
     },
   }
 });
+
+$('#multi2').mdbRange({
+  value: {
+    min: 1,
+    max: 5
+  },
+  single: {
+    active: true,
+    multi: {
+      active: true,
+      rangeLength: 1
+    },
+  }
+});
+
