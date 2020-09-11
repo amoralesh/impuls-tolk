@@ -46,6 +46,15 @@ $ ("#modalLogin").on('show.bs.modal', function (e) {
   $ ("#modalActivaCuenta"). modal ("hide");
 });
 
+$ ("#modalOlvidasteContrasena").on('show.bs.modal', function (e) {
+  $ ("#modalLogin"). modal ("hide");
+});
+
+$ ("#modalLogin").on('show.bs.modal', function (e) {
+  $ ("#modalOlvidasteContrasena"). modal ("hide");
+});
+
+
 
 
 }

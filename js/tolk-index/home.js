@@ -9,3 +9,9 @@ $("#opcion1").click(function(){
     $("#bannersHome-a").show();
   
   });
+
+  $("#opcion2").click(function(){
+    $("#bannersHome").hide();
+    $("#bannersHome-a").show();
+  
+  });
