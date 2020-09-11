@@ -1,10 +1,41 @@
+.modal-dialog.cascading-modal {
+    margin-top: 3%;
+}
+
+.espacioInput {
+    margin-bottom: 0.5rem!important;
+}
+
+
+.textCabeceraModales{
+    font-family: PoppinsBold;
+    font-size: 25px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoSubCabeceraModal{
+    font-family: Poppins;
+    font-size: 16px!important;
+    font-weight: normal!important;
+    font-stretch: normal!important;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
 .estiloInput{
     height: 40px!important;
     border: 1px solid black!important;
 }
 
 .estiloInputRegistro{
-    height: 34px!important;
+    height: 26px!important;
     border: 1px solid black!important;
 }
 
@@ -76,4 +107,15 @@
     line-height: 1.54;
     letter-spacing: normal;
     color: #000000;
+}
+
+.regresarLogin{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #6f6f6f;
 }

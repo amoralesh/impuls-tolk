@@ -20,8 +20,7 @@
       <link rel="stylesheet" href="css/mdb.ecommerce.min.css">
       <!-- AOS -->
       <link rel="stylesheet" href="js/aos-master/dist/aos.css">
-
-        <!--========= Estilos GENERALES ==========-->
+      <!--========= Estilos GENERALES ==========-->
       <!--====================================================-->
       <!-- GENERAL -->
       <link rel="stylesheet" href="css/tolk-index/general/general.css">
@@ -43,9 +42,10 @@
       <link rel="stylesheet" href="css/tolk-index/layout/suscripcion.css">
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="css/tolk-index/layout/footer.css">
-       <!-- Estilos TOLK MODALES -->
-       <link rel="stylesheet" href="css/tolk-index/general/modales.css">
-
+      <!-- Estilos TOLK MODALES -->
+      <link rel="stylesheet" href="css/tolk-index/general/modales.css">
+       <!-- Estilos TOLK ICONOS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
       <!--========= Estilos Pagina Home ==========-->
       <!--====================================================-->
@@ -53,8 +53,8 @@
       <link rel="stylesheet" href="css/tolk-index/home/bannerPrincipal.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES -->
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes.css">
-        <!-- Estilos TOLK IMAGENES-FLOTANTES A-->
-        <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-a.css">
+      <!-- Estilos TOLK IMAGENES-FLOTANTES A-->
+      <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-a.css">
       <!-- Estilos TOLK CARRUSEL MARCAS -->
       <link href="css/tolk-index/home/carruselMarcas.css" rel="stylesheet"/>
       <link rel="stylesheet" href="js/glide-3.4.1/dist/css/glide.core.min.css">
@@ -69,7 +69,6 @@
       <link rel="stylesheet" href="css/tolk-index/home/catalogos.css">
       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
       <link rel="stylesheet" href="css/tolk-index/home/pagosCertificados.css">
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
    </head>
    <body class="skin-light">
       <header>
@@ -118,7 +117,7 @@
                               </a>
                            </li>
                            <li class="nav-item">
-                              <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLoginRegistro">
+                              <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLogin">
                               <small class=" mr-4"> Login / Registro</small><img src="img/imgOficial/iconos_logos/login icon.svg" alt="" >
                               </a>
                            </li>
@@ -1024,61 +1023,53 @@
       <!--===============================================
          FIN BANNER PRINCIPAL
          ================================================= -->
-                  <!-- Default unchecked -->
-            <div class="custom-control custom-radio">
-               <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios">
-               <label class="custom-control-label" for="opcion1">3</label>
-            </div>
-            
-            <!-- Default checked -->
-            <div class="custom-control custom-radio">
-               <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios" checked>
-               <label class="custom-control-label" for="opcion2">5</label>
-            </div>
+      <!-- Default unchecked -->
+      <div class="custom-control custom-radio">
+         <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios" checked>
+         <label class="custom-control-label" for="opcion1">3</label>
+      </div>
+      <!-- Default checked -->
+      <div class="custom-control custom-radio">
+         <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
+         <label class="custom-control-label" for="opcion2">5</label>
+      </div>
       <!--===============================================
          PRODUCTOS FLOTANTES
          ================================================= -->
-         <section class="container-fluid" id="bannersHome">
-
-            <div class="row rowFlotante">
-            
-               <div class="col-10 col-sm-10 col-md-10 col-lg-4  offset-1 rowFlotanteAnidado">
-                     <!-- divFlotante1 -->
-                  <div class="divFlotante1">
-   
-                     <div class="row" style="position: relative;">
-                        <div class="col-7 col-sm-7 col-md-7 col-lg-12">
-                           <h6 class="titulosFlotantes"><u>Caballero</u></h6>
-                        </div>
-                        <div class="col-7 col-sm-7 col-md-7 col-lg-12">
-                           <h6 class="subTitulosFlotantes1">Hasta</h6>
-                        </div>
-                        <div class="col-7 col-sm-7 col-md-7 col-lg-12">
-                           <h6 class="subTitulosFlotantes2">50%</h6>
-                        </div>
-                        <div class="col-7 col-sm-7 col-md-7 col-lg-12">
-                           <h6 class="subTitulosFlotantes1">de descuento</h6>
-                        </div>
-                        <div class="col-5 col-sm-5 col-md-5 col-lg-12">
-                           <div data-aos="fade-up">
-                              <img class="imagenFlotante1" src="img/imgOficial/fotos/01 home/z2-a.png">
-                           </div>
-                        </div>
-                        <div class="col-7 col-sm-7 col-md-7 col-lg-12">
-                           <button class="btn btnGeneralFlotante btnImgFlotante1" id="btnImgFlotante1">Ver más</button>
-                        </div>
-                       
+      <section class="container-fluid" id="bannersHome">
+         <div class="row rowFlotante">
+            <div class="col-10 col-sm-10 col-md-10 col-lg-4  offset-1 rowFlotanteAnidado">
+               <!-- divFlotante1 -->
+               <div class="divFlotante1">
+                  <div class="row" style="position: relative;">
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <h6 class="titulosFlotantes"><u>Caballero</u></h6>
                      </div>
-                    
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <h6 class="subTitulosFlotantes1">Hasta</h6>
+                     </div>
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <h6 class="subTitulosFlotantes2">50%</h6>
+                     </div>
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <h6 class="subTitulosFlotantes1">de descuento</h6>
+                     </div>
+                     <div class="col-5 col-sm-5 col-md-5 col-lg-12">
+                        <div data-aos="fade-up">
+                           <img class="imagenFlotante1" src="img/imgOficial/fotos/01 home/z2-a.png">
+                        </div>
+                     </div>
+                     <div class="col-7 col-sm-7 col-md-7 col-lg-12">
+                        <button class="btn btnGeneralFlotante btnImgFlotante1" id="btnImgFlotante1">Ver más</button>
+                     </div>
                   </div>
-                  <!-- Fin divFlotante1 -->
                </div>
-   
-               <div class="col-10 col-sm-10 col-md-10 col-lg-7 offset-1 offset-sm-1 offset-md-1 offset-lg-0">
-                  <div class="row rowFlotanteAnidado">
-   
-                     <div class="col-12 col-sm-12 col-md-12 col-lg-10 p-0" style="position: relative;">
-                        <!-- divFlotante2 -->
+               <!-- Fin divFlotante1 -->
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-7 offset-1 offset-sm-1 offset-md-1 offset-lg-0">
+               <div class="row rowFlotanteAnidado">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-10 p-0" style="position: relative;">
+                     <!-- divFlotante2 -->
                      <div class="divFlotante2">
                         <div class="row" style="height:100%">
                            <div class="col-8" style="height:100%;position: relative;">
@@ -1094,50 +1085,35 @@
                               </div>
                            </div>
                         </div>
-                       
                      </div>
                      <!-- Fin divFlotante2 -->
                   </div>
-   
                   <div class="col-12 col-sm-12 col-md-12 col-lg-10 p-0" style="position: relative;">
                      <!-- divFlotante3 -->
-                  <div class="divFlotante3">
-   
-                     <div class="row">
-                        <div class="col-6" style="height:100%;position: relative;">
-                           <div data-aos="fade-right">
-                              <img class="imagenFlotante3" src="img/imgOficial/fotos/01 home/z1.png">
+                     <div class="divFlotante3">
+                        <div class="row">
+                           <div class="col-6" style="height:100%;position: relative;">
+                              <div data-aos="fade-right">
+                                 <img class="imagenFlotante3" src="img/imgOficial/fotos/01 home/z1.png">
+                              </div>
+                           </div>
+                           <div class="col-6" style="position: relative;">
+                              <h6 class="titulosFlotantes"><u>Niño Deportivo</u></h6>
+                              <h6 class="subTitulosFlotantes1">Ahorra hasta</h6>
+                              <h6 class="subTitulosFlotantes2">32%</h6>
+                              <h6 class="subTitulosFlotantes1">como socio</h6>
+                              <button class="btn btnGeneralFlotante btnImgFlotante3" id="btnImgFlotante3">Ver más</h6></button>
                            </div>
                         </div>
-                        <div class="col-6" style="position: relative;">
-                           <h6 class="titulosFlotantes"><u>Niño Deportivo</u></h6>
-                           <h6 class="subTitulosFlotantes1">Ahorra hasta</h6>
-                           <h6 class="subTitulosFlotantes2">32%</h6>
-                           <h6 class="subTitulosFlotantes1">como socio</h6>
-                           <button class="btn btnGeneralFlotante btnImgFlotante3" id="btnImgFlotante3">Ver más</h6></button>
-                        </div>
                      </div>
-   
+                     <!-- Fin divFlotante3 -->
                   </div>
-                  <!-- Fin divFlotante3 -->
                </div>
-                    
             </div>
-                 
-                  
-   
-   
-   
-          </div>
-                 
-   
-             
-            </div>
-         </section>
-
-          <section class="container" id="bannersHome-a" style="display: none">
+         </div>
+      </section>
+      <section class="container" id="bannersHome-a" style="display: none">
          <div class="row rowFlotante pl-5 pr-3">
-
             <div class="col-6" >
                <div class="bloqueFlotante-a1">
                   <div class="row rowAnidado-a">
@@ -1154,46 +1130,38 @@
                   </div>
                </div>
             </div>
-
             <div class="col-3">
                <div class="bloqueFlotante-a2">
                   <div class="row rowAnidado-a">
-
                      <div class="col-8">
                         <h6 class="subTitulosFlotantes1-a">Caballero Casual</h6>
                      </div>
                      <div class="col-12 text-center">
-                       <img src="img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid contenedorImgFlotante-a2">
+                        <img src="img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid contenedorImgFlotante-a2">
                      </div>
                      <div class="col-12">
                         <button class="btn btnGeneralFlotante-a2 btnImgFlotante2-a" id="btnImgFlotante1">Ver más</button>
                      </div>
-
                   </div>
                </div>
             </div>
-
             <div class="col-3">
                <div class="bloqueFlotante-a3">
                   <div class="row rowAnidado-a">
-
                      <div class="col-8">
                         <h6 class="subTitulosFlotantes1-a">Niño y Niña</h6>
                      </div>
                      <div class="col-12 text-center">
-                       <img src="img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid contenedorImgFlotante-a2">
+                        <img src="img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid contenedorImgFlotante-a2">
                      </div>
                      <div class="col-12">
                         <button class="btn btnGeneralFlotante-a2 btnImgFlotante3-a" id="btnImgFlotante1">Ver más</button>
                      </div>
-
                   </div>
                </div>
             </div>
-
             <div class="col-6">
                <div class="bloqueFlotante-a4">
-
                   <div class="row rowAnidado-a">
                      <div class="col-5 pr-0">
                         <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
@@ -1206,13 +1174,10 @@
                         <img src="img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid">
                      </div>
                   </div>
-
                </div>
             </div>
-            
             <div class="col-6">
                <div class="bloqueFlotante-a5">
-
                   <div class="row rowAnidado-a">
                      <div class="col-7 align-self-center">
                         <img src="img/imgOficial/fotos/01 home/z2.png" alt="" class="img-fluid">
@@ -1227,11 +1192,8 @@
                   </div>
                </div>
             </div>
-            
          </div>
-           </section>
-
-      
+      </section>
       <!--===============================================
          FIN PRODUCTOS FLOTANTES
          ================================================= -->
@@ -2415,24 +2377,6 @@
                </div>
                <div class="modal-body text-justify">
                   Los Términos y Condiciones, también denominados como Condiciones Generales de Uso, son un documento diseñado para aquellas personas que van a crear o administrar una página o sitio web, en el cual se establecen las condiciones bajo las cuales los usuarios ingresarán y harán uso del sitio web.
-                  El documento se encuentra diseñado para sitios que sean operados o manejados por personas o empresas que tengan su domicilio en la República Mexicana o que estén destinados a personas que habitan en este país, no obstante, su contenido hace referencia a disposiciones civiles comunes en la mayoría de los países del mundo.
-                  Este documento es utilizado para regular las condiciones y reglas a las que se someten tanto los usuarios de un sitio web como su propietario y/o administrador, en lo referente al acceso y utilización del sitio web. De igual manera, hace referencia a las políticas de privacidad, protección de datos personales, enlaces, etc., que se tomarán para proteger la privacidad de los usuarios.
-                  Dichas reglas y principios aportan un mayor nivel de confianza y seguridad jurídica a los usuarios del sitio web así como a sus propietarios y/o administradores, puesto que también se establece el tipo de personas a las que va dirigido y las responsabilidades que estos adquieren al hacer uso del sitio o de los servicios que en él son ofrecidos.
-                  Existe además otro documento conocido generalmente como "Condiciones Generales de Venta" que se utiliza para regular la adquisición de productos o servicios a través de internet, no obstante, este último no debe ser confundido con el presente documento, puesto que el presente solo se limita a regular el acceso, funcionamiento e interacción del usuario con el sitio web, sin que se incluya las condiciones bajo las cuales se formalizará la adquisición de productos o servicios que tengan un costo o que requieran una licencia; y que se puedan obtener o adquirir a través del mismo sitio web.
-                  ¿Cómo utilizar este documento?
-                  El modelo incluye diversos supuestos que se pueden presentar con relación a los contenidos, productos y/o servicios se encuentren disponibles dentro del sitio, y se adapta en función de las necesidades y características del sitio web, por tanto la persona que desee utilizarlo deberá tomar en cuenta entre otras cosas, lo siguiente:
-                  El tipo de público al que se encuentra dirigido el sitio web, esto es, si es para todo tipo de público o si es solamente para mayores de edad;
-                  Si el acceso al sitio web requerirá de un registro del usuario, o por el contrario se encontrará disponible para todo público sin necesidad de registro;
-                  Si será necesario el pago de una contraprestación para hacer uso del sitio web, o bien este será de carácter gratuito;
-                  El modelo incluye los aspectos que resultan necesarios en materia de protección de datos personales en posesión de particulares e incluso se puede especificar el Aviso de Privacidad, en caso de que este se tenga disponible a través del mismo sitio web, todo esto aporta un gran nivel de confianza y seguridad jurídica, por lo que sería recomendable que este tipo de documentos se elaboren para todos y cada uno de los sitios web que se encuentran en internet, puesto que los mismos se consideran aceptados por el usuario al hacer uso del sitio y/o acceder a sus contenidos.
-                  El documento deberá estar de disponible en la ventana principal del sitio web (usualmente desde el archivo .index), no obstante, lo recomendable es que sea accesible desde cualquier parte del sitio web, a fin de que pueda ser consultado en todo momento por el usuario.
-                  En caso de que por el tipo de contenido, productos y/o servicios que se encuentren disponibles en el sitio web, se considere necesaria la aceptación expresa del usuario de los términos y condiciones; se deberá de tomar en cuenta que el usuario debe tener la posibilidad de visualizar el documento de forma íntegra; y se debe habilitar un medio para que el usuario exprese que se encuentra de acuerdo con los mismos (usualmente a través de un formulario).
-                  Derecho aplicable
-                  Capitulo segundo de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.
-                  Código Civil Federal.
-                  Ayuda de un abogado
-                  También tienes la opción de consultar a un abogado si necesitas ayuda.
-                  El abogado puede contestar a tus preguntas o ayudarte en tus trámites. Al final de la creación del documento, se te ofrecerá esta opción.
                </div>
                <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
@@ -2460,24 +2404,6 @@
                </div>
                <div class="modal-body text-justify">
                   Los Términos y Condiciones, también denominados como Condiciones Generales de Uso, son un documento diseñado para aquellas personas que van a crear o administrar una página o sitio web, en el cual se establecen las condiciones bajo las cuales los usuarios ingresarán y harán uso del sitio web.
-                  El documento se encuentra diseñado para sitios que sean operados o manejados por personas o empresas que tengan su domicilio en la República Mexicana o que estén destinados a personas que habitan en este país, no obstante, su contenido hace referencia a disposiciones civiles comunes en la mayoría de los países del mundo.
-                  Este documento es utilizado para regular las condiciones y reglas a las que se someten tanto los usuarios de un sitio web como su propietario y/o administrador, en lo referente al acceso y utilización del sitio web. De igual manera, hace referencia a las políticas de privacidad, protección de datos personales, enlaces, etc., que se tomarán para proteger la privacidad de los usuarios.
-                  Dichas reglas y principios aportan un mayor nivel de confianza y seguridad jurídica a los usuarios del sitio web así como a sus propietarios y/o administradores, puesto que también se establece el tipo de personas a las que va dirigido y las responsabilidades que estos adquieren al hacer uso del sitio o de los servicios que en él son ofrecidos.
-                  Existe además otro documento conocido generalmente como "Condiciones Generales de Venta" que se utiliza para regular la adquisición de productos o servicios a través de internet, no obstante, este último no debe ser confundido con el presente documento, puesto que el presente solo se limita a regular el acceso, funcionamiento e interacción del usuario con el sitio web, sin que se incluya las condiciones bajo las cuales se formalizará la adquisición de productos o servicios que tengan un costo o que requieran una licencia; y que se puedan obtener o adquirir a través del mismo sitio web.
-                  ¿Cómo utilizar este documento?
-                  El modelo incluye diversos supuestos que se pueden presentar con relación a los contenidos, productos y/o servicios se encuentren disponibles dentro del sitio, y se adapta en función de las necesidades y características del sitio web, por tanto la persona que desee utilizarlo deberá tomar en cuenta entre otras cosas, lo siguiente:
-                  El tipo de público al que se encuentra dirigido el sitio web, esto es, si es para todo tipo de público o si es solamente para mayores de edad;
-                  Si el acceso al sitio web requerirá de un registro del usuario, o por el contrario se encontrará disponible para todo público sin necesidad de registro;
-                  Si será necesario el pago de una contraprestación para hacer uso del sitio web, o bien este será de carácter gratuito;
-                  El modelo incluye los aspectos que resultan necesarios en materia de protección de datos personales en posesión de particulares e incluso se puede especificar el Aviso de Privacidad, en caso de que este se tenga disponible a través del mismo sitio web, todo esto aporta un gran nivel de confianza y seguridad jurídica, por lo que sería recomendable que este tipo de documentos se elaboren para todos y cada uno de los sitios web que se encuentran en internet, puesto que los mismos se consideran aceptados por el usuario al hacer uso del sitio y/o acceder a sus contenidos.
-                  El documento deberá estar de disponible en la ventana principal del sitio web (usualmente desde el archivo .index), no obstante, lo recomendable es que sea accesible desde cualquier parte del sitio web, a fin de que pueda ser consultado en todo momento por el usuario.
-                  En caso de que por el tipo de contenido, productos y/o servicios que se encuentren disponibles en el sitio web, se considere necesaria la aceptación expresa del usuario de los términos y condiciones; se deberá de tomar en cuenta que el usuario debe tener la posibilidad de visualizar el documento de forma íntegra; y se debe habilitar un medio para que el usuario exprese que se encuentra de acuerdo con los mismos (usualmente a través de un formulario).
-                  Derecho aplicable
-                  Capitulo segundo de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.
-                  Código Civil Federal.
-                  Ayuda de un abogado
-                  También tienes la opción de consultar a un abogado si necesitas ayuda.
-                  El abogado puede contestar a tus preguntas o ayudarte en tus trámites. Al final de la creación del documento, se te ofrecerá esta opción.
                </div>
                <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
@@ -2489,24 +2415,25 @@
          FIN MODAL AVISO DE PRIVACIDAD
          ================================================= -->
       <!--===============================================
-         MODAL LOGIN/REGISTRO
+         MODAL LOGIN
          ================================================= -->
-      <!--Modal: Login / Register Form-->
-      <section class="modal fade" id="modalLoginRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <!--Modal: Login Form-->
+      <section class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin" aria-hidden="true">
          <div class="modal-dialog cascading-modal" role="document">
             <!--Content-->
             <div class="modal-content">
                <!--Modal cascading tabs-->
                <div class="modal-c-tabs">
                   <!-- Nav tabs -->
-                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3" role="tablist">
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
                      <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel7" role="tab">
                         Inicia sesión</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
-                        Registrate</a>
+                     <li class="nav-item align-self-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                        <span aria-hidden="true">&times;</span>  </button>
                      </li>
                   </ul>
                   <!-- Tab panels -->
@@ -2515,18 +2442,18 @@
                      <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                          <h3 class="textoNotas">Si ya eres miembro por favor inicia sesión</h3>
+                           <h3 class="textoNotas">Si ya eres miembro por favor inicia sesión</h3>
                            <div class="form-sm mb-4">
                               <small id="membresiaCorreo" class="form-text text-muted titutoInput">
-                                 Num. de Membresia o email.
-                               </small>
-                               <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Num. de Membresia o email">
+                              Num. de Membresia o email.
+                              </small>
+                              <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Num. de Membresia o email">
                            </div>
                            <div class="form-sm mb-4">
                               <small id="password" class="form-text text-muted titutoInput">
-                                 Contraseña.
-                               </small>
-                               <input class="form-control estiloInput" id="password" type="password" placeholder="Contraseña">
+                              Contraseña.
+                              </small>
+                              <input class="form-control estiloInput" id="password" type="password" placeholder="Contraseña">
                            </div>
                            <div class="row">
                               <div class="col-6">
@@ -2548,74 +2475,107 @@
                               </div>
                               <div class="col-6 pl-0">
                                  <div class="text-left mt-4">
-                                    <a href="#!" class="text-right preguntasLogin"><u>Afiliate,regístrate ahora</u> </a>
+                                    <a href="#!" class="text-right preguntasLogin " data-toggle="modal" data-target="#modalRegistro"><u>Afiliate,regístrate ahora</u> </a>
                                  </div>
                               </div>
                            </div>
-                          
                         </div>
-                      
                      </div>
                      <!--/.Panel 7-->
-                     <!--Panel 8-->
-                     <div class="tab-pane fade" id="panel8" role="tabpanel">
-                        <!--Body-->
-                        <div class="modal-body">
-                           <h3 class="textoNotas-a">Regístrate, para ser miembro, llena los campos y da click en crear cuenta</h3>
-                           <div class="form-sm mb-4">
-                              <small id="nombreSocio" class="form-text text-muted titutoInput">
-                                 Nombre(s)
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="nombreSocio" type="text" placeholder="Nombre(s)">
-                           </div>
-                           <div class="form-sm mb-4">
-                              <small id="apellidoPSocio" class="form-text text-muted titutoInput">
-                                 Apellido Paterno
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="apellidoPSocio" type="text" placeholder="Apellido Paterno">
-                           </div>
-                           <div class="form-sm mb-4">
-                              <small id="apellidoMSocio" class="form-text text-muted titutoInput">
-                                 Apellido Materno
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="apellidoMSocio" type="text" placeholder="Apellido Materno">
-                           </div>
-                           <div class="form-sm mb-4">
-                              <small id="Email" class="form-text text-muted titutoInput">
-                                 Email
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
-                           </div>
-                           <div class="form-sm mb-4">
-                              <small id="contrasenaSocio" class="form-text text-muted titutoInput">
-                                 Contraseña
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
-                           </div>
-                           <div class="form-sm mb-4">
-                              <small id="confirmarC" class="form-text text-muted titutoInput">
-                                 Confirmar contraseña
-                               </small>
-                               <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
-                           </div>
-
-                           <div class="text-left">
-                              <button class="btn colorPrimario btnIngresar">Crea cuenta</button>
-                           </div>
-                        </div>
-                     </div>
-                     <!--/.Panel 8-->
                   </div>
                </div>
             </div>
             <!--/.Content-->
          </div>
       </section>
-      <!--Modal: Login / Register Form-->
+      <!--Modal: Login  Form-->
       <!--===============================================
-         FIN MODAL LOGIN/REGISTRO
+         FIN MODAL LOGIN
          ================================================= -->
-
+      <!--===============================================
+         MODAL REGISTRO
+         ================================================= -->
+      <!--Modal:  Register Form-->
+      <section class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="modalRegistro" aria-hidden="true">
+         <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Modal cascading tabs-->
+               <div class="modal-c-tabs">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel8" role="tab">
+                        Afíliate, regístrate ahora</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
+                     </li>
+                  </ul>
+                  <!-- Tab panels -->
+                  <div class="tab-content pt-0">
+                     <!--Panel 7-->
+                     <div class="tab-pane fade in show active" id="panel8" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                           <h3 class="textoNotas-a">Regístrate, para ser miembro, llena los campos y da click en crear cuenta</h3>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="nombreSocio" class="form-text text-muted titutoInput">
+                              Nombre(s)
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="nombreSocio" type="text" placeholder="Nombre(s)">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="apellidoPSocio" class="form-text text-muted titutoInput">
+                              Apellido Paterno
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="apellidoPSocio" type="text" placeholder="Apellido Paterno">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="apellidoMSocio" class="form-text text-muted titutoInput">
+                              Apellido Materno
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="apellidoMSocio" type="text" placeholder="Apellido Materno">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="Email" class="form-text text-muted titutoInput">
+                              Email
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="contrasenaSocio" class="form-text text-muted titutoInput">
+                              Contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="confirmarC" class="form-text text-muted titutoInput">
+                              Confirmar contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
+                           </div>
+                           <div class="row mt-3">
+                              <div class="col-8">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnIngresar">Crea cuenta</button>
+                                 </div>
+                              </div>
+                              <div class="col-4 align-self-end">
+                                 <a href="!#" data-toggle="modal" data-target="#modalLogin" class="regresarLogin"><i class="fas fa-undo-alt"><u>&nbsp; Regresar</u></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/.Panel 7-->
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </section>
+      <!--Modal: Register Form-->
+      <!--===============================================
+         FIN MODAL REGISTRO
+         ================================================= -->
       <!--===============================================
          MODAL ACTIVA TU CUENTA
          ================================================= -->
@@ -2627,51 +2587,57 @@
                <!--Modal cascading tabs-->
                <div class="modal-c-tabs">
                   <!-- Nav tabs -->
-                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3" role="tablist">
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
                      <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel8" role="tab">
                         Activa tu cuenta</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
                      </li>
                   </ul>
                   <!-- Tab panels -->
-                  <div class="tab-content">
+                  <div class="tab-content pt-0">
                      <!--Panel 7-->
-                     <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+                     <div class="tab-pane fade in show active" id="panel9" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                          <h3 class="textoNotas-a">Activa tu cuenta. Por cuestiones de seguridad te pedimos llenar todos los campos correctamente, para que puedas disfrutar de tus compras en línea.</h3>
-                     <div class="form-sm mb-4">
-                          <small id="membresiaCorreo" class="form-text text-muted titutoInput">
-                           Num. de Membresia o email.
-                         </small>
-                         <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Num. de Membresia o email">
-                     </div>
-                     <div class="form-sm mb-4">
-                        <small id="Email" class="form-text text-muted titutoInput">
-                           Email
-                         </small>
-                         <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
-                     </div>
-                     <div class="form-sm mb-4">
-                        <small id="contrasenaSocio" class="form-text text-muted titutoInput">
-                           Contraseña
-                         </small>
-                         <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
-                     </div>
-                     <div class="form-sm mb-4">
-                        <small id="confirmarC" class="form-text text-muted titutoInput">
-                           Confirmar contraseña
-                         </small>
-                         <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
-                     </div> 
-                     <div class="text-left">
-                        <button class="btn colorPrimario btnIngresar">Crea cuenta</button>
-                     </div>       
-                 </div>
-                      
+                           <h3 class="textoNotas-a">Activa tu cuenta. Por cuestiones de seguridad te pedimos llenar todos los campos correctamente, para que puedas disfrutar de tus compras en línea.</h3>
+                           <div class="form-sm mb-4 espacioInput mt-3">
+                              <small id="membresiaCorreo" class="form-text text-muted titutoInput">
+                              Número de Membresia.
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="membresiaCorreo" type="text" placeholder="Número de Membresia">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="Email" class="form-text text-muted titutoInput">
+                              Email
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="contrasenaSocio" class="form-text text-muted titutoInput">
+                              Contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="confirmarC" class="form-text text-muted titutoInput">
+                              Confirmar contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
+                           </div>
+                           <div class="row mt-5">
+                              <div class="col-8">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnIngresar">Crea cuenta</button>
+                                 </div>
+                              </div>
+                              <div class="col-4 align-self-end">
+                                 <a href="!#" data-toggle="modal" data-target="#modalLogin" class="regresarLogin"><i class="fas fa-undo-alt"><u>&nbsp; Regresar</u></i></a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <!--/.Panel 7-->
- 
                   </div>
                </div>
             </div>
@@ -2681,8 +2647,7 @@
       <!--Modal: MODAL ACTIVA TU CUENTA Form-->
       <!--===============================================
          FIN MODAL ACTIVA TU CUENTA
-   ================================================= -->
-
+         ================================================= -->
       <!--===============================================
          MODAL COMPRA COMO INVITADO
          ================================================= -->
@@ -2694,44 +2659,45 @@
                <!--Modal cascading tabs-->
                <div class="modal-c-tabs">
                   <!-- Nav tabs -->
-                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3" role="tablist">
-                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
-                        Comprar como visitante</a>
-                     </li>
-                    
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
+                     <div class="row">
+                        <div class="col-10">
+                           <li class="nav-item">
+                              <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel10" role="tab">
+                              Comprar como visitante</a>
+                              <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
+                           </li>
+                        </div>
+                        <div class="col-2">
+                           <li class="nav-item align-self-center">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                              <span aria-hidden="true">&times;</span>  </button>
+                           </li>
+                        </div>
+                     </div>
                   </ul>
                   <!-- Tab panels -->
                   <div class="tab-content">
                      <!--Panel 7-->
-                     <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+                     <div class="tab-pane fade in show active" id="panel10" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                          <h3 class="textoNotas-a">Escribe tu correo y haz clic en continuar</h3>
-
-                          <div class="row">
-                             <div class="col-8">
-
-                              <div class="form-sm mb-4">
-                                  <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
+                           <h3 class="textoNotas-a">Escribe tu correo y haz clic en continuar</h3>
+                           <div class="row">
+                              <div class="col-8">
+                                 <div class="form-sm">
+                                    <input class="form-control estiloInput" id="Email" type="text" placeholder="Email">
+                                 </div>
                               </div>
-
-                             </div>
-                             <div class="col-4 align-self-center pl-0">
-                              <div class="text-left">
-                                 <button class="btn colorPrimario btnIngresar">Crea cuenta</button>
-                              </div>  
-                             </div>
-                          </div>
-
-                   
-                     
-                        
-                 </div>
-                      
+                              <div class="col-4 align-self-center pl-0">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnIngresar">Continuar</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <!--/.Panel 7-->
- 
                   </div>
                </div>
             </div>
@@ -2742,8 +2708,6 @@
       <!--===============================================
          FIN MODAL COMPRA COMO INVITADO
          ================================================= -->
-
-
       <!--===============================================
          MODAL OFERTA RELAMPAGO
          ================================================= -->
@@ -2800,33 +2764,12 @@
       <script type="text/javascript" src="js/aos-master/dist/aos.js"></script>
       <!--General-->
       <script type="text/javascript" src="js/tolk-index/general.js"></script>
-      <!-- <script>
-         $( document ).ready(function() {
-            //  $('#modalOfertaRelampago').modal('toggle');
-             $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
-             $('.modal-backdrop').removeClass("modal-backdrop");    
-         });
-      </script> -->
-      <!-- CARRUSEL MARCAS -->
+      <!--Home-->
       <script type="text/javascript" src="js/tolk-index/carruselMarcas.js"></script>
+      <script type="text/javascript" src="js/tolk-index/home.js"></script>
 
-      <script>
-         $("#opcion1").click(function(){
-            $("#bannersHome").show();
-            $("#bannersHome-a").hide();
+    
 
-         });
-
-         $("#opcion2").click(function(){
-            $("#bannersHome").hide();
-            $("#bannersHome-a").show();
-
-         });
-
-         // $ ("#modalActivaCuenta").on('show.bs.modal', function (e) {
-         //    $ ("#modalLoginRegistro"). modal ("hide");
-         // });
-      </script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

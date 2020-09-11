@@ -29,5 +29,24 @@ if($(window).width() <= 767){
 }
 
 
+
+$ ("#modalRegistro").on('show.bs.modal', function (e) {
+  $ ("#modalLogin"). modal ("hide");
+});
+
+$ ("#modalLogin").on('show.bs.modal', function (e) {
+  $ ("#modalRegistro"). modal ("hide");
+});
+
+$ ("#modalActivaCuenta").on('show.bs.modal', function (e) {
+  $ ("#modalLogin"). modal ("hide");
+});
+
+$ ("#modalLogin").on('show.bs.modal', function (e) {
+  $ ("#modalActivaCuenta"). modal ("hide");
+});
+
+
+
 }
 
