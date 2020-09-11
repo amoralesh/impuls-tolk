@@ -7,6 +7,12 @@ AOS.init({
 $(document).ready(function(){
 adjustCSS();
 $(window).resize(function(){ adjustCSS() });
+
+// $( document ).ready(function() {
+//   //  $('#modalOfertaRelampago').modal('toggle');
+//    $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
+//    $('.modal-backdrop').removeClass("modal-backdrop");    
+// }); 
 })
 
 function adjustCSS(){
