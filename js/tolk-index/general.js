@@ -13,6 +13,7 @@ $(window).resize(function(){ adjustCSS() });
 //    $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
 //    $('.modal-backdrop').removeClass("modal-backdrop");    
 // }); 
+
 })
 
 function adjustCSS(){
