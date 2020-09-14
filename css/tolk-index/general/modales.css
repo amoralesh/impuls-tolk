@@ -128,8 +128,9 @@
 }
 
 .colorCuerpoOferta{
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(104deg, #00ffdd -10%, #616161 116%);
+    border-radius: 10px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+  background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
 }
 
 .modalRelampago{

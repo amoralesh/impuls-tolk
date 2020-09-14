@@ -182,15 +182,15 @@
     position:fixed;
     width:60px;
     height:60px;
-    bottom:40px;
-    right:40px;
+    bottom:20px;
+    right:307px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     text-align:center;
-  font-size:30px;
+   font-size:30px;
     box-shadow: 2px 2px 3px #999;
-  z-index:100;
+  z-index:9999;
 }
 
 .my-float{
@@ -198,24 +198,23 @@
 }
 
 .open-button {
-    background-color: #555;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 250px!important;
-    z-index: 999;
+  height: 55px;
+  color: white;
+  padding: 12px 11px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 15px;
+  width: 240px!important;
+  z-index: 999;
   }
   
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
     position: fixed;
-    bottom: 0;
+    bottom: 22px;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9999!important;
@@ -223,7 +222,7 @@
   
   /* Add styles to the form container */
   .form-container {
-    max-width: 300px;
+    max-width: 275px;
     padding: 10px;
     background-color: white;
   }
@@ -266,3 +265,57 @@
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+
+.contenedorChat{
+    overflow-y: scroll!important;
+    height: 233px;
+
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+}
+.imgCaht{
+  position: relative;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  left: -35px;
+}
+.cabeceraFormulario{
+  height: 48px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.cabeceraFormulario h1{
+  /* position: relative; */
+  font-family: PoppinsBold;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  /* top: 10px;
+  left: 12px; */
+}
+
+.textoMensajeInicial{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6e6e6e;
+}
+
+.fa-paper-plane{
+  color: #000000!important;
+}
+
