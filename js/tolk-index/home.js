@@ -15,3 +15,6 @@ $("#opcion1").click(function(){
     $("#bannersHome-a").show();
   
   });
+
+
+  

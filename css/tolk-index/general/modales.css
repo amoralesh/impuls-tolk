@@ -272,4 +272,61 @@ padding: 0px 10px!important;
 
 
 
-/* OFERTA RELAMPAGO */
+/* UNETE A LA FAMILIA*/
+.imgUnete{
+width: 40px!important;
+height: 40px!important;
+}
+
+.textCabeceraUnete{
+    font-family: Poppins!important;
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoUnete2{
+    font-family: PoppinsSemiBold!important;
+    font-size: 22px!important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textoUnete3{
+    font-family: Poppins;
+  font-size: 16px!important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+div.picker.datepicker .picker__box {
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -407px!important;
+}
+
+.estilosInputUnete{
+    height: 38px!important;
+    border: 1px solid black!important;
+}
+
+.estilosInputUnete2{
+    border: 1px solid black!important;
+}
+
+.cabeceraUnete {
+    max-width: 400px!important;
+}
