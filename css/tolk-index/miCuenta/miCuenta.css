@@ -1,0 +1,208 @@
+.seccionMiCuenta{
+  padding-bottom: 200px;
+}
+
+.ayudaMiCuenta{
+position: relative;
+/* bottom: 210px!important; */
+}
+
+.textoMiCuenta li a{
+    font-family: Poppins!important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #2c2c2c!important;
+    padding: 0px 10px!important;
+}
+
+.textoMiCuenta2{
+    font-family: Poppins!important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33!important;
+    letter-spacing: normal;
+    color: #2c2c2c!important;
+}
+
+.textoMiCuenta li{
+
+    padding: 5px 15px!important;
+}
+
+
+.textoMiCuenta1{
+    font-family: PoppinsBold;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.textoMiCuenta3{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #2c2c2c;
+}
+
+.estiloInputMiCuenta{
+    border: solid 1px #000000!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+}
+
+.btnEditar{
+  width: 200px!important;
+  height: 45px!important;
+
+  font-family: PoppinsSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+  text-transform: none;
+  border-radius:8px!important;
+  -webkit-border-radius:8px!important;
+  -moz-border-radius:8px!important;
+  -ms-border-radius:8px!important;
+  -o-border-radius:8px!important;
+}
+
+
+/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
+/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
+
+.accionesDireccion{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #9b9b9b;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff!important;
+    border-color: #000000!important;
+    background-color: #000000!important;
+}
+
+.btnAgregarDireccion{
+    width: 289px!important;
+    height: 45px!important;
+  
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  
+    text-transform: none;
+    border-radius:8px!important;
+    -webkit-border-radius:8px!important;
+    -moz-border-radius:8px!important;
+    -ms-border-radius:8px!important;
+    -o-border-radius:8px!important;
+}
+
+
+/*SUCURSALES--SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES*/
+/*SUCURSALES--SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES*/
+.btnBuscar{
+  font-family: PoppinsSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: none;
+    width: 207px;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.estilosInputSucursales{
+    border: solid 1px #000000!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    height: 50px!important;
+}
+
+.sinSombra{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
+}
+
+.textoSucursales2 p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textoSucursales1{
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textoSucursales3{
+    font-family: PoppinsBold;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000; 
+}
+
+.borderSucursales{
+    border-top: solid 0.5px #bababa;
+    border-bottom: solid 0.5px #bababa;
+}
