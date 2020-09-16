@@ -11,8 +11,8 @@ $(window).resize(function(){ adjustCSS() });
 
   //  $('#modalOfertaRelampago').modal('toggle');
   $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
-  //  $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
-  //  $('.modal-backdrop').removeClass("modal-backdrop");    
+   $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
+   $('.modal-backdrop').removeClass("modal-backdrop");    
 
 })
 
