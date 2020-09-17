@@ -51,6 +51,14 @@
 .vinculoTerminosPrivacidad {
     text-decoration: none;
     color: black;
+    font-family: Poppins!important;
+    font-size: 13px!important;
+    font-weight: normal!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #000000;
 }
 
 .imgFooter >img{

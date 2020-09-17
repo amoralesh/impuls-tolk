@@ -69,6 +69,9 @@
       <link rel="stylesheet" href="css/tolk-index/home/catalogos.css">
       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
       <link rel="stylesheet" href="css/tolk-index/home/pagosCertificados.css">
+
+     
+
    </head>
    <body class="skin-light">
       
@@ -76,7 +79,7 @@
          <div class="container-fluid p-0">
             <div class="row colorSecundario justify-content-center m-0">
                <div class="col-12 textoInfoEntrega text-center">
-                  Información sobre las entregas y promociones. <a href="#" class="aqui"><u>Ver aquí.</u></a>
+                  Información sobre las entregas y promociones. <a href="!#" class="aqui"><u>Ver aquí.</u></a>
                </div>
             </div>
          </div>
@@ -123,7 +126,7 @@
                               </a>
                            </li>
                            <li class="nav-item">
-                              <a href="#!" class="nav-link waves-effect colorPrimario">
+                              <a href="pages/miCuenta/index.html" target="_blank" class="nav-link waves-effect colorPrimario">
                               <strong class="textoCapturaPedido"><u>Captura tu pedido</u></strong>
                               </a>
                            </li>
@@ -2025,7 +2028,121 @@
       <!-- Fin container -->
       <!--===============================================
          FIN CATÁLOGOS
+         ================================================= -->   <!--===============================================
+                        CHAT
          ================================================= -->
+
+         <button class="open-button btnAbrirChat colorSecundario" onclick="openForm()"> <img src="img/chat.svg" alt="" class="img-fluid imgCaht">Chat en línea <i class="fas fa-plus pl-5"></i></button>
+
+         <div class="chat-popup" id="miChat">
+         <form action="/action_page.php" class="form-container pl-0 pr-0 pt-0" >
+            <div class="container-fluid">
+               <div class="row cabeceraFormulario colorSecundario">
+                  <div class="col-10 align-self-end">
+                     <h1>Chat en línea</h1>
+                  </div>
+                  <div class="col-2 align-self-center">
+                     <a href="#!" onclick="closeForm()" style="color: #fff;"><i class="fas fa-minus" ></i></a>
+                  </div>
+                  
+               </div>
+            </div>
+
+            <div class="container-fluid contenedorChat p-0">
+               <div class="card chat-room small-chat wide" id="myForm">
+                  <div class="card-header white d-flex justify-content-between p-2" id="toggle" style="cursor: pointer;">
+                    <div class="heading d-flex justify-content-start">
+                      <div class="profile-photo">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-6.jpg" alt="avatar" class="avatar rounded-circle mr-2 ml-0">
+                        <span class="state"></span>
+                      </div>
+                      <div class="data">
+                        <p class="name mb-0"><strong>John Smith</strong></p>
+                        <!-- <p class="activity text-muted mb-0">Active now</p> -->
+                      </div>
+                    </div>
+                    <div class="icons grey-text">
+                      <!-- <a class="feature"><i class="fas fa-video mr-2"></i></a>
+                      <a class="feature"><i class="fas fa-phone mr-2"></i></a>
+                      <a class="feature"><i class="fas fa-cog mr-2"></i></a>
+                      <a id="closeButton"><i class="fas fa-times mr-2"></i></a> -->
+                    </div>
+                  </div>
+                  <div class="my-custom-scrollbar" id="message">
+                    <div class="card-body p-3">
+                      <div class="chat-message">
+                        <div class="media mb-3">
+                          <img class="d-flex rounded mr-2 avatar" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-6.jpg" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <p class="my-0 textoMensajeInicial">Hola buenos días. ¿En que te puedo ayudar?</p>
+                          </div>
+                        </div>
+
+                        <div class="d-flex justify-content-start">
+                          <div class="profile-photo message-photo">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-6.jpg" alt="avatar" class="avatar rounded-circle mr-2 ml-0">
+                            <span class="state"></span>
+                          </div>
+                          <div class="card bg-light rounded w-75 z-depth-0 mb-2">
+                            <div class="card-body p-2">
+                              <p class="card-text black-text">¿En que te puedo ayudar?</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card bg-primary rounded w-75 float-right z-depth-0 mb-1 last">
+                          <div class="card-body p-2">
+                            <p class="card-text text-white">Hola</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+             
+                </div>
+            </div>
+
+
+            <div class="card-footer text-muted white pt-1 pb-2 px-3">
+
+               <div class="row">
+                  <div class="col-7 pr-0 pl-0">
+                     <input type="text" id="exampleForm2" class="form-control" placeholder="Escribe tu mensaje...">
+                  </div>
+                  <div class="col-5 align-self-center">
+                     <a><i class="fas fa-paperclip mr-2"></i></a>
+                     <a><i class="far fa-laugh mr-2"></i></a>
+                     <a><i class="fas fa-paper-plane"></i></a>
+                  </div>
+               </div>
+         
+             </div>
+         </form>
+         </div>
+
+
+       <!--===============================================
+                         FIN CHAT
+         ================================================= -->
+
+           <!--===============================================
+                          WHATSAPP
+         ================================================= -->
+
+            
+         <section>
+            <a href="https://api.whatsapp.com/send?phone=525560416198&text=Hola%20te%20ayudaremos %para%20ello%inicia%20sesion%20cona%20whatsappa%20web%20Gracias." class="floatWhats" target="_blank">
+               <!-- <img src="https://cdn.icon-icons.com/icons2/70/PNG/512/whatsapp_14158.png" alt="" class="img-fluid my-float"> -->
+               <i class="fa fa-whatsapp my-float"></i>
+               </a>
+
+               
+         </section>
+           <!--===============================================
+                         FIN WHATSAPP
+         ================================================= -->
+
+  
+   
       <!--===============================================
          VISTOS RECIENTEMENTE
          ================================================= -->
@@ -2250,6 +2367,7 @@
       <!--===============================================
          FIN METODOS DE PAGO Y CERTIFICADO
          ================================================= -->
+
       <!--===============================================
          SUSCRIPCIÓN
          ================================================= -->
@@ -2345,10 +2463,10 @@
                <a href="#!">
                   <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
                </a>
-               <a href="#!">
+               <a href="pages/contactanos/index.html" target="_back">
                   <p class="textoFoooterSecundario pl-5">Contáctanos</p>
                </a>
-               <a href="#!">
+               <a href="pages/miCuenta/sucursales.html">
                   <p class="textoFoooterSecundario pl-5">Sucursales</p>
                </a>
                <a href="#!">
@@ -2360,6 +2478,94 @@
       </footer>
       <!--===============================================
          FIN FOOTER
+         ================================================= -->
+         
+       <!--===============================================
+         UNETE A LA FAMILIA IMPULS
+         ================================================= -->
+      <!--Modal:UNETE A LA FAMILIA IMPULS Form-->
+      <section class="modal fade" id="modalUneteImpuls" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Modal cascading tabs-->
+               <div class="modal-c-tabs">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorPrimario cabeceraUnete darken-3 p-0" role="tablist">
+                     <div class="row w-100">
+                        <div class="col-12">
+                           <li class="nav-item">
+                              <p class="textCabeceraUnete text-left"> 
+                                 <img src="img/imgOficial/iconos_logos/beneficioscliente.svg"  class="imgUnete pr-1">Únete a la familia impuls 
+                                 </p>
+     
+                           </li>
+                        </div>
+                     </div>
+                  </ul>
+                  <!-- Tab panels -->
+                  <div class="tab-content">
+
+                     <!--Panel 7-->
+                     <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                           <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);">
+                              <i class="fas fa-times"></i>
+                              </button>
+                           <h3 class="textoUnete2">Regístrate y obtén un 10% de descuento en tu primer compra.</h3>
+                           <h6 class="textoUnete3">Recibe nuestro boletín con ofertas especiales y novedades sobre los productos más nuevos.</h6>
+                           <div class="row">
+                              <div class="col-12">
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" class="form-control estilosInputUnete" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                 <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                                    <label for="example">Fecha de nacimiento *</label>
+                                    <input placeholder="Select date" type="text" id="example" class="form-control estilosInputUnete">
+                                   
+                                    <i class="fas fa-calendar input-prefix"></i>
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Preferencia de compra</label>
+                                    <select class="form-control estilosInputUnete2" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnIngresar">Registrate</button>
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="custom-control custom-checkbox mt-3">
+                                    <input type="checkbox" class="custom-control-input" id="defaultUncheckedModal">
+                                    <label class="custom-control-label" for="defaultUncheckedModal">Acepto <u><a href="#" data-toggle="modal" data-target="#terminosCondiciones" class="vinculoTerminosPrivacidad">Términos y Condiciones</a></u> y <a href="#" data-toggle="modal" data-target="#avisoPrivacidad" class="vinculoTerminosPrivacidad"><u>Aviso de Privacidad</u></a></label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/.Panel 7-->
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </section>
+      <!--Modal: UNETE A LA FAMILIA IMPULS -->
+      <!--===============================================
+         FIN UNETE A LA FAMILIA IMPULS
          ================================================= -->
       <!--===============================================
          MODAL TERMINOS Y CONDICIONES
@@ -2777,97 +2983,83 @@
          FIN MODAL COMPRA COMO INVITADO
          ================================================= -->
 
+
          
-      <!--===============================================
-         MODAL OFERTA RELAMPAGO
-         ================================================= -->
-      <!--Modal:MODAL OFERTA RELAMPAGO Form-->
-      <section class="modal fade" id="modalOfertaRelampago" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-         <div class="modal-dialog cascading-modal" role="document">
-            <!--Content-->
-            <div class="modal-content">
-               <!--Modal cascading tabs-->
-               <div class="modal-c-tabs">
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
-                     <div class="row">
-                        <div class="col-10">
-                           <li class="nav-item">
-                              <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel10" role="tab">
-                              Comprar como visitante</a>
-                              <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
-                           </li>
-                        </div>
-                        <div class="col-2">
-                           <li class="nav-item align-self-center">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
-                              <span aria-hidden="true">&times;</span>  </button>
-                           </li>
-                        </div>
-                     </div>
-                  </ul>
-                  <!-- Tab panels -->
-                  <div class="tab-content">
-                     <!--Panel 7-->
-                     <div class="tab-pane fade in show active" id="panel10" role="tabpanel">
-                        <!--Body-->
-                        <div class="modal-body mb-1">
-                           <h3 class="textoNotas-a">Escribe tu correo y haz clic en continuar</h3>
-                           <div class="row">
-                              <div class="col-8">
-                                 <div class="form-sm">
-                                    <input class="form-control estiloInput" id="Email" type="text" placeholder="Email">
-                                 </div>
-                              </div>
-                              <div class="col-4 align-self-center pl-0">
-                                 <div class="text-left">
-                                    <button class="btn colorPrimario btnIngresar">Continuar</button>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!--/.Panel 7-->
-                  </div>
-               </div>
-            </div>
-            <!--/.Content-->
-         </div>
-      </section>
-      <!--Modal: MODAL OFERTA RELAMPAGO -->
-      <!--===============================================
-         FIN MODAL OFERTA RELAMPAGO
-         ================================================= -->
 
       <!--===============================================
          MODAL OFERTA RELAMPAGO
          ================================================= -->
-      Side Modal Top Right
+      <!-- Side Modal Top Right -->
       <!-- To change the direction of the modal animation change .right class -->
       <div class="modal fade left " id="modalOfertaRelampago" tabindex="-1" role="dialog" aria-labelledby="miOfertaR"
          aria-hidden="true">
          <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
-         <div class="modal-dialog modal-side modal-bottom-left " role="document">
+         <div class="modal-dialog modal-side cascading-modal modal-bottom-left modalRelampago" role="document">
             <div class="modal-content ">
-               <div class="modal-header colorPrimario">
-                  <h4 class="modal-title w-100" id="miOfertaR" style="color:#fff;">Oferta Relampago</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
+               <div class="modal-header colorCabeceraOferta text-left">
+                  <h4 class="modal-title w-100 textoRelampago p-0 pb-5" id="miOfertaR"><i class="fas fa-bolt"></i>Oferta Relampago</h4> <label for="" class="tiempoReloj">Quedan 04:55</label>
                </div>
-               <div class="modal-body">
+
+               <div class="modal-body colorCuerpoOferta pl-0 pr-0">
+                  <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);">
+                     <i class="fas fa-times"></i>
+                     </button>
                   <div class="row">
-                     <div class="col-6 align-self-center">
-                        <img src="img/calzado/lista-6.jpg" alt="" class="img-fluid">
+                     <div class="col-7">
+                        <h4 class="textoRelampago2">50% de descuento</h4>
+                        <hr style="color:#fff;">
+                        <p class="textoRelampago3">Bubble. Gum Kilian Tela VIR FIU/ROS 12/17</p>
+                        <h6 class="textoRelampago4">SKU: 110290</h6>
+
+                        <div class="row">
+                           <div class="col-6">
+                              <div class="form-group row">
+                                 <label for="seleccioneTallaRelampago" class="col-sm-5 col-form-label textoRelampago4">Talla:</label>
+                                 <div class="col-sm-5 pr-0 pl-2">
+                                    <select class="form-control seleccioneTallaRelampago" id="seleccioneTallaRelampago">
+                                       <option value="1" class="optionTallas">5</option>
+                                       <option value="2" class="optionTallas">5.5</option>
+                                       <option value="3">6</option>
+                                       <option value="3">6.5</option>
+                                       <option value="3">7</option>
+                                       <option value="3">7.5</option>
+                                       <option value="3">8</option>
+                                       <option value="3">8.5</option>
+                                       <option value="3">9</option>
+                                    </select>
+                                 </div>
+                               </div>
+                           </div>
+                           <div class="col-6">
+                              <div class="form-group row">
+                                 <label for="seleccioneCantidad" class="col-sm-7 col-form-label textoRelampago4">Cantidad:</label>
+                                 <div class="col-sm-5 pr-0">
+                                    <input type="text" class="form-control" id="seleccioneCantidad" placeholder="0">
+                                 </div>
+                               </div>
+                           </div>
+                        </div>
                      </div>
-                     <div class="col-6">
-                        <h4 style="color: rgb(255, 72, 0);">Tenis Nike <strong style="color: red;">50%</strong> de descuento, solo hoy aprovecha</h4>
-                        <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></p>
+                     <div class="col-5 align-self-center imgRelampago pl-0 pr-0">
+                        <img src="img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid imgRelampago">
                      </div>
                   </div>
                </div>
                <div class="modal-footer pieRelampago">
-                  <button type="button" class="btn btn-lg colorSecundario" style="color: #ffff;">Ver producto</button>
+                  <div class="row">
+                     <div class="col-4 pl-0">
+                        <button type="button" class="btn colorPrimario btnRelampago">Agregar al carrito</button>
+                     </div>
+
+                     <div class="col-4">
+                        <button type="button" class="btn colorSecundario btnRelampago">Comprar ahora</button>
+                     </div>
+
+                     <div class="col-4 text-right">
+                        <button class="btn btnFavoritoDetalle"> <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button>
+                     </div>
+                  </div>
+               
                </div>
             </div>
          </div>
@@ -2899,8 +3091,22 @@
       <script type="text/javascript" src="js/tolk-index/carruselMarcas.js"></script>
       <script type="text/javascript" src="js/tolk-index/home.js"></script>
 
-    
+      <script>
+         function openForm() {
+           document.getElementById("miChat").style.display = "block";
+         }
+         
+         function closeForm() {
+           document.getElementById("miChat").style.display = "none";
+         }
+         </script>
 
+         <script>
+            // Data Picker Initialization
+$('.datepicker').datepicker({
+  inline: true,
+});
+         </script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

@@ -31,6 +31,11 @@
     border-left: 0px solid black;
 }
 
+#buscar::placeholder  {  
+
+    text-align: right!important; 
+} 
+
 
 
 .textoNavbarLogin li a small{

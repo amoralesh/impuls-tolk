@@ -35,18 +35,7 @@
     -o-border-radius: 5px!important;
 }
 
-    .textoEtiqueta{
-        font-family: Poppins;
-        font-size: 13px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.23;
-        letter-spacing: 0.01px;
-        text-align: center;
-        color: #ffffff!important;
-        margin-top: 4px!important;
-    }
+
 
 
 
@@ -218,7 +207,12 @@
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9999!important;
-  }
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   
   /* Add styles to the form container */
   .form-container {

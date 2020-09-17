@@ -127,7 +127,7 @@
     padding: 2px 5px!important;
     background-color: rgb(248, 3, 3);
     height: 56px!important;
-    width: 400px!important;
+    width: 430px!important;
     border-radius: 10px!important;
     -webkit-border-radius: 10px!important;
     -moz-border-radius: 10px!important;
@@ -151,10 +151,10 @@ padding: 0px 10px!important;
 
 .tiempoReloj{
     position: relative;
-    bottom: -2px!important;
+    bottom: -8px!important;
     left: -15px;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -228,6 +228,11 @@ padding: 0px 10px!important;
     color: #ffffff!important;
    }
 
+   .relampago{
+width: 45px;
+height: 45px;
+   }
+
    .seleccioneTallaRelampago{
         height: 35px;
         width: 57px;
@@ -261,11 +266,33 @@ padding: 0px 10px!important;
         letter-spacing: normal;
         text-align: center;
         color: #ffffff;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        border-radius: 10px!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+}
+
+.textoAntesRelampago{
+    font-family: PoppinsSemiBold!important;
+    font-size: 14px!important;
+    font-weight: 600!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoPrecioRelampago{
+    font-family: PoppinsSemiBold!important;
+  font-size: 18px!important;
+  font-weight: 600!important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
     

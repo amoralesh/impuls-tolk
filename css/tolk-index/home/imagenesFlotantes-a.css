@@ -22,7 +22,6 @@
 
 .bloqueFlotante-a2{
     position:absolute;
-    border-radius: 20px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(139deg, #1653a1 20%, #263c84 102%);
     width:90%;
@@ -31,11 +30,15 @@
     bottom: 70px;
     z-index: 999;
     padding: 6%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .bloqueFlotante-a3{
     position:absolute;
-    border-radius: 20px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
     background-image: radial-gradient(circle at 11% 1%, #c2bba1, #877548 119%);
     width:90%;
@@ -44,6 +47,11 @@
     bottom: 70px;
     z-index: 999;
     padding: 6%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .bloqueFlotante-a4{
@@ -56,11 +64,15 @@
     bottom: 0px;
     z-index: 999;
     padding: 6%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .bloqueFlotante-a5{
     position:absolute;
-    border-radius: 20px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(113deg, #774363 -6%, #c26ea2 98%);
@@ -70,6 +82,11 @@
     bottom: 0px;
     z-index: 999;
     padding: 6%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .titulosFlotantes-a{

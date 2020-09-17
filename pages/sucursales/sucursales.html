@@ -42,14 +42,10 @@
       <link rel="stylesheet" href="../../css/tolk-index/layout/suscripcion.css">
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="../../css/tolk-index/layout/footer.css">
-
- 
       <!--========= Estilos Pagina Contactanos ==========-->
       <!--====================================================-->
       <!-- Estilos  Contactanos -->
       <link rel="stylesheet" href="../../css/tolk-index/miCuenta/miCuenta.css">
-
-
    </head>
    <body class="skin-light">
       <header>
@@ -987,206 +983,283 @@
       <!--===============================================
          FIN  NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
          ================================================= -->
-
- 
-
       <!--===============================================
-                      MI CUENTA
-    =================================================-->
+                    SUCURSALES FILTROS
+         =================================================-->
       <!--container-->
-      <section class="container-fluid colorFondoPrimario seccionMiCuenta">
-
-
-          <div class="container">
-              <div class="row">
-                  <div class="col-6">
-                    <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
+      <section class="container">
+         <div class="row pt-5 mb-5">
+            <div class="col-3">
+               <h1 class="poppinsBold35">Sucursales</h1>
+            </div>
+            <div class="col-2 pr-0">
+               <div class="form-group row">
+                  <div class="pl-0">
+                     <select id="inputState" class="form-control estilosInputSucursales">
+                        <option selected>Estado</option>
+                        <option>Nuevo León</option>
+                        <option>Coahuila</option>
+                        <option>Guanajuato</option>
+                        <option>Yucatán</option>
+                        <option>Tabasco</option>
+                        <option>Puebla</option>
+                        <option>Jalisco</option>
+                     </select>
                   </div>
-                  <div class="col-6 align-self-center text-right">
-                    <button class="btn colorSecundario btnEditar"> Editar</button>
+               </div>
+            </div>
+            <div class="col-2 pl-0">
+               <div class="form-group row">
+                  <div class="pl-0">
+                     <select id="inputState" class="form-control estilosInputSucursales">
+                        <option selected>Ciudad</option>
+                        <option>Apodaca</option>
+                        <option>Escobedo</option>
+                        <option>Santa Catarina</option>
+                        <option>Monterrey</option>
+                        <option>Guadalupe</option>
+                        <option>García</option>
+                        <option>Saltillo</option>
+                        <option>León</option>
+                        <option>Mérida</option>
+                        <option>Villahermosa</option>
+                        <option>Puebla</option>
+                        <option>Guadalajara</option>
+                        <option>San Pedro Tlaquepaque</option>
+                        <option>Zapopan</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <input class="form-control estilosInputSucursales" type="text" placeholder="Buscar" aria-label="Buscar">
+            </div>
+            <div class="col-2 pl-0">
+               <button class="btn colorSecundario btnBuscar">Buscar</button>
+            </div>
+         </div>
+      </section>
+      <!--Main layout-->
+    <!--===============================================
+                    FIN SUCURSALES  FILTROS
+    =================================================-->
+
+         <!--===============================================
+                            MAPA
+         =================================================-->
+         <main>
+            <div class="container">
+            <!--Section: Content-->
+            <section class="text-center text-lg-left dark-grey-text mb-4">
+               <!--Grid row-->
+               <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-md-9">
+                     <style>
+                        .map-container {
+                        height: 200px;
+                        position: relative;
+                        }
+                        .map-container iframe {
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        }
+                     </style>
+                     <!--Google map-->
+                     <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1221.2814677872027!2d21.044575420669666!3d52.251321896813074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd8b5406f107%3A0xb8d026a78c432c99!2sMDBootstrap!5e0!3m2!1spl!2spl!4v1584546471245!5m2!1spl!2spl"
+                           frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                     </div>
+                     <!--Google Maps-->
+                  </div>
+                  <!--Grid row-->
+            </section>
+            <!--Section: Content-->
+            </div>
+         </main>
+              <!--===============================================
+                            FIN MAPA
+         =================================================-->
+
+         <!--===============================================
+                            SUCURSALES CERCA DE TI
+         =================================================-->
+      <!--Main layout-->
+      <section class="colorFondoPrimario pt-5">
+         <div class="container">
+            <h3 class="textoSucursales3">Sucursales cerca de ti</h3>
+            <div class="row borderSucursales">
+               <div class="col-3">
+                  <!-- Card Light -->
+                  <div class="card sinSombra colorFondoPrimario">
+                     <!-- Card image -->
+                     <div class="view overlay">
+                        <a>
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!-- Card content -->
+                     <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title textoSucursales1">Apodaca</h4>
+                        <!-- Text -->
+                        <div class="textoSucursales2">
+                           <p class="card-text mb-0">Plaza Sendero La Fe</p>
+                           <p class="card-text mb-0">Carretera Miguel Aleman Alemán No. 789 cruz</p>
+                           <p class="card-text  mb-0">con Av. del Télefono</p>
+                           <p class="card-text  mb-0">Apodaca, Nuevo León</p>
+                           <p class="card-text  mb-0">Horario:</p>
+                           <p class="card-text  mb-0">L-D 9:00 a 21:00:</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Light -->
+               </div>
+               <div class="col-3">
+                  <!-- Card Light -->
+                  <div class="card sinSombra colorFondoPrimario">
+                     <!-- Card image -->
+                     <div class="view overlay">
+                        <a>
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!-- Card content -->
+                     <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title textoSucursales1">Escobedo</h4>
+                        <!-- Text -->
+                        <div class="textoSucursales2">
+                           <p class="card-text mb-0">Plaza Animal</p>
+                           <p class="card-text mb-0">Av. Raúl Salinas Lozano No. 301</p>
+                           <p class="card-text  mb-0">Subancia 01. Coloniua Joyas de</p>
+                           <p class="card-text  mb-0">Anáhuac, Escobedo, Nuevo León</p>
+                           <p class="card-text  mb-0">Horario:</p>
+                           <p class="card-text  mb-0">L-D 9:00 a 21:00:</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Light -->
+               </div>
+               <div class="col-3">
+                  <!-- Card Light -->
+                  <div class="card sinSombra colorFondoPrimario">
+                     <!-- Card image -->
+                     <div class="view overlay">
+                        <a>
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!-- Card content -->
+                     <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title textoSucursales1">Santa Catarina</h4>
+     
+                        <!-- Text -->
+                        <div class="textoSucursales2">
+                           <p class="card-text mb-0">El Paseo Santa Catarina</p>
+                           <p class="card-text mb-0">Av. Industriales del Pte. No. 1050</p>
+                           <p class="card-text  mb-0">Santa Catarina, Nuevo León</p>
+                           <p class="card-text  mb-0">Anáhuac, Escobedo, Nuevo León</p>
+                           <p class="card-text  mb-0">Horario:</p>
+                           <p class="card-text  mb-0">L-D 9:00 a 21:00:</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Light -->
+               </div>
+               <div class="col-3">
+                  <!-- Card Light -->
+                  <div class="card sinSombra colorFondoPrimario">
+                     <!-- Card image -->
+                     <div class="view overlay">
+                        <a>
+                           <div class="mask rgba-white-slight"></div>
+                        </a>
+                     </div>
+                     <!-- Card content -->
+                     <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="card-title textoSucursales1">Monterrey</h4>
+                        <!-- Text -->
+                        <div class="textoSucursales2">
+                           <p class="card-text mb-0">Juan Ignacio Ramón 305 Ote.</p>
+                           <p class="card-text mb-0">Colonia Centro</p>
+                           <p class="card-text  mb-0">Monterrey, Nuevo León</p>
+                           <p class="card-text  mb-0">Horario:</p>
+                           <p class="card-text  mb-0">L-D 9:00 a 21:00</p>
+                       </div>
+                     </div>
+                  </div>
+                  <!-- Card Light -->
+               </div>
+            </div>
+         </div>
+
+    </section>
+        <!--===============================================
+                           FIN SUCURSALES CERCA DE TI
+         =================================================-->
+
+          <!--===============================================
+                     DONDE ESTA MI PEDIDO/ ANUNCIO
+         =================================================-->
+
+         <section class="colorFondoPrimario pt-5 pb-5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-6 text-center align-self-center pt-5 pb-5" style="background-color: #ffff;">
+                      <h4 class="textoSucursales4">¿Donde está mi pedido?</h4>
+                      <p class="textoSucursales5">Accede a tu cuenta o usa tu cuenta de invitado para comprar el estado de tu pedido.</p>
+                      <div class="row">
+                          <di class="col-6">
+                            <button class="btn colorSecundario btnSesionSucursales">Iniciar Sesión</button>
+                          </di>
+                          <di class="col-6">
+                             <button class="btn btnSeguimientoSucursales">Seguimiento de Pedidos</button>
+                          </di>
+                      </div>
+ 
+                  </div>
+                  <div class="offset-1 col-5 bannerSucursal">
+                      <div class="row">
+                          <div class="col-6">
+                             <img src="../../img/imgOficial/fotos/01 home/z2.png" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6">
+ 
+                            <h6 class="textbannerSucursal1"><u>Niño Deportivo</u></h6>
+                            <h5 class="textbannerSucursal2">Hasta</h5>
+                            <h3 class="textbannerSucursal3">50%</h3>
+                            <h5 class="textbannerSucursal2">de descuento</h5>
+ 
+                            <button class="btn btnBannerSucursal">Ver Más</button>
+                           
+                          </div>
+                      </div>
+ 
                   </div>
               </div>
-         
 
-             <div class="row">
-                <div class="col-4">
-                    <ul class="list-group list-group-flush textoMiCuenta">
-                        <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
-                        <li class="list-group-item"><a href="#!">Mis datos</a></li>
-                        <li class="list-group-item"><a href="#!">Historia de compras</a></li>
-                        <li class="list-group-item"><a href="direccion.html">Direcciones</a></li>
-                        <li class="list-group-item"><a href="#!">Datos de facturación</a></li>
-                        <li class="list-group-item"><a href="#!">Salda a favor</a></li>
-                        <li class="list-group-item"><a href="#!">Lista de deseos</a></li>
-                        <li class="list-group-item"><a href="#!">Suscripción / Notificación</a></li>
-                        <li class="list-group-item"><a href="#!">Cambiar contraseña</a></li>
-                      </ul>
-<br><br><br>
-                      <ul class="list-group list-group-flush textoMiCuenta">
-                        <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
-                        <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
-                        <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
-                        <li class="list-group-item"><a href="#!">Entrega</a></li>
-                        <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
-                        <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
-                        <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
-                        <li class="list-group-item"><a href="sucursales.html">Sucursales</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-8 p-5" style="background-color: #fff;">
+            </div>
 
-                    <div class="row">
-                        <div class="col-6">
-                                <h2 class="textoMiCuenta1">Datos Personales</h2>
-                                <h2 class="textoMiCuenta2 mt-3 mb-3">Si necesitas modificar tu nombre, favor de comunicarte al 01 800 7 IMPULS</h2>
-                            <div class="form-group">
-                                <label for="nombresMiCuenta" class="textoMiCuenta3">Nombre(s)</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="nombresMiCuenta" placeholder="Nombre(s)" value="Impuls">
-                              </div>
-
-                              <div class="form-group">
-                                <label for="apPaternoMiCuenta" class="textoMiCuenta3">Apellido Paterno</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="apPaternoMiCuenta" placeholder="Apellido Paterno" value="Zapatos">
-                              </div>
-
-                              <div class="form-group">
-                                <label for="apMaternoMiCuenta" class="textoMiCuenta3">Apellido Materno</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="apMaternoMiCuenta" placeholder="Apellido Materno" value="Moda">
-                              </div>
-
-                              <div class="form-group">
-                                <label class="textoMiCuenta3">Fecha de Nacimiento:</label> <input class="form-control estiloInputMiCuenta" data-inputmask="'alias': 'date'" id="test1">
-                                                       
-                               </div>
-
-                               <div class="form-check form-check-inline">
-                                <label class="form-check-label" for="inlineRadio1">Genero</label>
-                              </div>
-                      
-                               <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Hombre</label>
-                              </div>
-                              <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">Mujer</label>
-                              </div>
-
-                              
-
-                        </div>
-
-                        <div class="col-6">
-                            <h2 class="textoMiCuenta1">Datos de Contacto</h2>
-                            <div class="form-group">
-                                <label for="correMiCuenta" class="textoMiCuenta3">Correo</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="correMiCuenta" placeholder="impuls@.gmail.com" value="impuls@.gmail.com">
-                              </div>
-
-                              <div class="form-group">
-                                <label for="teleFijoMiCuenta" class="textoMiCuenta3">Teléfono Fijo</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="teleFijoMiCuenta" placeholder="55 55 55 55 55 55" value="55 55 55 55 55">
-                              </div>
-
-                              <div class="form-group">
-                                <label for="celularMiCuenta" class="textoMiCuenta3">Celular</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="celularMiCuenta" placeholder="55 55 55 55 55 55" value="55 55 55 54 53">
-                              </div>
-                        </div>
-                    </div>
-                      
-                </div>
-
-
-                  <div class="offset-4 col-8 p-5 mt-5" style="background-color: #fff;">
-
-                    <div class="row">
-                        <div class="col-6">
-                            <h2 class="textoMiCuenta1">Datos de Envío</h2>
-                            <div class="form-group">
-                                <label for="calleMiCuenta" class="textoMiCuenta3">Calle</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="calleMiCuenta" placeholder="Calle" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="numExtMiCuenta" class="textoMiCuenta3">Número Exterior</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="numExtMiCuenta" placeholder="Número Exterior" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="numIntMiCuenta" class="textoMiCuenta3">Número Interior</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="numIntMiCuenta" placeholder="Número Interior" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="numTeleMiCuenta" class="textoMiCuenta3">Número Teléfonico</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="numTeleMiCuenta" placeholder="Número Teléfonico" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="entreCalleMiCuenta" class="textoMiCuenta3">Entre Calles</label>
-                                <input type="email" class="form-control estiloInputMiCuenta" id="entreCalleMiCuenta" placeholder="Entre Calles" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="cpMiCuenta" class="textoMiCuenta3">Código Postal</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="cpMiCuenta" placeholder="Código Postal" value="" disabled>
-                              </div>
-
-                        </div>
-
-                        <div class="col-6 pt-5">
-
-                            <div class="form-group">
-                                <label for="estadoMiCuenta" class="textoMiCuenta3">Estado</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="estadoMiCuenta" placeholder="Estado" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="municipioMiCuenta" class="textoMiCuenta3">Municipio</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="municipioMiCuenta" placeholder="Municipio" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="ciudadMiCuenta" class="textoMiCuenta3">Ciudad</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="ciudadMiCuenta" placeholder="Ciudad" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="coloniaMiCuenta" class="textoMiCuenta3">Colonia</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="coloniaMiCuenta" placeholder="Colonia" value="" disabled>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="paisMiCuenta" class="textoMiCuenta3">País</label>
-                                <input type="text" class="form-control estiloInputMiCuenta" id="paisMiCuenta" placeholder="País" value="" disabled>
-                              </div>
-
-                            
-                        </div>
-                    </div>
-                      
-                </div>
-
-
-             </div>
-<div class="col-4 offset-8 text-right">
-    <button class="btn colorSecundario btnEditar">Editar</button>
-</div>
-         
-          </div>
-      </section>
-
-      <!--===============================================
-                      FIN MI CUENTA
+        </section>
+          <!--===============================================
+                 FIN  DONDE ESTA MI PEDIDO/ ANUNCIO
          =================================================-->
 
 
 
-
+      <br><br><br>
+      <br><br><br>
+ 
       <!--===============================================
-                        SUSCRIPCIÓN
-      =================================================-->
+         SUSCRIPCIÓN
+         =================================================-->
       <section class="container-fluid contenedorSuscripcion">
          <div class="row">
             <div class="offset-lg-2 col-12 col-sm-12 col-md-12 col-lg-8  suscripcion pt-lg-4 pl-lg-5">
@@ -1215,7 +1288,7 @@
          </div>
       </section>
       <!--===============================================
-                      FIN  SUSCRIPCIÓN
+         FIN  SUSCRIPCIÓN
          =================================================-->
       <!--===============================================
          FOOTER
@@ -1675,20 +1748,9 @@
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <!--Lista Producto-->
       <script type="text/javascript" src="../../js/tolk-index/listaProducto.js"></script>
-
+      <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+      <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
-   <script>
-      $(document).ready(function(){
-
-
-$("#test1").inputmask("datetime", {
-        inputFormat: "dd/mm/yyyy",
-        outputFormat: "mm-yyyy-dd",
-        inputEventOnly: true
-    });
-});
-   </script>
-
       <!--===============================================
          SCRIPTS
          ================================================= -->
