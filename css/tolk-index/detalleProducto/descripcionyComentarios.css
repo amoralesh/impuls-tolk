@@ -62,12 +62,8 @@
 }
 
 .btnResenas{
-
     width: 191px;
     height: 56px;
-    border-radius: 10px;
-    border: solid 1px #000000;
-
     font-family: PoppinsBold;
     font-size: 18px;
     font-weight: bold;
@@ -76,17 +72,17 @@
     line-height: 1.11;
     letter-spacing: normal;
     text-align: center;
-    color: #000000;
-
     text-transform: none;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
 }
 
 .btnPreguntas{
     width: 280px;
     height: 56px;
-    border-radius: 10px;
-    background-color: #888888;
-
     font-family: PoppinsBold;
     font-size: 18px;
     font-weight: bold;
@@ -95,10 +91,26 @@
     line-height: 1.11;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
-
     text-transform: none;
     margin-left: 27px!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+}
+
+.btnEstilo1{
+    background-color: #888888;
+    color: #ffffff;
+
+}
+
+.btnEstilo2{
+    background-color: #ffffff;
+    color: #000000;
+    border: solid 1px #000000;
+
 }
 
 .comentariosContenedor{
@@ -116,6 +128,17 @@
     padding: 0px;
     overflow-y: scroll;
     margin-bottom: 26px;
+}
+
+.textoPorcentaje{
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
 }
 
 #tienesPregunta{
@@ -161,6 +184,7 @@
     height: 41px;
     border-radius: 5px;
     background-color: #7588b1;
+    text-transform: none;
 
     font-family: PoppinsSemiBold;
     font-size: 14px;
@@ -222,7 +246,7 @@ bottom: 2px;
 }
 
 .tituloEvaluaciones{
-    font-family: Poppins;
+    font-family: PoppinsBold;
     font-size: 30px;
     font-weight: bold;
     font-stretch: normal;
@@ -260,5 +284,72 @@ bottom: 2px;
   .custom-range::-ms-thumb {
     background: rgb(0, 0, 0);
   }
-  
- 
+
+  /*RESEÑAS*/
+.textResenas1{
+    font-family: PoppinsSemiBold!important;
+    font-size: 35px!important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.57;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}  
+
+.textResenas2{
+    font-family: PoppinsBold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textResenas3{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.textResenas4{
+    font-family: PoppinsBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.textResenas5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.colorUtil{
+    color: #6f6f6f!important;
+}
+
+.colorUtil a{
+    color: #6f6f6f!important;
+}
+
+.imgResena{
+    width: 180px;
+    height: 128px;
+}

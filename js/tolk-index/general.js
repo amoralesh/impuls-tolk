@@ -8,11 +8,20 @@ $(document).ready(function(){
 adjustCSS();
 $(window).resize(function(){ adjustCSS() });
 
-// $( document ).ready(function() {
-//   //  $('#modalOfertaRelampago').modal('toggle');
-//    $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
-//    $('.modal-backdrop').removeClass("modal-backdrop");    
-// }); 
+
+  //  $('#modalOfertaRelampago').modal('toggle');
+  $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
+   $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
+   $('.modal-backdrop').removeClass("modal-backdrop");  
+   
+$("#test1").inputmask("datetime", {
+     inputFormat: "dd/mm/yyyy",
+     outputFormat: "mm-yyyy-dd",
+     inputEventOnly: true
+ });
+
+
+
 })
 
 function adjustCSS(){

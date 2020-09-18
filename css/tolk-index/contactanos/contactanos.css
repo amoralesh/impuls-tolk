@@ -1,0 +1,171 @@
+.btnWhatContacto{
+    width: 273px;
+    height: 56px;
+    font-family: PoppinsSemiBold;
+    text-transform: none!important;
+    font-size: 16px!important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: -0.11px;
+    text-align: center;
+    color: #ffffff!important;
+    background-color: #3bb115;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.wtp{
+    font-size: 30px!important;
+}
+
+.textoContactanos1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #2c2c2c;
+  }
+
+  .textoContactanos2 {
+    font-family: PoppinsBold;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoContactanos3 {
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoContactanos4 {
+    font-family: Poppins;
+    font-size: 14px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoContactanos5 {
+    width: 283px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoContactanos6 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .borderRigthContactanos{
+    border-right: solid 0.8px #bababa;
+  }
+
+  .dejarComentario img{
+    width: 33px;
+    height: 33px;
+}
+
+.iconoFace{
+position: relative;
+bottom: 2px;
+}
+
+.paddingHorarios{
+    padding: 0px 50px 0px 10px;
+
+}
+
+.dondePedido{
+    font-family: PoppinsBold;
+    font-size: 30px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.paddingDondeEsta{
+    background-color: #fff;
+    padding:30px;
+    margin-bottom: 150px;
+}
+
+.btnDondeEstaPedido{
+    width: 273px;
+    height: 56px;
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btnDondeEstaPedido2{
+    width: 273px;
+    height: 56px;
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    border: 1px solid black;
+    margin-top: 20px!important;
+    text-transform: none;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

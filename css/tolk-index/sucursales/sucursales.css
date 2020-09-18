@@ -1,0 +1,203 @@
+
+/*SUCURSALES--SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES*/
+/*SUCURSALES--SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES---SUCURSALES*/
+.btnBuscar{
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+      width: 207px;
+      height: 50px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+  }
+
+ 
+  
+  .estilosInputSucursales{
+      border: solid 1px #000000!important;
+      border-radius: 10px!important;
+      -webkit-border-radius: 10px!important;
+      -moz-border-radius: 10px!important;
+      -ms-border-radius: 10px!important;
+      -o-border-radius: 10px!important;
+      height: 50px!important;
+  }
+  
+  .sinSombra{
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
+  }
+  
+  .textoSucursales2 p{
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #2c2c2c;
+  }
+  
+  .textoSucursales1{
+      font-family: PoppinsSemiBold;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #2c2c2c;
+  }
+  
+  .textoSucursales3{
+      font-family: PoppinsBold;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #000000; 
+  }
+  
+  .textoSucursales4{
+      font-family: PoppinsBold;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.95;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000; 
+  }
+  
+  .textoSucursales5{
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .borderSucursales{
+      border-top: solid 0.5px #bababa;
+      border-bottom: solid 0.5px #bababa;
+  }
+  
+  .bannerSucursal{
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(114deg, #774363 -6%, #c26ea2 98%);
+  
+  }
+  
+  .textbannerSucursal1{
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.94;
+      letter-spacing: 0.13px;
+      color: #ffffff;
+  }
+  
+  .textbannerSucursal2{
+      font-family: PoppinsSemiBold;
+      font-size: 24px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      color: #ffffff;
+  }
+  
+  .textbannerSucursal3{
+      font-family: PoppinsBold;
+      font-size: 50px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.8;
+      letter-spacing: normal;
+      color: #ffffff;
+  }
+  
+  .btnBannerSucursal{
+      width: 166.4px;
+      height: 52px;
+      font-family: PoppinsBold;
+      font-size: 17px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.18;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      background-color: #e98dc6;
+      border-radius:10!important;
+      -webkit-border-radius:10!important;
+      -moz-border-radius:10!important;
+      -ms-border-radius:10!important;
+      -o-border-radius:10!important;
+  }
+  
+  .btnSesionSucursales{
+    width: 249px;
+    height: 59px;
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  
+  
+  .btnSeguimientoSucursales{
+      width: 249px;
+      height: 59px;
+      font-family: PoppinsSemiBold;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.13;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      text-transform: none;
+      border: solid 1px #000000;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+  }
