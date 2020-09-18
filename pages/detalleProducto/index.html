@@ -994,7 +994,7 @@
       <!--container-->
       <section class="container">
          <!--Migas Migas Migas Migas-->
-         <ul class="breadcrumb">
+         <ul class="breadcrumb mt-3">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Dama</a></li>
             <li><a href="#">Sandalia</a></li>
@@ -1106,37 +1106,40 @@
                      </ul>
                      <h6 id="sku" class="sku">SKU: 110290</h6>
                      <h5 id="nombreProductoDetalle" class="nombreProductoDetalle">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
-                     <p class="textosPrecios">Precio Sugerido: <span class="mr-1"><strong>$500.00 MXN</strong></span></p>
+                     <p class="textosPrecios mb-1">Precio Sugerido: <span class="mr-1"><strong>$500.00 MXN</strong></span></p>
                      <p class="textosPrecios">Precio Socio: <span class="mr-1"><strong class="precioSocio">$400.00 MXN</strong></span></p>
                   </div>
                   <hr>
                   <div class="col-12" >
                      <h6 class="textoEligeTalla">Elige tu Talla:</h6>
                      <div class="row p-3">
-                        <div class="col-2 tallas">
-                           <p>5</p>
+                        <div class="col-2 tallas p-0">
+                          <button class="btn tallasDP">5</button>
                         </div>
-                        <div class="col-2 tallas">
-                           <p>5.5</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>6.5</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>7</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>7.5</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>8</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>8.5</p>
-                        </div>
-                        <div class="col-2 tallas">
-                           <p>9</p>
-                        </div>
+                        <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">5.5</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">6</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">6.5</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">7</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">7.5</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">8</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">8.5</button>
+                         </div>
+                         <div class="col-2 tallas p-0">
+                           <button class="btn tallasDP">9</button>
+                         </div>
                      </div>
                   </div>
                   <hr>
@@ -1238,39 +1241,227 @@
                         <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Cerrar detalles</strong></a>
                      </div>
                      <div class="col-12 comentariosContenedor">
-                        <button type="button" class="btn btn-lg btnResenas">Reseñas (22)</button>
-                        <button type="button" class="btn btn-lg btnPreguntas">Preguntas y Respuestas</button>
-                        <div class="form-group mt-4">
-                           <input type="text" class="form-control" id="tienesPregunta" placeholder="¿Tienes una pregunta?">
-                        </div>
-                        <div class="contenedorRespuestas">
-                           <div class="respuestaTienda">
-                              <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                              <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                              <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                              <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+                        <button type="button" class="btn btn-lg btnResenas btnEstilo1" id="btnResenasDetalle">Reseñas (22)</button>
+                        <button type="button" class="btn btn-lg btnPreguntas btnEstilo2" id="btnPreguntasDetalle">Preguntas y Respuestas</button>
+
+
+
+                           <div class="cajaResenas">
+
+                              <div class="row mt-5">
+                                 <div class="col-3 pr-0">
+                                   <h1 class="textResenas1">4.1 <span class="textResenas2">de 5</span></h1>
+                                 </div>
+                                 <div class="col-2 p-0">
+                                    <ul class="rating">
+                                       <li>
+                                          <i class="fas fa-star fa-sm text-black"></i>
+                                       </li>
+                                       <li>
+                                          <i class="fas fa-star fa-sm text-black"></i>
+                                       </li>
+                                       <li>
+                                          <i class="fas fa-star fa-sm text-black"></i>
+                                       </li>
+                                       <li>
+                                          <i class="fas fa-star fa-sm text-black"></i>
+                                       </li>
+                                       <li>
+                                          <i class="far fa-star fa-sm text-black"></i>
+                                       </li>
+ 
+                                    </ul>
+                                 </div>
+                                 <div class="col-6 pl-0">
+                                    <p class="textResenas3">22 calificaciones de clientes</p>
+                                 </div>
+                              </div>
+
+
+<!-- INICIO RESEÑA -->
+<div class="row mt-3">
+   <div class="col-2  pr-0">
+      <ul class="rating">
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="far fa-star fa-sm text-black"></i>
+         </li>
+
+      </ul>
+   </div>
+   <div class="col-10">
+      <ul class="rating m-0">
+         <li>
+            <p class="textResenas4">Alonos M.</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">31 de enero de 2020</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">-Comprador verificado</p>
+         </li>
+      </ul>
+   </div>
+   <div class="col-12">
+      <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
+   </div>
+   <div class="col-12">
+         <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
+   </div>
+</div>
+<hr>
+<!-- FIN RESEÑA -->
+
+<!-- INICIO RESEÑA -->
+<div class="row mt-3">
+   <div class="col-2  pr-0">
+      <ul class="rating">
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="far fa-star fa-sm text-black"></i>
+         </li>
+
+      </ul>
+   </div>
+   <div class="col-10">
+      <ul class="rating m-0">
+         <li>
+            <p class="textResenas4">Alonos M.</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">31 de enero de 2020</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">-Comprador verificado</p>
+         </li>
+      </ul>
+   </div>
+   <div class="col-12">
+      <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
+   </div>
+   <div class="col-12">
+         <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
+   </div>
+   <div class="col-3">
+<img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
+</div>
+<div class="col-3">
+   <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
+   </div>
+   <div class="col-3">
+      <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
+      </div>
+<div class="col-3">
+   <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
+</div>
+</div>
+<hr>
+<!-- FIN RESEÑA -->
+
+<!-- INICIO RESEÑA -->
+<div class="row mt-3">
+   <div class="col-2  pr-0">
+      <ul class="rating">
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="fas fa-star fa-sm text-black"></i>
+         </li>
+         <li>
+            <i class="far fa-star fa-sm text-black"></i>
+         </li>
+
+      </ul>
+   </div>
+   <div class="col-10">
+      <ul class="rating m-0">
+         <li>
+            <p class="textResenas4">Alonos M.</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">31 de enero de 2020</p>
+         </li>
+         <li>
+            <p class="textResenas3 ml-3">-Comprador verificado</p>
+         </li>
+      </ul>
+   </div>
+   <div class="col-12">
+      <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
+   </div>
+   <div class="col-12">
+         <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
+   </div>
+</div>
+<hr>
+<!-- FIN RESEÑA -->
+                             
+<button type="button" class="btn masOpiniones" id="masResenas">Ver más opiniones</button>                
+
                            </div>
-                           <div class="respuestaTienda">
-                              <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                              <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                              <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                              <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+
+                           <div style="display: none" class="cajaPreguntas">
+                              <div class="form-group mt-4">
+                                 <input type="text" class="form-control" id="tienesPregunta" placeholder="¿Tienes una pregunta?">
+                              </div>
+                              <div class="contenedorRespuestas">
+                                 <div class="respuestaTienda">
+                                    <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
+                                    <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
+                                    <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
+                                    <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+                                 </div>
+                                 <div class="respuestaTienda">
+                                    <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
+                                    <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
+                                    <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
+                                    <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+                                 </div>
+                                 <div class="respuestaTienda">
+                                    <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
+                                    <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
+                                    <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
+                                    <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+                                 </div>
+                                 <div class="respuestaTienda">
+                                    <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
+                                    <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
+                                    <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
+                                    <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
+                                 </div>
+                              </div>
+                              <button type="button" class="btn masOpiniones" id="masOpiniones">Ver más opiniones</button>
+                              <!-- fin contenedorRespuestas -->
                            </div>
-                           <div class="respuestaTienda">
-                              <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                              <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                              <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                              <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                           </div>
-                           <div class="respuestaTienda">
-                              <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                              <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                              <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                              <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                           </div>
-                        </div>
-                        <button type="button" class="btn masOpiniones" id="masOpiniones">Ver más opiniones</button>
-                        <!-- fin contenedorRespuestas -->
                      </div>
                      <!-- fin comentariosContenedor-->
                   </div>
@@ -1316,6 +1507,7 @@
                      </div>
                      <div class="col-12 contenedorCalificacionRangos">
                         <h1 class="tituloEvaluaciones">Evaluaciones</h1>
+                        <h2 class="textoPorcentaje text-center">90% de los clientes recomendaron este producto</h2>
                         <div class="form-group">
                            <label for="rangosCalificaciones" class="textoRangos">Talla</label>
                            <input type="range" class="custom-range rangosCalificaciones" id="rangosCalificaciones" aria-describedby="parametros" min="0" max="10">
@@ -1400,7 +1592,7 @@
          PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
       <section class="container contenedorMasVendido">
-         <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
+         <h5 class="textoTitulosSeccion text-center">Productos recomendados para ti</h5>
          <div class="row margenProductos">
             <div class="col-6 col-sm-6 col-md-3 col-lg-2">
                <!-- Card -->
@@ -1593,45 +1785,35 @@
             </div>
          </div>
          <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
+         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5">
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card">
-                  <!-- <div data-aos="zoom-in"> -->
-                  <img
-                     src="../../img/tenis/visto-1.jpg"
-                     class="card-img-top imgVistos"
-                     alt="..."/>
-                  <!-- </div> -->
+               <div class="card tarjetaRecientemente">
+                  <div data-aos="zoom-in">
+                     <img
+                        src="../../img/tenis/visto-1.jpg"
+                        class="card-img-top imgVistos"
+                        alt="..."/>
+                  </div>
                   <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
+                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
+                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
+                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
+                        <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
+
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-2">
-                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
+                        <div class="col-9  m-0 p-0 ">
+                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+    
+                        <div class="col-2 pl-0">
                            <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
+                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
-                           </a>
-                        </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
-                           </a>
-                        </div>
+
                      </div>
                      <!-- fin row anidado -->
                   </div>
@@ -1642,41 +1824,36 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card">
-                  <!-- <div data-aos="zoom-in"> -->
-                  <img
-                     src="../../img/tenis/visto-2.jpg"
-                     class="card-img-top imgVistos"
-                     alt="..."/>
-                  <!-- </div> -->
+               <div class="card tarjetaRecientemente">
+                  <div data-aos="zoom-in">
+                     <img
+                        src="../../img/tenis/visto-2.jpg"
+                        class="card-img-top imgVistos"
+                        alt="..."/>
+                        <span class="badge badge-pill badge-news etiquetaOfertaRecientemente">
+                           <h6 class="textoEtiquetaRecientemente">OFERTA</h6>
+                        </span>
+                  </div>
                   <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
+                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
+                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
+                     <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
+                        <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
+                        <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
+                        <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
+
                      <!--row anidado -->
-                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-2">
-                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
+                     <div class="row pl-3 align-items-end justify-content-start">
+                        <div class="col-9  m-0 p-0 ">
+                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+    
+                        <div class="col-2 pl-0">
                            <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
+                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
-                           </a>
-                        </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
-                           </a>
-                        </div>
+
                      </div>
                      <!-- fin row anidado -->
                   </div>
@@ -1687,41 +1864,31 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card">
-                  <!-- <div data-aos="zoom-in"> -->
-                  <img
-                     src="../../img/tenis/visto-3.jpg"
-                     class="card-img-top imgVistos"
-                     alt="..."/>
-                  <!-- </div> -->
+               <div class="card tarjetaRecientemente">
+                  <div data-aos="zoom-in">
+                     <img
+                        src="../../img/tenis/visto-3.jpg"
+                        class="card-img-top imgVistos"
+                        alt="..."/>
+                  </div>
                   <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
+                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
+                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
+                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
+                        <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
+
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-2">
-                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
+                        <div class="col-9  m-0 p-0 ">
+                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+    
+                        <div class="col-2 pl-0">
                            <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
+                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
-                           </a>
-                        </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
-                           </a>
-                        </div>
+
                      </div>
                      <!-- fin row anidado -->
                   </div>
@@ -1731,47 +1898,42 @@
             <!-- Fin col-2 -->
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card">
-                  <!-- <div data-aos="zoom-in"> -->
-                  <img
-                     src="../../img/tenis/visto-4.jpg"
-                     class="card-img-top imgVistos"
-                     alt="..."/>
-                  <!-- </div> -->
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <!--row anidado -->
-                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-2">
-                           <button class="btn btn-md btnRecomendados colorSecundario verProducto">Ver más</button>
+                          <!-- card -->
+                          <div class="card tarjetaRecientemente">
+                           <div data-aos="zoom-in">
+                              <img
+                                 src="../../img/tenis/visto-2.jpg"
+                                 class="card-img-top imgVistos"
+                                 alt="..."/>
+                                 <span class="badge badge-pill badge-news etiquetaOfertaRecientemente">
+                                    <h6 class="textoEtiquetaRecientemente">OFERTA</h6>
+                                 </span>
+                           </div>
+                           <div class="card-body pt-0">
+                              <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
+                              <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
+                              <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
+                                 <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
+                                 <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
+                                 <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
+         
+                              <!--row anidado -->
+                              <div class="row pl-3 align-items-end justify-content-start">
+                                 <div class="col-9  m-0 p-0 ">
+                                    <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
+                                 </div>
+             
+                                 <div class="col-2 pl-0">
+                                    <a href="#">
+                                    <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
+                                    </a>
+                                 </div>
+         
+                              </div>
+                              <!-- fin row anidado -->
+                           </div>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta verProducto">
-                           </a>
-                        </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
-                           </a>
-                        </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
+                        <!-- fin card -->
             </div>
             <!-- Fin col-2 -->
          </div>
@@ -1779,14 +1941,14 @@
       </section>
       <!-- Fin container -->
       <!--===============================================
-         FIN VISTOS RECIENTEMENTE
-          ================================================= -->
+         VISTOS RECIENTEMENTE
+         ================================================= -->
       <!--===============================================
          MUESTRANOS COMO LUCES
          ================================================= -->
-      <section class="container mb-5">
+      <section class="container mb-5 mt-5">
          <h1 class="textoTitulosSeccion">Muestranos cómo luces</h1>
-         <div class="row">
+         <div class="row mt-5">
             <div class="col-4">
                <img src="https://i.pinimg.com/originals/0a/ea/b4/0aeab4a3f07f93269cd73883a2d05e26.jpg" alt="" class="img-fluid rounded">
             </div>
@@ -2159,6 +2321,8 @@
       <script type="text/javascript" src="../../js/aos-master/dist/aos.js"></script>
       <!--General-->
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
+      <!--Detalle Producto-->
+      <script type="text/javascript" src="../../js/tolk-index/detalleProducto.js"></script>
       <!--===============================================
          SCRIPTS
          ================================================= -->
