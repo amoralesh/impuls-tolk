@@ -12,7 +12,15 @@ $(window).resize(function(){ adjustCSS() });
   //  $('#modalOfertaRelampago').modal('toggle');
   $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
    $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
-   $('.modal-backdrop').removeClass("modal-backdrop");    
+   $('.modal-backdrop').removeClass("modal-backdrop");  
+   
+$("#test1").inputmask("datetime", {
+     inputFormat: "dd/mm/yyyy",
+     outputFormat: "mm-yyyy-dd",
+     inputEventOnly: true
+ });
+
+
 
 })
 
