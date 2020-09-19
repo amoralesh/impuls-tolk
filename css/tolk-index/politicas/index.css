@@ -20,6 +20,12 @@
 .cont{
     margin-bottom: 150px!important;
 }
+.sinap{
+    list-style: none;
+}
+.li_i{
+    list-style: initial;
+}
 .aviso_privacidad p{
     font-family: Poppins;
     font-size: 16px!important;
@@ -42,9 +48,11 @@
     color: #2c2c2c;
 }
 .ap_linea li{
+    list-style-position: outside;
     list-style: none;
 }
 .ap_linea li::before {
+   
     display: inline-block;
     content: '-';
     margin-right: 0.5rem;
