@@ -11,6 +11,7 @@ margin-top: 93px!important;
 .zoom .img-fluid{
 height: 187px;
 
+
 }
 
 .textoNombreProducto{
@@ -95,6 +96,13 @@ height: 187px;
 
 .eliminarSombra {
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0)!important;
+}
+
+.imgMasV-a{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    padding:10px;
 }
 
 /*=============================================

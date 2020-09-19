@@ -40,8 +40,9 @@ $(document).ready(function() {
     $(e.target)
         .prev('.panel-heading')
         .find(".more-less")
-        .toggleClass(' fa-minus');
+        .toggleClass('fa-minus');
 }
+
 $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
 
@@ -80,4 +81,6 @@ $('#multi2').mdbRange({
     },
   }
 });
+
+
 

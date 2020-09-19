@@ -20,6 +20,19 @@ $("#test1").inputmask("datetime", {
      inputEventOnly: true
  });
 
+ $( ".btnSesion" ).click(function() {
+  $(".conSesion").show();
+  $(".sinSesion").hide(); 	
+
+});
+
+$( ".cerrarS" ).click(function() {
+  $(".conSesion").hide();
+  $(".sinSesion").show(); 	
+  location.reload();
+});
+
+
 
 
 })
