@@ -228,6 +228,7 @@
 .favoritoLista{
     width: 23px;
     height: 21px;
+    cursor: pointer;
 
 }
 
