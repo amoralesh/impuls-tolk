@@ -40,13 +40,6 @@ body {
     -o-border-radius: 5px!important;
 }
 
-
-
-
-
-
-
-
 /*=====================================
 ============= TIPOGRAFIA ==============
 ======================================*/
@@ -172,43 +165,93 @@ body {
 /*=====================================
 ============= TIPOGRAFIA ==============
 ======================================*/
-.floatWhats{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:20px;
-    right:307px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 999;
-}
-
 
 /******************************
 ======CHAT Y WHATSAPP=========
 ******************************/
+.comunicacion{
+position: fixed;
+width: 385px;
+height: 66px;
+bottom:20px;
+right:15px;
 
+z-index: 999;
+}
 
-.my-float{
-    margin-top:16px;
+.floatWhats{
+  position:relative;
+  width:60px;
+  height:60px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:40px;
+  box-shadow: 2px 2px 3px #999;
+right: 20px;
+  /* z-index: 999; */
+}
+
+.floatWhats:hover{
+color:#ffffff ;
 }
 
 .open-button {
-  height: 55px;
+  position: relative;
+  height: 60px;
   color: white;
-  padding: 12px 11px;
+  padding: 5px 5px;
   border: none;
   cursor: pointer;
-  position: fixed;
-  bottom: 23px;
-  right: 15px;
-  width: 240px!important;
-  z-index: 999;
+  width: 60px!important;
+  bottom: 7px;
+  
+  /* z-index: 999; */
   }
+
+  .open-button:hover {
+    position: relative;
+    height: 60px;
+    color: white;
+    padding: 12px 11px;
+    border: none;
+    cursor: pointer;
+    width: 240px!important;
+    /* z-index: 999; */
+    }
+
+    .open-button:hover::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: bold;
+    content: "  Chat en línea \f067";
+      }
+
+      
+.textoChatHover{
+  font-family: PoppinsBold!important;
+  font-size: 18px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+  
+
+
+
+.my-float{
+  position: relative;
+  left: 6px;
+  top: 2px;
+  font-size: 48px!important;
+ 
+}
+
+
   
   /* The popup chat - hidden by default */
   .chat-popup {
@@ -223,6 +266,7 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+      margin-left: 220px;
 }
   
   /* Add styles to the form container */
@@ -293,7 +337,6 @@ body {
   color: #ffffff;
   width: 35px;
   height: 35px;
-  left: -10px;
 }
 .cabeceraFormulario{
   height: 48px;
@@ -336,10 +379,3 @@ body {
 ======CHAT Y WHATSAPP=========
 ******************************/
 
-
-
-
-
-/******************************
-======CHAT Y WHATSAPP=========
-******************************/

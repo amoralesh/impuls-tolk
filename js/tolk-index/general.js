@@ -33,6 +33,15 @@ $( ".cerrarS" ).click(function() {
 });
 
 
+$(".open-button").click(function(){
+
+
+});
+
+$(".open-button").click(function(){
+
+
+});
 
 
 })
