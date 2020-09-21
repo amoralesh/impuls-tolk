@@ -332,3 +332,36 @@
     border-radius: 10px!important;
     border: solid 1px #000000;
 }
+
+.estiloInputFactura{
+    height: 30px!important;
+    border: solid 1px #000000!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+    background-color: rgb(255, 255, 255);
+}
+
+.textoProcesoC{
+    font-family: PoppinsBold;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #2c2c2c;
+  margin: 0px;
+}
+
+.reFactura .form-group {
+    margin-bottom: 0px!important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #000000!important;
+    background-color: #000000!important;
+}

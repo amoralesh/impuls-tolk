@@ -605,17 +605,108 @@
                               <input type="radio" class="form-check-input" id="materialGroupExample1" name="groupOfMaterialRadios" checked>
                               <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample1">Pago en línea con tarjeta de débito o crédito</label>
                            </div>
-                           <!-- Group of material radios - option 2 -->
-                           <div class="form-check mt-3">
-                              <input type="radio" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios">
-                              <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample2">Pago en efectivo en establecimientos comerciales PAYNET* o por depósito bancaria</label>
-                              <small class="form-check estilos3" for="materialGroupExample2">*Los pagos en PAYNET los puedes hacer en 7 Eleven, Farmacias Benavides, Farmacias del Ahorro, Tiendas Extra.</small>
-                           </div>
+                              <!-- Group of material radios - option 2 -->
+                              <div class="form-check mt-3">
+                                 <input type="radio" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios" checked>
+                                 <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample2">Pago en la sucursal de tu elección</label>
+                              </div>
                            <!-- Group of material radios - option 3 -->
                            <div class="form-check mt-3">
                               <input type="radio" class="form-check-input" id="materialGroupExample3" name="groupOfMaterialRadios">
-                              <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample3">¿Requiere factura?</label>
+                              <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample3">Pago en efectivo en establecimientos comerciales PAYNET* o por depósito bancaria</label>
+                              <small class="form-check estilos3" for="materialGroupExample3">*Los pagos en PAYNET los puedes hacer en 7 Eleven, Farmacias Benavides, Farmacias del Ahorro, Tiendas Extra.</small>
                            </div>
+
+                           <div class="custom-control custom-checkbox pl-5 mt-4">
+                              <input type="checkbox" class="custom-control-input" id="requiereFact">
+                              <label class="custom-control-label" for="requiereFact">¿Requiere factura?</label>
+                          </div>
+
+                        </div>
+
+                        <div class="col-12 mt-4 pl-5" id="requiereFacturaCollapse" style="display: none;">
+                              <div class="row">
+                                 <div class="col-12 reFactura">
+                                    <div class="form-group">
+                                       <label for="nombreEmpresa" class="textoProcesoC">Nombre del Negocio</label>
+                                       <input type="text" class="form-control estiloInputFactura" id="nombreEmpresa" placeholder="Nombre del Negocio" value="">
+                                     </div>
+                                 </div>
+                                  <div class="col-6 reFactura">         
+                                        <div class="form-group">
+                                          <label for="rfc" class="textoProcesoC">RFC</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="rfc" placeholder="RFC" value="">
+                                        </div>
+          
+                                        <div class="form-group">
+                                          <label for="cp" class="textoProcesoC">Código postal</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="cp" placeholder="Código postal" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="ciudad" class="textoProcesoC">Ciudad</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="ciudad" placeholder="Ciudad" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="municipio" class="textoProcesoC">Municipio</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="municipio" placeholder="Municipio" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="estado" class="textoProcesoC">Estado</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="estado" placeholder="Estado" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="pais" class="textoProcesoC">País</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="pais" placeholder="País" value="">
+                                        </div>
+   
+                                                
+          
+                                  </div>
+          
+                                  <div class="col-6 reFactura">
+
+                                    <div class="form-group">
+                                       <label for="colonia" class="textoProcesoC">Colonia</label>
+                                       <select class="form-control estiloInputFactura" id="colonia">
+                                          <option>Colonia 1</option>
+                                          <option>Colonia 2</option>
+                                          <option>Colonia 3</option>
+                                          <option>Colonia 4</option>
+                                          <option>Colonia 5</option>
+                                        </select>
+                                     </div>
+
+                                    <div class="form-group">
+                                       <label for="calle" class="textoProcesoC">Calle</label>
+                                       <input type="text" class="form-control estiloInputFactura" id="calle" placeholder="Calle" value="">
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col-6">
+                                          <div class="form-group">
+                                             <label for="numExterior" class="textoProcesoC">Número exterior</label>
+                                             <input type="text" class="form-control estiloInputFactura" id="numExterior" placeholder="Número exterior" value="">
+                                           </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="form-group">
+                                             <label for="numInterior" class="textoProcesoC">&nbsp;Número interior</label>
+                                             <input type="text" class="form-control estiloInputFactura" id="numInterior" placeholder="Número interior" value="">
+                                           </div>
+                                        </div>
+                                     </div>
+
+                                    
+                                     
+          
+                                     
+                                  </div>
+          
+                              </div>
                         </div>
 
                         <div class="col-12 mt-4">
@@ -1327,6 +1418,8 @@
    <!--===============================================
         FIN FOOTER
         ================================================= -->
+
+        <script src="../../js/tolk-index/procesoCompra.js"></script>
 </body>
 
 </html>
