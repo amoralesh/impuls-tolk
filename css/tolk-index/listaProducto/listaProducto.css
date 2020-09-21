@@ -321,10 +321,78 @@ height: 12px!important;
     color: #fff;
 }
 
-.thumbnail .img-event img{
+.imgTarhjetaLista{
     width: 100%;
     height: 210px!important;
 }
+
+.tarjetaPromocional{
+    border-radius: 10px;
+    background-image: linear-gradient(340deg, #774363 105%, #c26ea2 18%)
+}
+
+.imgPromocional{
+    width: 85%!important;
+    height: 100%!important;
+    display:block;
+    margin:auto;
+}
+
+.textoPromocional1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.13px;
+    color: #ffffff;
+
+}
+
+.textoPromocional2{
+    font-family: PoppinsSemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoPromocional3{
+    font-family: PoppinsSemiBold;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.btnPromocionalLista{
+    width: 166px;
+    height: 52px;
+    background-color: #e98dc6;
+    font-family: PoppinsBold;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 
 .sombraTarjeta:hover{
     -webkit-box-shadow: 0px -1px 19px 1px rgba(0,0,0,0.75);
