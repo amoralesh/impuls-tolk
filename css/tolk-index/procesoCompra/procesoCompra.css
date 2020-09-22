@@ -365,3 +365,57 @@
     border-color: #000000!important;
     background-color: #000000!important;
 }
+
+.estiloInputFactura::-webkit-input-placeholder {
+    font-family: PoppinsBold;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    margin: 0px;
+ 
+  }
+
+  .estiloInputFactura::-webkit-input-placeholder {
+    font-family: PoppinsBold;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    margin: 0px;
+   
+}
+.estiloInputFactura:-moz-placeholder {
+      font-family: PoppinsBold;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    margin: 0px;
+}
+.estiloInputFactura::-moz-placeholder {
+      font-family: PoppinsBold;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    margin: 0px;
+}
+.estiloInputFactura:-ms-input-placeholder {
+      font-family: PoppinsBold;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    margin: 0px;
+}

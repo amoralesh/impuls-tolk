@@ -1,0 +1,78 @@
+#tablaHostorialC_length , #tablaHostorialC_filter{
+    display: none!important;
+}
+
+
+.textoHistorial1{
+    font-family: PoppinsBold;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+.textoHistorial2{
+    font-family: PoppinsBold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.cuerpoPedidos tr{
+    height: 65px!important;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.verDetalleHostorial{
+    height: 65px!important;
+    font-family: PoppinsBold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textoCabeceraHistorial th{
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.textoCabeceraHistorial th{
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #2c2c2c;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #ffff!important;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
+}

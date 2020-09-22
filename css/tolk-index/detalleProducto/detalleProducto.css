@@ -201,7 +201,6 @@
         width: 242px;
         height: 45px;
         border-radius: 8px;
-
         font-family: Poppins;
         font-size: 14px;
         font-weight: 600;
@@ -212,7 +211,6 @@
         text-align: center;
         color: #ffffff;
         text-transform: none;
-
     }
 
     .btnAgregarCarritoDetalle{

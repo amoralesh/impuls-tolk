@@ -1,0 +1,103 @@
+.textoDatosF{
+  font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #2c2c2c;
+  margin: 0px;
+}
+
+.textoDatosFac{
+    font-family: PoppinsBold;
+    font-size: 22px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+
+
+.estiloInputDatosFacturacion{
+    height: 35px!important;
+    border: solid 1px #000000!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.estiloInputDatosFacturacion::-webkit-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+ 
+  }
+
+  .estiloInputDatosFacturacion::-webkit-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+   
+}
+.estiloInputDatosFacturacion:-moz-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+.estiloInputDatosFacturacion::-moz-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+.estiloInputDatosFacturacion:-ms-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+
+.botonesDatosFac{
+    width: 242px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: PoppinsSemiBold;
+    font-size: 14px!important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+}

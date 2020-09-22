@@ -1,0 +1,78 @@
+.textoMembresia{
+    font-family: PoppinsBold;
+    font-size: 22px!important;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.textoMembresia2{
+    font-family: PoppinsSemiBold!important;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #000000!important;
+    padding: 0px 10px!important;
+
+}
+
+
+
+.textoCabeceraMembresia th{
+    font-family: Poppins!important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #000000!important;
+    padding: 0px 10px!important;
+}
+
+.textoCuerpoMembresia td{
+    text-align: center;
+    font-family: PoppinsBold!important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #000000!important;
+    padding: 0px 10px!important;
+}
+
+.textoMembresia3{
+    text-align: center;
+    font-family: Poppins!important;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #000000!important;
+    padding: 0px 10px!important;
+
+}
+
+.textoMembresia4{
+    text-align: center;
+    font-family: PoppinsBold!important;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #000000!important;
+    padding: 0px 10px!important;
+}
+
