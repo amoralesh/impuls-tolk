@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="63px" viewBox="0 0 81 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icono gracias por tu compra</title>
+    <defs>
+        <polygon id="path-1" points="0.0986 0.189 1.0986 0.189 1.0986 4.2316 0.0986 4.2316"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_Carrito-de-Compra-6" transform="translate(-1089.000000, -523.000000)">
+            <g id="Group" transform="translate(1088.000000, 521.000000)">
+                <g id="Group-37" transform="translate(1.000000, 1.000000)">
+                    <g id="Group-3" transform="translate(33.000000, 0.810900)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                    </g>
+                    <line x1="33.5986" y1="9.6538" x2="33.5986" y2="13.6968" id="Stroke-4" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="33.5986" y1="1" x2="33.5986" y2="5.043" id="Stroke-4-Copy" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="39.9463" y1="7.3481" x2="35.9033" y2="7.3481" id="Stroke-5" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="31.293" y1="7.3481" x2="27.25" y2="7.3481" id="Stroke-6" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="58.8486" y1="19.9995" x2="58.8486" y2="24.0425" id="Stroke-7" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="58.8486" y1="28.6538" x2="58.8486" y2="32.6968" id="Stroke-8" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="65.1963" y1="26.3481" x2="61.1533" y2="26.3481" id="Stroke-9" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="56.543" y1="26.3481" x2="52.5" y2="26.3481" id="Stroke-10" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="6.3486" y1="12.9995" x2="6.3486" y2="17.0425" id="Stroke-11" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="6.3486" y1="21.6538" x2="6.3486" y2="25.6968" id="Stroke-12" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="12.6963" y1="19.3481" x2="8.6533" y2="19.3481" id="Stroke-13" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="4.043" y1="19.3481" x2="0" y2="19.3481" id="Stroke-14" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"></line>
+                    <line x1="44.1582" y1="19.1577" x2="49.6562" y2="11.2127" id="Stroke-16" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="21.0381" y1="15.1577" x2="15.5401" y2="7.2127" id="Stroke-17" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <g id="Group-36" transform="translate(7.000000, 21.810900)" stroke="#FFFFFF" stroke-width="2.5">
+                        <path d="M70.6387,34.3615 C70.6387,34.3615 72.3957,24.8855 60.7317,22.0305 C60.7317,22.0305 53.7507,20.6805 50.8957,18.5405 C50.8957,18.5405 35.3437,9.2575 31.2977,5.4485 C31.2977,5.4485 20.6087,-8.1835 21.7777,11.6365 C21.7777,11.6365 16.4217,15.9215 9.6387,13.3025 C9.6387,13.3025 8.1447,10.3185 7.0217,8.0665 C7.0217,8.0665 4.1637,3.3055 2.2597,9.0175 C2.2597,9.0175 -0.8803,20.6055 0.9777,29.8485" id="Stroke-18" stroke-linejoin="round"></path>
+                        <path d="M1.5469,34.6241 C1.5469,34.6241 0.2769,38.9581 1.3089,40.7501 L71.7609,40.7501 C71.7609,40.7501 72.6329,37.8271 71.5239,34.6241 L1.5469,34.6241 Z" id="Stroke-20" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="25.75" y1="9.9757" x2="20.588" y2="12.4147" id="Stroke-22" stroke-linecap="round"></line>
+                        <line x1="18.0166" y1="34.4962" x2="30.2396" y2="18.5212" id="Stroke-24" stroke-linejoin="round"></line>
+                        <line x1="26.5908" y1="34.3781" x2="36.0968" y2="22.0441" id="Stroke-26" stroke-linejoin="round"></line>
+                        <line x1="35.0908" y1="34.3165" x2="41.8858" y2="25.6175" id="Stroke-28" stroke-linejoin="round"></line>
+                        <line x1="36.6601" y1="10.5626" x2="34.2061" y2="13.6616" id="Stroke-30" stroke-linecap="round"></line>
+                        <line x1="42.1094" y1="14.1144" x2="39.6594" y2="17.2144" id="Stroke-32" stroke-linecap="round"></line>
+                        <line x1="47.9316" y1="17.2716" x2="45.4806" y2="20.3706" id="Stroke-34" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
