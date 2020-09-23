@@ -45,25 +45,7 @@
  
   }
 
-  .estiloInputCambiarC::-webkit-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-   
-}
-.estiloInputCambiarC:-moz-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-}
+
 .estiloInputCambiarC::-moz-placeholder {
      font-family: PoppinsBold;
   font-size: 13px!important;

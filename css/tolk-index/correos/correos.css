@@ -1,0 +1,227 @@
+.contenedorCorreo{
+    padding: 0px 210px;
+    background-color: #f8f8f8
+}
+
+.correoNavbar{
+	border-bottom: 0px solid #ffff!important;
+    max-width: 100%!important;
+    min-height: 70px!important;
+    margin-bottom: -1rem!important;
+}
+
+.miCuenta-a{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: -0.09px;
+    text-align: right;
+    color: #6f6f6f;
+}
+
+.oce{
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+}
+
+.derechosReservadosCorreo{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.27px;
+    color: #ffffff;
+    margin-top: 30px!important;
+}
+
+
+.itemsMenuCorreo{
+    position: static;
+    width: 100%!important;
+}
+
+.contenedorEstatus{
+    padding: 25px 15px 15px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(141deg, #1653a1 30%, #263c84 73%);
+}
+
+.contenedorEstatus2{
+    padding: 25px 15px 15px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a42038 22%, #610e13 121%);
+}
+
+.contenedorEstatus3{
+    padding: 25px 15px 15px 15px;
+    border-radius: 5px;
+    background-image: radial-gradient(circle at 11% 1%, #cc6930 24%, #6c3a1b 133%);
+}
+
+.textoEstatusPedido{
+    font-family: Poppins!important;
+    font-size: 14px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoEstatusPedido2{
+    font-family: PoppinsBold!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoEstatusPedido3{
+    font-family: Poppins!important;
+    font-size: 16px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.textoEstatusPedido4{
+    font-family: PoppinsSemiBold!important;
+  font-size: 16px!important;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+ul.stepper.horizontal .step-title {
+
+    line-height: 8.25rem!important;
+}
+
+ul.stepper.horizontal .step.active .step-title:before {
+    background-color: #000000!important;
+}
+
+.anchoTarjetaCorreos{
+    height: 170px!important;
+}
+
+
+.nombreProductoCorreo{
+    font-family: PoppinsBold;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.sku-correo {
+    font-family: Poppins!important;
+    font-size: 14px!important;
+    font-weight: normal!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.39px;
+    color: #000000;
+  }
+
+  .dEnvio li span,.dEnvio li,.dEnvio p{
+    font-family: Poppins!important;
+    font-size: 14px!important;
+    font-weight: normal!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.39px;
+    color: #000000; 
+  }
+
+
+  .anchoPasos{
+      height: 100px!important;
+  }
+
+  .textoCorreo-a{
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoSiguenos{
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .textoCorreo-b{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .textoCorreo-a1{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #ffffff;  
+  }
+
+  .dEnvioFooter p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.23px;
+    color: #ffffff;
+  }
+
+  .footerCorreo{
+      background-color: #000000;
+      padding: 50px!important;
+  }
+
+
+  .sinSombra{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
+}
