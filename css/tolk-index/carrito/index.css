@@ -1,3 +1,74 @@
+#direccion{
+    display: none;
+}
+
+.estilos1{
+    font-family: PoppinsSemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.estilos2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000!important;
+}
+
+.estilos3{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #6f6f6f!important;
+    padding-left: 32px;
+}
+
+.btn1{
+    width: 153px;
+    height: 50px;
+    background-color: #888888;
+    font-family: PoppinsBold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    border-radius: 10px!important;
+}
+
+.btn2{
+    width: 330px;
+    height: 66px;
+    font-family: PoppinsSemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    border-radius: 8px!important;
+}
+
+
+.cssInputs{
+    border-radius: 10px!important;
+    border: solid 1px #000000;
+}
 .car_detalles_input{
     width: 41px !important;
     height: 31px !important;
@@ -58,7 +129,7 @@
     color: #6f6f6f !important;
     background-color: transparent !important;
 }
-.input_datos{
+.input_datos, #direccionesGuardadas{
     border-radius: 10px;
     border: solid 1px #000000;
 }
