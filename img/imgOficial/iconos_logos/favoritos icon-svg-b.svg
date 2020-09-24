@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 26" width="28" height="26">
+	<defs>
+		<image width="28" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAMAAACTisy7AAAAAXNSR0IB2cksfwAAAFpQTFRFLCwsLCwsLCwsBgYGLCwsLCwsLCwsLCwsLCwsAAAAAwMDLCwsLCwsBAQEAQEBAQEBLCwsAAAALCwsLCwsLCwsAQEBBwcHBwcHBwcHLCwsAwMDBgYGBQUFLCwsvJvbXQAAAB50Uk5TAFCf8q9fYEAQ/+LTMOXS1b/Oxbig0fb09XDe8+vQLXl8JQAAAKVJREFUeJx90mETgiAMBuAlBkzRksjS7P//zUZJTA54v7333MHdNgDKqRGiPcMe2QrRqL1o/KbrjW+mH0bEy3DVzBAnS2rsFLrXG/5jDTNEADUgU26owN1ZxZEXBzMW8wBRRlHHZw2XtWTrAvpVwpmmILe8bdLPz2Wtc7/JZz90YUk1y+g7WlxbiIayHix5ODE6gWgmNaYZi5ozutCK0ZgrRioP9QOCbRMlRKhbtAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Page-1">
+		<g id="01_Home">
+			<g id="Group-29">
+				<g id="favoritos-icon">
+					<g id="noun_Heart_1742985">
+						<g id="Group">
+							<use id="Shape" href="#img1" x="0" y="0" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

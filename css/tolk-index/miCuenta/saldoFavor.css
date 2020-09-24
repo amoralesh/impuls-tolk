@@ -1,3 +1,4 @@
+
 .textoSaldoFavor{
     font-family: PoppinsBold;
     font-size: 22px;
@@ -10,23 +11,96 @@
 }
 
 .precioSaldoF{
-    font-family: PoppinsSemiBold;
-    font-size: 28px;
-    font-weight: 600;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 0.91;
     letter-spacing: normal;
-    color: #f75454;
+    color: #41ca54;
 }
 
-.textoBalance{
-    font-family: Poppins!important;
+#tablaSaldoFavor_length , #tablaSaldoFavor_filter{
+    display: none!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #ffff!important;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
+}
+
+.textoCabeceraSaldoF th{
+    font-family: PoppinsSemiBold;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 2.13;
     letter-spacing: normal;
-    color: #2c2c2c!important;
+    color: #2c2c2c;
 }
+
+
+.estiloInputSaldoF{
+    height: 35px!important;
+    border: solid 1px #000000!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.estiloInputSaldoF::-webkit-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+ 
+  }
+
+  .estiloInputSaldoF::-webkit-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+   
+}
+.estiloInputSaldoF:-moz-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+.estiloInputSaldoF::-moz-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+.estiloInputSaldoF:-ms-input-placeholder {
+     font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+

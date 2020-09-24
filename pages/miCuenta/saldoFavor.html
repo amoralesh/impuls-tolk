@@ -45,7 +45,10 @@
       <!-- Estilos  MI CUENTA -->
       <link rel="stylesheet" href="../../css/tolk-index/miCuenta/miCuenta.css">
       <!-- Estilos  SALDO FAVOR -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css"/>
       <link rel="stylesheet" href="../../css/tolk-index/miCuenta/saldoFavor.css">
+       
      
 
 
@@ -233,7 +236,7 @@
          ================================================= -->
     
       <!--===============================================
-                     HISTORIAL DE COMPRAS 
+                     SALDO A FAVOR 
          ================================================= -->
               <!--container-->
       <section class="container-fluid colorFondoPrimario seccionMiCuenta">
@@ -268,12 +271,65 @@
                     <li class="list-group-item"><a href="../sucursales/sucursales.html" target="_blank">Sucursales</a></li>
                  </ul>
               </div>
+
+            <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
               <div class="col-9 p-5" style="background-color: #fff;">
-                <h4 class="textoBalance mb-4">Balance Descripción</h4>
-               <p class="textoSaldoFavor mb-4">Saldo total disponible</p>
-               <p class="precioSaldoF">$567.00 MXN</p>
-             
+               <h4 class="textoSaldoFavor">Saldo a favor</h4>
+               <p class="precioSaldoF mt-4 mb-4">$3270.00</p>
+               <hr>
+               <div class="form-group offset-8 col-4">
+                  <select class="form-control estiloInputSaldoF" id="rangoFecha">
+                     <option>Hoy</option>
+                     <option>Esta semana</option>
+                     <option selected>Último Mes</option>
+                     <option>Mes Pasado</option>
+                     <option>Este año</option>
+                     <option>Año pasado</option>
+                     <option>Todo</option>
+                   </select>
+                </div>
+                <table class="display" id="tablaSaldoFavor" style="width:100%">
+                  <thead>
+                     <tr class="textoCabeceraSaldoF">
+                       <th scope="col">Fecha</th>
+                       <th scope="col">Concepto</th>
+                       <th scope="col">Pedido o Ticket</th>
+                       <th scope="col">Abono</th>
+                       <th scope="col">Cargo</th>
+                       <th scope="col">Saldo</th>
+                     </tr>
+                   </thead>
+                    <tbody class="cuerpoPedidos">
+                      <tr>
+                        <th scope="row">21/09/2020</th>
+                        <td>Compra</td>
+                        <td>35000055</td>
+                        <td>$400.00</td>
+                        <td>$400.00</td>
+                        <td>$422.50</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12/09/2020</th>
+                        <td>Devolución</td>
+                        <td>35000057</td>
+                        <td>$1243.00</td>
+                        <td></td>
+                        <td>$1234.00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">24/09/2020</th>
+                        <td>Bonificación</td>
+                        <td>35000059</td>
+                        <td>$6243.00</td>
+                        <td>5678.00</td>
+                        <td>$234.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
               </div>
+            <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
 
            </div>
 
@@ -281,7 +337,7 @@
      </section>
 
       <!--===============================================
-                    FIN HISTORIAL DE COMPRAS 
+                    FIN SALDO A FAVOR 
          ================================================= -->
  
   
@@ -419,12 +475,12 @@
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
 
+      <!--SALDO A FAVOR-->
+      <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
 
+      <script type="text/javascript" src="../../js/tolk-index/saldoFavor.js"></script>
      
-
-
-
- 
  
       <!--===============================================
          FIN SCRIPTS
