@@ -14,7 +14,7 @@ $(window).resize(function(){ adjustCSS() });
    $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
   //  $('.modal-backdrop').removeClass("modal-backdrop");  
    
-$("#test1").inputmask("datetime", {
+$("#fechaN").inputmask("datetime", {
      inputFormat: "dd/mm/yyyy",
      outputFormat: "mm-yyyy-dd",
      inputEventOnly: true
