@@ -201,3 +201,16 @@
       -ms-border-radius: 8px;
       -o-border-radius: 8px;
   }
+
+  /*MAPA*/
+  .map-container {
+    height: 200px;
+    position: relative;
+    }
+    .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
