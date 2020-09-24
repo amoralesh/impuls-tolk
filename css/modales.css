@@ -1,0 +1,90 @@
+.modalimg{
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+.tituloModal{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #000000;
+}
+.titleDosModal{
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #000000;
+}
+.btn1{
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+    border-radius: 10px;
+    background-color: #7588b1;
+}
+.btn2{
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+}
+.infpro{
+    list-style: none; 
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: -0.39px;
+    color: #000000; 
+}
+.listaResumen{
+    list-style: none; 
+}
+.listaResumen li{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #000000;
+}
+.progress{
+    height: 40px;
+}
+.barraProgreso{
+   
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #888888;
+}

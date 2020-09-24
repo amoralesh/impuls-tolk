@@ -7,6 +7,9 @@
 .ol{
     list-style: lower-latin;
 }
+li a{
+    color: black;
+}
 .aviso_privacidad h1{
     font-family: Poppins;
     font-size: 40px !important;
@@ -16,6 +19,20 @@
     line-height: 1.08;
     letter-spacing: normal;
     color: #000000;
+}
+.bnt_car_color {
+    text-transform: none!important;
+    border-radius: 8px !important;
+    background-color: #7588b1 !important;
+    font-family: Poppins;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
 }
 .cont{
     margin-bottom: 150px!important;
@@ -76,6 +93,18 @@
     line-height: 2.13;
     letter-spacing: normal;
     color: #2c2c2c;
+    cursor: pointer;
+}
+
+.menu_temas ul li:hover{
+    font-family: Poppins;
+    font-size: 16px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #2c2c2c;
 }
 .menu_temas ul  .activo{
     font-family: Poppins;
@@ -89,4 +118,12 @@
 }
 .numerico{
     list-style: decimal;
+}
+.input_datos {
+    border-radius: 10px;
+    border: solid 1px #000000;
+}
+.sizeimg{
+width: 200px;
+height: auto;
 }

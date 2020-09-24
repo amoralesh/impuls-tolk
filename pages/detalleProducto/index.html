@@ -51,6 +51,8 @@
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/descripcionyComentarios.css">
       <!-- Estilos  Modal Envio -->
       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/modalEnvios.css">
+      <!--modal detalle-->
+      <link rel="stylesheet" href="../../css/modales.css">
    </head>
    <body class="skin-light">
       <header>
@@ -410,7 +412,8 @@
                      <p class="textoProductoDisponible">Producto disponible</p>
                      <div class="row">
                         <div class="col-7">
-                           <a href="../carritoCompra/index.html" target="_blank"><button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button></a>
+                           <!--<a href="../carritoCompra/index.html" target="_blank"><button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button></a>-->
+                         <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
                            <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle ">Comprar ahora</button>
                         </div>
                         <div class="col-5">
@@ -1552,6 +1555,61 @@
       <!--===============================================
          FIN MODAL ENVIOS GRATIS
          ================================================= -->
+           <!--===============================================
+         INICIO MODAL DETALLES
+         ================================================= -->
+
+         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+              <div class="modal-content">
+                <div class="row  pt-5 pl-5 pb-5 pr-5">
+                    <div class="col-12 tituloModal mb-4">¡Agregado al carrito correctamente!</div>
+                  <div class="col-6">
+                      <div class="row d-flex justify-content-center">
+                          <img class="modalimg" src="../../img/detalle Producto/detalle-3.jpg" alt="" srcset="">
+                      </div>
+                      <div class="row">
+                          <h2 class="titleDosModal pl-3">Bubble Gum Kilian Tela VIR FIU/ROS 12/17</h2>
+                          <ul class="infpro pl-3">
+                              <li>SKU:634082</li>
+                              <li>Cantidad: 1  talla:4</li>
+                              <li>Precio: <b>$123.00MXN</b></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-6 border-left pt-3 pb-3 d-flex align-items-center ">
+                      <div>
+                          <h2 class="titleDosModal">Resumen de tu carrito:</h2>
+                          <ul class="listaResumen pl-0">
+                              <li>4 artículos</li>
+                              <li>Total de los artículos:$1234.00</li>
+                              <li>Gastos de envío:$123.00</li>
+                              <li><b>total:$123.00</b></li>
+                          </ul>
+                          <!--en esta seccion se oculata el divo con la clase afiliado-->
+                        <div class="afiliado"  >
+                          <p>Faltan $123.00 para que tu envío sea GRATIS.</p>
+                          <div class="progress">
+                              <div class="progress-bar barraProgreso text-left pl-2 pt-2 pb-2" role="progressbar" style="width: 63%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"> 63%</div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                  </div>
+                  <div class="col-6 mt-2">
+                      <button class="btn btn1  btn-lg btn-block">Seguir comprando</button>
+                  </div>
+                  <div class="col-6 mt-2">
+                      <button class="btn btn2  btn-lg btn-block">Finalizar compra</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--===============================================
+         FINAL MODAL DETALLES
+         ================================================= -->
+         
       <!--===============================================
          SCRIPTS
          ================================================= -->
