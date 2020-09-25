@@ -72,6 +72,8 @@
    <!-- Estilos carrito -->
 
    <link rel="stylesheet" href="css/tolk-index/carrito/index.css">
+   
+   <link rel="stylesheet" href="css/tolk-index/procesoCompra/procesoCompra.css">
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
@@ -91,8 +93,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
-
 <script src="js/carrito/index.js"></script>
 
 </head>
@@ -680,7 +680,7 @@
                      <h4 class="estilos1">Utilizar Certificado de Regalo o Cupón de descuento</h4>
                      <div class="row mb-5">
                         <div class="col-8">
-                         <input disabledclass="form-control form-control-lg cssInputs" type="text">
+                           <input class="form-control form-control-lg cssInputs" type="text">
                         </div>
                         <div class="col-4">
                            <button type="button" class="btn btn1">Aplicar</button>
@@ -692,37 +692,114 @@
                            <h4 class="estilos1">Selecciona tipo de pago</h4>
                            <!-- Group of material radios - option 1 -->
                            <div class="form-check mt-3">
-                            <input disabledtype="radio" class="form-check-input" id="materialGroupExample1"
-                                 name="groupOfMaterialRadios" checked>
-                              <label class="form-check-label small card-link-secondary estilos2"
-                                 for="materialGroupExample1">Pago en línea con tarjeta de débito o crédito</label>
+                              <input type="radio" class="form-check-input" id="materialGroupExample1" name="groupOfMaterialRadios" checked>
+                              <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample1">Pago en línea con tarjeta de débito o crédito</label>
                            </div>
-                           <!-- Group of material radios - option 2 -->
-                           <div class="form-check mt-3">
-                            <input disabledtype="radio" class="form-check-input" id="materialGroupExample2"
-                                 name="groupOfMaterialRadios">
-                              <label class="form-check-label small card-link-secondary estilos2"
-                                 for="materialGroupExample2">Pago en efectivo en establecimientos comerciales PAYNET* o
-                                 por depósito bancaria</label>
-                              <small class="form-check estilos3" for="materialGroupExample2">*Los pagos en PAYNET los
-                                 puedes hacer en 7 Eleven, Farmacias Benavides, Farmacias del Ahorro, Tiendas
-                                 Extra.</small>
-                           </div>
+                              <!-- Group of material radios - option 2 -->
+                              <div class="form-check mt-3">
+                                 <input type="radio" class="form-check-input" id="materialGroupExample2" name="groupOfMaterialRadios" checked>
+                                 <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample2">Pago en la sucursal de tu elección</label>
+                              </div>
                            <!-- Group of material radios - option 3 -->
                            <div class="form-check mt-3">
-                            <input disabledtype="radio" class="form-check-input" id="materialGroupExample3"
-                                 name="groupOfMaterialRadios">
-                              <label class="form-check-label small card-link-secondary estilos2"
-                                 for="materialGroupExample3">¿Requiere factura?</label>
+                              <input type="radio" class="form-check-input" id="materialGroupExample3" name="groupOfMaterialRadios">
+                              <label class="form-check-label small card-link-secondary estilos2" for="materialGroupExample3">Pago en efectivo en establecimientos comerciales PAYNET* o por depósito bancaria</label>
+                              <small class="form-check estilos3" for="materialGroupExample3">*Los pagos en PAYNET los puedes hacer en 7 Eleven, Farmacias Benavides, Farmacias del Ahorro, Tiendas Extra.</small>
                            </div>
+
+                           <div class="custom-control custom-checkbox pl-5 mt-4">
+                              <input type="checkbox" class="custom-control-input" id="requiereFact">
+                              <label class="custom-control-label" for="requiereFact">¿Requiere factura?</label>
+                          </div>
+
+                        </div>
+
+                        <div class="col-12 mt-4 pl-5" id="requiereFacturaCollapse" style="display: none;">
+                              <div class="row">
+                                 <div class="col-12 reFactura">
+                                    <div class="form-group">
+                                       <label for="nombreEmpresa" class="textoProcesoC">Nombre del Negocio</label>
+                                       <input type="text" class="form-control estiloInputFactura" id="nombreEmpresa" placeholder="Nombre del Negocio" value="">
+                                     </div>
+                                 </div>
+                                  <div class="col-6 reFactura">         
+                                        <div class="form-group">
+                                          <label for="rfc" class="textoProcesoC">RFC</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="rfc" placeholder="RFC" value="">
+                                        </div>
+          
+                                        <div class="form-group">
+                                          <label for="cp" class="textoProcesoC">Código postal</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="cp" placeholder="Código postal" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="ciudad" class="textoProcesoC">Ciudad</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="ciudad" placeholder="Ciudad" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="municipio" class="textoProcesoC">Municipio</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="municipio" placeholder="Municipio" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="estado" class="textoProcesoC">Estado</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="estado" placeholder="Estado" value="">
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="pais" class="textoProcesoC">País</label>
+                                          <input type="text" class="form-control estiloInputFactura" id="pais" placeholder="País" value="">
+                                        </div>
+   
+                                                
+          
+                                  </div>
+          
+                                  <div class="col-6 reFactura">
+
+                                    <div class="form-group">
+                                       <label for="colonia" class="textoProcesoC">Colonia</label>
+                                       <select class="form-control estiloInputFactura" id="colonia">
+                                          <option>Colonia 1</option>
+                                          <option>Colonia 2</option>
+                                          <option>Colonia 3</option>
+                                          <option>Colonia 4</option>
+                                          <option>Colonia 5</option>
+                                        </select>
+                                     </div>
+
+                                    <div class="form-group">
+                                       <label for="calle" class="textoProcesoC">Calle</label>
+                                       <input type="text" class="form-control estiloInputFactura" id="calle" placeholder="Calle" value="">
+                                     </div>
+
+                                     <div class="row">
+                                        <div class="col-6">
+                                          <div class="form-group">
+                                             <label for="numExterior" class="textoProcesoC"># exterior</label>
+                                             <input type="text" class="form-control estiloInputFactura" id="numExterior" placeholder="# exterior" value="">
+                                           </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="form-group">
+                                             <label for="numInterior" class="textoProcesoC"># interior</label>
+                                             <input type="text" class="form-control estiloInputFactura" id="numInterior" placeholder="# interior" value="">
+                                           </div>
+                                        </div>
+                                     </div>
+                                     
+                                  </div>
+          
+                              </div>
                         </div>
 
                         <div class="col-12 mt-4">
-                           <div class="form-group">
-                              <label for="exampleFormControlTextarea1" class="estilos1">Nota:</label>
-                              <textarea class="form-control cssInputs" id="exampleFormControlTextarea1"
-                                 rows="3"></textarea>
-                           </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="estilos1">Nota:</label>
+                                <textarea class="form-control cssInputs" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
                         </div>
                         <button type="button" class="btn btn2 colorPrimario ml-2">Realizar pago</button>
                      </div>
@@ -1487,6 +1564,26 @@
          <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
       </div>
    </footer>
+
+      <!-- jQuery -->
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <!-- Bootstrap tooltips -->
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script src="js/glide-3.4.1/dist/glide.js"></script>
+      <!-- MDB core JavaScript -->
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- MDB eCommerce -->
+      <script type="text/javascript" src="js/mdb.ecommerce.min.js"></script>
+      <!--Animaciones-->
+      <!-- AOS -->
+      <script type="text/javascript" src="js/aos-master/dist/aos.js"></script>
+      <!--General-->
+      <script type="text/javascript" src="js/tolk-index/general.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
+      <!--PROCESO COMPRA-->
+      <script src="js/tolk-index/procesoCompra.js"></script>
    <!--===============================================
         FIN FOOTER
         ================================================= -->

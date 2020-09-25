@@ -38,8 +38,7 @@ $(document).ready(function() {
       $('.list-group-image').removeClass('imgBorder-R-lista');
       $('.list-group-image').addClass('imgBorder-B-lista');
 
-      $('.imgPromocional').removeClass('imgBorder-R-lista');
-      $('.imgPromocional').removeClass('imgBorder-B-lista');
+      
     
   });
 

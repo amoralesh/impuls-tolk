@@ -49,13 +49,13 @@
       <!-- Estilos TOLK ICONOS -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-      <!-- Estilos  MI CUENTA -->
-      <link rel="stylesheet" href="../../css/tolk-index/miCuenta/miCuenta.css">
-      <!-- Estilos  SALDO FAVOR -->
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css"/>
-      <link rel="stylesheet" href="../../css/tolk-index/miCuenta/saldoFavor.css">
-       
+   <!--========= Estilos Pagina Contactanos ==========-->
+      <!--====================================================-->
+      <!-- Estilos  Contactanos -->
+      <link rel="stylesheet" href="../../css/tolk-index/contactanos/contactanos.css">
+       <!-- Estilos  MIGAS -->
+       <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/migas.css">
+      
 
    </head>
    <body class="skin-light">
@@ -756,111 +756,129 @@
          FIN  HEADER
          ================================================= -->
 
-               <!--===============================================
-                     SALDO A FAVOR 
+         
+      <!--===============================================
+         MIGAS DE PAN
          ================================================= -->
-              <!--container-->
-      <section class="container-fluid colorFondoPrimario seccionMiCuenta">
-         <div class="container">
-            <div class="row">
-               <div class="col-6">
-                  <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-3">
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
-                     <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
-                     <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
-                     <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
-                     <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
-                     <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
-                     <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
-                     <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
-                     <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
-                     <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
-                     <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
-                  </ul>
-                  <br><br><br>
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
-                     <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
-                     <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
-                     <li class="list-group-item"><a href="#!">Entrega</a></li>
-                     <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
-                     <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
-                     <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
-                     <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
-                  </ul>
-               </div>
- 
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
-               <div class="col-9 p-5" style="background-color: #fff;">
-                <h4 class="textoSaldoFavor">Saldo a favor</h4>
-                <p class="precioSaldoF mt-4 mb-4">$3270.00</p>
-                <hr>
-                <div class="form-group offset-8 col-4">
-                   <select class="form-control estiloInputSaldoF" id="rangoFecha">
-                      <option>Hoy</option>
-                      <option>Esta semana</option>
-                      <option selected>Último Mes</option>
-                      <option>Mes Pasado</option>
-                      <option>Este año</option>
-                      <option>Año pasado</option>
-                      <option>Todo</option>
-                    </select>
-                 </div>
-                 <table class="display" id="tablaSaldoFavor" style="width:100%">
-                   <thead>
-                      <tr class="textoCabeceraSaldoF">
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Concepto</th>
-                        <th scope="col">Pedido o Ticket</th>
-                        <th scope="col">Abono</th>
-                        <th scope="col">Cargo</th>
-                        <th scope="col">Saldo</th>
-                      </tr>
-                    </thead>
-                     <tbody class="cuerpoPedidos">
-                       <tr>
-                         <th scope="row">21/09/2020</th>
-                         <td>Compra</td>
-                         <td>35000055</td>
-                         <td>$400.00</td>
-                         <td>$400.00</td>
-                         <td>$422.50</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">12/09/2020</th>
-                         <td>Devolución</td>
-                         <td>35000057</td>
-                         <td>$1243.00</td>
-                         <td></td>
-                         <td>$1234.00</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">24/09/2020</th>
-                         <td>Bonificación</td>
-                         <td>35000059</td>
-                         <td>$6243.00</td>
-                         <td>5678.00</td>
-                         <td>$234.00</td>
-                       </tr>
-                     </tbody>
-                   </table>
- 
- 
-               </div>
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
- 
-            </div>
- 
-         </div>
+      <div class="container">
+         <!--Migas Migas Migas Migas-->
+         <ul class="breadcrumb">
+            <li><a href="#!">Inicio</a></li>
+            <li><a href="#!">Contacto</a></li>
+         </ul>
+      </div>
+      <!--===============================================
+                          FIN MIGAS DE PAN
+     =================================================-->
+
+      <!--===============================================
+                      CONTACTANOS
+    =================================================-->
+      <!--container-->
+      <section class="container">
+          <h1 class="textoTitulosSeccion text-left">Contáctanos</h1>
+          <h6 class="textoContactanos1">La manera en la que puedes contactarnos es a través de los siguientes medios:</h6>
+              <div class="row mt-5">
+                  <div class="col-4 borderRigthContactanos">
+                      <h6 class="textoContactanos2">La línea telefónica sin costo, de nuestro Contact Center:</h6>
+                      <p  class="textoContactanos5 mt-3">800 7IMPULS (467857)</p>
+                      <h6 class="textoContactanos3">Horario de atención:</h6>
+                      <div class="row">
+                          <div class="col-7">
+                            <ul class="list-group list-group-flush textoContactanos4">
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                   Lunes
+                                   <span>9:00 a 20:00 hrs</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 p-0">
+                                    Sábado
+                                    <span>9:00 a 18:30 hrs</span>
+                                 </li>
+                                 <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pt-0">
+                                    Domingo
+                                    <span>10:00 a 16:00 hrs</span>
+                                 </li>
+                             </ul>
+                          </div>
+                      </div>
+                      
+                  </div>
+
+                  <div class="col-4 borderRigthContactanos text-center">
+                     <a href="https://api.whatsapp.com/send?phone=525560416198&text=Hola%20te%20ayudaremos%20para%20ello%20inicia%20sesion%20con%20whatsApp%20web%20Gracias." target="_blank"><button class="btn btnWhatContacto"><i class="fab fa-whatsapp wtp pr-2"></i>Envianos un WhatsApp</button> </a>
+                     
+                       
+                   <h6 class="textoContactanos3 mt-5">Horario de atención:</h6>
+                   <div class="row">
+                    <div class="col-7 offset-1">
+                      <ul class="list-group list-group-flush textoContactanos4">
+                          <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                             Lunes
+                             <span>9:00 a 20:00 hrs</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 p-0">
+                              Sábado
+                              <span>9:00 a 18:30 hrs</span>
+                           </li>
+                           <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pt-0">
+                              Domingo
+                              <span>10:00 a 16:00 hrs</span>
+                           </li>
+                       </ul>
+                    </div>
+                </div>
+                  </div>
+
+                  <div class="col-4 dejarComentario pl-5 pr-5">
+                    <h6 class="textoContactanos2 mb-5">Búscanos en Redes Sociales y déjanos tus comentarios</h6>
+                    <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"> <img src="../../img/imgOficial/iconos_logos/facebook.svg" alt="" class="img-fluid iconoFace"></a>
+                   
+                    <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"> <img src="../../img/imgOficial/iconos_logos/instagram-01.svg" alt="" class="img-fluid"></a>
+                     <a href="https://twitter.com/impuls_zapatos/" target="_blank"> <img src="../../img/imgOficial/iconos_logos/twitter.svg" alt="" class="img-fluid"></a>
+                        <a href="https://www.pinterest.com.mx/impulsmoda/" target="_blank"> <img src="../../img/imgOficial/iconos_logos/pinterest-02.svg" alt="" class="img-fluid iconoPinteres"></a>
+                  
+                  </div>
+              </div>
+  
+
       </section>
-       <!--===============================================
-                     FIN SALDO A FAVOR 
-          ================================================= -->
+
+      <!--===============================================
+                      FIN CONTACTANOS
+         =================================================-->
+
+
+
+
+         <!--===============================================
+                       DONDE ESTA MI PEDIDO
+         =================================================-->
+
+         <section class="container-fluid colorFondoPrimario">
+            <div class="row">
+                 <div class="col-8 offset-2 mt-5 paddingDondeEsta">
+                    <div class="row">
+                        <div class="col-7">
+                           <h1 class="dondePedido">¿Dónde está mi pedido?</h1>
+                           <h6 class="textoContactanos6">Acceder a tu cuenta o usa tu cuenta de invitado para comprobar el estado de tu pedido.</h6>
+
+                        </div>
+                        <div class="col-5">
+                           <button class="btn colorSecundario btnDondeEstaPedido">Inicia Sesión</button>
+                           <button class="btn btnDondeEstaPedido2">Seguimiento de Pedido</button>
+
+                        </div>
+                    </div>
+                 </div>
+            </div>
+       </section>
+
+
+
+         <!--===============================================
+                      FIN DONDE ESTA MI PEDIDO
+         =================================================-->
+
 
       <!--===============================================
          SUSCRIPCIÓN
@@ -1352,11 +1370,8 @@
       <!--General-->
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
-   
-            <!--SALDO A FAVOR-->
-            <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-            <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
-            <script type="text/javascript" src="../../js/tolk-index/saldoFavor.js"></script>
+    <!--Lista Producto-->
+    <script type="text/javascript" src="../../js/tolk-index/listaProducto.js"></script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

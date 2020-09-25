@@ -3,16 +3,15 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>impuls</title>
       <!-- MDB icon -->
       <link rel="icon" href="../../img/icono.png" type="image/x-icon">
-      <!-- Font Awesome 5-->
+      <!-- Font Awesome -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
       <!-- Google Fonts Roboto -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-      <!-- Google Font Aweson 4-->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="../../css/bootstrap.min.css">
       <!-- Material Design Bootstrap -->
@@ -22,7 +21,9 @@
       <link rel="stylesheet" href="../../css/addons-pro/multi-range.min.css">
       <!-- AOS -->
       <link rel="stylesheet" href="../../js/aos-master/dist/aos.css">
-      <!-- TIPOGRAFIA -->
+      <!--========= Estilos GENERALES ==========-->
+      <!--====================================================-->
+      <!-- GENERAL -->
       <link rel="stylesheet" href="../../css/tolk-index/general/general.css">
       <!-- TIPOGRAFIA -->
       <link rel="stylesheet" href="../../css/tolk-index/general/tipografia.css">
@@ -42,8 +43,12 @@
       <link rel="stylesheet" href="../../css/tolk-index/layout/suscripcion.css">
       <!-- Estilos TOLK FOOTER -->
       <link rel="stylesheet" href="../../css/tolk-index/layout/footer.css">
-
- 
+      <!-- Estilos TOLK MODALES -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/modales.css">
+      <!-- Estilos TOLK MEGA MENU -->
+      <link rel="stylesheet" href="../../css/tolk-index/general/megaMenu.css"/>
+      <!-- Estilos TOLK ICONOS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
       <!--========= Estilos Pagina Lista producto ==========-->
       <!--====================================================-->
       <!-- Estilos  Lista producto -->
@@ -53,11 +58,14 @@
 
    </head>
    <body class="skin-light">
+      <!--===============================================
+         HEADER
+         ================================================= -->
       <header>
-          <div class="container-fluid p-0">
+         <div class="container-fluid p-0">
             <div class="row colorSecundario m-0 pt-1">
-               <div class="col-12 infoEntregasTexto text-center ">
-                  Información sobre las entregas y promociones. <a href="!#" class="aqui"><u>Ver aquí.</u></a>
+               <div class="col-12 infoEntregasTexto text-center">
+                  Información sobre las entregas y promociones. <a href="#!" class="aqui"><u>Ver aquí.</u></a>
                </div>
             </div>
          </div>
@@ -79,7 +87,7 @@
                         <!-- Right -->
                         <ul class="navbar-nav textoNavbarLogin">
                            <li class="nav-item">
-                              <a href="#!" class="nav-link waves-effect ">
+                              <a href="#!" class="nav-link waves-effect">
                               <strong class="negritasNavbarLogin">¿Dónde está mi pedido?</strong>
                               </a>
                            </li>
@@ -98,10 +106,22 @@
                               <small>Afiliate a impuls</small>
                               </a>
                            </li>
-                           <li class="nav-item">
-                              <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLoginRegistro">
+                           <li class="nav-item sinSesion">
+                              <a href="#!" class="nav-link waves-effect" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLogin">
                               <small class=" mr-4"> Login / Registro</small><img src="../../img/imgOficial/iconos_logos/login icon.svg" alt="" >
                               </a>
+                           </li>
+                           <li class="nav-item conSesion" style="display: none;">
+                              <div class="dropdown">
+                                 <button class="btn  btn-light dropdown-toggle" type="button" id="sesionUsuario" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 Alonso Morales
+                                 </button>
+                                 <div class="dropdown-menu" aria-labelledby="sesionUsuario">
+                                    <a class="dropdown-item" href="../../pages/miCuenta/miCuenta.html">Mi cuenta</a>
+                                    <a class="dropdown-item" href="#!">Captura pedido</a>
+                                    <a class="dropdown-item" href="../../index.html" >Cerrar sesión</a>
+                                 </div>
+                              </div>
                            </li>
                            <li class="nav-item">
                               <a href="#!" class="nav-link waves-effect colorPrimario">
@@ -128,7 +148,7 @@
                <!-- row (img/navbar/carrito)--->
                <!--col-2 logo-->
                <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
-                  <a href="#!"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
+                  <a href="../../index.html"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                </div>
                <!--col-2 fin logo-->
                <!--col-6 navbar-->
@@ -147,49 +167,566 @@
                         <!-- margin-left: 2.5rem!important; -->
                         <!-- Links -->
                         <ul class="navbar-nav mr-auto">
-                           <!-- Dama -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Dama
-                              <span class="sr-only">(current)</span>
-                              </a>
-                           </li>
-                           <!-- Caballero -->
+                           <!-- DAMA -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Caballero</a>
+                                 aria-haspopup="true" aria-expanded="false">Dama</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
+                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                <li class="list-inline-item"><a href="#!">Piso</a></li>
+                                                <li class="list-inline-item"><a href="#!">Plataforma</a></li>
+                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                <li class="list-inline-item"><a href="#!">Confort Piso</a></li>
+                                                <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
+                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">City</a></li>
+                                                <li class="list-inline-item"><a href="#!">Luvia</a></li>
+                                                <li class="list-inline-item"><a href="#!">Vestir</a></li>
+                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                <li class="list-inline-item"><a href="#!">Invernal</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual Moda</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Comfort</a></li>
+                                                <li class="list-inline-item"><a href="#!">Alto</a></li>
+                                                <li class="list-inline-item"><a href="#!">Bajo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM1">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
+                           <!-- FIN DAMA -->
+                           <!-- Caballero -->
+                           <li class="nav-item dropdown mega-dropdown">
+                              <a  class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                                 aria-haspopup="true" aria-expanded="false">Caballero</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Piloto</a></li>
+                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Roper</a></li>
+                                                <li class="list-inline-item"><a href="#!">Vaquera</a></li>
+                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Comfort</a></li>
+                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Basket</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                <li class="list-inline-item"><a href="#!">Indoor</a></li>
+                                                <li class="list-inline-item"><a href="#!">Soccer</a></li>
+                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
+                                                <li class="list-inline-item"><a href="#!">Industrial</a></li>
+                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vestir</a></li>
+                                                <li class="list-inline-item"><a href="#!">Vestir</a></li>
+                                                <li class="list-inline-item"><a href="#!">Botín</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM2">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="../../img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM2">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- FIN Caballero -->
                            <!-- Niña -->
                            <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                              <a  href="../../pages/listaProducto/listaProducto.html" class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4"
                                  aria-haspopup="true" aria-expanded="false">Niña</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                <li class="list-inline-item"><a href="#!">Piso</a></li>
+                                                <li class="list-inline-item"><a href="#!">Plataforma</a></li>
+                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
+                                                <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                <li class="list-inline-item"><a href="#!">City</a></li>
+                                                <li class="list-inline-item"><a href="#!">Invernal</a></li>
+                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                <li class="list-inline-item"><a href="#!">Bota</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
+                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
+                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM3">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM3">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
+                           <!-- FIN Niña -->
                            <!-- Niño -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink2" data-toggle="dropdown"
                                  aria-haspopup="true" aria-expanded="false">Niño
-                              <span class="sr-only">(current)</span>
                               </a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                <li class="list-inline-item"><a href="#!">Indoor</a></li>
+                                                <li class="list-inline-item"><a href="#!">Basket</a></li>
+                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM4">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="../../img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM4">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
                            <!-- Accesorios -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
                                  aria-haspopup="true" aria-expanded="false">Accesorios</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Calcetas</a></li>
+                                                <li class="list-inline-item"><a href="#!">Calceta</a></li>
+                                                <li class="list-inline-item"><a href="#!">Tines</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lustrador</a></li>
+                                                <li class="list-inline-item"><a href="#!">Lustrador</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Mochila</a></li>
+                                                <li class="list-inline-item"><a href="#!">Mochila</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Plantilla</a></li>
+                                                <li class="list-inline-item"><a href="#!">Plantilla</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM5">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="https://cdn.shopify.com/s/files/1/2075/9749/products/CC-C46914_BPProPCS_Blue_1@2x.png?v=1534954456" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM5">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
+                           <!-- FIN Accesorios -->
                            <!-- Marcas -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Marcas</a>
+                                 aria-haspopup="true" aria-expanded="false">Marcas</a> 
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Gucci</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nike</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Fila</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reef</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lacoste</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Puma</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vans</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reebok</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Converse</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM2">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Las mejores</h2>
+                                             <h1 class="textoBannerMM2">Marcas</h1>
+                                             <h1 class="textoBannerMM1">al mejor precio</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="https://www.seekpng.com/png/full/391-3910645_nike-logo-transparent-white-pictures-png-nike-png.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
+                           <!-- FIN Marcas -->
                            <!-- Ofertas -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
                                  aria-haspopup="true" aria-expanded="false">Ofertas</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-4 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Ofertas de Hoy</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-4 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballeros</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-4 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niños</a></li>
+                                             </ul>
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Accesorios</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM6">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Hasta</h2>
+                                             <h1 class="textoBannerMM2">50%</h1>
+                                             <h1 class="textoBannerMM1">de descuento</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="https://seeklogo.com/images/B/buen-fin-logo-2B3F830A05-seeklogo.com.png" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                          <div class="col-12">
+                                             <button class="btn btnBannerMM btnBMM6">Ver Más</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
+                           <!-- FIN Ofertas -->
                            <!-- Catálogos -->
                            <li class="nav-item dropdown mega-dropdown">
                               <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
                                  aria-haspopup="true" aria-expanded="false">Catálogos</a>
+                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                 aria-labelledby="navbarDropdownMenuLink3">
+                                 <div class="row">
+                                    <div class="col-8">
+                                       <div class="row">
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Otoño-Invierno</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballero</a></li>
+                                             </ul>
+                                          </div>
+                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                             <ul class="list-group estilosUl mb-3">
+                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--BANNER EN MEGA MENU-->
+                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                       <div class="row bannerMM7">
+                                          <div class="col-12">
+                                             <h2 class="textoBannerMM1">Los</h2>
+                                             <h1 class="textoBannerMM2">Catálogos</h1>
+                                             <h1 class="textoBannerMM1">que necesitas</h1>
+                                          </div>
+                                          <div class="col-12">
+                                             <img src="https://i.pinimg.com/474x/7c/4f/57/7c4f5728ecfdb0dc9913342e338fd086.jpg" alt="" class="img-fluid imgBennerMM">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!--FIN BANNER EN MEGA MENU-->
+                                 </div>
+                              </div>
                            </li>
                         </ul>
                         <!-- Links -->
@@ -200,12 +737,12 @@
                </div>
                <!--Fin col-6 navbar-->
                <!--col-3 Carrito de compras-->
-               <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos">
+               <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
                   <div class="right-inner-addon pull-left col-12 md-form ">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
                   </div>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
+                  <a href="../miCuenta/listaDeseos.html"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                  <a href="../../pages/carritoCompra/carritoCompra.html"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
                   <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
                <!--Fin col-3 Carrito de compras-->
@@ -215,9 +752,10 @@
          <!-- Fin container (img/navbar/carrito)--->
       </header>
       <!--===============================================
-         FIN  NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
+         FIN  HEADER
          ================================================= -->
-      <!--===========================================
+
+             <!--===========================================
          BANNER LISTA PRODUCTO
          =============================================== -->
       <section class="container">
@@ -857,7 +1395,7 @@
                   <div class="item col-xs-4 col-lg-4">
                      <div class="thumbnail card sombraTarjeta">
                         <div class="img-event iraDetalle">
-                         <a href="../detalleProducto/index.html" target="_blank" class=""> <img class="group list-group-image img-fluid imgBorder-B-lista" src="https://www.flexi.com.mx/medias/403103-tabaco-derecha.jpg?context=bWFzdGVyfGltYWdlc3wzNTM1MjJ8aW1hZ2UvanBlZ3xoZmMvaGFhLzg4MDAyNTA2NTg4NDYvNDAzMTAzLXRhYmFjby1kZXJlY2hhLmpwZ3xjYTM4ODY1ZGU1NzNkYmRhMmQ2YWJkZDM2ODBhY2Y5Nzg4MDY4YzU2MDBiZDc0MTJkYTZmYjJmMzgxYWI2YWRj" alt="impuls" /></a>
+                         <a href="../detalleProducto/detalleProducto.html" class=""> <img class="group list-group-image img-fluid imgBorder-B-lista" src="https://www.flexi.com.mx/medias/403103-tabaco-derecha.jpg?context=bWFzdGVyfGltYWdlc3wzNTM1MjJ8aW1hZ2UvanBlZ3xoZmMvaGFhLzg4MDAyNTA2NTg4NDYvNDAzMTAzLXRhYmFjby1kZXJlY2hhLmpwZ3xjYTM4ODY1ZGU1NzNkYmRhMmQ2YWJkZDM2ODBhY2Y5Nzg4MDY4YzU2MDBiZDc0MTJkYTZmYjJmMzgxYWI2YWRj" alt="impuls" /></a>
                            <span class="badge badge-pill badge-news etiquetaOfertaLista">
                            <h6 class="textoEtiquetaLista">OFERTA</h6>
                         </span>
@@ -1334,6 +1872,7 @@
       <!--===============================================
          FIN  PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
+
       <!--===============================================
          SUSCRIPCIÓN
          ================================================= -->
@@ -1374,28 +1913,28 @@
          <div class="row p-0 m-0 footerImpuls">
             <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
                <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
-               <a href="#!"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
-               <a href="#!"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="#!"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="#!"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               <a href="https://www.facebook.com/impulsventaporcatalogo/"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
+               <a href="https://www.pinterest.com.mx/impulsmoda/"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               <a href="https://www.youtube.com/user/ImpulsModa/"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+               <a href="https://twitter.com/impuls_zapatos/"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
                <a href="#!">
                   <h4 class="textoFoooter pl-5">Tienda en línea</h4>
                </a>
-               <a href="#!">
+               <a href="../../terminos-condiciones.html">
                   <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
                </a>
-               <a href="#!">
+               <a href="../../preguntas-frecuentes.html">
                   <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
                </a>
-               <a href="#!">
+               <a href="../../politica-de-devolucion.html">
                   <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
                </a>
-               <a href="#!">
+               <a href="../../como-comprar.html">
                   <p class="textoFoooterSecundario pl-5">Como comprar</p>
                </a>
-               <a href="#!">
+               <a href="../../aviso-de-privacidad.html">
                   <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
                </a>
             </div>
@@ -1403,10 +1942,10 @@
                <a href="#!">
                   <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
                </a>
-               <a href="#!">
+               <a href="../../afiliate-a-impuls.html">
                   <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
                </a>
-               <a href="#!">
+               <a href="../../descuentos-beneficios.html">
                   <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
                </a>
                <a href="#!">
@@ -1418,41 +1957,46 @@
                <a href="#!">
                   <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
                </a>
+               <a href="../../mas-informacion.html">
+                  <p class="textoFoooterSecundario pl-5">Más información</p>
+               </a>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
                <a href="#!">
                   <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
                </a>
-               <a href="#!">
+               <a href="../../historia.html">
                   <p class="textoFoooterSecundario pl-5">Historia</p>
                </a>
-               <a href="#!">
+               <a href="../../mision-vision.html">
                   <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
                </a>
-               <a href="#!">
+               <a href="../contactanos/contactanos.html">
                   <p class="textoFoooterSecundario pl-5">Contáctanos</p>
                </a>
-               <a href="#!">
+               <a href="../sucursales/sucursales.html">
                   <p class="textoFoooterSecundario pl-5">Sucursales</p>
                </a>
-               <a href="#!">
+               <a href="../../compra-segura.html">
                   <p class="textoFoooterSecundario pl-5">Compra segura</p>
                </a>
             </div>
-            <h6 class="derechosReservados">Impuls Todos los derechos reservados.</h6>
+            <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
          </div>
       </footer>
       <!--===============================================
          FIN FOOTER
          ================================================= -->
+
+
       <!--===============================================
          MODAL TERMINOS Y CONDICIONES
          ================================================= -->
       <!-- Button trigger modal -->
       <!-- Modal -->
-      <div class="modal fade" id="terminosCondiciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      <section class="modal fade" id="terminosCondiciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
-         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                <div class="modal-header">
                   <h5 class="modal-title text-center" id="exampleModalLabel"><b>Términos y Condiciones</b></h5>
@@ -1462,31 +2006,13 @@
                </div>
                <div class="modal-body text-justify">
                   Los Términos y Condiciones, también denominados como Condiciones Generales de Uso, son un documento diseñado para aquellas personas que van a crear o administrar una página o sitio web, en el cual se establecen las condiciones bajo las cuales los usuarios ingresarán y harán uso del sitio web.
-                  El documento se encuentra diseñado para sitios que sean operados o manejados por personas o empresas que tengan su domicilio en la República Mexicana o que estén destinados a personas que habitan en este país, no obstante, su contenido hace referencia a disposiciones civiles comunes en la mayoría de los países del mundo.
-                  Este documento es utilizado para regular las condiciones y reglas a las que se someten tanto los usuarios de un sitio web como su propietario y/o administrador, en lo referente al acceso y utilización del sitio web. De igual manera, hace referencia a las políticas de privacidad, protección de datos personales, enlaces, etc., que se tomarán para proteger la privacidad de los usuarios.
-                  Dichas reglas y principios aportan un mayor nivel de confianza y seguridad jurídica a los usuarios del sitio web así como a sus propietarios y/o administradores, puesto que también se establece el tipo de personas a las que va dirigido y las responsabilidades que estos adquieren al hacer uso del sitio o de los servicios que en él son ofrecidos.
-                  Existe además otro documento conocido generalmente como "Condiciones Generales de Venta" que se utiliza para regular la adquisición de productos o servicios a través de internet, no obstante, este último no debe ser confundido con el presente documento, puesto que el presente solo se limita a regular el acceso, funcionamiento e interacción del usuario con el sitio web, sin que se incluya las condiciones bajo las cuales se formalizará la adquisición de productos o servicios que tengan un costo o que requieran una licencia; y que se puedan obtener o adquirir a través del mismo sitio web.
-                  ¿Cómo utilizar este documento?
-                  El modelo incluye diversos supuestos que se pueden presentar con relación a los contenidos, productos y/o servicios se encuentren disponibles dentro del sitio, y se adapta en función de las necesidades y características del sitio web, por tanto la persona que desee utilizarlo deberá tomar en cuenta entre otras cosas, lo siguiente:
-                  El tipo de público al que se encuentra dirigido el sitio web, esto es, si es para todo tipo de público o si es solamente para mayores de edad;
-                  Si el acceso al sitio web requerirá de un registro del usuario, o por el contrario se encontrará disponible para todo público sin necesidad de registro;
-                  Si será necesario el pago de una contraprestación para hacer uso del sitio web, o bien este será de carácter gratuito;
-                  El modelo incluye los aspectos que resultan necesarios en materia de protección de datos personales en posesión de particulares e incluso se puede especificar el Aviso de Privacidad, en caso de que este se tenga disponible a través del mismo sitio web, todo esto aporta un gran nivel de confianza y seguridad jurídica, por lo que sería recomendable que este tipo de documentos se elaboren para todos y cada uno de los sitios web que se encuentran en internet, puesto que los mismos se consideran aceptados por el usuario al hacer uso del sitio y/o acceder a sus contenidos.
-                  El documento deberá estar de disponible en la ventana principal del sitio web (usualmente desde el archivo .index), no obstante, lo recomendable es que sea accesible desde cualquier parte del sitio web, a fin de que pueda ser consultado en todo momento por el usuario.
-                  En caso de que por el tipo de contenido, productos y/o servicios que se encuentren disponibles en el sitio web, se considere necesaria la aceptación expresa del usuario de los términos y condiciones; se deberá de tomar en cuenta que el usuario debe tener la posibilidad de visualizar el documento de forma íntegra; y se debe habilitar un medio para que el usuario exprese que se encuentra de acuerdo con los mismos (usualmente a través de un formulario).
-                  Derecho aplicable
-                  Capitulo segundo de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.
-                  Código Civil Federal.
-                  Ayuda de un abogado
-                  También tienes la opción de consultar a un abogado si necesitas ayuda.
-                  El abogado puede contestar a tus preguntas o ayudarte en tus trámites. Al final de la creación del documento, se te ofrecerá esta opción.
                </div>
                <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
                </div>
             </div>
          </div>
-      </div>
+      </section>
       <!--===============================================
          FIN MODAL TERMINOS Y CONDICIONES
          ================================================= -->
@@ -1495,9 +2021,9 @@
          ================================================= -->
       <!-- Button trigger modal -->
       <!-- Modal -->
-      <div class="modal fade" id="avisoPrivacidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      <section class="modal fade" id="avisoPrivacidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
-         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                <div class="modal-header">
                   <h5 class="modal-title text-center" id="exampleModalLabel"><b>Aviso de Privacidad</b></h5>
@@ -1507,53 +2033,36 @@
                </div>
                <div class="modal-body text-justify">
                   Los Términos y Condiciones, también denominados como Condiciones Generales de Uso, son un documento diseñado para aquellas personas que van a crear o administrar una página o sitio web, en el cual se establecen las condiciones bajo las cuales los usuarios ingresarán y harán uso del sitio web.
-                  El documento se encuentra diseñado para sitios que sean operados o manejados por personas o empresas que tengan su domicilio en la República Mexicana o que estén destinados a personas que habitan en este país, no obstante, su contenido hace referencia a disposiciones civiles comunes en la mayoría de los países del mundo.
-                  Este documento es utilizado para regular las condiciones y reglas a las que se someten tanto los usuarios de un sitio web como su propietario y/o administrador, en lo referente al acceso y utilización del sitio web. De igual manera, hace referencia a las políticas de privacidad, protección de datos personales, enlaces, etc., que se tomarán para proteger la privacidad de los usuarios.
-                  Dichas reglas y principios aportan un mayor nivel de confianza y seguridad jurídica a los usuarios del sitio web así como a sus propietarios y/o administradores, puesto que también se establece el tipo de personas a las que va dirigido y las responsabilidades que estos adquieren al hacer uso del sitio o de los servicios que en él son ofrecidos.
-                  Existe además otro documento conocido generalmente como "Condiciones Generales de Venta" que se utiliza para regular la adquisición de productos o servicios a través de internet, no obstante, este último no debe ser confundido con el presente documento, puesto que el presente solo se limita a regular el acceso, funcionamiento e interacción del usuario con el sitio web, sin que se incluya las condiciones bajo las cuales se formalizará la adquisición de productos o servicios que tengan un costo o que requieran una licencia; y que se puedan obtener o adquirir a través del mismo sitio web.
-                  ¿Cómo utilizar este documento?
-                  El modelo incluye diversos supuestos que se pueden presentar con relación a los contenidos, productos y/o servicios se encuentren disponibles dentro del sitio, y se adapta en función de las necesidades y características del sitio web, por tanto la persona que desee utilizarlo deberá tomar en cuenta entre otras cosas, lo siguiente:
-                  El tipo de público al que se encuentra dirigido el sitio web, esto es, si es para todo tipo de público o si es solamente para mayores de edad;
-                  Si el acceso al sitio web requerirá de un registro del usuario, o por el contrario se encontrará disponible para todo público sin necesidad de registro;
-                  Si será necesario el pago de una contraprestación para hacer uso del sitio web, o bien este será de carácter gratuito;
-                  El modelo incluye los aspectos que resultan necesarios en materia de protección de datos personales en posesión de particulares e incluso se puede especificar el Aviso de Privacidad, en caso de que este se tenga disponible a través del mismo sitio web, todo esto aporta un gran nivel de confianza y seguridad jurídica, por lo que sería recomendable que este tipo de documentos se elaboren para todos y cada uno de los sitios web que se encuentran en internet, puesto que los mismos se consideran aceptados por el usuario al hacer uso del sitio y/o acceder a sus contenidos.
-                  El documento deberá estar de disponible en la ventana principal del sitio web (usualmente desde el archivo .index), no obstante, lo recomendable es que sea accesible desde cualquier parte del sitio web, a fin de que pueda ser consultado en todo momento por el usuario.
-                  En caso de que por el tipo de contenido, productos y/o servicios que se encuentren disponibles en el sitio web, se considere necesaria la aceptación expresa del usuario de los términos y condiciones; se deberá de tomar en cuenta que el usuario debe tener la posibilidad de visualizar el documento de forma íntegra; y se debe habilitar un medio para que el usuario exprese que se encuentra de acuerdo con los mismos (usualmente a través de un formulario).
-                  Derecho aplicable
-                  Capitulo segundo de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.
-                  Código Civil Federal.
-                  Ayuda de un abogado
-                  También tienes la opción de consultar a un abogado si necesitas ayuda.
-                  El abogado puede contestar a tus preguntas o ayudarte en tus trámites. Al final de la creación del documento, se te ofrecerá esta opción.
                </div>
                <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
                </div>
             </div>
          </div>
-      </div>
+      </section>
       <!--===============================================
          FIN MODAL AVISO DE PRIVACIDAD
          ================================================= -->
       <!--===============================================
-         MODAL LOGIN/REGISTRO
+         MODAL LOGIN
          ================================================= -->
-      <!--Modal: Login / Register Form-->
-      <div class="modal fade" id="modalLoginRegistro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <!--Modal: Login Form-->
+      <section class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin" aria-hidden="true">
          <div class="modal-dialog cascading-modal" role="document">
             <!--Content-->
             <div class="modal-content">
                <!--Modal cascading tabs-->
                <div class="modal-c-tabs">
                   <!-- Nav tabs -->
-                  <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
                      <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
-                        Login</a>
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel7" role="tab">
+                        Inicia sesión</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
-                        Register</a>
+                     <li class="nav-item align-self-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                        <span aria-hidden="true">&times;</span>  </button>
                      </li>
                   </ul>
                   <!-- Tab panels -->
@@ -1562,248 +2071,455 @@
                      <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                           <div class="md-form form-sm mb-5">
-                              <i class="fas fa-envelope prefix"></i>
-                              <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
-                              <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                           <h3 class="textoNotas">Si ya eres miembro por favor inicia sesión.</h3>
+                           <div class="form-sm mb-4">
+                              <small id="membresiaCorreo" class="form-text text-muted titutoInput">
+                              Num. de Membresia o email.
+                              </small>
+                              <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Num. de Membresia o email">
                            </div>
-                           <div class="md-form form-sm mb-4">
-                              <i class="fas fa-lock prefix"></i>
-                              <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
-                              <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                           <div class="form-sm mb-4">
+                              <small id="password" class="form-text text-muted titutoInput">
+                              Contraseña.
+                              </small>
+                              <input class="form-control estiloInput" id="password" type="password" placeholder="Contraseña">
                            </div>
-                           <div class="text-center mt-2">
-                              <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+                           <div class="row">
+                              <div class="col-6">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnModales btnSesion">Ingresar</button>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="text-right olvidaste">
+                                    <a href="#!" class="text-right preguntasLogin" data-toggle="modal" data-target="#modalOlvidasteContrasena"><u>¿Olvidaste tu contraseña?</u> </a>
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-                        <!--Footer-->
-                        <div class="modal-footer">
-                           <div class="options text-center text-md-right mt-1">
-                              <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
-                              <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                           <div class="row">
+                              <div class="col-6 pr-0">
+                                 <div class="text-left mt-4">
+                                    <a href="#!" class="text-right preguntasLogin" data-toggle="modal" data-target="#modalActivaCuenta"><u>¿Eres Socio? Activa tu cuenta</u> </a>
+                                 </div>
+                              </div>
+                              <div class="col-6 pl-0">
+                                 <div class="text-left mt-4">
+                                    <a href="#!" class="text-right preguntasLogin " data-toggle="modal" data-target="#modalRegistro"><u>Afiliate,regístrate ahora</u> </a>
+                                 </div>
+                              </div>
                            </div>
-                           <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
                         </div>
                      </div>
                      <!--/.Panel 7-->
-                     <!--Panel 8-->
-                     <div class="tab-pane fade" id="panel8" role="tabpanel">
-                        <!--Body-->
-                        <div class="modal-body">
-                           <div class="md-form form-sm mb-5">
-                              <i class="fas fa-envelope prefix"></i>
-                              <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
-                              <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
-                           </div>
-                           <div class="md-form form-sm mb-5">
-                              <i class="fas fa-lock prefix"></i>
-                              <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
-                              <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
-                           </div>
-                           <div class="md-form form-sm mb-4">
-                              <i class="fas fa-lock prefix"></i>
-                              <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
-                              <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
-                           </div>
-                           <div class="text-center form-sm mt-2">
-                              <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
-                           </div>
-                        </div>
-                        <!--Footer-->
-                        <div class="modal-footer">
-                           <div class="options text-right">
-                              <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
-                           </div>
-                           <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
-                        </div>
-                     </div>
-                     <!--/.Panel 8-->
                   </div>
                </div>
             </div>
             <!--/.Content-->
          </div>
-      </div>
-      <!--Modal: Login / Register Form-->
+      </section>
+      <!--Modal: Login  Form-->
       <!--===============================================
-         FIN MODAL LOGIN/REGISTRO
+         FIN MODAL LOGIN
          ================================================= -->
       <!--===============================================
+         MODAL REGISTRO
+         ================================================= -->
+      <!--Modal:  Register Form-->
+      <section class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="modalRegistro" aria-hidden="true">
+         <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Modal cascading tabs-->
+               <div class="modal-c-tabs">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel8" role="tab">
+                        Afíliate, regístrate ahora</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
+                     </li>
+                  </ul>
+                  <!-- Tab panels -->
+                  <div class="tab-content pt-0">
+                     <!--Panel 7-->
+                     <div class="tab-pane fade in show active" id="panel8" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                           <h3 class="textoNotas-a">Regístrate, para ser miembro, llena los campos y da click en crear cuenta</h3>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="nombreSocio" class="form-text text-muted titutoInput">
+                              Nombre(s)
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="nombreSocio" type="text" placeholder="Nombre(s)">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="apellidoPSocio" class="form-text text-muted titutoInput">
+                              Apellido Paterno
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="apellidoPSocio" type="text" placeholder="Apellido Paterno">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="apellidoMSocio" class="form-text text-muted titutoInput">
+                              Apellido Materno
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="apellidoMSocio" type="text" placeholder="Apellido Materno">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="Email" class="form-text text-muted titutoInput">
+                              Email
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="contrasenaSocio" class="form-text text-muted titutoInput">
+                              Contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="confirmarC" class="form-text text-muted titutoInput">
+                              Confirmar contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
+                           </div>
+                           <div class="row mt-3">
+                              <div class="col-8">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnModales">Crea cuenta</button>
+                                 </div>
+                              </div>
+                              <div class="col-4 align-self-end">
+                                 <a href="!#" data-toggle="modal" data-target="#modalLogin" class="regresarLogin"><i class="fas fa-undo-alt"><u class="textoRegresar">&nbsp; Regresar</u></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/.Panel 7-->
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </section>
+      <!--Modal: Register Form-->
+      <!--===============================================
+         FIN MODAL REGISTRO
+         ================================================= -->
+      <!--===============================================
+         MODAL ACTIVA TU CUENTA
+         ================================================= -->
+      <!--Modal:MODAL ACTIVA TU CUENTA Form-->
+      <section class="modal fade" id="modalActivaCuenta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Modal cascading tabs-->
+               <div class="modal-c-tabs">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel8" role="tab">
+                        Activa tu cuenta</a>
+                        <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
+                     </li>
+                  </ul>
+                  <!-- Tab panels -->
+                  <div class="tab-content pt-0">
+                     <!--Panel 7-->
+                     <div class="tab-pane fade in show active" id="panel9" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                           <h3 class="textoNotas-a">Activa tu cuenta. Por cuestiones de seguridad te pedimos llenar todos los campos correctamente, para que puedas disfrutar de tus compras en línea.</h3>
+                           <div class="form-sm mb-4 espacioInput mt-3">
+                              <small id="membresiaCorreo" class="form-text text-muted titutoInput">
+                              Número de Membresia.
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="membresiaCorreo" type="text" placeholder="Número de Membresia">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="Email" class="form-text text-muted titutoInput">
+                              Email
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="Email" type="text" placeholder="Email">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="contrasenaSocio" class="form-text text-muted titutoInput">
+                              Contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="contrasenaSocio" type="password" placeholder="Contraseña">
+                           </div>
+                           <div class="form-sm mb-4 espacioInput">
+                              <small id="confirmarC" class="form-text text-muted titutoInput">
+                              Confirmar contraseña
+                              </small>
+                              <input class="form-control estiloInputRegistro" id="confirmarC" type="password" placeholder="Confirmar contraseña">
+                           </div>
+                           <div class="row mt-5">
+                              <div class="col-8">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnModales">Crea cuenta</button>
+                                 </div>
+                              </div>
+                              <div class="col-4 align-self-end">
+                                 <a href="!#" data-toggle="modal" data-target="#modalLogin" class="regresarLogin"><i class="fas fa-undo-alt"><u class="textoRegresar">&nbsp; Regresar</u></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/.Panel 7-->
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </section>
+      <!--Modal: MODAL ACTIVA TU CUENTA Form-->
+      <!--===============================================
+         FIN MODAL ACTIVA TU CUENTA
+         ================================================= -->
+      <!--===============================================
+         MODAL OLVIDASTE CONTRASEÑA
+         ================================================= -->
+      <!--Modal:MODAL OLVIDASTE CONTRASEÑA Form-->
+      <section class="modal fade" id="modalOlvidasteContrasena" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+               <!--Modal cascading tabs-->
+               <div class="modal-c-tabs">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
+                     <div class="row">
+                        <div class="col-10">
+                           <li class="nav-item">
+                              <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel10" role="tab">
+                              Restaura contraseña</a>
+                              <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Te mandaremos un correo electronico con tu nueva contraseña.</h6>
+                           </li>
+                        </div>
+                        <div class="col-2">
+                           <li class="nav-item align-self-center">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                              <span aria-hidden="true">&times;</span>  </button>
+                           </li>
+                        </div>
+                     </div>
+                  </ul>
+                  <!-- Tab panels -->
+                  <div class="tab-content">
+                     <!--Panel 7-->
+                     <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                           <h3 class="textoNotas-a">Email.</h3>
+                           <div class="row">
+                              <div class="col-8">
+                                 <div class="form-sm">
+                                    <input class="form-control estiloInput" id="Email" type="text" placeholder="Email">
+                                 </div>
+                              </div>
+                              <div class="col-4 align-self-center pl-0">
+                                 <div class="text-left">
+                                    <button class="btn colorPrimario btnModales">Enviar</button>
+                                 </div>
+                              </div>
+                              <div class="offset-9 col-3">
+                                 <div class="align-self-end mt-5">
+                                    <a href="!#" data-toggle="modal" data-target="#modalLogin" class="regresarLogin"><i class="fas fa-undo-alt"><u class="textoRegresar">&nbsp; Regresar</u></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--/.Panel 7-->
+                  </div>
+               </div>
+            </div>
+            <!--/.Content-->
+         </div>
+      </section>
+      <!--Modal: MODAL OLVIDASTE CONTRASEÑA -->
+      <!--===============================================
+         FIN MODAL OLVIDASTE CONTRASEÑA
+         ================================================= -->
+
+               <!--===============================================
          MODAL VISTA RAPIDA PRODUCTO
          ================================================= -->
       <!-- Central Modal Small -->
       <div class="modal" id="modalVistaRapida" tabindex="-1" role="dialog" aria-labelledby="vistaRapida"
-         aria-hidden="true">
-         <!-- Change class .modal-sm to change the size of the modal -->
-         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <div class="row">
-                     <div class="col-md-6 mb-4 mb-md-0">
-                        <div id="mdb-lightbox-ui"></div>
-                        <div class="mdb-lightbox">
-                           <div class="row product-gallery mx-1">
-                              <div class="col-12 mb-0">
-                                 <figure class="view overlay rounded z-depth-1 main-img" style="max-height: 450px;">
-                                    <a href="../../img/detalle Producto/detalle-1.jpg"
-                                       data-size="710x823">
-                                    <img src="../../img/detalle Producto/detalle-1.jpg"
-                                       class="img-fluid z-depth-1" style="margin-top: -90px;">
-                                    </a>
-                                 </figure>
-                                 <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                                    <a href="../../img/detalle Producto/detalle-2.jpg"
-                                       data-size="710x823">
-                                    <img src="../../img/detalle Producto/detalle-2.jpg"
-                                       class="img-fluid z-depth-1">
-                                    </a>
-                                 </figure>
-                                 <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                                    <a href="../../img/detalle Producto/detalle-3.jpg"
-                                       data-size="710x823">
-                                    <img src="../../img/detalle Producto/detalle-3.jpg"
-                                       class="img-fluid z-depth-1">
-                                    </a>
-                                 </figure>
-                                 <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                                    <a href="../../img/detalle Producto/detalle-4.jpg"
-                                       data-size="710x823">
-                                    <img src="../../img/detalle Producto/detalle-4.jpg"
-                                       class="img-fluid z-depth-1">
-                                    </a>
-                                 </figure>
-                              </div>
-                              <!-- imagenes pequeñas -->
-                              <div class="col-12">
-                                 <div class="row">
-                                    <div class="col-3">
-                                       <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                          <img src="../../img/detalle Producto/detalle-1.jpg"
-                                             class="img-fluid">
-                                          <div class="mask rgba-white-slight"></div>
-                                       </div>
+      aria-hidden="true">
+      <!-- Change class .modal-sm to change the size of the modal -->
+      <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <div class="row">
+                  <div class="col-md-6 mb-4 mb-md-0">
+                     <div id="mdb-lightbox-ui"></div>
+                     <div class="mdb-lightbox">
+                        <div class="row product-gallery mx-1">
+                           <div class="col-12 mb-0">
+                              <figure class="view overlay rounded z-depth-1 main-img" style="max-height: 450px;">
+                                 <a href="../../img/detalle Producto/detalle-1.jpg"
+                                    data-size="710x823">
+                                 <img src="../../img/detalle Producto/detalle-1.jpg"
+                                    class="img-fluid z-depth-1" style="margin-top: -90px;">
+                                 </a>
+                              </figure>
+                              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                                 <a href="../../img/detalle Producto/detalle-2.jpg"
+                                    data-size="710x823">
+                                 <img src="../../img/detalle Producto/detalle-2.jpg"
+                                    class="img-fluid z-depth-1">
+                                 </a>
+                              </figure>
+                              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                                 <a href="../../img/detalle Producto/detalle-3.jpg"
+                                    data-size="710x823">
+                                 <img src="../../img/detalle Producto/detalle-3.jpg"
+                                    class="img-fluid z-depth-1">
+                                 </a>
+                              </figure>
+                              <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+                                 <a href="../../img/detalle Producto/detalle-4.jpg"
+                                    data-size="710x823">
+                                 <img src="../../img/detalle Producto/detalle-4.jpg"
+                                    class="img-fluid z-depth-1">
+                                 </a>
+                              </figure>
+                           </div>
+                           <!-- imagenes pequeñas -->
+                           <div class="col-12">
+                              <div class="row">
+                                 <div class="col-3">
+                                    <div class="view overlay rounded z-depth-1 gallery-item hoverable">
+                                       <img src="../../img/detalle Producto/detalle-1.jpg"
+                                          class="img-fluid">
+                                       <div class="mask rgba-white-slight"></div>
                                     </div>
-                                    <div class="col-3">
-                                       <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                          <img src="../../img/detalle Producto/detalle-2.jpg"
-                                             class="img-fluid">
-                                          <div class="mask rgba-white-slight"></div>
-                                       </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="view overlay rounded z-depth-1 gallery-item hoverable">
+                                       <img src="../../img/detalle Producto/detalle-2.jpg"
+                                          class="img-fluid">
+                                       <div class="mask rgba-white-slight"></div>
                                     </div>
-                                    <div class="col-3">
-                                       <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                          <img src="../../img/detalle Producto/detalle-3.jpg"
-                                             class="img-fluid">
-                                          <div class="mask rgba-white-slight"></div>
-                                       </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="view overlay rounded z-depth-1 gallery-item hoverable">
+                                       <img src="../../img/detalle Producto/detalle-3.jpg"
+                                          class="img-fluid">
+                                       <div class="mask rgba-white-slight"></div>
                                     </div>
-                                    <div class="col-3">
-                                       <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                          <img src="../../img/detalle Producto/detalle-4.jpg"
-                                             class="img-fluid">
-                                          <div class="mask rgba-white-slight"></div>
-                                       </div>
+                                 </div>
+                                 <div class="col-3">
+                                    <div class="view overlay rounded z-depth-1 gallery-item hoverable">
+                                       <img src="../../img/detalle Producto/detalle-4.jpg"
+                                          class="img-fluid">
+                                       <div class="mask rgba-white-slight"></div>
                                     </div>
                                  </div>
                               </div>
-                              <!-- imagenes pequeñas -->
+                           </div>
+                           <!-- imagenes pequeñas -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Detalles del producto -->
+                  <div class="col-md-6">
+                     <div class="row">
+                        <div class="col-12">
+                           <h6 id="sku" class="sku">SKU: 110290</h6>
+                           <h5 id="nombreProductoDetalle" class="nombreProductoDetalle">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
+                           <p class="textosPrecios">Precio Sugerido: <span class="mr-1"><strong>$500.00 MXN</strong></span></p>
+                           <p class="textosPrecios">Precio Socio: <span class="mr-1"><strong class="precioSocio">$400.00 MXN</strong></span></p>
+                        </div>
+                        <hr>
+                        <div class="col-6">
+                           <select id="seleccioneTalla" class="form-control seleccioneTalla">
+                              <option selected>Seleccione Talla</option>
+                              <option value="1">5</option>
+                              <option value="2">5.5</option>
+                              <option value="3">6</option>
+                              <option value="3">6.5</option>
+                              <option value="3">7</option>
+                              <option value="3">7.5</option>
+                              <option value="3">8</option>
+                              <option value="3">8.5</option>
+                              <option value="3">9</option>
+                           </select>
+                        </div>
+                        <div class="col-6">
+                           <div class="def-number-input number-input safari_only mb-0">
+                              <label class="cantidadProducto pl-1" min="0" name="" type="text">Cantidad:</label>
+                              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"class="minus"></button>
+                              <input class="quantity cantidadValor" min="0" name="cantidadValor" value="1" type="number">
+                              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                 class="plus"></button>
                            </div>
                         </div>
                      </div>
-                     <!-- Detalles del producto -->
-                     <div class="col-md-6">
+                     <div class="col-12 pl-0 pt-3">
+                        <p class="textoProductoDisponible">Producto disponible</p>
                         <div class="row">
-                           <div class="col-12">
-                              <h6 id="sku" class="sku">SKU: 110290</h6>
-                              <h5 id="nombreProductoDetalle" class="nombreProductoDetalle">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
-                              <p class="textosPrecios">Precio Sugerido: <span class="mr-1"><strong>$500.00 MXN</strong></span></p>
-                              <p class="textosPrecios">Precio Socio: <span class="mr-1"><strong class="precioSocio">$400.00 MXN</strong></span></p>
+                           <div class="col-7">
+                              <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
+                              <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle">Comprar ahora</button>
                            </div>
-                           <hr>
-                           <div class="col-6">
-                              <select id="seleccioneTalla" class="form-control seleccioneTalla">
-                                 <option selected>Seleccione Talla</option>
-                                 <option value="1">5</option>
-                                 <option value="2">5.5</option>
-                                 <option value="3">6</option>
-                                 <option value="3">6.5</option>
-                                 <option value="3">7</option>
-                                 <option value="3">7.5</option>
-                                 <option value="3">8</option>
-                                 <option value="3">8.5</option>
-                                 <option value="3">9</option>
-                              </select>
-                           </div>
-                           <div class="col-6">
-                              <div class="def-number-input number-input safari_only mb-0">
-                                 <label class="cantidadProducto pl-1" min="0" name="" type="text">Cantidad:</label>
-                                 <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"class="minus"></button>
-                                 <input class="quantity cantidadValor" min="0" name="cantidadValor" value="1" type="number">
-                                 <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                    class="plus"></button>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-12 pl-0 pt-3">
-                           <p class="textoProductoDisponible">Producto disponible</p>
-                           <div class="row">
-                              <div class="col-7">
-                                 <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
-                                 <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle">Comprar ahora</button>
-                              </div>
-                              <div class="col-5">
-                                 <button class="btn btnFavorito agregarAFavoritos"> <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button><br>
-                                 <div class="row mt-3">
-                                    <div class="col-auto pr-0">
-                                       <img src="../../img/imgOficial/iconos_logos/compra protegida.svg" alt="" class="img-fluid" id="imgCompraProtegida" >
-                                    </div>
-                                    <div class="col-8 p-0 pl-2">
-                                       <p class="textoCompraProtegida">Tu compra esta protegidad</p>
-                                    </div>
+                           <div class="col-5">
+                              <button class="btn btnFavorito agregarAFavoritos"> <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button><br>
+                              <div class="row mt-3">
+                                 <div class="col-auto pr-0">
+                                    <img src="../../img/imgOficial/iconos_logos/compra protegida.svg" alt="" class="img-fluid" id="imgCompraProtegida" >
+                                 </div>
+                                 <div class="col-8 p-0 pl-2">
+                                    <p class="textoCompraProtegida">Tu compra esta protegidad</p>
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
                </div>
-               <!-- FIN modal-header -->
-               <div class="modal-body">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-6 text-justify">
-                           <h6 class="textoDescripcionModal">Descripción de producto</h6>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint maiores, perspiciatis illum delectus cum officia blanditiis doloremque distinctio suscipit fugit illo? Quas magnam voluptate atque. Eos quidem ad porro.</p>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <!-- FIN modal-header -->
+            <div class="modal-body">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-6 text-justify">
+                        <h6 class="textoDescripcionModal">Descripción de producto</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint maiores, perspiciatis illum delectus cum officia blanditiis doloremque distinctio suscipit fugit illo? Quas magnam voluptate atque. Eos quidem ad porro.</p>
+                     </div>
+                     <div class="col-3">
+                        <div class="borderMarca"  style="background-color: #ffff;">
+                           <p class="caracteristicasDetalle pl-2 pt-2"><strong>Marca:</strong></p>
+                           <img src="../../img/marcas/k-swiss.png" alt="" class="imgMarca img-fluid pr-2 pr-2">
                         </div>
-                        <div class="col-3">
-                           <div class="borderMarca"  style="background-color: #ffff;">
-                              <p class="caracteristicasDetalle pl-2 pt-2"><strong>Marca:</strong></p>
-                              <img src="../../img/marcas/k-swiss.png" alt="" class="imgMarca img-fluid pr-2 pr-2">
-                           </div>
-                        </div>
-                        <div class="col-3">
-                           <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Color:<strong>Plata</strong></li>
-                              <li class="list-group-item">Talla: <strong>23/27 E</strong></li>
-                              <li class="list-group-item">Acabado: <strong>PVC</strong></li>
-                              <li class="list-group-item">Calce: <strong>Normal</strong></li>
-                              <li class="list-group-item">Suela: <strong>N/A</strong></li>
-                              <li class="list-group-item">Alto: <strong>De 0 a 4 cms</strong></li>
-                           </ul>
-                        </div>
+                     </div>
+                     <div class="col-3">
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">Color:<strong>Plata</strong></li>
+                           <li class="list-group-item">Talla: <strong>23/27 E</strong></li>
+                           <li class="list-group-item">Acabado: <strong>PVC</strong></li>
+                           <li class="list-group-item">Calce: <strong>Normal</strong></li>
+                           <li class="list-group-item">Suela: <strong>N/A</strong></li>
+                           <li class="list-group-item">Alto: <strong>De 0 a 4 cms</strong></li>
+                        </ul>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- Central Modal Small -->
-      <!--===============================================
-         FIN MODAL VISTA RAPIDA PRODUCTO
-         ================================================= -->
+   </div>
+   <!-- Central Modal Small -->
+   <!--===============================================
+      FIN MODAL VISTA RAPIDA PRODUCTO
+      ================================================= -->
+
       <!--===============================================
          SCRIPTS
          ================================================= -->
@@ -1813,6 +2529,7 @@
       <script type="text/javascript" src="../../js/popper.min.js"></script>
       <!-- Bootstrap core JavaScript -->
       <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+      <script src="../../js/glide-3.4.1/dist/glide.js"></script>
       <!-- MDB core JavaScript -->
       <script type="text/javascript" src="../../js/mdb.min.js"></script>
       <!-- MDB eCommerce -->
@@ -1823,16 +2540,17 @@
       <script type="text/javascript" src="../../js/aos-master/dist/aos.js"></script>
       <!--General-->
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
-      <!--Lista Producto-->
-      <script type="text/javascript" src="../../js/tolk-index/listaProducto.js"></script>
-      <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
-      <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
 
-   
+         <!--Lista Producto-->
+         <script type="text/javascript" src="../../js/tolk-index/listaProducto.js"></script>
+         <!-- <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+         <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
 
+    -->
+      
       <!--===============================================
-         SCRIPTS
+         FIN SCRIPTS
          ================================================= -->
    </body>
 </html>

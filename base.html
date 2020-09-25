@@ -49,13 +49,6 @@
       <!-- Estilos TOLK ICONOS -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-      <!-- Estilos  MI CUENTA -->
-      <link rel="stylesheet" href="../../css/tolk-index/miCuenta/miCuenta.css">
-      <!-- Estilos  SALDO FAVOR -->
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css"/>
-      <link rel="stylesheet" href="../../css/tolk-index/miCuenta/saldoFavor.css">
-       
 
    </head>
    <body class="skin-light">
@@ -149,7 +142,7 @@
                <!-- row (img/navbar/carrito)--->
                <!--col-2 logo-->
                <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
-                  <a href="../../index.html"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
+                  <a href="../../index.php"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                </div>
                <!--col-2 fin logo-->
                <!--col-6 navbar-->
@@ -742,7 +735,7 @@
                   <div class="right-inner-addon pull-left col-12 md-form ">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
                   </div>
-                  <a href="../miCuenta/listaDeseos.html"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
                   <a href="../../pages/carritoCompra/carritoCompra.html"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
                   <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
@@ -755,112 +748,6 @@
       <!--===============================================
          FIN  HEADER
          ================================================= -->
-
-               <!--===============================================
-                     SALDO A FAVOR 
-         ================================================= -->
-              <!--container-->
-      <section class="container-fluid colorFondoPrimario seccionMiCuenta">
-         <div class="container">
-            <div class="row">
-               <div class="col-6">
-                  <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-3">
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
-                     <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
-                     <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
-                     <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
-                     <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
-                     <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
-                     <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
-                     <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
-                     <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
-                     <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
-                     <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
-                  </ul>
-                  <br><br><br>
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
-                     <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
-                     <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
-                     <li class="list-group-item"><a href="#!">Entrega</a></li>
-                     <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
-                     <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
-                     <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
-                     <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
-                  </ul>
-               </div>
- 
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
-               <div class="col-9 p-5" style="background-color: #fff;">
-                <h4 class="textoSaldoFavor">Saldo a favor</h4>
-                <p class="precioSaldoF mt-4 mb-4">$3270.00</p>
-                <hr>
-                <div class="form-group offset-8 col-4">
-                   <select class="form-control estiloInputSaldoF" id="rangoFecha">
-                      <option>Hoy</option>
-                      <option>Esta semana</option>
-                      <option selected>Último Mes</option>
-                      <option>Mes Pasado</option>
-                      <option>Este año</option>
-                      <option>Año pasado</option>
-                      <option>Todo</option>
-                    </select>
-                 </div>
-                 <table class="display" id="tablaSaldoFavor" style="width:100%">
-                   <thead>
-                      <tr class="textoCabeceraSaldoF">
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Concepto</th>
-                        <th scope="col">Pedido o Ticket</th>
-                        <th scope="col">Abono</th>
-                        <th scope="col">Cargo</th>
-                        <th scope="col">Saldo</th>
-                      </tr>
-                    </thead>
-                     <tbody class="cuerpoPedidos">
-                       <tr>
-                         <th scope="row">21/09/2020</th>
-                         <td>Compra</td>
-                         <td>35000055</td>
-                         <td>$400.00</td>
-                         <td>$400.00</td>
-                         <td>$422.50</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">12/09/2020</th>
-                         <td>Devolución</td>
-                         <td>35000057</td>
-                         <td>$1243.00</td>
-                         <td></td>
-                         <td>$1234.00</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">24/09/2020</th>
-                         <td>Bonificación</td>
-                         <td>35000059</td>
-                         <td>$6243.00</td>
-                         <td>5678.00</td>
-                         <td>$234.00</td>
-                       </tr>
-                     </tbody>
-                   </table>
- 
- 
-               </div>
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
- 
-            </div>
- 
-         </div>
-      </section>
-       <!--===============================================
-                     FIN SALDO A FAVOR 
-          ================================================= -->
 
       <!--===============================================
          SUSCRIPCIÓN
@@ -960,10 +847,10 @@
                <a href="../../mision-vision.html">
                   <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
                </a>
-               <a href="../contactanos/contactanos.html">
+               <a href="../../contactanos/index.html">
                   <p class="textoFoooterSecundario pl-5">Contáctanos</p>
                </a>
-               <a href="../sucursales/sucursales.html">
+               <a href="../../sucursales/sucursales.html">
                   <p class="textoFoooterSecundario pl-5">Sucursales</p>
                </a>
                <a href="../../compra-segura.html">
@@ -1353,10 +1240,6 @@
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
    
-            <!--SALDO A FAVOR-->
-            <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-            <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
-            <script type="text/javascript" src="../../js/tolk-index/saldoFavor.js"></script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

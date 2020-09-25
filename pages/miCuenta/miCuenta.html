@@ -48,14 +48,8 @@
       <link rel="stylesheet" href="../../css/tolk-index/general/megaMenu.css"/>
       <!-- Estilos TOLK ICONOS -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-
       <!-- Estilos  MI CUENTA -->
       <link rel="stylesheet" href="../../css/tolk-index/miCuenta/miCuenta.css">
-      <!-- Estilos  SALDO FAVOR -->
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css"/>
-      <link rel="stylesheet" href="../../css/tolk-index/miCuenta/saldoFavor.css">
-       
 
    </head>
    <body class="skin-light">
@@ -756,15 +750,18 @@
          FIN  HEADER
          ================================================= -->
 
-               <!--===============================================
-                     SALDO A FAVOR 
-         ================================================= -->
-              <!--container-->
+              <!--===============================================
+         MI CUENTA
+         =================================================-->
+      <!--container-->
       <section class="container-fluid colorFondoPrimario seccionMiCuenta">
          <div class="container">
             <div class="row">
                <div class="col-6">
                   <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
+               </div>
+               <div class="col-6 align-self-center text-right">
+                  <button class="btn colorSecundario btnEditar"> Editar</button>
                </div>
             </div>
             <div class="row">
@@ -794,73 +791,133 @@
                      <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
                   </ul>
                </div>
- 
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
-               <div class="col-9 p-5" style="background-color: #fff;">
-                <h4 class="textoSaldoFavor">Saldo a favor</h4>
-                <p class="precioSaldoF mt-4 mb-4">$3270.00</p>
-                <hr>
-                <div class="form-group offset-8 col-4">
-                   <select class="form-control estiloInputSaldoF" id="rangoFecha">
-                      <option>Hoy</option>
-                      <option>Esta semana</option>
-                      <option selected>Último Mes</option>
-                      <option>Mes Pasado</option>
-                      <option>Este año</option>
-                      <option>Año pasado</option>
-                      <option>Todo</option>
-                    </select>
-                 </div>
-                 <table class="display" id="tablaSaldoFavor" style="width:100%">
-                   <thead>
-                      <tr class="textoCabeceraSaldoF">
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Concepto</th>
-                        <th scope="col">Pedido o Ticket</th>
-                        <th scope="col">Abono</th>
-                        <th scope="col">Cargo</th>
-                        <th scope="col">Saldo</th>
-                      </tr>
-                    </thead>
-                     <tbody class="cuerpoPedidos">
-                       <tr>
-                         <th scope="row">21/09/2020</th>
-                         <td>Compra</td>
-                         <td>35000055</td>
-                         <td>$400.00</td>
-                         <td>$400.00</td>
-                         <td>$422.50</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">12/09/2020</th>
-                         <td>Devolución</td>
-                         <td>35000057</td>
-                         <td>$1243.00</td>
-                         <td></td>
-                         <td>$1234.00</td>
-                       </tr>
-                       <tr>
-                         <th scope="row">24/09/2020</th>
-                         <td>Bonificación</td>
-                         <td>35000059</td>
-                         <td>$6243.00</td>
-                         <td>5678.00</td>
-                         <td>$234.00</td>
-                       </tr>
-                     </tbody>
-                   </table>
- 
- 
+               <div class="col-9">
+
+                  <div class="row" >
+                     <div class="col-12 p-5" style="background-color: #fff;">
+                        <form action="">
+                           <div class="row">
+                              <div class="col-6">
+                                 <h2 class="textoMiCuenta1">Datos Personales</h2>
+                                 <h2 class="textoMiCuenta2 mt-3 mb-3">Si necesitas modificar tu nombre, favor de comunicarte al 01 800 7 IMPULS</h2>
+                                 <div class="form-group">
+                                    <label for="nombresMiCuenta" class="textoMiCuenta3">Nombre(s)</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="nombresMiCuenta" placeholder="Nombre(s)" value="Impuls">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="apPaternoMiCuenta" class="textoMiCuenta3">Apellido Paterno</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="apPaternoMiCuenta" placeholder="Apellido Paterno" value="Zapatos">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="apMaternoMiCuenta" class="textoMiCuenta3">Apellido Materno</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="apMaternoMiCuenta" placeholder="Apellido Materno" value="Moda">
+                                 </div>
+                                 <div class="form-group">
+                                    <label class="textoMiCuenta3">Fecha de Nacimiento:</label> <input class="form-control estiloInputMiCuenta" data-inputmask="'alias': 'date'" id="test1">
+                                 </div>
+                                 <div class="form-check form-check-inline mt-4">
+                                    <label class="form-check-label" for="inlineRadio1">Genero</label>
+                                 </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Hombre</label>
+                                 </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Mujer</label>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <h2 class="textoMiCuenta1">Datos de Contacto</h2>
+                                 <div class="form-group">
+                                    <label for="correMiCuenta" class="textoMiCuenta3">Correo</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="correMiCuenta" placeholder="impuls@.gmail.com" value="impuls@.gmail.com">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="teleFijoMiCuenta" class="textoMiCuenta3">Teléfono Fijo</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="teleFijoMiCuenta" placeholder="55 55 55 55 55 55" value="55 55 55 55 55">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="celularMiCuenta" class="textoMiCuenta3">Celular</label>
+                                    <input type="text" class="form-control estiloInputMiCuenta" id="celularMiCuenta" placeholder="55 55 55 55 55 55" value="55 55 55 54 53">
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="col-12 mt-5 p-5" style="background-color: #fff;">
+                        
+                  <form action="">
+                     
+                     <div class="row">
+                        <div class="col-6">
+                           <h2 class="textoMiCuenta1">Datos de Envío</h2>
+                           <div class="form-group">
+                              <label for="calleMiCuenta" class="textoMiCuenta3">Calle</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="calleMiCuenta" placeholder="Calle" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="numExtMiCuenta" class="textoMiCuenta3">Número Exterior</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="numExtMiCuenta" placeholder="Número Exterior" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="numIntMiCuenta" class="textoMiCuenta3">Número Interior</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="numIntMiCuenta" placeholder="Número Interior" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="numTeleMiCuenta" class="textoMiCuenta3">Número Teléfonico</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="numTeleMiCuenta" placeholder="Número Teléfonico" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="entreCalleMiCuenta" class="textoMiCuenta3">Entre Calles</label>
+                              <input type="email" class="form-control estiloInputMiCuenta" id="entreCalleMiCuenta" placeholder="Entre Calles" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="cpMiCuenta" class="textoMiCuenta3">Código Postal</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="cpMiCuenta" placeholder="Código Postal" value="" disabled>
+                           </div>
+                        </div>
+                        <div class="col-6 mt-4">
+                           <div class="form-group">
+                              <label for="estadoMiCuenta" class="textoMiCuenta3">Estado</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="estadoMiCuenta" placeholder="Estado" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="municipioMiCuenta" class="textoMiCuenta3">Municipio</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="municipioMiCuenta" placeholder="Municipio" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="ciudadMiCuenta" class="textoMiCuenta3">Ciudad</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="ciudadMiCuenta" placeholder="Ciudad" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="coloniaMiCuenta" class="textoMiCuenta3">Colonia</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="coloniaMiCuenta" placeholder="Colonia" value="" disabled>
+                           </div>
+                           <div class="form-group">
+                              <label for="paisMiCuenta" class="textoMiCuenta3">País</label>
+                              <input type="text" class="form-control estiloInputMiCuenta" id="paisMiCuenta" placeholder="País" value="" disabled>
+                           </div>
+                        </div>
+                     </div>
+   
+                     </form>
+                     </div>
+                  </div>
+
+
+
                </div>
-             <!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE --><!-- SEGUNDA PARTE -->
- 
+
             </div>
- 
+            <div class="col-4 offset-8 text-right">
+               <button class="btn colorSecundario btnEditar">Editar</button>
+            </div>
          </div>
       </section>
-       <!--===============================================
-                     FIN SALDO A FAVOR 
-          ================================================= -->
+      <!--===============================================
+         FIN MI CUENTA
+         =================================================-->
 
       <!--===============================================
          SUSCRIPCIÓN
@@ -1352,11 +1409,16 @@
       <!--General-->
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
-   
-            <!--SALDO A FAVOR-->
-            <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-            <script type="text/javascript" src="https://cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
-            <script type="text/javascript" src="../../js/tolk-index/saldoFavor.js"></script>
+       <!--Lista Producto-->
+       <script>
+          $(document).ready(function(){
+          $("#test1").inputmask("datetime", {
+            inputFormat: "dd/mm/yyyy",
+            outputFormat: "mm-yyyy-dd",
+            inputEventOnly: true
+          });
+          });
+       </script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->
