@@ -1,0 +1,114 @@
+.slider.slider-vertical {
+    height: 300px;
+    width: 43px;
+    margin-top: 2rem;
+}
+.slider.slider-disabled .slider-handle {
+    background: #7588b1 !important;
+    border: 3px solid rgb(232, 227, 227);
+    width: 30px;
+    height: 30px;
+   
+}
+.slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle {
+    border: 3px solid rgb(232, 227, 227);
+    width: 30px;
+    height: 30px;
+}
+.slider-tick-label{
+    padding-left: 4px;
+    margin-top: 4px;
+  
+    font-weight: 600; 
+}
+.label-in-selection b{
+    padding-left: 4px;
+    margin-top: 3px;
+    color: #7588b1 !important;
+    font-weight: 600;
+}
+.slider-tick.in-selection {
+    background: #7588b1 !important;
+    border: 3px solid rgb(232, 227, 227);
+    width: 30px;
+    height: 30px;
+   
+   
+    
+}
+.slider-tick-label .label-in-selection{
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #7588b1 !important;
+    margin-top: 10px;
+}
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
+  
+  
+}
+.slider-selection.tick-slider-selection {
+    background: #7588b1 !important;
+    border: 3px solid rgb(232, 227, 227);
+}
+.slider-track-low, .slider-track-high {
+    background-color: rgb(232, 227, 227) !important;
+  
+}
+.slider-tick {
+    background-color: rgb(232, 227, 227) !important;
+   
+}
+.txt_general, p{
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000; 
+}
+.title_sec{
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.br_smml{
+    border: 1px solid gray !important;
+}
+.text_title_table{
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.img_table{
+    width: 126px;
+    height: 84px; 
+}
+.tex_general_PC{
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
