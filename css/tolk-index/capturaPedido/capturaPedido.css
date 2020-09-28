@@ -1,0 +1,12 @@
+.imgRadius-a{
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 190px!important;
+    top: -45px;
+    align-self: center;
+    border-radius: 25px;
+    left: 5%;
+    width: 90%;
+    cursor: pointer; 
+}

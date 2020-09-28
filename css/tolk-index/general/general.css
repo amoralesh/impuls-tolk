@@ -179,17 +179,11 @@ z-index: 999;
 }
 
 .floatWhats{
-  position:relative;
-  width:60px;
-  height:60px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:40px;
-  box-shadow: 2px 2px 3px #999;
-right: 20px;
-  /* z-index: 999; */
+  position: relative;
+  width: 65px!important;
+  height: 65px!important;
+  bottom: 7px
+
 }
 
 .floatWhats:hover{
@@ -238,9 +232,6 @@ color:#ffffff ;
   color: #ffffff;
 }
 
-  
-
-
 
 .my-float{
   position: relative;
@@ -250,8 +241,6 @@ color:#ffffff ;
  
 }
 
-
-  
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
@@ -265,7 +254,7 @@ color:#ffffff ;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-      margin-left: 220px;
+      margin-left:0px!important;
 }
   
   /* Add styles to the form container */

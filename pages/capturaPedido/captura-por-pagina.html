@@ -48,18 +48,9 @@
       <link rel="stylesheet" href="../../css/tolk-index/general/megaMenu.css"/>
       <!-- Estilos TOLK ICONOS -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
- <!--========= Estilos Pagina Detalle producto ==========-->
-      <!--====================================================-->
-      <!-- Estilos  MIGAS -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/migas.css">
-      <!-- Estilos  Detalle Producto -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/detalleProducto.css">
-      <!-- Estilos  Descripción Producto y Comentarios -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/descripcionyComentarios.css">
-      <!-- Estilos  Modal Envio -->
-      <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/modalEnvios.css">
-      <!--modal detalle-->
-      <link rel="stylesheet" href="../../css/modales.css">
+
+      <link rel="stylesheet" href="../../css/tolk-index/politicas/index.css">
+      <link rel="stylesheet" href="../../css/tolk-index/capturaPedido/capturaPedido.css">
 
    </head>
    <body class="skin-light">
@@ -746,7 +737,7 @@
                   <div class="right-inner-addon pull-left col-12 md-form ">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
                   </div>
-                  <a href="../miCuenta/listaDeseos.html"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
                   <a href="../../pages/carritoCompra/carritoCompra.html"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
                   <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
@@ -759,999 +750,174 @@
       <!--===============================================
          FIN  HEADER
          ================================================= -->
-
-            <!--===============================================
-         DETALLE PRODUCTO
+      <!--===============================================
+         CAPTURA PEDIDO POR PÁGINA
          ================================================= -->
-      <!--container-->
-      <section class="container">
-         <!--Migas Migas Migas Migas-->
-         <ul class="breadcrumb mt-3">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Dama</a></li>
-            <li><a href="#">Sandalia</a></li>
-            <li><a href="#">Piso</a></li>
-            <li><a href="#">Bubble Gum Kilian Tela VIR FIU</a></li>
-            <li><a href="#">ROS 12</a></li>
-            <li><a href="#">17</a></li>
-         </ul>
-         <!--Migas Migas Migas Migas-->
-         <!--Section: Block Content-->
-         <section class="mb-5">
-            <div class="row">
-               <div class="col-md-7 mb-4 mb-md-0">
-                  <div id="mdb-lightbox-ui"></div>
-                  <div class="mdb-lightbox">
-                     <div class="row product-gallery mx-1">
-                        <div class="col-12 mb-0">
-                           <figure class="view overlay rounded z-depth-1 main-img" style="max-height: 450px;">
-                              <a href="../../img/detalle Producto/detalle-1.jpg"
-                                 data-size="710x823">
-                              <img src="../../img/detalle Producto/detalle-1.jpg"
-                                 class="img-fluid z-depth-1" style="margin-top: -90px;">
-                              </a>
-                           </figure>
-                           <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                              <a href="../../img/detalle Producto/detalle-2.jpg"
-                                 data-size="710x823">
-                              <img src="../../img/detalle Producto/detalle-2.jpg"
-                                 class="img-fluid z-depth-1">
-                              </a>
-                           </figure>
-                           <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                              <a href="../../img/detalle Producto/detalle-3.jpg"
-                                 data-size="710x823">
-                              <img src="../../img/detalle Producto/detalle-3.jpg"
-                                 class="img-fluid z-depth-1">
-                              </a>
-                           </figure>
-                           <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
-                              <a href="../../img/detalle Producto/detalle-4.jpg"
-                                 data-size="710x823">
-                              <img src="../../img/detalle Producto/detalle-4.jpg"
-                                 class="img-fluid z-depth-1">
-                              </a>
-                           </figure>
+      <section class="container pt-5 cont">
+         <div class="row ">
+            <div class="col-3 menu_temas">
+               <ul class="list-group list-group-flush">
+                  <li class="list-group-item pl-0 pt-2 pb-2"><a href="../capturaPedido/captura-por-pagina.html"> Captura por página</a></li>
+                  <li class="list-group-item pl-0 pt-2 pb-2 "><a href="../capturaPedido/carga-archivo.html"> Cargar archivo</a></li>
+                  <li class="list-group-item pl-0 pt-2 pb-2 activo"><a href="../capturaPedido/captura-por-codigo-internet.html"> Captura por código internet</a></li>
+                  <li class="list-group-item pl-0 pt-2 pb-2"><a href="../capturaPedido/comprar-catalogo.html"> Comprar catálogo</a></li>
+                </ul>
+            </div>
+            <div class="col-9">
+               <div class="card pt-0 mb-5 box_Snone">
+                  <div class="card-body  mb-5 pt-0 aviso_privacidad">
+                     <h1 class="mb-5">Selecciona el catálogo</h1>
+                     <!-- Row -->
+                     <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
+                        <!-- col-2 -->
+                        <div class="col-3 mt-5">
+                           <!-- card -->
+                           <div class="card">
+                              <div data-aos="fade-down" class="efectosRecomendados">
+                                 <img src="../../img/catalogos/catalogo-1.jpg" class="card-img-top imgRadius-a " alt="..." />
+                              </div>
+                              <div class="card-body pt-0">
+                                 <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Nombre catálogo</u></h6>
+                                 <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
+                                    <button class="btn btn-md btnRecomendados colorSecundario vercatalogo">Ver más</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- fin card -->
                         </div>
-                        <!-- imagenes pequeñas -->
-                        <div class="col-12">
+                        <!-- Fin col-2 -->
+                        <!-- col-2 -->
+                        <div class="col-3 mt-5">
+                           <!-- card -->
+                           <div class="card">
+                              <div data-aos="fade-down" class="efectosRecomendados">
+                                 <img src="../../img/catalogos/catalogo-2.jpg" class="card-img-top imgRadius-a " alt="..." />
+                              </div>
+                              <div class="card-body pt-0">
+                                 <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Nombre catálogo</u></h6>
+                                 <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
+                                    <button class="btn btn-md btnRecomendados colorSecundario vercatalogo">Ver más</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- fin card -->
+                        </div>
+                        <!-- Fin col-2 -->
+                        <!-- col-2 -->
+                        <div class="col-3 mt-5">
+                           <!-- card -->
+                           <div class="card">
+                              <div data-aos="fade-down" class="efectosRecomendados">
+                                 <img src="../../img/catalogos/catalogo-3.jpg" class="card-img-top imgRadius-a " alt="..." />
+                              </div>
+                              <div class="card-body pt-0">
+                                 <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Nombre catálogo</u></h6>
+                                 <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
+                                    <button class="btn btn-md btnRecomendados colorSecundario vercatalogo">Ver más</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- fin card -->
+                        </div>
+                        <!-- Fin col-2 -->
+                        <!-- Fin col-2 -->
+                        <!-- col-2 -->
+                        <div class="col-3 mt-5">
+                           <!-- card -->
+                           <div class="card">
+                              <div data-aos="fade-down" class="efectosRecomendados">
+                                 <img src="../../img/catalogos/catalogo-4.jpg" class="card-img-top imgRadius-a " alt="..." />
+                              </div>
+                              <div class="card-body pt-0">
+                                 <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Nombre catálogo</u></h6>
+                                 <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
+                                    <button class="btn btn-md btnRecomendados colorSecundario vercatalogo">Ver más</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- fin card -->
+                        </div>
+                        <div id="catalagoBusqueda" class="col-12 mt-5" style="display:none;">
                            <div class="row">
                               <div class="col-3">
-                                 <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                    <img src="../../img/detalle Producto/detalle-1.jpg"
-                                       class="img-fluid">
-                                    <div class="mask rgba-white-slight"></div>
-                                 </div>
+                                 <img src="../../img/catalogos/catalogo-3.jpg" class="rounded sizeimg" alt="">
                               </div>
-                              <div class="col-3">
-                                 <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                    <img src="../../img/detalle Producto/detalle-2.jpg"
-                                       class="img-fluid">
-                                    <div class="mask rgba-white-slight"></div>
+                              <div class="col-9 d-flex align-items-end mb-5">
+                                 <div class="col-6 text-right pb-4">
+                                    Número de página:
                                  </div>
-                              </div>
-                              <div class="col-3">
-                                 <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                    <img src="../../img/detalle Producto/detalle-3.jpg"
-                                       class="img-fluid">
-                                    <div class="mask rgba-white-slight"></div>
+                                 <div class="col-2 ml-1">
+                                    <input type="text" class="form-control mb-2 input_datos" id="inlineFormInput">
                                  </div>
-                              </div>
-                              <div class="col-3">
-                                 <div class="view overlay rounded z-depth-1 gallery-item hoverable">
-                                    <img src="../../img/detalle Producto/detalle-4.jpg"
-                                       class="img-fluid">
-                                    <div class="mask rgba-white-slight"></div>
+                                 <div class="col-auto pb-2">
+                                    <button id="buscarenCatalogo" type="submit"
+                                       class="btn bnt_car_color mb-2">Buscar</button>
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <!-- imagenes pequeñas -->
-                     </div>
-                  </div>
-               </div>
-               <!-- Detalles del producto -->
-               <div class="col-md-5">
-                  <div class="col-12">
-                     <ul class="rating">
-                        <li>
-                           <i class="fas fa-star fa-sm text-black"></i>
-                        </li>
-                        <li>
-                           <i class="fas fa-star fa-sm text-black"></i>
-                        </li>
-                        <li>
-                           <i class="fas fa-star fa-sm text-black"></i>
-                        </li>
-                        <li>
-                           <i class="fas fa-star fa-sm text-black"></i>
-                        </li>
-                        <li>
-                           <i class="far fa-star fa-sm text-black"></i>
-                        </li>
-                        <li>
-                           <a href="#!" class="califiacionesPreguntas"><u>22 calificaciones</u></a>
-                        </li>
-                        <li>
-                           <a href="#!" class="califiacionesPreguntas"><u>3 Preguntas respondidas</u></a>
-                        </li>
-                     </ul>
-                     <h6 id="sku" class="sku">SKU: 110290</h6>
-                     <h5 id="nombreProductoDetalle" class="nombreProductoDetalle">Bubble Gum Kilian Tela VIR FIU/7ROS 12/17</h5>
-                     <p class="textosPrecios mb-1">Precio Sugerido: <span class="mr-1"><strong>$500.00 MXN</strong></span></p>
-                     <p class="textosPrecios">Precio Socio: <span class="mr-1"><strong class="precioSocio">$400.00 MXN</strong></span></p>
-                  </div>
-                  <hr>
-                  <div class="col-12" >
-                     <h6 class="textoEligeTalla">Elige tu Talla:</h6>
-                     <div class="row p-3">
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">5</button>
+                        <div class="col-12">
+                           <div class="alert alert-danger mb-5 mt-5" role="alert">
+                              No se encontró ningún producto.
+                           </div>
                         </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">5.5</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">6</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">6.5</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">7</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">7.5</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">8</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">8.5</button>
-                        </div>
-                        <div class="col-2 tallas p-0">
-                           <button class="btn tallasDP">9</button>
-                        </div>
-                     </div>
-                  </div>
-                  <hr>
-                  <div class="col-12">
-                     <ul class="rating">
-                        <li>
-                           <a href="#!" class="guiaTallas"><u>Guía de Tallas</u></a>
-                        </li>
-                        <li>
-                           <a href="#!" class="guiaTallas"><u>¿No encontraste tu talla?</u></a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-12 pr-0">
-                     <div class="table-responsive mb-2">
-                        <table class="table table-sm table-borderless">
-                           <tbody>
-                              <tr>
-                                 <td class="pl-0">
-                                    <div class="def-number-input number-input safari_only mb-0">
-                                       <label class="cantidadProducto pl-1" min="0" name="" type="text">Cantidad:</label>
-                                       <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"class="minus"></button>
-                                       <input class="quantity cantidadValor" min="0" name="cantidadValor" value="1" type="number">
-                                       <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                          class="plus"></button>
-                                    </div>
-                                 </td>
-                                 <td>
-                                    <div class="disponibilidad">
-                                       <label for="" class="textoDisponibilidad">Ver disponibilidad en tienda</label>
-                                    </div>
-                                 </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                  </div>
-                  <div class="col-12">
-                     <p class="textoProductoDisponible">Producto disponible</p>
-                     <div class="row">
-                        <div class="col-7">
-                           <!--<a href="../carritoCompra/index.html" target="_blank"><button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button></a>-->
-                         <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
-                           <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle" data-toggle="modal" data-target="#modalCompraInvitado">Comprar ahora</button>
-                        </div>
-                        <div class="col-5">
-                           <button class="btn btnFavoritoDetalle"> <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button><br>
-                           <div class="row mt-3">
-                              <div class="col-auto pr-0">
-                                 <img src="../../img/imgOficial/iconos_logos/compra protegida.svg" alt="" class="img-fluid" id="imgCompraProtegida" >
+                        <div id="descProducto" class="col-12" style="display:none;">
+                           <div class="row  mt-5">
+                              <div class="col-4">
+                                 <img src="../../img/calzado/botas-h-3.png" class="sizeimg" alt="" srcset="">
                               </div>
-                              <div class="col-8 p-0 pl-2">
-                                 <p class="textoCompraProtegida">Tu compra esta protegidad</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- Fin Detalles del producto -->
-            </div>
-            <!-- Fin row primera parte -->
-         </section>
-         <!--Section: Block Content-->
-      </section>
-      <!--fin container-->
-      <!--===============================================
-         FIN DETALLE PRODUCTO
-         ================================================= -->
-      <!--=============================================================
-         DESCRIPCIÓN/ENVÍOS/DEVOLUCIONES/COMENTARIOS/ETC ETC
-         ================================================================= -->
-      <!--Section Descripción/envios/devoluciones/comentario/evaluaciones/etc etc-->
-      <section class="container-fluid descripcionComentariosContenedor">
-         <div class="container">
-            <div class="row">
-               <div class="col-7 mt-5">
-                  <div class="row">
-                     <div class="col-12 p-0">
-                        <p class="descProducto">Descripción de producto</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe voluptas, autem, itaque eius temporibus perspiciatis dolore accusamus molestiae mollitia culpa non voluptatum sit! Sequi optio consectetur nihil dolore minus?</p>
-                     </div>
-                     <div class="collapse col-12 p-0" id="detallesCollapse">
-                        <div class="row p-3">
-                           <div class="col-4" style="background-color: #ffff;">
-                              <p class="caracteristicasDetalle"><strong>Marca:</strong></p>
-                              <img src="../../img/marcas/k-swiss.png" alt="" class="imgMarcaDetalle img-fluid">
-                           </div>
-                           <div class="col-4">
-                              <p class="caracteristicasDetalle borderDetalle"> <strong>Color:</strong> Plata</p>
-                              <p class="caracteristicasDetalle borderDetalle"><strong>Talla:</strong> 23/27 E</p>
-                              <p class="caracteristicasDetalle borderDetalle"><strong>Acabado:</strong> PVC</p>
-                           </div>
-                           <div class="col-4">
-                              <p class="caracteristicasDetalle borderDetalle"><strong>Calce:</strong> Normal</p>
-                              <p class="caracteristicasDetalle borderDetalle"><strong>Suela:</strong> N/A</p>
-                              <p class="caracteristicasDetalle borderDetalle"><strong>Alto:</strong> De 0 a 4 cms</p>
-                           </div>
-                        </div>
-                     </div>
-                     <a href="#!" class="caracteristicasDetalle borderDetalle" data-toggle="collapse" data-target="#detallesCollapse"><strong id="cd" style="display: none;">Cerrar detalles</strong> <strong id="vd" >Ver más detalles</strong></a>
-                     <div class="col-12 comentariosContenedor">
-                        <button type="button" class="btn btn-lg btnResenas btnEstilo1" id="btnResenasDetalle">Reseñas (22)</button>
-                        <button type="button" class="btn btn-lg btnPreguntas btnEstilo2" id="btnPreguntasDetalle">Preguntas y Respuestas</button>
-                        <div class="cajaResenas">
-                           <div class="row mt-5">
-                              <div class="col-3 pr-0">
-                                 <h1 class="textResenas1">4.1 <span class="textResenas2">de 5</span></h1>
-                              </div>
-                              <div class="col-2 p-0">
-                                 <ul class="rating">
-                                    <li>
-                                       <i class="fas fa-star fa-sm text-black"></i>
-                                    </li>
-                                    <li>
-                                       <i class="fas fa-star fa-sm text-black"></i>
-                                    </li>
-                                    <li>
-                                       <i class="fas fa-star fa-sm text-black"></i>
-                                    </li>
-                                    <li>
-                                       <i class="fas fa-star fa-sm text-black"></i>
-                                    </li>
-                                    <li>
-                                       <i class="far fa-star fa-sm text-black"></i>
-                                    </li>
+                              <div class="col-4">
+                                 <ul class="ap_linea">
+                                    <li>código: </li>
+                                    <li>Precio:</li>
+                                    <li>Descripcion</li>
+                                    <li>Marca:</li>
+                                    <li>Color:</li>
+                                    <li>Talla:</li>
+                                    <li>Acabado:</li>
+                                    <li>Calce:</li>
+                                    <li>Suela:</li>
+                                    <li>Alto:</li>
+                                    <li>Pagina:</li>
+                                    <li></li>
                                  </ul>
                               </div>
-                              <div class="col-6 pl-0">
-                                 <p class="textResenas3">22 calificaciones de clientes</p>
+                              <div class="col-4">
+                                 <form>
+                                    <div class="form-group">
+                                       <label for="talla">Talla</label>
+                                       <select name="" class="form-control input_datos" id="talla">
+                                          <option value=""></option>
+                                       </select>
+                                    </div>
+                                    <div class="form-group">
+                                       <label for="cantidad">Cantidad</label>
+                                       <select name="" class="form-control input_datos" id="cantidad">
+                                          <option value=""></option>
+                                       </select>
+                                    </div>
+                                    <button type="submit" class="btn bnt_car_color">Agregar al carrito</button>
+                                 </form>
                               </div>
                            </div>
-                           <div class="row contenedorResenas">
-                              <div class="col 12">
-                                 <!-- INICIO RESEÑA -->
-                                 <div class="row mt-3">
-                                    <div class="col-2  pr-0">
-                                       <ul class="rating">
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="far fa-star fa-sm text-black"></i>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-10">
-                                       <ul class="rating m-0">
-                                          <li>
-                                             <p class="textResenas4">Alonos M.</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">31 de enero de 2020</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">-Comprador verificado</p>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-12">
-                                       <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
-                                    </div>
-                                    <div class="col-12">
-                                       <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
-                                    </div>
-                                 </div>
-                                 <hr>
-                                 <!-- FIN RESEÑA -->
-                                 <!-- INICIO RESEÑA -->
-                                 <div class="row mt-3">
-                                    <div class="col-2  pr-0">
-                                       <ul class="rating">
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="far fa-star fa-sm text-black"></i>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-10">
-                                       <ul class="rating m-0">
-                                          <li>
-                                             <p class="textResenas4">Perla G.</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">31 de enero de 2020</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">-Comprador verificado</p>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-12">
-                                       <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
-                                    </div>
-                                    <div class="col-12">
-                                       <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
-                                    </div>
-                                 </div>
-                                 <hr>
-                                 <!-- FIN RESEÑA -->
-                                 <!-- INICIO RESEÑA -->
-                                 <div class="row mt-3">
-                                    <div class="col-2  pr-0">
-                                       <ul class="rating">
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="far fa-star fa-sm text-black"></i>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-10">
-                                       <ul class="rating m-0">
-                                          <li>
-                                             <p class="textResenas4">Impuls G.</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">31 de enero de 2020</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">-Comprador verificado</p>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-12">
-                                       <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
-                                    </div>
-                                    <div class="col-12">
-                                       <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
-                                    </div>
-                                    <div class="col-3">
-                                       <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
-                                    </div>
-                                    <div class="col-3">
-                                       <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
-                                    </div>
-                                    <div class="col-3">
-                                       <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
-                                    </div>
-                                    <div class="col-3">
-                                       <img src="https://www.dportenis.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/1015331-0001V1.jpg"  class="img-fluid imgResena" alt="">
-                                    </div>
-                                 </div>
-                                 <hr>
-                                 <!-- FIN RESEÑA -->
-                                 <!-- INICIO RESEÑA -->
-                                 <div class="row mt-3">
-                                    <div class="col-2  pr-0">
-                                       <ul class="rating">
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="fas fa-star fa-sm text-black"></i>
-                                          </li>
-                                          <li>
-                                             <i class="far fa-star fa-sm text-black"></i>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-10">
-                                       <ul class="rating m-0">
-                                          <li>
-                                             <p class="textResenas4">Alonos M.</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">31 de enero de 2020</p>
-                                          </li>
-                                          <li>
-                                             <p class="textResenas3 ml-3">-Comprador verificado</p>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-12">
-                                       <h6 class="textResenas5">Son muy cómodas y bomitas. Se ajustan al pie. Recomiendo este producto. Son los mejores en su categoría, buen precio y calidad.</h6>
-                                    </div>
-                                    <div class="col-12">
-                                       <p class="textResenas5 colorUtil">¿Te ha resultado útil? <a href="#!" class="ml-2"><u>Sí</u></a> <a href="#!" class="ml-2"><u>No</u></a></p>
-                                    </div>
-                                 </div>
-                                 <hr>
-                                 <!-- FIN RESEÑA -->
-                              </div>
-                           </div>
-                           <button type="button" class="btn masOpiniones" id="masResenas">Ver más opiniones</button>                
                         </div>
-                        <div style="display: none" class="cajaPreguntas">
-                           <div class="form-group mt-4">
-                              <input type="text" class="form-control" id="tienesPregunta" placeholder="¿Tienes una pregunta?">
-                           </div>
-                           <div class="contenedorRespuestas">
-                              <div class="respuestaTienda">
-                                 <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                                 <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                                 <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                                 <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                              </div>
-                              <div class="respuestaTienda">
-                                 <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                                 <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                                 <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                                 <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                              </div>
-                              <div class="respuestaTienda">
-                                 <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                                 <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                                 <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                                 <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                              </div>
-                              <div class="respuestaTienda">
-                                 <p class="caracteristicasDetalle"><strong>Pregunta:</strong> ¿Es de piel?</p>
-                                 <p class="caracteristicasDetalle"><strong>Respuesta:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore enim quod ipsam distinctio reiciendis cumque unde voluptates veritatis officia fugit ab animi suscipit, itaque possimus delectus numquam laborum explicabo?</p>
-                                 <p class="fechaPregunta" id="fechaPregunta">Por cliente de impuls el 04 de marzo de 2008</p>
-                                 <a href="#!" class="masRespuestas" id="masRespuestas">Ver más respuestas (3)</a>
-                              </div>
-                           </div>
-                           <button type="button" class="btn masOpiniones" id="masOpiniones">Ver más opiniones</button>
-                           <!-- fin contenedorRespuestas -->
+                        <div class="col-6 offset-6">
+                           <nav aria-label="Page navigation example">
+                              <ul class="pagination">
+                                 <li class="page-item mr-5"><a class="page-link" href="#">Previous</a></li>
+                                 <li class="page-item ml-4"><a class="page-link" href="#">Next</a></li>
+                              </ul>
+                           </nav>
                         </div>
                      </div>
-                     <!-- fin comentariosContenedor-->
-                  </div>
-                  <!-- row  anidado-->
-               </div>
-               <!--fin col-7 principal 1-->
-               <div class="offset-1 col-4 mt-5">
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="row">
-                           <div class="col-1 p-0">
-                              <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="" class="img-fluid" style="float: left;">
-                           </div>
-                           <div class="col-11 accionesCompra">
-                              <a href="#!" class="caracteristicasDetalle borderDetalle" data-toggle="modal" data-target="#modalEnviosGratis"><strong>Envío Gratis</strong></a>
-                              <p class="textoAccionesCompra">Envío gratis a todo México Recibelo de 3 a 5 días</p>
-                           </div>
-                           <div class="col-1 p-0">
-                              <img src="../../img/imgOficial/iconos_logos/devoluciones.svg" alt="" class="img-fluid" style="float: left;">
-                           </div>
-                           <div class="col-11 accionesCompra">
-                              <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Devoluciones</strong></a>
-                              <p class="textoAccionesCompra">¿No es tu talla? Devuelve en un plazo de 90 días</p>
-                           </div>
-                           <div class="col-1 p-0">
-                              <img src="../../img/imgOficial/iconos_logos/pago seguro.svg" alt="" class="img-fluid" style="float: left;">
-                           </div>
-                           <div class="col-11 accionesCompra">
-                              <a href="#!" class="caracteristicasDetalle borderDetalle"><strong>Pago Seguro</strong></a>
-                              <p class="textoAccionesCompra">Puedes pagar con tarjeta o en efectivo</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-12 compartir">
-                        <label class="mr-3">Compartir</label>
-                        <img src="../../img/imgOficial/iconos_logos/whatsapp.svg" alt="" class="img-fluid">
-                        <img src="../../img/imgOficial/iconos_logos/facebook.svg" alt="" class="img-fluid iconoFace">
-                        <img src="../../img/imgOficial/iconos_logos/twitter.svg" alt="" class="img-fluid">
-                        <img src="../../img/imgOficial/iconos_logos/pinterest-02.svg" alt="" class="img-fluid iconoPinteres">
-                        <img src="../../img/imgOficial/iconos_logos/mail.svg" alt="" class="img-fluid">
-                        <br><br> 
-                        <hr>
-                     </div>
-                     <div class="col-12 contenedorCalificacionRangos">
-                        <h1 class="tituloEvaluaciones">Evaluaciones</h1>
-                        <h2 class="textoPorcentaje text-center">90% de los clientes recomendaron este producto</h2>
-                        <div class="form-group">
-                           <label for="rangosCalificaciones" class="textoRangos">Talla</label>
-                           <input type="range" class="custom-range rangosCalificaciones" id="rangosCalificaciones" aria-describedby="parametros" min="0" max="10">
-                           <div class="row">
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted">Pequeño</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-center">Perfecto</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-right">Grande</small>
-                              </div>
-                           </div>
-                           <!--fin row-->
-                        </div>
-                        <!--fin form-group-->
-                        <div class="form-group">
-                           <label for="rangosCalificaciones" class="textoRangos">Anchura</label>
-                           <input type="range" class="custom-range rangosCalificaciones" id="rangosCalificaciones" aria-describedby="parametros" min="0" max="10">
-                           <div class="row">
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted">Estrecha</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-center">Perfecto</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-right">Ancha</small>
-                              </div>
-                           </div>
-                           <!--fin row-->
-                        </div>
-                        <!--fin form-group-->
-                        <div class="form-group">
-                           <label for="rangosCalificaciones" class="textoRangos">Comodidad</label>
-                           <input type="range" class="custom-range rangosCalificaciones" id="rangosCalificaciones" aria-describedby="parametros" min="0" max="10">
-                           <div class="row">
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted">Deficiente</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-center">Perfecto</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-right">Excelente</small>
-                              </div>
-                           </div>
-                           <!--fin row-->
-                        </div>
-                        <!--fin form-group-->
-                        <div class="form-group">
-                           <label for="rangosCalificaciones" class="textoRangos">Calidad</label>
-                           <input type="range" class="custom-range rangosCalificaciones" id="rangosCalificaciones" aria-describedby="parametros" min="0" max="10">
-                           <div class="row">
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted">Mala</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-center">Perfecto</small>
-                              </div>
-                              <div class="col-4">
-                                 <small id="parametros" class="form-text text-muted text-right">Excelente</small>
-                              </div>
-                           </div>
-                           <!--fin row-->
-                        </div>
-                        <!--fin form-group-->
-                     </div>
-                     <!--fin contenedorCalificacionRangos-->
                   </div>
                </div>
-               <!--fin col-5 principal 1-->
             </div>
-            <!--fin row principal 1-->
-         </div>
-      </section>
-      <!--=============================================================
-         FIN DESCRIPCIÓN/ENVÍOS/DEVOLUCIONES/COMENTARIOS/ETC ETC
-         ================================================================= -->
-      <!--===============================================
-         PRODUCTOS RECOMENTADOS PARA TI
-         ================================================= -->
-         <section class="container contenedorMasVendido">
-            <h5 class="textoTitulosSeccion text-center">Productos recomendados para ti</h5>
-            <div class="row margenProductos">
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 imgMasV-b"
-                                 src="../../img/mas vendido/tenis-3.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body  m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiquetaOferta">
-                           <h6 class="textoEtiqueta">OFERTA</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 "
-                                 src="../../img/mas vendido/tenis-2.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100 "
-                                 src="../../img/mas vendido/tenis-3.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body  m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-4.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100"
-                                 src="../../img/mas vendido/tenis-4.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body  m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiquetaOferta">
-                           <h6 class="textoEtiqueta">OFERTA</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100"
-                                 src="../../img/mas vendido/tenis-2.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">
-                           <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
-                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                        </h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-               <!-- col-2 -->
-               <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                  <!-- Card -->
-                  <div class="card eliminarSombra">
-                     <div class="view zoom overlay">
-                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
-                        <span class="badge badge-pill badge-news etiqueta">
-                           <h6 class="textoEtiqueta">NUEVO</h6>
-                        </span>
-                        <a href="#!">
-                           <div class="mask">
-                              <img class="img-fluid w-100"
-                                 src="../../img/mas vendido/tenis-2.jpg">
-                              <div class="mask"></div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="card-body  m-0 p-0">
-                        <h6 class="textoNombreProducto">Nombre producto</h6>
-                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                     </div>
-                  </div>
-                  <!-- Card -->
-               </div>
-               <!-- Fin col-2 -->
-            </div>
-            <!-- Fin row -->
-         </section>
-      <!-- Fin container -->
-      <!--===============================================
-         FIN  PRODUCTOS RECOMENTADOS PARA TI
-         ================================================= -->
-      <!--===============================================
-         VISTOS RECIENTEMENTE
-         ================================================= -->
-      <!-- container -->
-      <section class="container-fluid visto">
-         <div class="row justify-content-center">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 text-center mt-md-5">
-               <h1 class="textoTitulosSeccion mt-5">Productos vistos recientemente</h1>
-            </div>
-         </div>
-         <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5">
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card tarjetaRecientemente">
-                  <div data-aos="zoom-in">
-                     <img
-                        src="../../img/tenis/visto-1.jpg"
-                        class="card-img-top imgVistos"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
-                     <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
-                     <!--row anidado -->
-                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-9  m-0 p-0 ">
-                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
-                        </div>
-                        <div class="col-2 pl-0">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card tarjetaRecientemente">
-                  <div data-aos="zoom-in">
-                     <img
-                        src="../../img/tenis/visto-2.jpg"
-                        class="card-img-top imgVistos"
-                        alt="..."/>
-                     <span class="badge badge-pill badge-news etiquetaOfertaRecientemente">
-                        <h6 class="textoEtiquetaRecientemente">OFERTA</h6>
-                     </span>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
-                     <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
-                     <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
-                     <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
-                     <!--row anidado -->
-                     <div class="row pl-3 align-items-end justify-content-start">
-                        <div class="col-9  m-0 p-0 ">
-                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
-                        </div>
-                        <div class="col-2 pl-0">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card tarjetaRecientemente">
-                  <div data-aos="zoom-in">
-                     <img
-                        src="../../img/tenis/visto-3.jpg"
-                        class="card-img-top imgVistos"
-                        alt="..."/>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
-                     <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
-                     <!--row anidado -->
-                     <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-9  m-0 p-0 ">
-                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
-                        </div>
-                        <div class="col-2 pl-0">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
-               <!-- card -->
-               <div class="card tarjetaRecientemente">
-                  <div data-aos="zoom-in">
-                     <img
-                        src="../../img/tenis/visto-2.jpg"
-                        class="card-img-top imgVistos"
-                        alt="..."/>
-                     <span class="badge badge-pill badge-news etiquetaOfertaRecientemente">
-                        <h6 class="textoEtiquetaRecientemente">OFERTA</h6>
-                     </span>
-                  </div>
-                  <div class="card-body pt-0">
-                     <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
-                     <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
-                     <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
-                     <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
-                     <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
-                     <!--row anidado -->
-                     <div class="row pl-3 align-items-end justify-content-start">
-                        <div class="col-9  m-0 p-0 ">
-                           <button class="btn btn-md btnVRecientemente colorSecundario verProducto">Ver más</button>
-                        </div>
-                        <div class="col-2 pl-0">
-                           <a href="#">
-                           <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
-                           </a>
-                        </div>
-                     </div>
-                     <!-- fin row anidado -->
-                  </div>
-               </div>
-               <!-- fin card -->
-            </div>
-            <!-- Fin col-2 -->
-         </div>
-         <!-- Fin row -->
-      </section>
-      <!-- Fin container -->
-      <!--===============================================
-         VISTOS RECIENTEMENTE
-         ================================================= -->
-      <!--===============================================
-         MUESTRANOS COMO LUCES
-         ================================================= -->
-      <section class="container mb-5 mt-5">
-         <h1 class="textoTitulosSeccion">Muestranos cómo luces</h1>
-         <div class="row mt-5">
-            <div class="col-4">
-               <img src="https://i.pinimg.com/originals/0a/ea/b4/0aeab4a3f07f93269cd73883a2d05e26.jpg" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-4">
-               <img src="https://i.pinimg.com/originals/19/f0/98/19f098833f27bbf60f71c304a21b8cd8.jpg" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-4">
-               <img src="https://colstore.com.co/wp-content/uploads/2019/07/fila_disruptor_5.jpeg" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-6 mt-5 mb-5">
-               <img src="https://i.vimeocdn.com/video/570397785_640x360.jpg" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-6 mt-5  mb-5">
-               <img src="https://cdn.pixabay.com/photo/2016/03/09/09/39/shoes-1245920__340.jpg" alt="" class="img-fluid rounded">
-            </div>
-         </div>
-      </section>
-      <!--===============================================
-         FIN MUESTRANOS COMO LUCES
-         ================================================= -->
 
-
+      </section>
+      <!--===============================================
+         FIN CAPTURA PEDIDO POR PÁGINA
+         ================================================= -->
       <!--===============================================
          SUSCRIPCIÓN
          ================================================= -->
@@ -1850,10 +1016,10 @@
                <a href="../../mision-vision.html">
                   <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
                </a>
-               <a href="../contactanos/contactanos.html">
+               <a href="../../contactanos/index.html">
                   <p class="textoFoooterSecundario pl-5">Contáctanos</p>
                </a>
-               <a href="../sucursales/sucursales.html">
+               <a href="../../sucursales/sucursales.html">
                   <p class="textoFoooterSecundario pl-5">Sucursales</p>
                </a>
                <a href="../../compra-segura.html">
@@ -1866,8 +1032,6 @@
       <!--===============================================
          FIN FOOTER
          ================================================= -->
-
-
       <!--===============================================
          MODAL TERMINOS Y CONDICIONES
          ================================================= -->
@@ -2221,166 +1385,6 @@
       <!--===============================================
          FIN MODAL OLVIDASTE CONTRASEÑA
          ================================================= -->
-
-           <!--===============================================
-         MODAL ENVIOS GRATIS
-         ================================================= -->
-      <!-- Modal -->
-      <div class="modal fade" id="modalEnviosGratis" tabindex="-1" role="dialog" aria-labelledby="modalEnviosGratisTitle"
-      aria-hidden="true">
-      <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
-      <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-         <div class="modal-content">
-            <div class="modal-body">
-               <div class="container p-4 text-justify">
-                  <div class="row">
-                     <div class="col-4">
-                        <img src="../../img/imgOficial/iconos_logos/envio gratis.svg" alt="Envíos gratis" class="img-fluid imgModalEnvios">
-                     </div>
-                     <div class="col-6">
-                        <h1 class="tutuloModalEnvios">Envío Gratis</h1>
-                     </div>
-                     <div class="col-1">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12 textoModalEnvios">
-                        <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum.</p>
-                        <p>Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum.</p>
-                        <p> Donec congue lorem a molestie bibendum. Etiam nisi ante, consectetur eget placerat a, tempus a neque. Donec ut elit urna. Etiam venenatis eleifend urna eget scelerisque. Aliquam in nunc quis dui sollicitudin ornare ac vitae lectus.</p>
-                        <a href="#!"><u>Ver más información</u></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!--===============================================
-      FIN MODAL ENVIOS GRATIS
-      ================================================= -->
-        <!--===============================================
-      INICIO MODAL DETALLES
-      ================================================= -->
-
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-         <div class="modal-dialog modal-lg ">
-           <div class="modal-content">
-             <div class="row  pt-5 pl-5 pb-5 pr-5">
-                 <div class="col-12 tituloModal mb-4">¡Agregado al carrito correctamente!</div>
-               <div class="col-6">
-                   <div class="row d-flex justify-content-center">
-                       <img class="modalimg" src="../../img/detalle Producto/detalle-3.jpg" alt="" srcset="">
-                   </div>
-                   <div class="row">
-                       <h2 class="titleDosModal pl-3">Bubble Gum Kilian Tela VIR FIU/ROS 12/17</h2>
-                       <ul class="infpro pl-3">
-                           <li>SKU:634082</li>
-                           <li>Cantidad: 1  talla:4</li>
-                           <li>Precio: <b>$123.00MXN</b></li>
-                       </ul>
-                   </div>
-               </div>
-               <div class="col-6 border-left pt-3 pb-3 d-flex align-items-center ">
-                   <div>
-                       <h2 class="titleDosModal">Resumen de tu carrito:</h2>
-                       <ul class="listaResumen pl-0">
-                           <li>4 artículos</li>
-                           <li>Total de los artículos:$1234.00</li>
-                           <li>Gastos de envío:$123.00</li>
-                           <li><b>total:$123.00</b></li>
-                       </ul>
-                       <!--en esta seccion se oculata el divo con la clase afiliado-->
-                     <div class="afiliado"  >
-                       <p>Faltan $123.00 para que tu envío sea GRATIS.</p>
-                       <div class="progress">
-                           <div class="progress-bar barraProgreso text-left pl-2 pt-2 pb-2" role="progressbar" style="width: 63%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"> 63%</div>
-                       </div>
-                     </div>
-                   </div>
-               </div>
-               <div class="col-6 mt-2">
-                   <button class="btn btn1  btn-lg btn-block">Seguir comprando</button>
-               </div>
-               <div class="col-6 mt-2">
-                   <button class="btn btn2  btn-lg btn-block">Finalizar compra</button>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <!--===============================================
-      FINAL MODAL DETALLES
-      ================================================= -->
-
-      
-           <!--===============================================
-      MODAL COMPRA COMO INVITADO
-      ================================================= -->
-   <!--Modal:MODAL COMPRA COMO INVITADO Form-->
-   <section class="modal fade" id="modalCompraInvitado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog cascading-modal" role="document">
-         <!--Content-->
-         <div class="modal-content">
-            <!--Modal cascading tabs-->
-            <div class="modal-c-tabs">
-               <!-- Nav tabs -->
-               <ul class="nav nav-tabs md-tabs tabs-2  colorSecundario darken-3 p-0" role="tablist">
-                  <div class="row">
-                     <div class="col-10">
-                        <li class="nav-item">
-                           <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel10" role="tab">
-                           Comprar como visitante</a>
-                           <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Proceso de compra</h6>
-                        </li>
-                     </div>
-                     <div class="col-2">
-                        <li class="nav-item align-self-center">
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
-                           <span aria-hidden="true">&times;</span>  </button>
-                        </li>
-                     </div>
-                  </div>
-               </ul>
-               <!-- Tab panels -->
-               <div class="tab-content">
-                  <!--Panel 7-->
-                  <div class="tab-pane fade in show active" id="panel10" role="tabpanel">
-                     <!--Body-->
-                     <div class="modal-body mb-1">
-                        <h3 class="textoNotas-a">Escribe tu correo y haz clic en continuar</h3>
-                        <div class="row">
-                           <div class="col-8">
-                              <div class="form-sm">
-                                 <input class="form-control estiloInput" id="Email" type="text" placeholder="Email">
-                              </div>
-                           </div>
-                           <div class="col-4 align-self-center pl-0">
-                              <div class="text-left">
-                                 <a href="../../pages/procesoCompra/procesoCompra.html">
-                                 <button class="btn colorPrimario btnModales">Continuar</button></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/.Panel 7-->
-               </div>
-            </div>
-         </div>
-         <!--/.Content-->
-      </div>
-   </section>
-   <!--Modal: MODAL COMPRA COMO INVITADO -->
-   <!--===============================================
-      FIN MODAL COMPRA COMO INVITADO
-      ================================================= -->
-
-      
-
       <!--===============================================
          SCRIPTS
          ================================================= -->
@@ -2401,8 +1405,6 @@
       <!--General-->
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
-     <!--Detalle Producto-->
-     <script type="text/javascript" src="../../js/tolk-index/detalleProducto.js"></script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

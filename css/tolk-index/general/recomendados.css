@@ -70,8 +70,7 @@
     left: 5%;
     height: 200%;
     width: 90%;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 /*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
 .skin-light .card-img-top {
