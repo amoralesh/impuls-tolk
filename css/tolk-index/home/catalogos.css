@@ -82,59 +82,15 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-	.tituloCatalogos {
-		font-family: PoppinsExtramBold;
-		font-size: 20px;
-		font-weight: bold;
-		font-stretch: normal;
-		font-style: normal;
-		line-height: normal;
-		letter-spacing: normal;
-		text-align: center;
-		color: #000000;
-		margin-top: 46px;
-		margin-bottom: 45px;
+	.sombraTarjeta {
+		min-width: 100%;
 	}
 
-	.textoTarjetaCatalogos {
-		font-family: PoppinsBold;
-		font-size: 14px;
-		font-weight: bold;
-		font-stretch: normal;
-		font-style: normal;
-		line-height: 1;
-		letter-spacing: normal;
-		color: #000000;
-	}
-	
-	.textoTarjetaCatalogosVer {
-		font-family: PoppinsSemiBold;
-		font-size: 14px;
-		font-weight: 600;
-		font-stretch: normal;
-		font-style: normal;
-		line-height: 2.50;
-		letter-spacing: normal;
-		color: #7588b1!important;
-		text-decoration: none;
-		text-transform: none;
-	}
-
-	
 	.imgRadiusCatalogo {
-		-ms-flex-negative: 0;
-		flex-shrink: 0;
-		width: 90%;
-		top: -25px;
-		position: relative;
-		align-self: center;
-		border-radius: 25px;
-		left: 5%;
-		height: 188px;
+	
+		height: 225px;
 		width: 90%;
 	}
-
-
 
 
  

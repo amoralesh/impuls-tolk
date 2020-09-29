@@ -89,5 +89,15 @@ $('#multi2').mdbRange({
   }
 });
 
+var header = document.getElementById("misTallasLP");
+var btns = header.getElementsByClassName("tallasLP_a");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+
 
 

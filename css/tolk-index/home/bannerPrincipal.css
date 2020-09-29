@@ -15,7 +15,7 @@
 /*TEXTO  Banner Principal*/
 .textoBannerHome-1{
     position: absolute;
-    padding:135px 110px 0px 110px;
+    padding: 5% 5% 5% 9%;
     top: 0px;
     left: 0; 
     right: 0;
@@ -30,7 +30,7 @@
 }
 .textoBannerHome-2{
     position: absolute;
-    padding:179px 110px 0px 110px;
+    padding: 11% 5% 5% 9%;
     top: 0px;
     left: 0; 
     right: 0;
@@ -47,7 +47,7 @@
 
 .textoBannerHome-3{
     position: absolute;
-    padding:265px 110px 0px 110px;
+    padding: 17% 5% 5% 9%;
     top: 0px;
     left: 0; 
     right: 0;
@@ -63,7 +63,7 @@
 
 .bannerPrincipal .btn{
     position: absolute;
-    top: 370px;
+    top: 315px;
     left: 110px; 
     right: 110px;
 
@@ -137,80 +137,63 @@ MOVIL (XS revisamos en 320px)
         height: 180px;
     }
 
-    .textosTituloBanner{
-        position: absolute;
-        top: 20px;
-        left: 20px;
+    .textoBannerHome-1{
         font-family: Poppins;
-        font-size: 15px;
+        font-size: 24px;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
         line-height: 1;
         letter-spacing: normal;
-        text-align: center;
         color: #ffffff;
     }
-    .textosTitulo2Banner{
-        position: absolute;
-        top: 35px;
-        left: 20px;
-        font-family: PoppinsSemiBold;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.07;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;  
-        margin-top:4px!important ;
-    }
+
+.textoBannerHome-2{
+    font-family: PoppinsSemiBold;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    margin-top:4px!important;
+}
+
+.textoBannerHome-3{
+    padding: 21% 5% 5% 9%;
+    font-family: PoppinsSemiBold;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+}
+
     
-    .textosTitulo3Banner{
-        position: absolute;
-        top: 55px;
-        left: 20px;
-        font-family: PoppinsSemiBold;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.07;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;  
-    }
-    
-    .btnBannerprincipal{
-        position: absolute;
-        left: 20px;
-        top: 105px;
-        width: 111px;
-        height: 31px;
-        border-radius: 10px!important;
-        background-color: #000000;
-        -webkit-border-radius: 10px!important;
-        -moz-border-radius: 10px!important;
-        -ms-border-radius: 10px!important;
-        -o-border-radius: 10px!important;
-        text-transform: none;
-        padding: 17px 29px 17px 29px!important;
-    }
-    
-    .textoBtnBanner{
-        font-family: PoppinsBold;
-        font-size: 11px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.18;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff!important;
-        margin-bottom: 0px;
-    }
-    
+.bannerPrincipal .btn {
+    position: absolute;
+    top: 127px;
+    left: 20px;
+    right: 110px;
+    width: 191px;
+    height: 51px;
+    font-family: PoppinsBold;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #ffffff!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    text-transform: none;
+}
+ 
      
     
 	

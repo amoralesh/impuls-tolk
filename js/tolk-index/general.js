@@ -11,6 +11,8 @@ adjustCSS();
 $(window).resize(function(){ adjustCSS() });
 
 
+
+
   //  $('#modalOfertaRelampago').modal('toggle');
   // $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
   // $('body').css("overflow", "hidden");
@@ -53,26 +55,22 @@ $(".open-button").click(function(){
 });
 
 
+
+
+
 })
 
 function adjustCSS(){
 
 
-if($(window).width() <= 767){
-  $("#menuCategorias").removeClass("navbar-light");
-  // $("#menuCategorias").removeClass("white");
-  $("#menuCategorias").addClass("navbar-dark");
-  $("#menuCategorias").addClass("special-color-dark");
+// if($(window).width() <= 767){
 
-  $(".efectosRecomendados").removeAttr("data-aos");
+//   $(".efectosRecomendados").removeAttr("data-aos");
 
-}else{
-  $("#menuCategorias").removeClass("navbar-dark");
-  $("#menuCategorias").removeClass("special-color-dark");
-  $("#menuCategorias").addClass("navbar-light");
-  $("#menuCategorias").addClass("white");
-//   $(".efectosRecomendados").addattr("data-aos");
-}
+// }else{
+
+//   $(".efectosRecomendados").attr("data-aos");
+// }
 
 
 
