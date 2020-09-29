@@ -2,17 +2,26 @@ AOS.init({
     delay: 990,
     duration: 1900,
   });
+ 
 
-
+  
 $(document).ready(function(){
+
 adjustCSS();
 $(window).resize(function(){ adjustCSS() });
 
 
   //  $('#modalOfertaRelampago').modal('toggle');
-  $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
-   $('#modalOfertaRelampago').modal({backdrop: 'static', keyboard: false})
-  //  $('.modal-backdrop').removeClass("modal-backdrop");  
+  // $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
+  // $('body').css("overflow", "hidden");
+
+  // $('#CerrarModalUnete').click(function(){
+  //   $('body').css("overflow", "auto");
+  //   $('#modalOfertaRelampago').modal({backdrop: 'hide', keyboard: false});
+  //   $('.modal-backdrop').removeClass("modal-backdrop"); 
+  // });
+
+
    
 $("#fechaN").inputmask("datetime", {
      inputFormat: "dd/mm/yyyy",

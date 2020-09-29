@@ -56,6 +56,8 @@
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES A-->
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-a.css">
+      <!-- Estilos TOLK IMAGENES-FLOTANTES B-->
+      <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-b.css">
       <!-- Estilos TOLK CARRUSEL MARCAS -->
       <link href="css/tolk-index/home/carruselMarcas.css" rel="stylesheet"/>
       <link rel="stylesheet" href="js/glide-3.4.1/dist/css/glide.core.min.css">
@@ -71,7 +73,7 @@
       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
       <link rel="stylesheet" href="css/tolk-index/home/pagosCertificados.css">
    </head>
-   <body class="skin-light">
+   <body class="skin-light" id="body">
       <!--===============================================
          HEADER
          ================================================= -->
@@ -790,14 +792,19 @@
          <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios" checked>
          <label class="custom-control-label" for="opcion1">3</label>
       </div>
+        <!-- Default checked -->
+        <div class="custom-control custom-radio">
+         <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
+         <label class="custom-control-label" for="opcion2">4</label>
+      </div>
       <!-- Default checked -->
       <div class="custom-control custom-radio">
-         <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
-         <label class="custom-control-label" for="opcion2">5</label>
+         <input type="radio" class="custom-control-input" id="opcion3" name="defaultExampleRadios">
+         <label class="custom-control-label" for="opcion3">5</label>
       </div>
       <!--===============================================
-         PRODUCTOS FLOTANTES
-         ================================================= -->
+                     PRODUCTOS FLOTANTES
+      ================================================= -->
       <section class="container-fluid" id="bannersHome">
          <div class="row rowFlotante">
             <div class="col-10 col-sm-10 col-md-10 col-lg-4  offset-1 rowFlotanteAnidado">
@@ -876,7 +883,7 @@
       </section>
       <!-- segunda sección -->  <!-- segunda sección -->  <!-- segunda sección -->
       <section class="container" id="bannersHome-a" style="display: none">
-         <div class="row rowFlotante pl-5 pr-3">
+         <div class="row rowFlotante2 pl-5 pr-3">
             <div class="col-6" >
                <div class="bloqueFlotante-a1">
                   <div class="row rowAnidado-a">
@@ -958,6 +965,80 @@
          </div>
       </section>
       <!-- fin segunda sección -->  <!-- fin segunda sección -->  <!-- fin segunda sección -->
+
+      <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
+      <section class="container" id="bannersHome-b" style="display: none">
+         <div class="row rowFlotante3 ml-5">
+            <div class="col-5">
+               <div class="bloqueFlotante-b1">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">50%</h6>
+                        <h6 class="subTitulosFlotantes1-a">de descuento</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante1-b" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z2-a.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="bloqueFlotante-b2">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Nueva Temporada</h6>
+                        <h6 class="subTitulosFlotantes1-a">Otoño-Invierno</h6>
+                        <h6 class="subTitulosFlotantes1-a">2020</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante2-b mt-3" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="bloqueFlotante-b3">
+                  <div class="row">
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z1.png" alt="" class="img-fluid">
+                     </div>
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Niño Deportivo</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Ahorra hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">32%</h6>
+                        <h6 class="subTitulosFlotantes1-a">como socio</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante3-b" id="">Ver más</button>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-5">
+               <div class="bloqueFlotante-b4">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">50%</h6>
+                        <h6 class="subTitulosFlotantes1-a">de descuento</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante4-b" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z2-a.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </section>
+      <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
+
       <!--===============================================
          FIN PRODUCTOS FLOTANTES
          ================================================= -->
@@ -2190,7 +2271,7 @@
                      <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                           <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);">
+                           <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);" id="CerrarModalUnete">
                            <i class="fas fa-times"></i>
                            </button>
                            <h3 class="textoUnete2">Regístrate y obtén un 10% de descuento en tu primer compra.</h3>
