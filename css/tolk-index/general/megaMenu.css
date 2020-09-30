@@ -190,3 +190,54 @@
 margin:auto;
     height: 145px;
 }
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    
+  
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+        
+}
+
+/*=============================================
+MOVIL PEQUEÑOS (XS revisamos en 320px)
+=============================================*/
+/*WhatsApp y Chat*/
+@media (min-width: 576px) { 
+
+ 
+  
+ }
+
+

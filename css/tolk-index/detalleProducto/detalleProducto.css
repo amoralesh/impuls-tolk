@@ -68,16 +68,19 @@
     }
 
     .tallas{
-        border:  2px solid rgba(0, 0, 0, 0.1);
+        border:  2px solid rgba(59, 56, 56, 0.1);
         height: 39px;
         padding: 3px 15px;
         cursor: pointer;
     }
 
+    .tallas .waves-effect {
+        padding: 0px!important;
+    }
+
     .tallasDP{
         height: 100%!important;
         width: 100%!important;
-
         font-family: Poppins!important;
         font-size: 14px!important;
         font-weight: normal;
@@ -86,13 +89,19 @@
         line-height: 1.43;
         letter-spacing: normal;
         text-align: center;
+        background-color: #fff;
+        border: none;
     }
 
-    .tallasDP:hover{
+    .tallas .active,.tallasDP:hover{
         background-color: #000000;
         color: #ffffff;
-
     }
+
+  
+
+
+ 
 
     .guiaTallas{
         font-family: Poppins;

@@ -56,6 +56,8 @@
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes.css">
       <!-- Estilos TOLK IMAGENES-FLOTANTES A-->
       <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-a.css">
+      <!-- Estilos TOLK IMAGENES-FLOTANTES B-->
+      <link rel="stylesheet" href="css/tolk-index/home/imagenesFlotantes-b.css">
       <!-- Estilos TOLK CARRUSEL MARCAS -->
       <link href="css/tolk-index/home/carruselMarcas.css" rel="stylesheet"/>
       <link rel="stylesheet" href="js/glide-3.4.1/dist/css/glide.core.min.css">
@@ -70,8 +72,10 @@
       <link rel="stylesheet" href="css/tolk-index/home/catalogos.css">
       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
       <link rel="stylesheet" href="css/tolk-index/home/pagosCertificados.css">
+       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
+       <link rel="stylesheet" href="css/tolk-index/general/hamburguesa.css">
    </head>
-   <body class="skin-light">
+   <body class="skin-light" id="body">
       <!--===============================================
          HEADER
          ================================================= -->
@@ -161,12 +165,13 @@
             <div class="row  m-0 align-items-center">
                <!-- row (img/navbar/carrito)--->
                <!--col-2 logo-->
-               <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
+               <div class="col-3 col-sm-3 col-md-3 col-lg-2  logoInicial p-0">
                   <a href="index.html"><img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                </div>
                <!--col-2 fin logo-->
                <!--col-6 navbar-->
-               <div class="col-12 col-sm-12 col-md-2 col-lg-6 m-0 p-0 order-3 order-sm-3 order-md-3 order-lg-2 categoriasNavbar mb-2 mr-0">
+                <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO-->
+               <div class="d-none d-sm-none d-md-block col-lg-6 m-0 p-0 categoriasNavbar mb-2 mr-0">
                   <!-- Navbar -->
                   <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
                      <!-- Navbar brand -->
@@ -749,10 +754,227 @@
                   </nav>
                   <!-- Navbar -->
                </div>
+            <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO-->
+
+
+
+             <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL-->
+             <div class="d-block d-sm-block d-md-none col-2 order-3">
+
+                  <div id="menuSmall" class="sidenav">
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <div class="row">
+                        <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
+                        <div class="col-12">
+                           <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado1">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#navBarDeportivo" href="#navBarDeportivo" aria-expanded="true" aria-controls="navBarDeportivo" class="borderNavbarHome">
+                                       DAMA<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="navBarDeportivo">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                              </div>
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
+                         <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
+                         <div class="col-12">
+                           <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado2">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#navBarSandalia" href="#navBarSandalia" aria-expanded="true" aria-controls="navBarSandalia" class="borderNavbarHome">
+                                       Caballero<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="navBarSandalia">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                              </div>
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
+                         <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
+                         <div class="col-12">
+                           <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado3">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#navBarUrbano" href="#navBarUrbano" aria-expanded="true" aria-controls="navBarUrbano" class="borderNavbarHome">
+                                       Niña<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="navBarUrbano">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                              </div>
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
+                          <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
+                          <div class="col-12">
+                           <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado4">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#navBarBaleriana" href="#navBarBaleriana" aria-expanded="true" aria-controls="navBarBaleriana" class="borderNavbarHome">
+                                       Niño<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="navBarBaleriana">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                              </div>
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
+      
+                            <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                      <div class="col-12">
+                        <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezado5">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarBotas" href="#navBarBotas" aria-expanded="true" aria-controls="navBarBotas" class="borderNavbarHome">
+                                    Accesorios<i class="more-less-menu fas fa-angle-right"></i>
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarBotas">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                 <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                 <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                            <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+                            <div class="col-12">
+                              <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado6">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#navBarEscolar" href="#navBarEscolar" aria-expanded="true" aria-controls="navBarEscolar" class="borderNavbarHome">
+                                          Marcas<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="navBarEscolar">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+      
+                               <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+                               <div class="col-12">
+                                 <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="encabezado7">
+                                          <h4 class="panel-title">
+                                             <a role="button" data-toggle="collapse" data-parent="#navBarZapatillas" href="#navBarZapatillas" aria-expanded="true" aria-controls="navBarZapatillas" class="borderNavbarHome">
+                                             Ofertas<i class="more-less-menu fas fa-angle-right"></i>
+                                             </a>
+                                          </h4>
+                                       </div>
+                                       <!-- contenido ocult0 -->
+                                       <div class="collapse navbar-collapse" id="navBarZapatillas">
+                                          <ul class="list-group list-group-flush">
+                                             <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                          </ul>
+                                       </div>
+                                       <!-- contenido ocult0 -->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+      
+                                <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+                                <div class="col-12">
+                                 <div class="panel-group" id="accordion8" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="encabezado8">
+                                          <h4 class="panel-title">
+                                             <a role="button" data-toggle="collapse" data-parent="#navBarCasual" href="#navBarCasual" aria-expanded="true" aria-controls="navBarCasual" class="borderNavbarHome">
+                                             Catálogos<i class="more-less-menu fas fa-angle-right"></i>
+                                             </a>
+                                          </h4>
+                                       </div>
+                                       <!-- contenido ocult0 -->
+                                       <div class="collapse navbar-collapse" id="navBarCasual">
+                                          <ul class="list-group list-group-flush">
+                                             <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                          </ul>
+                                       </div>
+                                       <!-- contenido ocult0 -->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+      
+                     </div>
+                   </div>
+                   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              </div>
+            <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL-->
+
+
                <!--Fin col-6 navbar-->
                <!--col-3 Carrito de compras-->
                <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
-                  <div class="right-inner-addon pull-left col-12 md-form ">
+                  <div class="right-inner-addon pull-left md-form d-none d-sm-none d-md-block">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
                   </div>
                   <a href="pages/miCuenta/listaDeseos.html"><img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
@@ -790,14 +1012,19 @@
          <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios" checked>
          <label class="custom-control-label" for="opcion1">3</label>
       </div>
+        <!-- Default checked -->
+        <div class="custom-control custom-radio">
+         <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
+         <label class="custom-control-label" for="opcion2">4</label>
+      </div>
       <!-- Default checked -->
       <div class="custom-control custom-radio">
-         <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
-         <label class="custom-control-label" for="opcion2">5</label>
+         <input type="radio" class="custom-control-input" id="opcion3" name="defaultExampleRadios">
+         <label class="custom-control-label" for="opcion3">5</label>
       </div>
       <!--===============================================
-         PRODUCTOS FLOTANTES
-         ================================================= -->
+                     PRODUCTOS FLOTANTES
+      ================================================= -->
       <section class="container-fluid" id="bannersHome">
          <div class="row rowFlotante">
             <div class="col-10 col-sm-10 col-md-10 col-lg-4  offset-1 rowFlotanteAnidado">
@@ -876,7 +1103,7 @@
       </section>
       <!-- segunda sección -->  <!-- segunda sección -->  <!-- segunda sección -->
       <section class="container" id="bannersHome-a" style="display: none">
-         <div class="row rowFlotante pl-5 pr-3">
+         <div class="row rowFlotante2 pl-5 pr-3">
             <div class="col-6" >
                <div class="bloqueFlotante-a1">
                   <div class="row rowAnidado-a">
@@ -958,6 +1185,80 @@
          </div>
       </section>
       <!-- fin segunda sección -->  <!-- fin segunda sección -->  <!-- fin segunda sección -->
+
+      <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
+      <section class="container" id="bannersHome-b" style="display: none">
+         <div class="row rowFlotante3 ml-5">
+            <div class="col-5">
+               <div class="bloqueFlotante-b1">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">50%</h6>
+                        <h6 class="subTitulosFlotantes1-a">de descuento</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante1-b" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z2-a.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="bloqueFlotante-b2">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Nueva Temporada</h6>
+                        <h6 class="subTitulosFlotantes1-a">Otoño-Invierno</h6>
+                        <h6 class="subTitulosFlotantes1-a">2020</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante2-b mt-3" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="bloqueFlotante-b3">
+                  <div class="row">
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z1.png" alt="" class="img-fluid">
+                     </div>
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Niño Deportivo</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Ahorra hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">32%</h6>
+                        <h6 class="subTitulosFlotantes1-a">como socio</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante3-b" id="">Ver más</button>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-5">
+               <div class="bloqueFlotante-b4">
+                  <div class="row">
+                     <div class="col-6 pr-0">
+                        <h6 class="titulosFlotantes-a"><u>Caballero</u></h6>
+                        <h6 class="subTitulosFlotantes1-a">Hasta</h6>
+                        <h6 class="subTitulosFlotantes2-a">50%</h6>
+                        <h6 class="subTitulosFlotantes1-a">de descuento</h6>
+                        <button class="btn btnGeneralFlotante-b btnImgFlotante4-b" id="">Ver más</button>
+                     </div>
+                     <div class="col-6 align-self-center">
+                        <img src="img/imgOficial/fotos/01 home/z2-a.png" alt="" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </section>
+      <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
+
       <!--===============================================
          FIN PRODUCTOS FLOTANTES
          ================================================= -->
@@ -2190,7 +2491,7 @@
                      <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
                         <!--Body-->
                         <div class="modal-body mb-1">
-                           <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);">
+                           <button type="button" class="close closeRelampago" data-dismiss="modal" aria-label="Close"  style="color:rgb(0, 0, 0);" id="CerrarModalUnete">
                            <i class="fas fa-times"></i>
                            </button>
                            <h3 class="textoUnete2">Regístrate y obtén un 10% de descuento en tu primer compra.</h3>
@@ -2330,9 +2631,9 @@
                            <h3 class="textoNotas">Si ya eres miembro por favor inicia sesión.</h3>
                            <div class="form-sm mb-4">
                               <small id="membresiaCorreo" class="form-text text-muted titutoInput">
-                              Num. de Membresia o email.
+                              Núm. de Membresía o email.
                               </small>
-                              <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Num. de Membresia o email">
+                              <input class="form-control estiloInput" id="membresiaCorreo" type="text" placeholder="Núm. de Membresía o email">
                            </div>
                            <div class="form-sm mb-4">
                               <small id="password" class="form-text text-muted titutoInput">
@@ -2488,9 +2789,9 @@
                            <h3 class="textoNotas-a">Activa tu cuenta. Por cuestiones de seguridad te pedimos llenar todos los campos correctamente, para que puedas disfrutar de tus compras en línea.</h3>
                            <div class="form-sm mb-4 espacioInput mt-3">
                               <small id="membresiaCorreo" class="form-text text-muted titutoInput">
-                              Número de Membresia.
+                              Número de Membresía.
                               </small>
-                              <input class="form-control estiloInputRegistro" id="membresiaCorreo" type="text" placeholder="Número de Membresia">
+                              <input class="form-control estiloInputRegistro" id="membresiaCorreo" type="text" placeholder="Número de Membresía">
                            </div>
                            <div class="form-sm mb-4 espacioInput">
                               <small id="Email" class="form-text text-muted titutoInput">
@@ -2550,7 +2851,7 @@
                            <li class="nav-item">
                               <a class="nav-link textCabeceraModales text-left pb-0" data-toggle="tab" href="#panel10" role="tab">
                               Restaura contraseña</a>
-                              <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Te mandaremos un correo electronico con tu nueva contraseña.</h6>
+                              <h6 class="nav-link text-left textoSubCabeceraModal pt-0 pb-0">Te mandaremos un correo electrónico con tu nueva contraseña.</h6>
                            </li>
                         </div>
                         <div class="col-2">
@@ -2711,6 +3012,29 @@
            $(".floatWhats").css("right", "20px")
          }
       </script>
+
+<script>
+   function openNav() {
+     document.getElementById("menuSmall").style.width = "100%";
+
+   }
+   
+   function closeNav() {
+     document.getElementById("menuSmall").style.width = "0";
+   }
+
+   function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less-menu")
+        .toggleClass('fa-angle-up');
+}
+
+         $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+         $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+       
+   </script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

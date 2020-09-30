@@ -68,7 +68,6 @@
     align-self: center;
     border-radius: 25px;
     left: 5%;
-    height: 200%;
     width: 90%;
     cursor: pointer; 
 }
@@ -136,25 +135,6 @@
 
 @media screen and (max-width:1230px){
 
-    /*Posición de badge Recomendados*/
-    .etiquetaRecomendados{
-        position: absolute;
-        top: -8%;
-        left: 12%;
-        width: 69px!important;
-        height: 25px!important;
-
-    }
-
-    /*Posición de badge Recomendados*/
-    .etiquetaRecomendadosOferta{
-        position: absolute;
-        bottom: 29%;
-        left: 62%;
-        width: 69px!important;
-        height: 25px!important;
-
-    }
 
 }
 
@@ -194,10 +174,10 @@ MOVIL (XS revisamos en 320px)
 @media (max-width:767px){
   
     /*Fondo Recomendados*/
-    .recomendados{
-        height: 750px;
+    .recomendados {
+        height: 1020px;
         background-color: #efefef;
-        margin-bottom: -155px !important;
+        margin-bottom: 140px !important;
     }
 
     .tituloRecomendados{
@@ -323,19 +303,18 @@ MOVIL (XS revisamos en 320px)
     }
 
     /*Imagenes de tarjetas*/
-.imgRadius {
-    position: relative;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 90%;
-    top: -36px;
-    align-self: center;
-    border-radius: 25px;
-    left: 5%;
-    height: 200%;
-    width: 90%
-}
-
+    .imgRadius {
+        position: relative;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        height: 160px!important;
+        top: -45px;
+        align-self: center;
+        border-radius: 25px;
+        left: 5%;
+        width: 90%;
+        cursor: pointer; 
+    }
    
 
 

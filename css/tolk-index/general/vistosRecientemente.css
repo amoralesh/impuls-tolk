@@ -41,8 +41,8 @@
 }
 
 .etiquetaOfertaRecientemente{
-    left: 170px!important;
-    top: 15px!important;
+  left: 67%!important;
+  top: 10%!important;
     width: 53px;
     height: 20px;
     background-color: #f75454;
@@ -183,6 +183,11 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+
+  .tarjetaRecientemente {
+    min-width: 100%!important;
+}
+
     .textoVistosRecientemente{
         font-family: PoppinsExtramBold;
         font-size: 20px;
@@ -204,11 +209,11 @@ MOVIL (XS revisamos en 320px)
     }
     
     /*Fodo Recomendados*/
-.visto{
-    height: 640px;
-    background-color: #efefef;
-    margin-bottom: 70px !important;
-}
+    .visto {
+      height: 890px!important;
+      background-color: #efefef;
+      margin-bottom: 30%!important;
+  }
 
 }
 

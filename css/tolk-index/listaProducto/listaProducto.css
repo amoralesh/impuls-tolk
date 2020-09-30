@@ -269,38 +269,6 @@ height: 12px!important;
 }
 
 
-  .tallas{
-    border:  2px solid rgba(0, 0, 0, 0.1);
-    height: 39px;
-    padding: 3px 15px;
-    cursor: pointer;
-}
-
-
-
-.tallas>p{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: #2c2c2c;
-    text-align: center;
-    margin-bottom: 0px;
-   align-self: center;
-   cursor: pointer;
-}
-
-
-.tallas:hover{
-    background-color: black;
-}
-.tallas>p:hover{
-    color: #ffffff;
-}
 
 .vistaRapida {
    position: absolute;
@@ -412,9 +380,11 @@ height: 12px!important;
     line-height: 1.43;
     letter-spacing: normal;
     text-align: center;
+    background-color: #fff;
+    border: none;
 }
-
-.tallasLP_a:hover{
+ 
+.tallasLP .active,.tallasLP_a:hover{
     background-color: #000000;
     color: #ffffff;
 }

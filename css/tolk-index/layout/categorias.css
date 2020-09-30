@@ -101,22 +101,19 @@ MOVIL (XS revisamos en 320px)
 @media (max-width:767px){
 
     .contenedorCategorias {
-        height: 110px;
+        height: 60px;
     }
     
     .logoInicial {
         margin-left: 3%!important;
     }
 
-    /* BUSQUEDA FABORITOS CARRTIO */
-    .right-inner-addon {
+    .iconos {
         position: relative;
-        width: 35px;
+        top: -20px;
+        left: 20%;
     }
-    .right-inner-addon input {
-        width: 90px;
-        height: 20px!important;
-    }
+
 
     .corazon {
         left: 80px;
@@ -136,40 +133,6 @@ MOVIL (XS revisamos en 320px)
     }
 
 
-    .carritoCantidad{
-        position: relative;
-        left: 83px;
-    }
-
-    .skin-light .navbar {
-        min-height: 20px;
-        padding: 0px;
-        -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 4, 255, 0);
-        box-shadow: 0 13px 20px 0 rgba(243, 0, 0, 0);
-        z-index: 9999999;
-    }
-
-    .categoriasNavbar {
-        max-width: 100%!important;
-    }
-
-    .iconos{
-        position: relative;
-        top: 12px;
-        left: 3%;
-    }
-
-    .textoTitulosCategorias {
-        font-family: PoppinsExtramBold;
-        font-size: 17px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.13!important;
-        letter-spacing: 0.11px!important;
-        color: #ffffff!important;
-    }
-        
 
 	
 }

@@ -174,7 +174,7 @@ position: fixed;
 width: 385px;
 height: 66px;
 bottom:20px;
-right:15px;
+right: 2%;
 z-index: 999;
 }
 
@@ -402,14 +402,9 @@ MOVIL (XS revisamos en 320px)
 @media (max-width:767px){
 
     /*WhatsApp y Chat*/
-    .comunicacion {
-      position: fixed;
-      width: 385px;
-      height: 66px;
-      bottom:20px;
-      right:115px;
-      z-index: 999;
-    }
+    .comunicacion{
+      right: 2%;
+      }
         
 }
 
