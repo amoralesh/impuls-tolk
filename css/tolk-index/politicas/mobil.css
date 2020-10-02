@@ -43,4 +43,8 @@
         color: #ffffff!important;
         text-transform: none;
     }
+    .slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
+        margin-top: 14px;
+        font-size: 6px!important;
+    }
   }
