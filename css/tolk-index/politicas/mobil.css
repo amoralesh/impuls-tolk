@@ -18,4 +18,29 @@
         font-size: 27px !important;
         font-weight: bold !important;
     }
+    .rastre_title{
+        font-size: x-large !important;
+    }
+    .btn_rastreo{
+        margin-top: 10px;
+    }
+    .imgRadius-a {
+        height: 100% !important;  
+    }
+    .textoTarjeta1{
+        font-size: 20px;
+    }
+    .btnRecomendados {
+        width: 99px!important;
+        height: auto !important;
+        font-family: PoppinsSemiBold;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: -0.2px;
+        color: #ffffff!important;
+        text-transform: none;
+    }
   }
