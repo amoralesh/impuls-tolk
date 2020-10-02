@@ -36,7 +36,7 @@
 	align-self: center;
 	border-radius: 25px;
 	left: 5%;
-	height: 330px;
+	height: 300px;
 	width: 90%;
 }
 
@@ -62,6 +62,28 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
+	.sombraTarjeta {
+		min-width: 225px;
+	}
+
+	.textoTarjetaCatalogos {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.textoTarjetaCatalogosVer {
+		font-size: 25px;
+	}
+
+	.imgRadiusCatalogo {
+		height: 277px;
+		border-radius: 10px!important;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
+	}
+
 
 
 
@@ -73,7 +95,17 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-    
+    .imgRadiusCatalogo {
+		height: 365px;
+	}
+
+	.textoTarjetaCatalogos {
+		font-size: 24px;
+	}
+
+	.textoTarjetaCatalogosVer {
+		font-size: 30px;
+	}
 }
 
 /*=============================================
@@ -82,16 +114,54 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
+ 
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+	
 	.sombraTarjeta {
 		min-width: 100%;
 	}
 
 	.imgRadiusCatalogo {
-	
-		height: 225px;
+		height: 180px;
 		width: 90%;
+		top: -20px;
+		border-radius: 10px!important;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
+}
+
+.textoTarjetaCatalogos {
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.textoTarjetaCatalogosVer {
+    font-size: 14px;
+
+}
+}
+
+
+@media (max-width: 350px) { 
+	.imgRadiusCatalogo {
+		height: 140px;
 	}
 
+	.textoTarjetaCatalogos {
+		font-size: 10px;
+	}
+	
 
- 
+	.textoTarjetaCatalogosVer {
+		font-size: 11px;
+	}
+
 }

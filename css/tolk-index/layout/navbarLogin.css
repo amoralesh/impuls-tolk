@@ -99,7 +99,15 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-  
+    .negritasNavbarLogin {
+        font-size: 10px!important;
+    }
+
+    .navbarLogin {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        padding-left: 0px!important;
+    }
+
 
 
 }

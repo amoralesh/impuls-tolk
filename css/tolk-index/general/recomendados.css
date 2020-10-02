@@ -26,6 +26,17 @@
     color: #000000!important;
 }
 
+.textoPrecioProducto-b{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
 
 .btnRecomendados{
     width: 99px!important;
@@ -113,20 +124,49 @@
 }
 
 
+
 /*Posición de badge Recomendados*/
 .etiquetaRecomendados{
+    width: 30%!important;
+    height: 12%!important;
     position: absolute;
-    background-color: #888888!important;
+    background-color: #bababa!important;
     top: -8%;
     left: 12%;
+    border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -ms-border-radius: 5px!important;
+    -o-border-radius: 5px!important;
 }
+
+.textoEtiquetaR{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.01px;
+    text-align: center;
+    color: #ffffff!important;
+    margin-top: 4px!important;
+  }
+
 
 /*Posición de badge Recomendados*/
 .etiquetaRecomendadosOferta{
+    width: 30%!important;
+    height: 12%!important;
    position: absolute;
-   bottom: 29%;
-   left: 62%;
+   top: -8%;
+   left: 56%;
    background-color: #f75454!important;
+   border-radius: 5px!important;
+   -webkit-border-radius: 5px!important;
+   -moz-border-radius: 5px!important;
+   -ms-border-radius: 5px!important;
+   -o-border-radius: 5px!important;
 }
 
 
@@ -153,7 +193,15 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
+    .imgRadius {
+        height: 173px!important;
+    }
 
+    .btnRecomendados {
+        width: 69px!important;
+        height: 36px!important;
+        font-size: 10px!important;
+    }
 
 
 }
@@ -164,6 +212,49 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
+
+    .btnRecomendados {
+        width: 142px!important;
+        height: 35px!important;
+        font-size: 16px!important;
+    }
+    .recomendados {
+        height: 1145px;
+    }
+
+    .imgRadius {
+        height: 265px!important;
+
+    }
+
+            
+/*Posición de badge Recomendados*/
+.etiquetaRecomendados{
+    top: -8%;
+    width: 25%!important;
+    height: 10%!important;
+    left: 18%;
+
+  
+}
+
+.textoEtiquetaR{
+    font-size: 10px;
+  }
+
+
+/*Posición de badge Recomendados*/
+.etiquetaRecomendadosOferta{
+    top: -8%;
+    width: 25%!important;
+    height: 10%!important;
+    left: 60%;
+}
+
+
+    
+ 
+
     
 }
 
@@ -172,60 +263,165 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
-  
-    /*Fondo Recomendados*/
     .recomendados {
-        height: 1020px;
-        background-color: #efefef;
-        margin-bottom: 140px !important;
+        height: 1070px;
     }
 
-    .tituloRecomendados{
-        font-family: PoppinsExtramBold;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: #000000!important;
+    .etiqueta {
+        width: 30%!important;
+        height: 13%!important;
     }
+
+ 
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+        /*Fondo Recomendados*/
+        .recomendados {
+            height: 820px;
+            background-color: #efefef;
+            margin-bottom: 140px !important;
+        }
     
-    .tituloRecomendadosSecundario{
-        font-family: Poppins;
-        font-size: 10px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
+        
+        .tituloRecomendadosSecundario{
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+          
+        }
+    
+        /*Acortamos la distancia entre la imagen y la descripcion*/
+        .textoTarjeta1{
+            margin-top: -32%;
+            font-size: 14px;
+            font-weight: 600;
+    
+        }
+        .textoTarjeta2{
+            font-size: 12px;
+            font-weight: bold;
+       
+        }
+    
+        .textoTarjeta3{
+            font-size: 10px!important;
+            font-weight: 600;
+            margin-bottom: 0px!important;
+        }
+    
+        .textoPrecioProducto-b{
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #000000;
+          }
+    
+        .btnRecomendados{
+            width: 50px!important;
+            height: 20px!important;
+    
+            font-family: PoppinsSemiBold;
+            font-size: 8px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.23;
+            letter-spacing: -0.2px;
+            color: #ffffff!important;
+            text-transform: none;
+        }
+        
+     
+    
+        .lupaTarjeta{
+            width:15px;
+            height:14px;
+            padding: 0px!important;
+            margin: 0px 0px 0px 0px!important;
+            
+        }
+    
+        .favoritoTarjeta{
+            width:14px;
+            height:15px;
+            padding: 0px!important;
+            margin: 0px 0px 0px 0px!important;
+        }
+    
+        .carritoTarjeta{
+            width:20px;
+            height:16px;
+            padding: 0px!important;
+            margin: 0px 0px 0px 0px!important;
+        }
+    
       
-    }
+        /*Imagenes de tarjetas*/
+        .imgRadius {
+            position: relative;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            height: 120px!important;
+            top: -45px;
+            align-self: center;
+            border-radius: 25px;
+            left: 5%;
+            width: 90%;
+            cursor: pointer; 
+        }
+    
+        .skin-light .btn.btn-md {
+            font-size: 7.24px;
+            padding: 5px;
+        }
 
-    /*Acortamos la distancia entre la imagen y la descripcion*/
-    .textoTarjeta1{
-        margin-top: -32%;
-        font-size: 14px;
-        font-weight: 600;
+        
+/*Posición de badge Recomendados*/
+.etiquetaRecomendados{
+    top: -28%;
+    width: 30%!important;
+    height: 16%!important;
+    left: 18%;
 
-    }
-    .textoTarjeta2{
-        font-size: 12px;
-        font-weight: bold;
-   
-    }
+  
+}
 
-    .textoTarjeta3{
-        font-size: 10px!important;
-        font-weight: 600;
-        margin-bottom: 0px!important;
-    }
+.textoEtiquetaR{
+    font-size: 8px;
+  }
 
-    .btnRecomendados{
-        width: 50px!important;
-        height: 20px!important;
 
+/*Posición de badge Recomendados*/
+.etiquetaRecomendadosOferta{
+    top: -28%;
+    width: 30%!important;
+    height: 16%!important;
+    left: 51%;
+}
+
+
+       
+    
+}
+
+@media (max-width: 350px) {
+    .btnRecomendados {
+        width: 36px!important;
+        height: 17px!important;
         font-family: PoppinsSemiBold;
-        font-size: 8px;
+        font-size: 5px!important;
+        padding: 0px!important;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -234,90 +430,10 @@ MOVIL (XS revisamos en 320px)
         color: #ffffff!important;
         text-transform: none;
     }
-    
- 
 
-    .lupaTarjeta{
-        width:15px;
-        height:14px;
-        padding: 0px!important;
-        margin: 0px 0px 0px 0px!important;
-        
+    .lupaTarjeta,.favoritoTarjeta,.carritoTarjeta  {
+        width: 11px;
+        height: 11px;
     }
-
-    .favoritoTarjeta{
-        width:14px;
-        height:15px;
-        padding: 0px!important;
-        margin: 0px 0px 0px 0px!important;
-    }
-
-    .carritoTarjeta{
-        width:20px;
-        height:16px;
-        padding: 0px!important;
-        margin: 0px 0px 0px 0px!important;
-    }
-
-    /*Posición de badge Recomendados*/
-    .etiquetaRecomendados{
-        position: absolute;
-        top: -13%;
-        left: 12%;
-        width: 40px!important;
-        height: 15px!important;
-        border-radius: 5px!important;
-        background-color: #888888!important;
-        -webkit-border-radius: 5px!important;
-        -moz-border-radius: 5px!important;
-        -ms-border-radius: 5px!important;
-        -o-border-radius: 5px!important;
-    }
-
-    .textoEtiquetaRecomendados{
-        font-family: Poppins;
-        font-size: 8px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.23;
-        letter-spacing: 0.01px;
-        text-align: center;
-        color: #ffffff!important;
-        margin: 0px 0px 0px 0px!important;
-    }
-
-    /*Posición de badge Recomendados*/
-    .etiquetaRecomendadosOferta{
-        position: absolute;
-        bottom: 77%;
-        left: 62%;
-        width: 40px!important;
-        height: 15px!important;
-        border-radius: 5px!important;
-        background-color: #f75454!important;
-        -webkit-border-radius: 5px!important;
-        -moz-border-radius: 5px!important;
-        -ms-border-radius: 5px!important;
-        -o-border-radius: 5px!important;
-    }
-
-    /*Imagenes de tarjetas*/
-    .imgRadius {
-        position: relative;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-        height: 160px!important;
-        top: -45px;
-        align-self: center;
-        border-radius: 25px;
-        left: 5%;
-        width: 90%;
-        cursor: pointer; 
-    }
-   
-
-
- 
-}
+ }
 

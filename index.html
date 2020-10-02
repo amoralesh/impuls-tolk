@@ -72,8 +72,8 @@
       <link rel="stylesheet" href="css/tolk-index/home/catalogos.css">
       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
       <link rel="stylesheet" href="css/tolk-index/home/pagosCertificados.css">
-       <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
-       <link rel="stylesheet" href="css/tolk-index/general/hamburguesa.css">
+      <!-- Estilos TOLK PAGOS Y CERTIFICADOS -->
+      <link rel="stylesheet" href="css/tolk-index/general/hamburguesa.css">
    </head>
    <body class="skin-light" id="body">
       <!--===============================================
@@ -92,7 +92,7 @@
             ==================================== -->
          <section class="container-fluid p-0">
             <div class="row navbarLogin m-0">
-               <div class="col-12 d-none d-sm-none d-md-block  m-0 p-0">
+               <div class="col-12 d-none d-sm-none d-md-none d-lg-block m-0 p-0">
                   <!-- Navbar -->
                   <nav class="navbar navbar-expand-md navbar-light">
                      <!-- Collapse button -->
@@ -165,13 +165,13 @@
             <div class="row  m-0 align-items-center">
                <!-- row (img/navbar/carrito)--->
                <!--col-2 logo-->
-               <div class="col-3 col-sm-3 col-md-3 col-lg-2  logoInicial p-0">
+               <div class="col-4 col-sm-4 col-md-4 col-lg-2  logoInicial p-0">
                   <a href="index.html"><img class="img-fluid" src="img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                </div>
                <!--col-2 fin logo-->
                <!--col-6 navbar-->
-                <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO-->
-               <div class="d-none d-sm-none d-md-block col-lg-6 m-0 p-0 categoriasNavbar mb-2 mr-0">
+               <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO-->
+               <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 m-0 p-0 categoriasNavbar mb-2 mr-0">
                   <!-- Navbar -->
                   <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
                      <!-- Navbar brand -->
@@ -754,61 +754,205 @@
                   </nav>
                   <!-- Navbar -->
                </div>
-            <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO-->
-
-
-
-             <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL-->
-             <div class="d-block d-sm-block d-md-none col-2 order-3">
-
+               <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO-->
+               <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL-->
+               <div class="d-block d-sm-block d-md-block d-lg-none col-2 order-3 p-0">
                   <div id="menuSmall" class="sidenav">
-                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                      <div class="row">
                         <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
                         <div class="col-12">
-                           <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+                           <div class="panel-group" id="mm1" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
-                                 <div class="panel-heading" role="tab" id="encabezado1">
+                                 <div class="panel-heading" role="tab" id="encabezadoMM1">
                                     <h4 class="panel-title">
-                                       <a role="button" data-toggle="collapse" data-parent="#navBarDeportivo" href="#navBarDeportivo" aria-expanded="true" aria-controls="navBarDeportivo" class="borderNavbarHome">
-                                       DAMA<i class="more-less-menu fas fa-angle-right"></i>
+                                       <a role="button" data-toggle="collapse" data-parent="#subCategoriasMM" href="#subCategoriasMM" aria-expanded="true" aria-controls="subCategoriasMM" class="borderNavbarHome">
+                                       Dama<i class="more-less-menu fas fa-angle-right"></i>
                                        </a>
                                     </h4>
                                  </div>
-                                 <!-- contenido ocult0 -->
-                                 <div class="collapse navbar-collapse" id="navBarDeportivo">
-                                    <ul class="list-group list-group-flush">
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
-                                    </ul>
+                                 <!-- SUBCATEGORIASSSSSSSS-->
+                                 <div class="collapse navbar-collapse" id="subCategoriasMM">
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm1" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM1">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM1" href="#subMM1" aria-expanded="true" aria-controls="subMM1" class="borderNavbarHome-s">
+                                                Zapatillas<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM1">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                                <li class="list-group-item"><a href="#!">Abierta</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm2" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM2">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM2" href="#subMM2" aria-expanded="true" aria-controls="subMM2" class="borderNavbarHome-s">
+                                                Sandalia<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM2">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Piso</a></li>
+                                                <li class="list-group-item"><a href="#!">Plataforma</a></li>
+                                                <li class="list-group-item"><a href="#!">Playera</a></li>
+                                                <li class="list-group-item"><a href="#!">Confort Piso</a></li>
+                                                <li class="list-group-item"><a href="#!">Confort Alto</a></li>
+                                                <li class="list-group-item"><a href="#!">Plataforma</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm3" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM3">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM3" href="#subMM3" aria-expanded="true" aria-controls="subMM3" class="borderNavbarHome-s">
+                                                Escolar<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM3">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Escolar</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm4" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM4">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM4" href="#subMM4" aria-expanded="true" aria-controls="subMM4" class="borderNavbarHome-s">
+                                                Balerina<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM4">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Abierta</a></li>
+                                                <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm5" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM5">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM5" href="#subMM5" aria-expanded="true" aria-controls="subMM5" class="borderNavbarHome-s">
+                                                Botas<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM5">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Casual</a></li>
+                                                <li class="list-group-item"><a href="#!">City</a></li>
+                                                <li class="list-group-item"><a href="#!">Lluvia</a></li>
+                                                <li class="list-group-item"><a href="#!">Vestir</a></li>
+                                                <li class="list-group-item"><a href="#!">Hiking</a></li>
+                                                <li class="list-group-item"><a href="#!">Invernal</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm6" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM6">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM6" href="#subMM6" aria-expanded="true" aria-controls="subMM6" class="borderNavbarHome-s">
+                                                Urbano<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM6">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Casual</a></li>
+                                                <li class="list-group-item"><a href="#!">Sport</a></li>
+                                                <li class="list-group-item"><a href="#!">Casual Moda</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
+                                    <!--SUBCATGORIA -->
+                                    <div class="panel-group" id="smm7" role="tablist" aria-multiselectable="true">
+                                       <div class="panel panel-default">
+                                          <div class="panel-heading" role="tab" id="subEncabezadoMM7">
+                                             <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#subMM7" href="#subMM7" aria-expanded="true" aria-controls="subMM7" class="borderNavbarHome-s">
+                                                Confort<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                </a>
+                                             </h4>
+                                          </div>
+                                          <!-- ITEMS SUBCATGORIAS -->
+                                          <div class="collapse navbar-collapse" id="subMM7">
+                                             <ul class="list-group list-group-flush itemsSubcategorias">
+                                                <li class="list-group-item"><a href="#!">Alto</a></li>
+                                                <li class="list-group-item"><a href="#!">Bajo</a></li>
+                                                <li class="list-group-item"><a href="#!">Guante</a></li>
+                                             </ul>
+                                          </div>
+                                          <!-- FIN ITEMS SUBCATGORIAS -->
+                                       </div>
+                                    </div>
+                                    <!--FIN SUBCATGORIA -->
                                  </div>
-                                 <!-- contenido ocult0 -->
+                                 <!-- FIN SUBCATEGORIASSSSSSS -->
                               </div>
                            </div>
                         </div>
                         <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
-                         <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
-                         <div class="col-12">
-                           <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                        <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm2" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
                                  <div class="panel-heading" role="tab" id="encabezado2">
                                     <h4 class="panel-title">
-                                       <a role="button" data-toggle="collapse" data-parent="#navBarSandalia" href="#navBarSandalia" aria-expanded="true" aria-controls="navBarSandalia" class="borderNavbarHome">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMCaballero" href="#megaMCaballero" aria-expanded="true" aria-controls="megaMCaballero" class="borderNavbarHome">
                                        Caballero<i class="more-less-menu fas fa-angle-right"></i>
                                        </a>
                                     </h4>
                                  </div>
                                  <!-- contenido ocult0 -->
-                                 <div class="collapse navbar-collapse" id="navBarSandalia">
+                                 <div class="collapse navbar-collapse" id="megaMCaballero">
                                     <ul class="list-group list-group-flush">
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                       <li class="list-group-item"><a href="#!">Basket</a></li>
+                                       <li class="list-group-item"><a href="#!">Escolar</a></li>
+                                       <li class="list-group-item"><a href="#!">Indoor</a></li>
+                                       <li class="list-group-item"><a href="#!">Soccer</a></li>
+                                       <li class="list-group-item"><a href="#!">Deportivo</a></li>
                                     </ul>
                                  </div>
                                  <!-- contenido ocult0 -->
@@ -816,23 +960,23 @@
                            </div>
                         </div>
                         <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
-                         <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
-                         <div class="col-12">
-                           <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                        <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm3" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
                                  <div class="panel-heading" role="tab" id="encabezado3">
                                     <h4 class="panel-title">
-                                       <a role="button" data-toggle="collapse" data-parent="#navBarUrbano" href="#navBarUrbano" aria-expanded="true" aria-controls="navBarUrbano" class="borderNavbarHome">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMNina" href="#megaMNina" aria-expanded="true" aria-controls="megaMNina" class="borderNavbarHome">
                                        Niña<i class="more-less-menu fas fa-angle-right"></i>
                                        </a>
                                     </h4>
                                  </div>
                                  <!-- contenido ocult0 -->
-                                 <div class="collapse navbar-collapse" id="navBarUrbano">
+                                 <div class="collapse navbar-collapse" id="megaMNina">
                                     <ul class="list-group list-group-flush">
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
                                     </ul>
                                  </div>
                                  <!-- contenido ocult0 -->
@@ -840,23 +984,23 @@
                            </div>
                         </div>
                         <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
-                          <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
-                          <div class="col-12">
-                           <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+                        <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm4" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
                                  <div class="panel-heading" role="tab" id="encabezado4">
                                     <h4 class="panel-title">
-                                       <a role="button" data-toggle="collapse" data-parent="#navBarBaleriana" href="#navBarBaleriana" aria-expanded="true" aria-controls="navBarBaleriana" class="borderNavbarHome">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMNino" href="#megaMNino" aria-expanded="true" aria-controls="megaMNino" class="borderNavbarHome">
                                        Niño<i class="more-less-menu fas fa-angle-right"></i>
                                        </a>
                                     </h4>
                                  </div>
                                  <!-- contenido ocult0 -->
-                                 <div class="collapse navbar-collapse" id="navBarBaleriana">
+                                 <div class="collapse navbar-collapse" id="megaMNino">
                                     <ul class="list-group list-group-flush">
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
                                     </ul>
                                  </div>
                                  <!-- contenido ocult0 -->
@@ -864,126 +1008,154 @@
                            </div>
                         </div>
                         <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
-      
-                            <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
-                      <div class="col-12">
-                        <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
-                           <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="encabezado5">
-                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#navBarBotas" href="#navBarBotas" aria-expanded="true" aria-controls="navBarBotas" class="borderNavbarHome">
-                                    Accesorios<i class="more-less-menu fas fa-angle-right"></i>
-                                    </a>
-                                 </h4>
+                        <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm5" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado5">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMNAccesorios" href="#megaMNAccesorios" aria-expanded="true" aria-controls="megaMNAccesorios" class="borderNavbarHome">
+                                       Accesorios<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="megaMNAccesorios">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
                               </div>
-                              <!-- contenido ocult0 -->
-                              <div class="collapse navbar-collapse" id="navBarBotas">
-                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                 <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                 <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
-                                 </ul>
-                              </div>
-                              <!-- contenido ocult0 -->
                            </div>
                         </div>
-                     </div>
-                     <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
-                            <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
-                            <div class="col-12">
-                              <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
-                                 <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="encabezado6">
-                                       <h4 class="panel-title">
-                                          <a role="button" data-toggle="collapse" data-parent="#navBarEscolar" href="#navBarEscolar" aria-expanded="true" aria-controls="navBarEscolar" class="borderNavbarHome">
-                                          Marcas<i class="more-less-menu fas fa-angle-right"></i>
-                                          </a>
-                                       </h4>
-                                    </div>
-                                    <!-- contenido ocult0 -->
-                                    <div class="collapse navbar-collapse" id="navBarEscolar">
-                                       <ul class="list-group list-group-flush">
-                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                       <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
-                                       </ul>
-                                    </div>
-                                    <!-- contenido ocult0 -->
+                        <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                        <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm6" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado6">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMMarcas" href="#megaMMarcas" aria-expanded="true" aria-controls="megaMMarcas" class="borderNavbarHome">
+                                       Marcas<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
                                  </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="megaMMarcas">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
                               </div>
                            </div>
-                           <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
-      
-                               <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
-                               <div class="col-12">
-                                 <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading" role="tab" id="encabezado7">
-                                          <h4 class="panel-title">
-                                             <a role="button" data-toggle="collapse" data-parent="#navBarZapatillas" href="#navBarZapatillas" aria-expanded="true" aria-controls="navBarZapatillas" class="borderNavbarHome">
-                                             Ofertas<i class="more-less-menu fas fa-angle-right"></i>
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <!-- contenido ocult0 -->
-                                       <div class="collapse navbar-collapse" id="navBarZapatillas">
-                                          <ul class="list-group list-group-flush">
-                                             <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
-                                          </ul>
-                                       </div>
-                                       <!-- contenido ocult0 -->
-                                    </div>
+                        </div>
+                        <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+                        <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm7" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado7">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMOfertas" href="#megaMOfertas" aria-expanded="true" aria-controls="megaMOfertas" class="borderNavbarHome">
+                                       Ofertas<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
                                  </div>
-                              </div>
-                              <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
-      
-                                <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
-                                <div class="col-12">
-                                 <div class="panel-group" id="accordion8" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading" role="tab" id="encabezado8">
-                                          <h4 class="panel-title">
-                                             <a role="button" data-toggle="collapse" data-parent="#navBarCasual" href="#navBarCasual" aria-expanded="true" aria-controls="navBarCasual" class="borderNavbarHome">
-                                             Catálogos<i class="more-less-menu fas fa-angle-right"></i>
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <!-- contenido ocult0 -->
-                                       <div class="collapse navbar-collapse" id="navBarCasual">
-                                          <ul class="list-group list-group-flush">
-                                             <li class="list-group-item"><a href="#!" class="irAFiltros">Casual</a></li>
-                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Piloto</a></li>
-                                          <li class="list-group-item"><a href="#!" class="irAFiltros">Sport</a></li>
-                                          </ul>
-                                       </div>
-                                       <!-- contenido ocult0 -->
-                                    </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="megaMOfertas">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
+                                    </ul>
                                  </div>
+                                 <!-- contenido ocult0 -->
                               </div>
-                              <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
-      
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+                        <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+                        <div class="col-12">
+                           <div class="panel-group" id="mm8" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading" role="tab" id="encabezado8">
+                                    <h4 class="panel-title">
+                                       <a role="button" data-toggle="collapse" data-parent="#megaMCatalogos" href="#megaMCatalogos" aria-expanded="true" aria-controls="megaMCatalogos" class="borderNavbarHome">
+                                       Catálogos<i class="more-less-menu fas fa-angle-right"></i>
+                                       </a>
+                                    </h4>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                                 <div class="collapse navbar-collapse" id="megaMCatalogos">
+                                    <ul class="list-group list-group-flush">
+                                       <li class="list-group-item"><a href="#!">Casual</a></li>
+                                       <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                       <li class="list-group-item"><a href="#!">Sport</a></li>
+                                    </ul>
+                                 </div>
+                                 <!-- contenido ocult0 -->
+                              </div>
+                           </div>
+                        </div>
+                        <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+
+                        <!-- MAS OPCIONES --><!-- MAS OPCIONES -->
+                        <div class="col-12 colorFondoPrimarioMM">
+
+                           <div class="row mt-5">
+                              <div class="offset-1 col-10 text-center">
+                                 <button class="btn btnIniciarSMM colorSecundario" data-toggle="modal" data-target="#modalLogin">Iniciar sesión</button>
+                                 <h1 class="textoTodavia mt-4">¿Todavía no tienes cuenta?<a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a"> Registrate aquí</a></h1>
+                              </div>
+                              <div class="col-6">
+                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Dónde esta mi cuenta?</a>
+                              </div>
+                              <div class="col-6">
+                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">Cambios y Devoluciones</a>
+                              </div>
+                              <div class="col-6">
+                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                              </div>
+                              <div class="col-6">
+                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                              </div>
+                           </div>
+                           
+                        </div>
+                        <!-- FIN MAS OPCIONES --><!-- FIN MAS OPCIONES -->
                      </div>
-                   </div>
-                   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-              </div>
-            <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL-->
-
-
+                  </div>
+                  <span style="font-size:30px;cursor:pointer" class="float-right" onclick="openNav()" id="abrirMM"><i class="fas fa-bars"></i></span>
+                  <span style="font-size:30px;cursor:pointer;display:none" class="float-right" onclick="closeNav()" id="cerrarMM"><i class="fas fa-times"></i></span>
+               </div>
+               <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL-->
                <!--Fin col-6 navbar-->
                <!--col-3 Carrito de compras-->
-               <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
-                  <div class="right-inner-addon pull-left md-form d-none d-sm-none d-md-block">
+               <div class="col-5 col-sm-5 col-md-5 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
+                  <div class="right-inner-addon pull-left md-form d-none d-sm-none d-md-none d-lg-block">
                      <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
                   </div>
+                  <a href="#!"> <img src="img/imgOficial/iconos_logos/search icon.svg" alt="favoritos" class="d-inline d-sm-inline d-md-inline d-lg-none buscarInput" id="buscar" data-toggle="collapse" data-target="#buscarInput"></a>
                   <a href="pages/miCuenta/listaDeseos.html"><img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
                   <a href="pages/carritoCompra/carritoCompra.html"><img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
                   <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
                </div>
-               <!--Fin col-3 Carrito de compras-->
+               <!--Fin col-3 Carrito de compras-->    
+               <div class="col-12 collapse order-4" id="buscarInput">
+                  <div class="md-form my-0">
+                     <input class="form-control my-0" type="text" placeholder="Buscar" aria-label="Buscar">
+                  </div>
+               </div>
             </div>
             <!-- Fin row (img/navbar/carrito)--->
+            <div class="row">
+            </div>
          </section>
          <!-- Fin container (img/navbar/carrito)--->
       </header>
@@ -1012,8 +1184,8 @@
          <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios" checked>
          <label class="custom-control-label" for="opcion1">3</label>
       </div>
-        <!-- Default checked -->
-        <div class="custom-control custom-radio">
+      <!-- Default checked -->
+      <div class="custom-control custom-radio">
          <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
          <label class="custom-control-label" for="opcion2">4</label>
       </div>
@@ -1023,9 +1195,9 @@
          <label class="custom-control-label" for="opcion3">5</label>
       </div>
       <!--===============================================
-                     PRODUCTOS FLOTANTES
-      ================================================= -->
-      <section class="container-fluid" id="bannersHome">
+         PRODUCTOS FLOTANTES
+         ================================================= -->
+      <section class="container-fluid" id="bannersHome" style="display: none">
          <div class="row rowFlotante">
             <div class="col-10 col-sm-10 col-md-10 col-lg-4  offset-1 rowFlotanteAnidado">
                <!-- divFlotante1 -->
@@ -1185,7 +1357,6 @@
          </div>
       </section>
       <!-- fin segunda sección -->  <!-- fin segunda sección -->  <!-- fin segunda sección -->
-
       <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
       <section class="container" id="bannersHome-b" style="display: none">
          <div class="row rowFlotante3 ml-5">
@@ -1234,7 +1405,6 @@
                         <h6 class="subTitulosFlotantes1-a">como socio</h6>
                         <button class="btn btnGeneralFlotante-b btnImgFlotante3-b" id="">Ver más</button>
                      </div>
-                     
                   </div>
                </div>
             </div>
@@ -1254,26 +1424,25 @@
                   </div>
                </div>
             </div>
-            
          </div>
       </section>
       <!-- tercera sección -->  <!-- tercera sección -->  <!-- tercera sección -->
-
       <!--===============================================
          FIN PRODUCTOS FLOTANTES
          ================================================= -->
       <!--===============================================
          LOS MÁS VENDIDOS
          ================================================= -->
-      <section class="container contenedorMasVendido">
+      <!-- SECCION PARA ESCRITORIO -->  <!-- SECCION PARA ESCRITORIO -->
+      <section class="container contenedorMasVendido d-none d-sm-none d-md-block">
          <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
          <div class="row margenProductos">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
                      <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-3.jpg" alt="mas vendidos">
-                     <span class="badge badge-pill badge-news etiqueta">
+                     <span class="badge badge-pill badge-news etiquetaMV">
                         <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                      <a href="#!">
@@ -1286,7 +1455,7 @@
                   </div>
                   <div class="card-body  m-0 p-0">
                      <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                     <h6 class="mb-3 textoPrecioProducto">$38.99</h6>
                      <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
                   </div>
                </div>
@@ -1294,7 +1463,7 @@
             </div>
             <!-- Fin col-2 -->
             <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
@@ -1323,12 +1492,12 @@
             </div>
             <!-- Fin col-2 -->
             <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
                <div class="card eliminarSombra">
                   <div class="view zoom overlay">
                      <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-3.jpg" alt="mas vendidos">
-                     <span class="badge badge-pill badge-news etiqueta">
+                     <span class="badge badge-pill badge-news etiquetaMV">
                         <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                      <a href="#!">
@@ -1349,12 +1518,12 @@
             </div>
             <!-- Fin col-2 -->
             <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
-               <div class="card eliminarSombra">
+               <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
                   <div class="view zoom overlay">
                      <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-4.jpg" alt="mas vendidos">
-                     <span class="badge badge-pill badge-news etiqueta">
+                     <span class="badge badge-pill badge-news etiquetaMV">
                         <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                      <a href="#!">
@@ -1375,9 +1544,9 @@
             </div>
             <!-- Fin col-2 -->
             <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
-               <div class="card eliminarSombra">
+               <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
                   <div class="view zoom overlay">
                      <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-2.jpg" alt="mas vendidos">
                      <span class="badge badge-pill badge-news etiquetaOferta">
@@ -1404,12 +1573,12 @@
             </div>
             <!-- Fin col-2 -->
             <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                <!-- Card -->
-               <div class="card eliminarSombra">
+               <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
                   <div class="view zoom overlay">
                      <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-2.jpg" alt="mas vendidos">
-                     <span class="badge badge-pill badge-news etiqueta">
+                     <span class="badge badge-pill badge-news etiquetaMV">
                         <h6 class="textoEtiqueta">NUEVO</h6>
                      </span>
                      <a href="#!">
@@ -1432,7 +1601,132 @@
          </div>
          <!-- Fin row -->
       </section>
-      <!-- Fin container -->
+      <!-- SECCION PARA ESCRITORIO -->  <!-- SECCION PARA ESCRITORIO -->
+      <!-- SECCION PARA CELULARES ETC -->  <!-- SECCION PARA CELULARES ETC -->
+      <section class="container-fluid d-block d-sm-block d-md-none p-0">
+         <h1 class="textoTitulosSeccion">Los más vendidos</h1>
+         <div class="wrap">
+            <div class="glide carruselMV" id="carrucelMV">
+               <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaMV">
+                                 <h6 class="textoEtiqueta">NUEVO</h6>
+                              </span>
+                           </div>
+                           <div class="card-body  m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaOferta">
+                                 <h6 class="textoEtiqueta">OFERTA</h6>
+                              </span>
+                           </div>
+                           <div class="card-body m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">
+                                 <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                                 <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                              </h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaMV">
+                                 <h6 class="textoEtiqueta">NUEVO</h6>
+                              </span>
+                           </div>
+                           <div class="card-body  m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-4.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaMV">
+                                 <h6 class="textoEtiqueta">NUEVO</h6>
+                              </span>
+                           </div>
+                           <div class="card-body  m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaOferta">
+                                 <h6 class="textoEtiqueta">OFERTA</h6>
+                              </span>
+                           </div>
+                           <div class="card-body m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">
+                                 <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                                 <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                              </h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                     <li class="glide__slide">
+                        <!-- Card -->
+                        <div class="card eliminarSombra">
+                           <div class="view overlay">
+                              <img class="img-fluid imgMasV-a" src="img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                              <span class="badge badge-pill badge-news etiquetaMV">
+                                 <h6 class="textoEtiqueta">NUEVO</h6>
+                              </span>
+                           </div>
+                           <div class="card-body  m-0 p-0">
+                              <h6 class="textoNombreProducto">Nombre producto</h6>
+                              <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                              <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                           </div>
+                        </div>
+                        <!-- Card -->
+                     </li>
+                  </ul>
+               </div>
+               <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></button>
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- SECCION PARA CELULARES ETC -->  <!-- SECCION PARA CELULARES ETC -->
       <!--===============================================
          FIN LO MAS VENDIDO
          ================================================= -->
@@ -1450,7 +1744,7 @@
             </div>
          </div>
          <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
+         <div class="row ml-0 ml-sm-0 ml-md-1  mr-0 mr-sm-0 mr-md-1">
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
@@ -1460,35 +1754,35 @@
                         src="img/tenis/recomendado-1.jpg"
                         class="card-img-top imgRadius "
                         alt="..."/>
-                     <span class="badge badge-pill etiqueta
+                     <span class="badge badge-pill
                         etiquetaRecomendados">
-                        <h6 class="textoEtiqueta">NUEVO</h6>
+                        <h6 class="textoEtiquetaR">NUEVO</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Dama</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
                      <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto-a">
+                     <h6 class="mb-3 textoPrecioProducto-b">
                         <span><s>$36.99</s></span>
                         <span class="text-danger mr-1">$12.99</span>
                      </h6>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-auto  m-0 p-0 pr-md-1">
                            <button class="btn btn-md btnRecomendados colorSecundario">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta ">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
@@ -1509,32 +1803,32 @@
                         src="img/tenis/recomendado-2.jpg"
                         class="card-img-top imgRadius "
                         alt="..."/>
-                     <span class="badge  badge-pill etiqueta
+                     <span class="badge  badge-pill
                         etiquetaRecomendadosOferta">
-                        <h6 class="textoEtiqueta">OFERTA</h6>
+                        <h6 class="textoEtiquetaR">OFERTA</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Caballero</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
                      <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto-a"><span>$36.99</span></h6>
+                     <h6 class="mb-3 textoPrecioProducto-b"><span>$36.99</span></h6>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
-                           <button class="btn btn-md btnRecomendados colorSecundario ">Ver más</button>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-auto  m-0 p-0 pr-md-1">
+                           <button class="btn btn-md btnRecomendados colorSecundario">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta ">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
@@ -1549,41 +1843,41 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card">
+               <div class="card mt-5 mt-md-5 mt-lg-0">
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-3.jpg"
                         class="card-img-top imgRadius "
                         alt="..."/>
-                     <span class="badge  badge-pill etiqueta
+                     <span class="badge  badge-pill
                         etiquetaRecomendados">
-                        <h6 class="textoEtiqueta">NUEVO</h6>
+                        <h6 class="textoEtiquetaR">NUEVO</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Niña</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
                      <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto-a">
+                     <h6 class="mb-3 textoPrecioProducto-b">
                         <span><s>$36.99</s></span>
                         <span class="text-danger mr-1">$12.99</span>
                      </h6>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
-                           <button class="btn btn-md btnRecomendados colorSecundario ">Ver más</button>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-auto  m-0 p-0 pr-md-1">
+                           <button class="btn btn-md btnRecomendados colorSecundario">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta ">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
@@ -1598,39 +1892,39 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card">
+               <div class="card mt-5 mt-md-5 mt-lg-0">
                   <!-- comentario -->
                   <div data-aos="fade-down" class="efectosRecomendados">
                      <img
                         src="img/tenis/recomendado-4.jpg"
                         class="card-img-top imgRadius "
                         alt="..."/>
-                     <span class="badge  badge-pill etiqueta
+                     <span class="badge  badge-pill
                         etiquetaRecomendadosOferta">
-                        <h6 class="textoEtiqueta">OFERTA</h6>
+                        <h6 class="textoEtiquetaR">OFERTA</h6>
                      </span>
                   </div>
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1 verCategoria"><u>Niño</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2">Nombre producto</h6>
                      <h6 class="card-text mb-3 textoTarjeta3">Código: 243567</h6>
-                     <h6 class="mb-3 textoPrecioProducto-a"><span>$36.99</span></h6>
+                     <h6 class="mb-3 textoPrecioProducto-b"><span>$36.99</span></h6>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
-                        <div class="col-6 col-sm-6 col-md-auto col-lg-auto  m-0 p-0 pr-md-1">
-                           <button class="btn btn-md btnRecomendados colorSecundario ">Ver más</button>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-auto  m-0 p-0 pr-md-1">
+                           <button class="btn btn-md btnRecomendados colorSecundario">Ver más</button>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/search icon.svg" alt="ver" class="lupaTarjeta ">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto p-0 ml-0 mr-0 ml-sm-0 mr-sm-0 ml-md-1 mr-sm-2">
+                        <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
                            <img src="img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito" class="carritoTarjeta agregarACarrito">
                            </a>
@@ -1741,7 +2035,7 @@
       <section class="container-fluid p-0 m-0">
          <div class="row p-0 m-0 otrosServicios">
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4 borderbottomRight text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4 borderbottomRight text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1763,7 +2057,7 @@
             </div>
             <!-- fin col-4 servicios-->
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4 borderbottomRight text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4 borderbottomRight text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1785,7 +2079,7 @@
             </div>
             <!-- fin col-4 servicios-->
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4 borderbottom text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4 borderbottom text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1807,7 +2101,7 @@
             </div>
             <!-- fin col-4 servicios-->
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4 borderRight text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4 borderRight text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1829,7 +2123,7 @@
             </div>
             <!-- fin col-4 servicios-->
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4 borderRight text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4 borderRight text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1851,7 +2145,7 @@
             </div>
             <!-- fin col-4 servicios-->
             <!-- col-4 servicios-->
-            <div class="col-6 col-sm-6 col-md-6 col-lg-4  text-center p-0 m-0">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-4  text-center p-0 m-0">
                <!--  container y row anidado -->
                <div class="container-fluid" style="height:100%">
                   <div class="row" style="height:100%">
@@ -1994,7 +2288,7 @@
             </div>
          </div>
          <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
+         <div class="row ml-0 ml-sm-0 ml-md-1 mr-0 mr-sm-0 mr-md-1 ">
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-lg-5">
                <!-- card -->
@@ -2008,7 +2302,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title textoTarjetaCatalogos">Colección Dama</h6>
                      <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text mb-3"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
+                     <h6 class="card-text"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
                   </div>
                </div>
                <!-- fin card -->
@@ -2027,7 +2321,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title textoTarjetaCatalogos">Colección Caballero</h6>
                      <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text textoTarjetaCatalogos mb-3"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
+                     <h6 class="card-text"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
                   </div>
                </div>
                <!-- fin card -->
@@ -2036,7 +2330,7 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3  mt-5">
                <!-- card -->
-               <div class="card sombraTarjeta">
+               <div class="card sombraTarjeta mt-5 mt-sm-5 mt-md-5 mt-lg-0">
                   <div data-aos="flip-left" data-aos-duration="10000">
                      <img
                         src="img/catalogos/catalogo-5.jpg"
@@ -2046,7 +2340,7 @@
                   <div class="card-body pt-0">
                      <h3 class="card-title textoTarjetaCatalogos">Colección Niño</h3>
                      <h3 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h3>
-                     <h3 class="card-text textoTarjetaCatalogos mb-3"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h3>
+                     <h3 class="card-text"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h3>
                   </div>
                </div>
                <!-- fin card -->
@@ -2055,7 +2349,7 @@
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
-               <div class="card sombraTarjeta">
+               <div class="card sombraTarjeta mt-5 mt-sm-5 mt-md-5 mt-lg-0">
                   <div data-aos="flip-left" data-aos-duration="10000">
                      <img
                         src="img/catalogos/catalogo-6.jpg"
@@ -2065,7 +2359,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title textoTarjetaCatalogos">Colección Niña</h6>
                      <h6 class="card-title textoTarjetaCatalogos">Otoño-Invierno 2020</h6>
-                     <h6 class="card-text textoTarjetaCatalogos mb-3"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
+                     <h6 class="card-text"><a href="#" class="textoTarjetaCatalogosVer verCatalogo">Ver Catálogo</a></h6>
                   </div>
                </div>
                <!-- fin card -->
@@ -2082,9 +2376,9 @@
          WHATSAPP / CHAT
          ================================================= -->
       <div class="comunicacion text-right">
-         <a href="https://api.whatsapp.com/send?phone=525560416198&text=Hola%20te%20ayudaremos %para%20ello%inicia%20sesion%20cona%20whatsappa%20web%20Gracias." class="" target="_blank">
-         <!-- <i class="fa fa-whatsapp my-float"></i> -->
-         <img src="img/whatsAppIcon.png" class="img-fluid floatWhats" alt="">
+         <a href="https://api.whatsapp.com/send?phone=525560416198&text=Hola%20te%20ayudaremos %para%20ello%inicia%20sesion%20cona%20whatsappa%20web%20Gracias." target="_blank">
+            <!-- <i class="fa fa-whatsapp my-float"></i> -->
+            <img src="img/whatsAppIcon.png" class="img-fluid floatWhats" alt="">
          </a>
          <button class="open-button btnAbrirChat colorSecundario textoChatHover" onclick="openForm()"> <img src="img/chat.svg" alt="" class="img-fluid imgCaht"></button>
          <div class="chat-popup" id="miChat">
@@ -2178,7 +2472,7 @@
             </div>
          </div>
          <!-- Row -->
-         <div class="row ml-0 ml-sm-0 ml-md-1 ml-lg-5 mr-0 mr-sm-0 mr-md-1 mr-lg-5 ">
+         <div class="row ml-0 ml-sm-0 ml-md-1 mr-0 mr-sm-0 mr-md-1">
             <!-- col-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5">
                <!-- card -->
@@ -2192,7 +2486,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
+                     <h6 class="card-text mb-0 mb-sm-0 mb-md-3 textoTarjeta3-v">SKU: 243567</h6>
                      <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
@@ -2227,7 +2521,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
+                     <h6 class="card-text mb-0 mb-sm-0 mb-md-3 textoTarjeta3-v smt">SKU: 243567</h6>
                      <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
                      <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
                      <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
@@ -2261,7 +2555,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v">SKU: 243567</h6>
+                     <h6 class="card-text mb-0 mb-sm-0 mb-md-3 textoTarjeta3-v">SKU: 243567</h6>
                      <p class="textoTarjeta3-v">Precio Socio: <span class="textoPrecioProducto-v"> $36.99 MXN</span></p>
                      <!--row anidado -->
                      <div class="row mt-4 pl-3 align-items-end justify-content-start">
@@ -2296,7 +2590,7 @@
                   <div class="card-body pt-0">
                      <h6 class="card-title mb-1 textoTarjeta1-v"><u>Dama</u></h6>
                      <h6 class="card-title mb-1 textoTarjeta2-v">Nombre producto</h6>
-                     <h6 class="card-text mb-3 textoTarjeta3-v smt">SKU: 243567</h6>
+                     <h6 class="card-text mb-0 mb-sm-0 mb-md-3 textoTarjeta3-v smt">SKU: 243567</h6>
                      <p class="textoPrecioAntes m-0">Precio antes:<s>300 MX</s></p>
                      <p class="textoPrecioProducto-vP">Precio Público: <span class="textoPrecioProducto-vOferta"> $36.99 MXN</span></p>
                      <!-- <p class="textoPrecioAntes mb-0">Ahorra $200 MXN (75%)</p> -->
@@ -2387,75 +2681,93 @@
          ================================================= -->
       <footer class="container-fluid p-0 m-0">
          <div class="row p-0 m-0 footerImpuls">
-            <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
-               <a href="index.html"><img src="img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
-               <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://www.pinterest.com.mx/impulsmoda/" target="_blank"><img src="img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+            <div class="col-5 col-sm-5 col-md-3 col-lg-3 p-0 m-0 linea-1 imgFooter">
+               <div class="row">
+                  <div class="col-12">
+                     <a href="index.html"><img src="img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
+                  </div>
+                  <div class="col-12 d-none d-sm-none d-md-block">
+                     <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+                     <a href="https://www.pinterest.com.mx/impulsmoda/" target="_blank"><img src="img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                     <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                     <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                  </div>
+               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-               <a href="#!">
-                  <h4 class="textoFoooter pl-5">Tienda en línea</h4>
-               </a>
-               <a href="terminos-condiciones.html">
-                  <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
-               </a>
-               <a href="preguntas-frecuentes.html">
-                  <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
-               </a>
-               <a href="politica-de-devolucion.html">
-                  <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
-               </a>
-               <a href="como-comprar.html">
-                  <p class="textoFoooterSecundario pl-5">Como comprar</p>
-               </a>
-               <a href="aviso-de-privacidad.html">
-                  <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
-               </a>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group" >
+               <div class="panel-heading-2">
+                  <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseTiendalinea">Tienda en línea<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+               </div>
+               <div id="collapseTiendalinea" class="collapse">
+                  <a href="terminos-condiciones.html">
+                     <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
+                  </a>
+                  <a href="preguntas-frecuentes.html">
+                     <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
+                  </a>
+                  <a href="politica-de-devolucion.html">
+                     <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
+                  </a>
+                  <a href="como-comprar.html">
+                     <p class="textoFoooterSecundario pl-5">Como comprar</p>
+                  </a>
+                  <a href="aviso-de-privacidad.html">
+                     <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
+                  </a>
+               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
-               <a href="#!">
-                  <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
-               </a>
-               <a href="afiliate-a-impuls.html">
-                  <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
-               </a>
-               <a href="descuentos-beneficios.html">
-                  <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
-               </a>
-               <a href="mas-informacion.html">
-                  <p class="textoFoooterSecundario pl-5">Más información</p>
-               </a>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+               <div class="panel-heading-2">
+                  <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseIniciaNegocio">Inicia tu propio negocio<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+               </div>
+               <div id="collapseIniciaNegocio" class="collapse">
+                  <a href="afiliate-a-impuls.html">
+                     <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
+                  </a>
+                  <a href="descuentos-beneficios.html">
+                     <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
+                  </a>
+                  <a href="#!">
+                     <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
+                  </a>
+                  <a href="#!">
+                     <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
+                  </a>
+                  <a href="#!">
+                     <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
+                  </a>
+                  <a href="mas-informacion.html">
+                     <p class="textoFoooterSecundario pl-5">Más información</p>
+                  </a>
+               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-               <a href="#!">
-                  <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
-               </a>
-               <a href="historia.html">
-                  <p class="textoFoooterSecundario pl-5">Historia</p>
-               </a>
-               <a href="mision-vision.html">
-                  <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
-               </a>
-               <a href="pages/contactanos/contactanos.html">
-                  <p class="textoFoooterSecundario pl-5">Contáctanos</p>
-               </a>
-               <a href="pages/sucursales/sucursales.html">
-                  <p class="textoFoooterSecundario pl-5">Sucursales</p>
-               </a>
-               <a href="compra-segura.html">
-                  <p class="textoFoooterSecundario pl-5">Compra segura</p>
-               </a>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+               <div class="panel-heading-2">
+                  <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseAcercaNosostros">Acerca de Nosotros<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+               </div>
+               <div id="collapseAcercaNosostros" class="collapse">
+                  <a href="historia.html">
+                     <p class="textoFoooterSecundario pl-5">Historia</p>
+                  </a>
+                  <a href="mision-vision.html">
+                     <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
+                  </a>
+                  <a href="pages/contactanos/contactanos.html">
+                     <p class="textoFoooterSecundario pl-5">Contáctanos</p>
+                  </a>
+                  <a href="pages/sucursales/sucursales.html">
+                     <p class="textoFoooterSecundario pl-5">Sucursales</p>
+                  </a>
+                  <a href="compra-segura.html">
+                     <p class="textoFoooterSecundario pl-5">Compra segura</p>
+                  </a>
+               </div>
+            </div>
+            <div class="col-12 d-block d-sm-block d-md-none">
+               <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+               <a href="https://www.pinterest.com.mx/impulsmoda/" target="_blank"><img src="img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4"></a>
+               <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4"></a>
+               <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4"></a>
             </div>
             <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
          </div>
@@ -2545,7 +2857,6 @@
       <!--===============================================
          FIN UNETE A LA FAMILIA IMPULS
          ================================================= -->
-
       <!--===============================================
          MODAL TERMINOS Y CONDICIONES
          ================================================= -->
@@ -2974,7 +3285,6 @@
             </div>
          </div>
       </div>
-
       <!--===============================================
          FIN MODAL OFERTA RELAMPAGO
          ================================================= -->
@@ -3001,40 +3311,7 @@
       <script type="text/javascript" src="js/tolk-index/carruselMarcas.js"></script>
       <script type="text/javascript" src="js/tolk-index/home.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
-      <script>
-         function openForm() {
-           document.getElementById("miChat").style.display = "block";
-           $(".floatWhats").css("right", "240px")
-         }
-         
-         function closeForm() {
-           document.getElementById("miChat").style.display = "none";
-           $(".floatWhats").css("right", "20px")
-         }
-      </script>
-
-<script>
-   function openNav() {
-     document.getElementById("menuSmall").style.width = "100%";
-
-   }
-   
-   function closeNav() {
-     document.getElementById("menuSmall").style.width = "0";
-   }
-
-   function toggleIcon(e) {
-    $(e.target)
-        .prev('.panel-heading')
-        .find(".more-less-menu")
-        .toggleClass('fa-angle-up');
-}
-
-         $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-         $('.panel-group').on('shown.bs.collapse', toggleIcon);
-
-       
-   </script>
+      <script></script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

@@ -1,6 +1,7 @@
 body {
   font-family: Poppins;
   font-weight: 300;
+  /* max-width: 1500px!important; */
 }
 
 .colorPrimario{
@@ -30,8 +31,8 @@ body {
 
     
 .etiqueta{
-    width: 74px!important;
-    height: 30px!important;
+  width: 42%!important;
+  height: 15%!important;
     background-color: #bababa!important;
     border-radius: 5px!important;
     -webkit-border-radius: 5px!important;
@@ -39,6 +40,20 @@ body {
     -ms-border-radius: 5px!important;
     -o-border-radius: 5px!important;
 }
+
+.textoEtiqueta{
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.01px;
+  text-align: center;
+  color: #ffffff!important;
+  margin-top: 4px!important;
+}
+
 
 /*=====================================
 ============= TIPOGRAFIA ==============
@@ -401,19 +416,49 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-    /*WhatsApp y Chat*/
-    .comunicacion{
-      right: 2%;
-      }
+  .etiqueta {
+    width: 30%!important;
+    height: 8%!important;
+}
+
+
         
 }
 
-/*=============================================
-MOVIL PEQUEÑOS (XS revisamos en 320px)
-=============================================*/
-/*WhatsApp y Chat*/
-@media (min-width: 576px) { 
-  
 
- }
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+      /*WhatsApp y Chat*/
+      .comunicacion{
+        right: 2%;
+        }
+  
+        .textoTitulosSeccion{
+          font-family: PoppinsExtramBold;
+          font-size: 24px;
+    
+      }
+  
+      .etiqueta {
+        width: 36%!important;
+        height: 13%!important;
+    }
+  
+      .textoEtiqueta{
+        font-family: Poppins;
+        font-size:10px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: 0.01px;
+        text-align: center;
+        color: #ffffff!important;
+        margin-top: 4px!important;
+    }
+}
+
 
