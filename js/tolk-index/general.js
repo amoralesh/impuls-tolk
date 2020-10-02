@@ -14,7 +14,11 @@ $(document).ready(function(){
 
   //  $('#modalOfertaRelampago').modal('toggle');
   $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
+<<<<<<< HEAD
   // $('body').css("overflow", "hidden");
+=======
+ // $('body').css("overflow", "hidden");
+>>>>>>> 4cf17c271683bcec7b10b9bcee38516d5a12f185
 
   $('#CerrarModalUnete').click(function(){
     $('body').css("overflow", "auto");
