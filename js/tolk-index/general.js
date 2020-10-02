@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   //  $('#modalOfertaRelampago').modal('toggle');
   $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
-  $('body').css("overflow", "hidden");
+ // $('body').css("overflow", "hidden");
 
   $('#CerrarModalUnete').click(function(){
     $('body').css("overflow", "auto");
