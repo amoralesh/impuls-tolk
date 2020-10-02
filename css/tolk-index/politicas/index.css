@@ -34,6 +34,22 @@ li a{
     text-align: center;
     color: #ffffff;
 }
+.btn_rastreo{
+    text-transform: none!important;
+    border-radius: 8px !important;
+    background-color: #7588b1 !important;
+    font-family: Poppins;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 16px !important;
+    border: none;
+}
 .cont{
     margin-bottom: 150px!important;
 }
@@ -120,6 +136,10 @@ li a{
     list-style: decimal;
 }
 .input_datos {
+    border-radius: 10px;
+    border: solid 1px #000000;
+}
+.input_rastreo{
     border-radius: 10px;
     border: solid 1px #000000;
 }
