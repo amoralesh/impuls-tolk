@@ -71,6 +71,13 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
+  button.glide__arrow--right {
+    display: none;
+} 
+
+button.glide__arrow--left {
+  display: none;
+}
 
 }
 
@@ -79,7 +86,13 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+  button.glide__arrow--right {
+    display: none;
+} 
 
+button.glide__arrow--left {
+  display: none;
+}
 
 }
 
@@ -88,6 +101,7 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+
   button.glide__arrow--right {
     display: none;
 } 
@@ -95,7 +109,21 @@ MOVIL (XS revisamos en 320px)
 button.glide__arrow--left {
   display: none;
 }
-	
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+  button.glide__arrow--right {
+    display: none;
+} 
+
+button.glide__arrow--left {
+  display: none;
+}
 }
 
 

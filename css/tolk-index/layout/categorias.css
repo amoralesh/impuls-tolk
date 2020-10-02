@@ -70,10 +70,9 @@
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
-
 @media (min-width:1200px){
 
-
+ 
 }
 
 /*=============================================
@@ -81,6 +80,18 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
+    .logoInicial {
+        margin-left: 1.5%!important;
+    }
+    .categoriasNavbar {
+        max-width: 55%!important;
+    }
+
+    .textoTitulosCategorias {
+        font-size: 13.5px;
+    }
+
+
 
 }
 
@@ -90,6 +101,50 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
+    .contenedorCategorias {
+        height: auto;
+    }
+    
+    .logoInicial {
+        margin-left: 3%!important;
+    }
+
+    .iconos {
+        position: relative;
+        top: 0px;
+        text-align: right;
+    }
+
+    .verMisFavoritos {
+        position: relative;
+        width: 27px;
+        height: 50px;
+        top: 0px;
+        padding-right: 5px;
+    }
+    
+    .verCarritoCompras {
+        position: relative;
+        width: 27px;
+        height: 50px;
+        top: 0px;
+        padding-right: 5px;
+    }
+    
+    .cantidadCarrito{
+        position: relative;
+        width: 28px;
+        height: 22px;
+        top: 0px;
+    }
+
+    .buscarInput{
+        width: 28px;
+        height: 56px;
+        position: relative;
+        top: 0px;
+        padding-right: 5px;
+    }
 
 
 }
@@ -101,7 +156,7 @@ MOVIL (XS revisamos en 320px)
 @media (max-width:767px){
 
     .contenedorCategorias {
-        height: 60px;
+        height: auto;
     }
     
     .logoInicial {
@@ -110,26 +165,39 @@ MOVIL (XS revisamos en 320px)
 
     .iconos {
         position: relative;
-        top: -20px;
-        left: 20%;
+        top: 0px;
+        text-align: right;
     }
 
-
-    .corazon {
-        left: 80px;
-        width: 20px;
-        height: 18px;
-    }
-
-    .carrito {
-        left: 84px;
-        width: 24px;
-        height: 20px;
-    }
-
-    .carritoCantidad{
+    .verMisFavoritos {
         position: relative;
-        top: 20px;
+        width: 27px;
+        height: 50px;
+        top: 0px;
+        padding-right: 5px;
+    }
+    
+    .verCarritoCompras {
+        position: relative;
+        width: 27px;
+        height: 50px;
+        top: 0px;
+        padding-right: 5px;
+    }
+    
+    .cantidadCarrito{
+        position: relative;
+        width: 28px;
+        height: 22px;
+        top: 0px;
+    }
+
+    .buscarInput{
+        width: 28px;
+        height: 56px;
+        position: relative;
+        top: 0px;
+        padding-right: 5px;
     }
 
 

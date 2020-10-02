@@ -77,7 +77,49 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-    
+    .pagosCertificados{
+        position: relative;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .imgPagos{
+        border-right:none;
+        border-bottom: 2px solid #ABA8A8; 
+  
+    }
+
+    #formasPagos{
+        position: relative;
+        padding-bottom: 15px;
+        left: 15px!important;
+        height: 147px;
+    }
+
+
+
+    .textoPagos{
+        font-family: PoppinsBold;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        padding-top: 20px!important;
+        text-align: center;
+    }
+
+    .textoCertificado2{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: -0.5px;
+        color: #000000;
+    }
 }
 
 /*=============================================
@@ -85,6 +127,55 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+    .pagosCertificados{
+        position: relative;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .imgPagos{
+        border-right:none;
+        border-bottom: 2px solid #ABA8A8; 
+  
+    }
+
+    #formasPagos{
+        position: relative;
+        padding-bottom: 15px;
+        left: 7px!important;
+        height: 125px;
+    }
+
+    .textoPagos{
+        font-family: PoppinsBold;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        padding-top: 20px!important;
+        text-align: center;
+    }
+
+    .textoCertificado2{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: -0.5px;
+        color: #000000;
+    }
+   
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
 
     .pagosCertificados{
         position: relative;
@@ -101,6 +192,7 @@ MOVIL (XS revisamos en 320px)
         position: relative;
         left: 0px;
         padding-bottom: 15px;
+        height: 82px;
     }
 
     .textoPagos{
@@ -128,6 +220,21 @@ MOVIL (XS revisamos en 320px)
     }
 
 
+}
 
- 
+@media (max-width: 350px) {
+    #formasPagos {
+        position: relative;
+        left: 7px;
+        height: 75px;
+    }
+
+    .textoCertificado2 {
+        font-size: 11px;
+    }
+
+    .textoCertificado {
+        font-size: 16px;
+    }
+
 }

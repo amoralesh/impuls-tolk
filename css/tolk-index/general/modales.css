@@ -470,7 +470,9 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 @media (max-width:991px) and (min-width:768px){
 
     
-  
+    .modal-dialog.cascading-modal {
+        margin-top: 12%;
+    }
 
     
 }
@@ -481,6 +483,53 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
+      
+    .modal-dialog.cascading-modal {
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    .textCabeceraModales {
+        font-size: 25px!important;
+    }
+
+    .textoSubCabeceraModal {
+        font-size: 17px!important;
+    }
+
+    .textoNotas {
+        font-size: 16px!important;
+    }
+
+    .modal-dialog {
+        margin: 1.5rem;
+    }
+
+    .preguntasLogin {
+        font-size: 12px;
+    }
+
+    .btnModales {
+        width: 100px;
+        height: 31px;
+        font-size: 14px;
+        border-radius: 4px!important;
+        -webkit-border-radius: 4px!important;
+        -moz-border-radius: 4px!important;
+        -ms-border-radius: 4px!important;
+        -o-border-radius: 4px!important;
+}
+
+.textoNotas-a {
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.estiloInput {
+    height: 31px!important;
+    border: 1px solid black!important;
+}
         
 }
 
@@ -488,7 +537,87 @@ MOVIL (XS revisamos en 320px)
 MOVIL PEQUEÑOS (XS revisamos en 320px)
 =============================================*/
 /*WhatsApp y Chat*/
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
   
+    .modal-dialog.cascading-modal {
+        margin-top: 38%;
+    }
+
+    .textCabeceraModales {
+        font-size: 16px!important;
+    }
+
+    .textoSubCabeceraModal {
+        font-size: 10px!important;
+    }
+
+    .textoNotas {
+        font-size: 14px!important;
+    }
+
+    .modal-dialog {
+        margin: 1.5rem;
+    }
+
+    .preguntasLogin {
+        font-size: 10px;
+    }
+
+    .btnModales {
+        width: 100px;
+        height: 31px;
+        font-size: 14px;
+        border-radius: 4px!important;
+        -webkit-border-radius: 4px!important;
+        -moz-border-radius: 4px!important;
+        -ms-border-radius: 4px!important;
+        -o-border-radius: 4px!important;
+}
+
+.textoNotas-a {
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.estiloInput {
+    height: 31px!important;
+    border: 1px solid black!important;
+}
+
+
+
+
+.textCabeceraUnete {
+    font-size: 14px!important;
+}
+
+.closeRelampago i {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.textoUnete2 {
+    font-size: 15px!important;
+}
+
+.textoUnete3 {
+    font-size: 11px!important;
+}
+
+.textoUnete-a {
+    font-size: 12px!important;
+}
+
+.estilosInputUnete {
+    height: 30px!important;
+}
+
+.estilosInputUnete2 {
+    border: 1px solid black!important;
+    height: 30px;
+}
+
 
  }

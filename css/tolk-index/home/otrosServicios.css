@@ -91,7 +91,10 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
-
+    .otrosServicios {
+        height: 880px;
+        padding: 55px 55px 55px 55px!important;
+    }
 }
 
 /*=============================================
@@ -100,7 +103,43 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
+    .otrosServicios {
+        height: 972px;
+        padding: 55px 5px 99px 5px!important;
+        margin-top: 120px!important;
+        margin-bottom: 77px!important;
+    }
+    .borderbottomRight{
+        border-bottom:0px   solid rgb(255, 255, 255,0.5); 
+        border-right: 0px solid rgb(255, 255, 255,0.5); 
+    }
+    
+    .borderbottom{
+        border-bottom:0px solid rgb(255, 255, 255,0.5);
+    
+    }
+    .borderRight{
+        border-right: 0px solid rgb(255, 255, 255,0.5);
+    
+    }
 
+    .btnOtrosServicios{
+        border-radius: 10px;
+        background-color: #ffffff!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+        padding: 9px!important;
+        margin-top: 0px!important;
+    }
+
+    .ver-mas {
+        width: 81px;
+        height: 17px;
+        font-size: 16px;
+        color: black;
+      }
 }
 
 /*=============================================
@@ -108,12 +147,61 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+
+    .otrosServicios {
+        height: 1110px;
+        padding: 55px 10px 99px 10px!important;
+        margin-top: 120px!important;
+        margin-bottom: 77px!important;
+    }
+
+    .borderbottomRight{
+        border-bottom:0px   solid rgb(255, 255, 255,0.5); 
+        border-right: 0px solid rgb(255, 255, 255,0.5); 
+    }
+    
+    .borderbottom{
+        border-bottom:0px solid rgb(255, 255, 255,0.5);
+    
+    }
+    .borderRight{
+        border-right: 0px solid rgb(255, 255, 255,0.5);
+    
+    }
+
+    .btnOtrosServicios{
+        border-radius: 10px;
+        background-color: #ffffff!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+        padding: 9px!important;
+        margin-top: 0px!important;
+    }
+
+    .ver-mas {
+        width: 81px;
+        height: 17px;
+        font-size: 16px;
+        color: black;
+      }
+
+      .otrosServicios>.col-6{
+        padding-top: 46px!important;
+    }
   
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
     .otrosServicios {
         position: relative;
-        height: 950px;
-        background-image: none;
-        background-color: #7588b1!important;
+        height: 1035px;
         padding: 10px 10px 10px 10px!important;
         margin-top: 50px!important;
         margin-bottom: 17px!important;
@@ -130,7 +218,7 @@ MOVIL (XS revisamos en 320px)
         line-height: 1.25;
         letter-spacing: normal;
         padding: 0px 10px;
-    }
+    } 
     
     .beneficiosTexto:first-of-type(1){
         padding: 0px 65px!important;
@@ -163,7 +251,7 @@ MOVIL (XS revisamos en 320px)
     }
 
     .otrosServicios>.col-6{
-        margin-top: 20px!important;
+        padding-top: 20px!important;
     }
 
     .btnOtrosServicios{
@@ -193,4 +281,28 @@ MOVIL (XS revisamos en 320px)
         margin-bottom: 0;
       }
      
+}
+@media (max-width: 350px) { 
+    .otrosServicios {
+        height: 1080px;
+    }
+
+    .beneficiosTexto {
+        font-size: 12px;
+    }
+
+    .beneficiosTextoSecundario {
+        font-size: 10px;
+    }
+
+    .btnOtrosServicios{
+        border-radius: 5px!important;
+        background-color: #ffffff!important;
+        -webkit-border-radius: 5px!important;
+        -moz-border-radius: 5px!important;
+        -ms-border-radius: 5px!important;
+        -o-border-radius: 5px!important;
+        width: 100px;
+        height: 27px;
+}
 }

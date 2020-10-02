@@ -80,7 +80,11 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-
+   .videoImpuls {
+      height: 590px;
+      padding: 60px 1px 60px 40px!important;
+      margin-top: 139px!important;
+  }
 
 
 }
@@ -90,7 +94,25 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+   .videoImpuls {
+      height: 819px;
+      padding: 34px 50px 190px 50px!important;
+      margin-top: 139px!important;
+  }
 
+  .tituloVideoImpuls {
+   padding: 50px 0px 0px 0px!important;
+}
+
+  .tituloVideoImpuls2 {
+   padding: 0px 0px 0px 0px;
+}
+
+.btnVideoImpuls {
+   width: 200px!important;
+   height: 60px!important;
+   margin: 45px 25px 0px 0px!important;
+}
     
 }
 
@@ -132,6 +154,21 @@ MOVIL (XS revisamos en 320px)
      color: #ffffff;
      padding: 0px 0px 0px 0px;
   }
+
+  .btnVideoImpuls {
+   width: 174px!important;
+   height: 58px!important;
+   border-radius: 10px!important;
+   background-color: #ffffff;
+   text-transform: none;
+   -webkit-border-radius: 10px!important;
+   -moz-border-radius: 10px!important;
+   -ms-border-radius: 10px!important;
+   -o-border-radius: 10px!important;
+   margin: 50px 0px 0px 0px!important
+}
+
+
  
 }
 

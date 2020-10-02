@@ -67,8 +67,8 @@ height: 187px;
 }
 
 .etiquetaOferta{
-    width: 74px!important;
-    height: 30px!important;
+    width: 42%!important;
+    height: 15%!important;
     background-color: #f75454!important;
     left: 65px!important;
     border-radius: 5px!important;
@@ -77,19 +77,18 @@ height: 187px;
     -ms-border-radius: 5px!important;
     -o-border-radius: 5px!important;
   }
+
+  .etiquetaMV {
+    width: 42%!important;
+    height: 15%!important;
+    background-color: #bababa!important;
+    border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -ms-border-radius: 5px!important;
+    -o-border-radius: 5px!important;
+}
   
-      .textoEtiqueta{
-          font-family: Poppins;
-          font-size: 13px;
-          font-weight: 600;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.23;
-          letter-spacing: 0.01px;
-          text-align: center;
-          color: #ffffff!important;
-          margin-top: 4px!important;
-      }
 
 
 
@@ -119,7 +118,15 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-
+  .etiquetaOferta {
+    width: 48%!important;
+    height: 15%!important;
+  }
+  
+  .etiquetaMV {
+    width: 48%!important;
+    height: 15%!important;
+  }
 
 }
 
@@ -128,6 +135,28 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+
+  .zoom .img-fluid {
+    height: 230px;
+}
+
+.etiquetaOferta {
+  width: 30%!important;
+  height: 13%!important;
+}
+
+.etiquetaMV {
+width: 30%!important;
+height: 13%!important;
+}
+
+.btnMasVendido {
+  width: 95%;
+  height: 37px;
+  font-size: 16px!important;
+
+}
+
 
 
     
@@ -139,29 +168,113 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-    .tituloMasVendido{
-        font-family: PoppinsExtramBold;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: #000000;
-    }
+  .textoNombreProducto {
+    font-size: 25px;
+}
 
-    .textoPrecioProducto{
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.33;
-        letter-spacing: normal;
-        color: #000000;
-      }  
+.textoPrecioProducto-a {
+  font-size: 23px;
+}
 
-      
+.textoPrecioProducto {
+  font-size: 26px;
+}
+
+  .etiquetaOferta {
+    width: 30%!important;
+    height: 8%!important;
+    left: 190px!important;
+}
+
+.etiquetaMV {
+  width: 30%!important;
+  height: 8%!important;
+}
+
+
+
+
+
+.glide__slides {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  touch-action: pan-Y;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  will-change: transform;
+  left: 82px;
+}
+
+.carruselMV .glide__slide {
+  position: relative;
+  border: none;
+}
+
+.btnMasVendido {
+  width: 93%;
+  height: 41px;
+  font-size: 14px!important;
+}
+
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+  
+  .textoPrecioProducto{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }  
+
+  .etiquetaOferta{
+    width: 35%!important;
+    height: 11%!important;
+    left: 65px!important;
+  }
+
+  .etiquetaMV {
+    width: 35%!important;
+    height: 11%!important;
+  }
+  
+
+  .carruselMV .glide__slide {
+    position: relative;
+    border: none;
+  }
+
+  .glide__slides {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    touch-action: pan-Y;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    will-change: transform;
+    left: 82px;
+}
+
+  
 }
 

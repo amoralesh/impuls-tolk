@@ -1,7 +1,7 @@
 .bannerPrincipal {
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 610px;
 }
 
 
@@ -30,7 +30,7 @@
 }
 .textoBannerHome-2{
     position: absolute;
-    padding: 11% 5% 5% 9%;
+    padding: 9% 5% 5% 9%;
     top: 0px;
     left: 0; 
     right: 0;
@@ -47,7 +47,7 @@
 
 .textoBannerHome-3{
     position: absolute;
-    padding: 17% 5% 5% 9%;
+    padding: 15% 5% 5% 9%;
     top: 0px;
     left: 0; 
     right: 0;
@@ -63,12 +63,11 @@
 
 .bannerPrincipal .btn{
     position: absolute;
-    top: 315px;
-    left: 110px; 
+    top: 50%;
+    left: 9%;
     right: 110px;
-
-    width: 191px;
-    height: 51px;
+    width: 20%;
+    height: 7%;
     font-family: PoppinsBold;
     font-size: 17px;
     font-weight: bold;
@@ -106,6 +105,8 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 
 @media (min-width:1200px){
 
+    
+
 }
 
 /*=============================================
@@ -114,6 +115,17 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
+    .bannerPrincipal {
+        height: 435px;
+    }
+
+    .bannerPrincipal .btn {
+        position: absolute;
+        top: 65%;
+        width: 26%;
+        height: 15%;
+        font-size: 22px;
+    }
 }
 
 /*=============================================
@@ -121,7 +133,25 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+    .bannerPrincipal {
+        height: 409px;
+    }
 
+
+    .textoBannerHome-1 {
+        font-size: 25px;
+    }
+
+    .textoBannerHome-2,.textoBannerHome-3{
+        font-size: 52px;
+    }
+
+    .bannerPrincipal .btn {
+        top: 59%;
+        width: 26%;
+        height: 13%;
+    
+    }
 
 }
 
@@ -131,70 +161,118 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
+    .bannerPrincipal {
+        height: 395px;
+    }
+
+    .textoBannerHome-1 {
+        font-size: 20px;
+    }
+
+    .textoBannerHome-2,.textoBannerHome-3{
+        font-size: 40px;
+    }
+
+    .bannerPrincipal .btn {
+
+        height: 11%;
+        width: 24%;
+    
+    }
+
+	
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+    
     .carrucelPrincipal,.bannerPrincipal {
         position: relative;
         width: 100%;
         height: 180px;
     }
-
-    .textoBannerHome-1{
-        font-family: Poppins;
-        font-size: 24px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1;
-        letter-spacing: normal;
-        color: #ffffff;
+    .textoBannerHome-1 {
+        font-size: 13px;
     }
 
-.textoBannerHome-2{
-    font-family: PoppinsSemiBold;
-    font-size: 42px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.07;
-    letter-spacing: normal;
-    margin-top:4px!important;
-}
+    .textoBannerHome-2,.textoBannerHome-3{
+        font-size: 26px;
+    }
 
-.textoBannerHome-3{
-    padding: 21% 5% 5% 9%;
-    font-family: PoppinsSemiBold;
-    font-size: 42px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.07;
-    letter-spacing: normal;
-}
 
-    
 .bannerPrincipal .btn {
     position: absolute;
-    top: 127px;
-    left: 20px;
-    right: 110px;
-    width: 191px;
-    height: 51px;
-    font-family: PoppinsBold;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    color: #ffffff!important;
-    border-radius: 10px!important;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
-    text-transform: none;
+    top: 63%;
+    left: 32px;
+    width: 134px;
+    height: 33px;
+    font-size: 13px;
+    border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -ms-border-radius: 5px!important;
+    -o-border-radius: 5px!important;
 }
- 
+
+}
+
+@media (max-width: 350px) {
+    .bannerPrincipal .btn {
+        position: absolute;
+        top: 54%;
+        width: 125px;
+        height: 27px;
+        font-size: 11px;
+    }
+    .textoBannerHome-2, .textoBannerHome-3 {
+        font-size: 22px;
+    }
+
+    .textoBannerHome-3 {
+        line-height: 1.5;
+    }
+
+    .recomendados {
+        height: 931px;
+    }
+
+    .imgRadius {
+        position: relative;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        height: 97px!important;
+        top: -30px;
+        align-self: center;
+        left: 5%;
+        border-radius: 15px!important;
+        -webkit-border-radius: 15px!important;
+        -moz-border-radius: 15px!important;
+        -ms-border-radius: 15px!important;
+        -o-border-radius: 15px!important;
+}
+
+.textoTarjeta1 {
+    font-size: 11px;
+}
+.textoTarjeta2 {
+    font-size: 11px;
+}
+
+.textoTarjeta3 {
+    font-size: 9px!important;
+}
+
+.textoPrecioProducto-b {
+    font-size: 11px;
+    margin-bottom: 0rem!important;
+}
+ }
+
+
+
      
     
-	
-}

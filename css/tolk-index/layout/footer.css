@@ -32,6 +32,12 @@
     border-bottom: 0.5px solid #ffff;
 }
 
+.linea-1{
+    margin-bottom: -25px!important;
+    border-bottom: 0.5px solid #ffff;
+}
+
+
 .impulsBlanco{
     margin: 0px 80px 58px 0px;
 }
@@ -73,7 +79,7 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
 @media (min-width:1200px){
-
+ 
 }
 
 /*=============================================
@@ -82,7 +88,11 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-
+    .footerImpuls {
+        height: 440px!important;
+        background-color: black;
+        padding: 126px 55px 0px 55px!important;
+    }
 
 
 }
@@ -92,7 +102,10 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
-
+    .footerImpuls {
+        height: 438px!important;
+        padding: 59px 15px 25px 15px!important;
+    }
     
 }
 
@@ -107,10 +120,38 @@ MOVIL (XS revisamos en 320px)
     }
 
     .footerImpuls{
-        height: 514px!important;
+        height:auto!important;
         background-color: black;
         padding: 10px  10px 10px 10px!important;
     }
+
+.linea{
+    margin-bottom: 24px!important;
+    border-bottom: 0.5px solid #ffff;
+}
+
+.linea-1{
+    margin-bottom: 0px!important;
+    border-bottom: none;
+}
+
+.more-less-footer {
+    float: right;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.more-less-submenu {
+    float: right;
+    color: #000000;
+    font-size: 15px;
+}
+
+.linea p{
+
+    line-height: 230%;
+
+  }
 
 
  

@@ -165,7 +165,18 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
+  .visto {
+    height: 610px;
+}
+.tarjetaRecientemente {
+  min-width: 220px!important;
+}
 
+.btnVRecientemente {
+  width: 122px;
+  height: 35px;
+  font-size: 15px!important;
+}
 }
 
 /*=============================================
@@ -174,7 +185,9 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-
+  .visto {
+    height: 1007px;
+}
     
 }
 
@@ -183,37 +196,146 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+  .visto {
+    height: 1007px;
+}
+  
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
 
   .tarjetaRecientemente {
     min-width: 100%!important;
 }
 
-    .textoVistosRecientemente{
-        font-family: PoppinsExtramBold;
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: #000000;
-        margin-top: 60px;
-        margin-bottom: 5px;
-     
-    }
+
 
     .imgVistos{
 		width: 100px!important;
 		height: 100px!important;
     }
+
+
     
     /*Fodo Recomendados*/
     .visto {
-      height: 890px!important;
-      background-color: #efefef;
+      height: 735px!important;
       margin-bottom: 30%!important;
   }
+.textoTarjeta1-v{
+  font-size: 14px;
+}
+
+.textoTarjeta2-v{
+  font-size: 13px;
+}
+
+.textoTarjeta3-v{
+  font-size: 10px!important;
+}
+
+.textoPrecioProducto-v{
+  font-family: PoppinsSemiBold;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
 
 }
 
+.textoPrecioProducto-vOferta{
+  font-family: PoppinsSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f75454;
+}
+.textoPrecioAntes{
+  font-family: Poppins;
+  font-size: 10px;
+}
+
+.textoPrecioProducto-vP{
+  font-size: 12px!important;
+}
+
+.btnVRecientemente {
+  width: 74px;
+  height: 25px;
+  font-size: 13px;
+
+  text-transform: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.etiquetaOfertaRecientemente {
+  left: 49%!important;
+  top: 12%!important;
+  width: 53px;
+  height: 20px;
+  background-color: #f75454;
+}
+
+.textoEtiquetaRecientemente{
+  font-family: PoppinsSemiBold;
+  font-size: 10px; 
+}
+
+.favoritoRecientemente {
+  position: relative;
+  bottom: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+
+}
+
+
+@media (max-width: 350px) {
+	.visto {
+		height: 880px!important;
+  }
+  
+  .textoPrecioProducto-v {
+    font-size: 12px;
+}
+.textoTarjeta1-v {
+  font-size: 11px;
+}
+.textoTarjeta2-v {
+  font-size: 12px;
+}
+
+.btnVRecientemente {
+  width: 60px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.favoritoRecientemente {
+  width: 18px;
+  height: 18px;
+}
+
+.textoPrecioProducto-vP {
+  font-size: 10px!important;
+}
+
+.textoPrecioProducto-vOferta {
+  font-size: 12px;
+}
+ }
