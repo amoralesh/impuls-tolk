@@ -246,4 +246,124 @@ font-size: 12px!important;
     }
 
 
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .califiacionesPreguntas {
+        font-size: 10px;
+    }
+
+    .nombreProductoDetalle{
+        font-size: 20px;
+    }
+
+    .nombreProductoDetalle {
+        font-size: 16px;
+    }
+
+    .sku {
+        font-size: 12px;
+    }
+
+    .textosPrecios {
+        font-size: 12px;
+    }
+
+    .precioSocio {
+        font-size: 18px;
+    }
+
+    .cantidadProducto {
+        font-size: 12px;
+        margin: 0px 10px 0px 3px;
+    }
+
+    .skin-light .number-input.number-input button {
+        width: 1rem;
+        height: .7rem;
+    }
+
+    .skin-light .number-input.number-input {
+        width: 191px!important;
+        border-radius: 8px;
+        border: solid 0.8px #000000;
+        margin-right: -13px;
+    }
+
+    .disponibilidad {
+        width: 9.6rem!important;
+    }
+
+    .rating li i {
+        font-size: 12px!important;
+    }
+
+    .textoDisponibilidad {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        padding: 0px 8px;
+        margin: 7px 0px!important;
+        cursor: pointer;
+    }
+
+    .btnFavoritoDetalle {
+        margin-left: 50px!important;
+    }
+    #imgCompraProtegida{
+        margin-left: 50px!important;
+    }
+
+    .compartir {
+        font-size: 31px!important;
+    }
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+  
+}
+
+/*=============================================
+MOVIL PEQUEÑOS (XS revisamos en 320px)
+=============================================*/
+/*WhatsApp y Chat*/
+@media (max-width: 576px) { 
+
+
+ }
+
+
+
+
+
 

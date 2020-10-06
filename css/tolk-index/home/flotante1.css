@@ -1,0 +1,392 @@
+.contenedorB1{
+    position: relative;
+    height: 400px;
+    }
+.rowPrincipalF{
+    position: absolute;
+    top: -225px;
+}
+
+.titulosFlotantes{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.13px;
+    color: #ffffff;
+}
+
+.subTitulosFlotantes1{
+    font-family: PoppinsSemiBold;
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.subTitulosFlotantes2{
+    font-family: PoppinsExtramBold;
+    font-size: 75px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.53;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.subTitulosFlotantes3{
+    font-family: PoppinsSemiBold;
+    font-size: 29px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.btnGeneralFlotante{
+    position: relative;
+    width: 166px;
+    height: 52px;
+    text-transform: none;
+    font-family: PoppinsBold;
+    font-size: 17px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #ffffff!important;
+    border-radius: 11px!important;
+    -webkit-border-radius: 11px!important;
+    -moz-border-radius: 11px!important;
+    -ms-border-radius: 11px!important;
+    -o-border-radius: 11px!important;
+}
+
+.heightFB-1{
+    height: 100%;
+}
+
+
+/* B1-FLOTANTE1-B1-FLOTANTE1-B1-FLOTANTE1-B1-FLOTANTE1*/
+/* B1-FLOTANTE1-B1-FLOTANTE1-B1-FLOTANTE1-B1-FLOTANTE1*/
+.b1-flotante-1{
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: radial-gradient(circle at 11% 1%, #c2bba1, #877548 117%);
+    padding: 6%;
+}
+
+.contenedorIMG-B1-1{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    } 
+
+
+
+    .btn-b1-Flotante1{
+        margin-top: 22px!important;
+        background-color: #c9be9b!important;
+    }
+
+    /* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+/* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+.b1-flotante-2{
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(104deg, #616161 -10%, #616161 116%);
+    padding: 6%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.contenedorIMG-B1-2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    } 
+    .btn-b1-Flotante2{
+        margin-top: 10px!important;
+        background-color: #ababab;
+    }
+
+    /* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+/* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+.b1-flotante-3{
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(110deg, #774363 -7%, #c26ea2 98%);
+    padding: 5%;
+    width: 100%;
+}
+
+.contenedorIMG-B1-3{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    } 
+    .btn-b1-Flotante3{
+        margin-top: 10px!important;
+        background-color: #e98dc6;
+    }
+
+
+    
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+    
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .rowPrincipalF {
+        top: -55px;
+    }
+
+    .subTitulosFlotantes1 {
+        font-size: 29px;
+    }
+    .subTitulosFlotantes2 {
+        font-size: 60px;
+    }
+
+    .subTitulosFlotantes3 {
+        font-size: 25px;
+    }
+
+    .contenedorIMG-B1-1 {
+        height: 279px;
+    }
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .titulosFlotantes{
+        font-size: 15px;
+    }
+    
+    .subTitulosFlotantes1{
+        font-size: 24px;
+    }
+    
+    .subTitulosFlotantes2{
+        font-size: 50px;
+    }
+    
+    .subTitulosFlotantes3{
+        font-size: 19px;
+    }
+
+    
+.contenedorIMG-B1-1{
+    height: 171px;
+    margin-top: 10px;
+    } 
+    .contenedorIMG-B1-2 {
+        height: 162px;
+    }
+
+    .contenedorIMG-B1-3 {
+        height: 155px;
+    }
+
+    .btnGeneralFlotante {
+        width: 129px;
+        height: 35px;
+        font-size: 14px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+
+.btn-b1-Flotante1 {
+    margin-top: 56px!important;
+}
+  
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .contenedorB1{
+        height: 650px;
+        }
+
+    .rowPrincipalF {
+        top: -70px;
+    }
+
+    .subTitulosFlotantes1 {
+        font-size: 20px;
+    }
+    .subTitulosFlotantes2 {
+        font-size: 40px;
+    }
+
+    .subTitulosFlotantes3 {
+        font-size: 19px;
+    }
+
+    .btnGeneralFlotante {
+        width: 85px;
+        height: 30px;
+        font-family: PoppinsBold;
+        font-size: 12px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+
+.contenedorIMG-B1-1 {
+    height: 143px;
+}
+
+.contenedorIMG-B1-2 {
+    height: 143px;
+}
+
+.contenedorIMG-B1-3 {
+    height: 143px;
+}
+
+.b1-flotante-1, .b1-flotante-2{
+    margin-bottom: 20px!important;
+        }
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+    .contenedorB1{
+        position: relative;
+        height: 550px;
+        }
+
+    .rowPrincipalF {
+        top: -25px;
+    }
+    .titulosFlotantes{
+        font-size: 14px;
+    }
+    
+    .subTitulosFlotantes1{
+        font-size: 12px;
+    }
+    
+    .subTitulosFlotantes2{
+        font-size: 25px;
+    }
+    
+    .subTitulosFlotantes3{
+        font-size: 12px;
+    }
+
+    .btnGeneralFlotante {
+        width: 85px;
+        height: 30px;
+        font-family: PoppinsBold;
+        font-size: 10px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+
+.contenedorIMG-B1-1{
+    height: 100px;
+    } 
+    .btn-b1-Flotante1 {
+        margin-top: 5px!important;
+    }
+
+
+    /* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+/* B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2-B1-FLOTANTE2*/
+    .contenedorIMG-B1-2 {
+        height: 100px;
+    }
+
+    .contenedorIMG-B1-3 {
+        height: 100px;
+    }
+
+    .b1-flotante-1{
+margin-bottom: 20px!important;
+    }
+    .b1-flotante-2{
+        margin-bottom: 20px!important;
+            }
+
+}
+
+@media (max-width: 350px) {
+    .titulosFlotantes {
+        font-size: 10px;
+    }
+
+    .subTitulosFlotantes1 {
+        font-size: 11px;
+    }
+
+    .subTitulosFlotantes2 {
+        font-size: 20px;
+    }
+
+    .subTitulosFlotantes3 {
+        font-size: 11px;
+    }
+
+    .btnGeneralFlotante {
+        width: 80px;
+        height: 25px;
+        font-size: 10px!important;
+}
+
+.contenedorIMG-B1-1 {
+    height: 90px;
+}
+
+.contenedorIMG-B1-2 {
+    height: 90px;
+}
+
+.contenedorIMG-B1-3 {
+    height: 90px;
+}
+ }
+
+
+    

@@ -107,7 +107,7 @@
 
 .btnEstilo1{
     background-color: #888888;
-    color: #ffffff;
+    color: #ffffff!important;
 
 }
 
@@ -364,3 +364,270 @@ bottom: 2px;
     width: 180px;
     height: 128px;
 }
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+    .comentariosContenedor {
+        width: 100%;
+        height: 990px;
+    }
+
+    .masOpiniones {
+margin-top: 40px!important;
+    }
+
+    .imgResena {
+        width: 180px;
+        height: 103px;
+    }
+
+    .btnResenas {
+        width: 172px;
+    }
+
+    .btnPreguntas {
+        width: 271px;
+    }
+
+    .skin-light .number-input.number-input {
+        width: 196px!important;
+    }
+
+    .cantidadProducto {
+        font-size: 12px;
+        margin: 0px 10px 0px 5px;
+    }
+
+    .skin-light .number-input.number-input button {
+        width: 1rem;
+        height: .7rem;
+    }
+
+    .disponibilidad {
+        width: 8.6rem!important;
+    }
+
+    .textoDisponibilidad {
+        font-size: 14px;
+        padding: 0px 4px;
+        margin: 7px 0px!important;
+    }
+ 
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+    .comentariosContenedor {
+        height: 997px;
+    }
+    .btnResenas {
+        width: 132px;
+        height: 56px;
+        font-size: 15px!important;
+    }
+
+    .btnPreguntas {
+        width: 193px;
+        height: 56px;
+        font-size: 18px;
+        margin-left: 10px!important;
+    }
+
+    .imgResena {
+        width: 180px;
+        height: 78px;
+    }
+
+    .masOpiniones {
+margin-top: 40px!important;
+
+    }
+ 
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .descripcionComentariosContenedor {
+        height: 2138px;
+    }
+
+    .comentariosContenedor {
+        width: 100%;
+        height: 990px;
+    }
+ 
+    .btnResenas {
+        width: 144px;
+    }
+
+    .btnPreguntas {
+        width: 263px;
+    }
+
+    .masOpiniones {
+       margin-top: 40px!important;
+    }
+ 
+ 
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+    .comentariosContenedor {
+        height: 975px;
+    }
+    .descripcionComentariosContenedor {
+        height: 2237px;
+    }
+
+    .btnResenas {
+        width: 104px;
+        height: 50px;
+        font-size: 11px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+.btnPreguntas {
+    width: 150px;
+    height: 50px;
+    font-size: 11px!important;
+    margin-left: 11px!important;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+}
+
+.imgResena {
+    width: 100%;
+    height: 63px;
+}
+
+.textResenas5 {
+    font-size: 13px;
+}
+
+.masOpiniones {
+    width: 169px;
+    height: 39px;
+    margin-top: 40px!important;
+
+}
+
+.caracteristicasDetalle {
+    font-size: 13px;
+}
+
+.fechaPregunta {
+    font-size: 11px;
+}
+
+.masRespuestas {
+    font-size: 13px;
+}
+
+.skin-light .number-input.number-input input[type=number] {
+    max-width: 2rem;
+    padding: 0rem;
+    border: none!important;
+    border-width: 0 1px;
+    font-size: 0.8rem;
+    height: 2rem;
+}
+
+.cantidadProducto {
+    font-size: 11px;
+    margin: 0px 6px 0px 3px;
+}
+
+.skin-light .number-input.number-input {
+    width: 159px!important;
+}
+
+.skin-light .number-input.number-input button {
+    width: 1rem!important;
+    height: .7rem!important;
+
+}
+
+.textoDisponibilidad {
+    font-size: 12px; 
+    padding: 0px 7px;
+
+}
+
+.disponibilidad {
+    width: 8.6rem!important;
+    border-radius: 8px;
+    border: solid 0.8px #000000;
+    margin-right: -13px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.botonesAgregarComprar {
+    width: 175px;
+    height: 45px;
+    font-size: 12px!important;
+}
+
+.textoCompraProtegida {
+    font-size: 11px;
+}
+
+#tienesPregunta {
+    border-radius: 10px;
+    border: solid 1px #000000;
+}
+
+.descProducto~p {
+    font-size: 16px;
+    text-align: justify;
+
+}
+.skin-light .number-input.number-input button {
+    width: 1.5rem;
+    height: .7rem;
+}
+
+
+
+
+    
+}
+
+@media (max-width: 350px) {
+ 
+ }
+
+
