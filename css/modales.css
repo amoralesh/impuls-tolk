@@ -3,6 +3,27 @@
     height: auto;
     object-fit: contain;
 }
+.vh90{
+    height: 90vh;
+    overflow: auto;
+}
+.sz{
+    font-size: 50px;
+}
+.table_hover_custom thead tr th{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #000000;
+}
+.table_hover_custom tbody tr td:hover{
+    background-color: black;
+    color: white;
+}
 .tituloModal{
     font-family: Poppins;
     font-size: 30px;
