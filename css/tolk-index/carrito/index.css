@@ -111,6 +111,31 @@
     color: white!important;
     background-color: black !important;
 }
+.textoEstatusPedido {
+    font-family: Poppins!important;
+    font-size: 14px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.textoEstatusPedido2 {
+    font-family: PoppinsBold!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.contenedorEstatus {
+    padding: 25px 15px 15px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(141deg, #1653a1 30%, #263c84 73%);
+}
 .car_tabl_title{
       text-transform: none!important;
     font-family: Poppins;
