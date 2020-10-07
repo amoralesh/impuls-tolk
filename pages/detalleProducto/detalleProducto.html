@@ -1310,7 +1310,7 @@
                   <div class="col-12">
                      <ul class="rating">
                         <li>
-                           <a href="#!" class="guiaTallas"><u>Guía de Tallas</u></a>
+                           <a data-toggle="modal" data-target="#guia_tallas" class="guiaTallas"><u>Guía de Tallas</u></a>
                         </li>
                         <li>
                            <a href="#!" class="guiaTallas"><u>¿No encontraste tu talla?</u></a>
@@ -2348,10 +2348,12 @@
       INICIO MODAL DETALLES
       ================================================= -->
 
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div id="agrgar_Carrito" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-lg ">
            <div class="modal-content">
              <div class="row  pt-5 pl-5 pb-5 pr-5">
+               <div class="col-12">  <button type="button" class="close float-right sz" style="color:black;" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                  <span aria-hidden="true">&times;</span>  </button></div>
                  <div class="col-12 tituloModal mb-4">¡Agregado al carrito correctamente!</div>
                <div class="col-6">
                    <div class="row d-flex justify-content-center">
@@ -2398,7 +2400,177 @@
       FINAL MODAL DETALLES
       ================================================= -->
 
-      
+         <!--===============================================
+      INICIO MODAL tallas
+      ================================================= -->
+
+      <div id="guia_tallas" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg ">
+           <div class="modal-content vh90">
+             <div class="row  pt-5 pl-5 pb-5 pr-5">
+                <div class="col-12">  <button type="button" class="close float-right sz" style="color:black;" data-dismiss="modal" aria-label="Close"  style="color:#fff;">
+                  <span aria-hidden="true">&times;</span>  </button></div>
+               <div class="col-12 tituloModal mb-4">¡Calzado para hombre!</div>
+               <div class="table-responsive">
+               <table class="table table-hover table_hover_custom mt-4">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;" scope="col">MX</th>
+                      <th style="text-align: center;" scope="col">US Hombre</th>
+                      <th style="text-align: center;" scope="col">US Mujer</th>
+                      <th style="text-align: center;" scope="col">Medida pie</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                   
+                     <tr>
+                        <td style="text-align: center;">2</td>
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">5</td>
+                        <td style="text-align: center;">22.1 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">2.5</td>
+                        <td style="text-align: center;">4.5</td>
+                        <td style="text-align: center;">5.5</td>
+                        <td style="text-align: center;">22.5 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">3</td>
+                        <td style="text-align: center;">5</td>
+                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">22.9 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">3.5</td>
+                        <td style="text-align: center;">5.5</td>
+                        <td style="text-align: center;">6.5</td>
+                        <td style="text-align: center;">23.3 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">7</td>
+                        <td style="text-align: center;">23.8 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">4.5</td>
+                        <td style="text-align: center;">6.5</td>
+                        <td style="text-align: center;">7.5</td>
+                        <td style="text-align: center;">24.2 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">5</td>
+                        <td style="text-align: center;">7</td>
+                        <td style="text-align: center;">8</td>
+                        <td style="text-align: center;">24.6 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">5.5</td>
+                        <td style="text-align: center;">7.5</td>
+                        <td style="text-align: center;">8.5</td>
+                        <td style="text-align: center;">25.0 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">8</td>
+                        <td style="text-align: center;">9</td>
+                        <td style="text-align: center;">25.5 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">6.5</td>
+                        <td style="text-align: center;">8.5</td>
+                        <td style="text-align: center;">9.5</td>
+                        <td style="text-align: center;">25.9 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">7</td>
+                        <td style="text-align: center;">9</td>
+                        <td style="text-align: center;">10</td>
+                        <td style="text-align: center;">26.3 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">7.5</td>
+                        <td style="text-align: center;">9.5</td>
+                        <td style="text-align: center;">10.5</td>
+                        <td style="text-align: center;">26.7 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">8</td>
+                        <td style="text-align: center;">10</td>
+                        <td style="text-align: center;">11</td>
+                        <td style="text-align: center;">27.1 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">8.5</td>
+                        <td style="text-align: center;">10.5</td>
+                        <td style="text-align: center;">11.5</td>
+                        <td style="text-align: center;">27.6 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">9</td>
+                        <td style="text-align: center;">11</td>
+                        <td style="text-align: center;">12</td>
+                        <td style="text-align: center;">28.0 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">9.5</td>
+                        <td style="text-align: center;">11.5</td>
+                        <td style="text-align: center;">12.5</td>
+                        <td style="text-align: center;">28.4 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">10</td>
+                        <td style="text-align: center;">12</td>
+                        <td style="text-align: center;">13</td>
+                        <td style="text-align: center;">28.8 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">10.5</td>
+                        <td style="text-align: center;">12.5</td>
+                        <td style="text-align: center;">13.5</td>
+                        <td style="text-align: center;">29.3 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">11</td>
+                        <td style="text-align: center;">13</td>
+                        <td style="text-align: center;">14</td>
+                        <td style="text-align: center;">29.7 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">11.5</td>
+                        <td style="text-align: center;">13.5</td>
+                        <td style="text-align: center;">14.5</td>
+                        <td style="text-align: center;">30.1 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">12</td>
+                        <td style="text-align: center;">14</td>
+                        <td style="text-align: center;">15</td>
+                        <td style="text-align: center;">30.5 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">12.5</td>
+                        <td style="text-align: center;">14.5</td>
+                        <td style="text-align: center;">15.5</td>
+                        <td style="text-align: center;">31.0 cm</td>
+                     </tr>
+                     <tr height="21">
+                        <td style="text-align: center;">13</td>
+                        <td style="text-align: center;">15</td>
+                        <td style="text-align: center;">-</td>
+                        <td style="text-align: center;">31.4 cm</td>
+                     </tr>
+                  </tbody>
+                </table>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!--===============================================
+      FINAL MODAL tallas
+      ================================================= -->
            <!--===============================================
       MODAL COMPRA COMO INVITADO
       ================================================= -->
