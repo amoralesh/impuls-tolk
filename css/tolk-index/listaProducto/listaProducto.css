@@ -772,7 +772,27 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
- 
+    .textoPromocional3 {
+        font-size: 40px;
+    }
+
+    .textoPromocional2 {
+
+        font-size: 20px;
+    }
+
+    .btnPromocionalLista {
+
+        margin-top: 40px!important;
+    }
+
+    .etiquetaOfertaLista {
+        left: 142px!important;
+    }
+
+    .listaGrid{
+        padding: 0%;
+    }
 
 }
 
@@ -813,6 +833,10 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
     }
 
+    .textoPromocional3 {
+        font-size: 48px;
+    }
+
     
 
     .panel-title > a {
@@ -821,6 +845,11 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
     .poppinsBold24pxLP {
         font-size: 20px;
+
+    }
+
+    .botonesAgregarComprar {
+        width: 203px;
 
     }
 
@@ -836,6 +865,12 @@ MOVIL (XS revisamos en 320px)
     .bannerListaProducto {
         height: 120px;
     }
+
+    .mdVR{
+        margin: 1.5rem 6.5rem!important;
+    }
+
+
  
     .etiquetaOfertaLista {
         left: 150px!important;
@@ -863,6 +898,12 @@ MOVIL (XS revisamos en 320px)
     .textoBannerLP-3 {
         top: 58px;
         padding: 20px;
+    }
+
+    .btnPromocionalLista {
+        width: 166px;
+        height: 43px;
+        margin-top: 45px!important;
     }
  
 }
@@ -937,11 +978,38 @@ MOVIL (XS revisamos en 576px)
     width: 109px;
     height: 35px;
     font-size: 9px!important;
+    margin-top: 6px!important;
 }
+
+.skin-light .number-input.number-input {
+    width: 233px!important;
+    margin-top: 20px;
+}
+
+.skin-light .number-input.number-input button {
+    width: 2.5rem;
+    height: .7rem;
+}
+
 
 .etiquetaOfertaLista {
     left: 80px!important;
-    top: 10px!important;
+    top: 20px!important;
+}
+.textoPrecioAntesL {
+    font-size: 10px;
+}
+
+.poppinsSemiBold16LP {
+    font-size: 10px;
+}
+.botonesAgregarComprar {
+    width: 241px;
+    font-size: 12px!important;
+}
+
+.textoDescripcionModal {
+    font-size: 17px;
 }
 
 
@@ -966,12 +1034,9 @@ MOVIL (XS revisamos en 576px)
     height: 35px;
 }
 
-.skin-light .number-input.number-input {
-    width: 156px!important;
-}
 
 .cantidadProducto {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .btnFavorito{
@@ -980,11 +1045,94 @@ MOVIL (XS revisamos en 576px)
     border: solid 0.8px #000000;
     float: right;
 }
+
+.aux-1{
+    margin-top: 20px;
+}
+
+.borderMarca {
+    width: 100%;
+
+}
+
+.mdVR{
+    margin: 1.5rem!important;
+}
+
+.cerrarModalVR{
+    left: -46px!important;
+    position: relative;
+    font-size: 2.5rem!important;
+}
     
 }
 
 @media (max-width: 350px) {
- 
+    .etiquetaOfertaLista {
+        left: 55px!important;
+    }
+
+    .cerrarModalVR {
+        left: -73px!important;
+        position: relative;
+        font-size: 1.5rem!important;
+    }
+
+    .btnAgregarLista {
+        width: 72px;
+        height: 21px;
+        font-size: 6px!important;
+    }
+
+    .textoPrecioProducto-L {
+        font-size: 10px;
+    }
+
+    .textoPromocional3 {
+        font-size: 32px;
+    }
+
+    .btnPromocionalLista {
+        width: 90px;
+        height: 32px;
+        font-size: 7px!important;
+        margin-top: 20px!important;
+    }
+
+    .ordenarPagina {
+        font-size: 12px;
+    }
+
+    .mdVR{
+        margin: 1.5rem!important;
+    }
+
+    .cantidadProducto {
+        font-size: 13px;
+    }
+
+    .skin-light .number-input.number-input button {
+        width: 2.5rem;
+        height: .7rem;
+    }
+
+    .skin-light .number-input.number-input {
+        width: 217px!important;
+        margin-top: 20px;
+    }
+
+    .textoCompraProtegida {
+        font-size: 9px;
+    }
+
+    .textoDescripcionModal {
+        font-size: 14px;
+    }
+
+    .textoDescripcionModal >p{
+        font-size: 10px!important;
+      }
+    
  }
 
 

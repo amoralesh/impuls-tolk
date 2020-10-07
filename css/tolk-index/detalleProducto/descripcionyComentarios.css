@@ -587,7 +587,7 @@ MOVIL (XS revisamos en 576px)
 }
 
 .disponibilidad {
-    width: 8.6rem!important;
+    width: 8.6rem;
     border-radius: 8px;
     border: solid 0.8px #000000;
     margin-right: -13px;
@@ -627,7 +627,10 @@ MOVIL (XS revisamos en 576px)
 }
 
 @media (max-width: 350px) {
- 
+    .compartir {
+        font-family: PoppinsSemiBold;
+        font-size: 40px;
+    }
  }
 
 

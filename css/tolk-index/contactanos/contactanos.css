@@ -169,3 +169,193 @@ bottom: 2px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+  .dondePedido {
+    font-size: 26px!important;;
+}
+
+.textoContactanos4 {
+  font-size: 11px!important;
+}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+  .textoContactanos2 {
+    font-size: 14px!important;
+}
+
+.textoContactanos5 {
+  width: 100%;
+  height: 30px;
+  font-size: 19px!important;
+}
+
+.btnWhatContacto {
+  width: 199px;
+  height: 50px;
+  font-size: 12px!important;
+}
+
+.wtp {
+  font-size: 24px!important;
+}
+
+.btnDondeEstaPedido2 {
+  width: 273px;
+  height: 56px;
+  margin-top: 0px!important;
+  margin-left: 45px!important;
+}
+
+.aux-2{
+  margin-top: 30px;
+}
+
+.paddingDondeEsta {
+  margin-bottom: 15px;
+}
+
+}
+
+  
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+.borderRigthContactanos{
+  border-right: none;
+}
+
+.textoContactanos1 {
+  font-size: 22px;
+}
+
+.textoContactanos2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.textoContactanos5 {
+  width: 100%;
+  height: 42px;
+  font-size: 31px;
+  text-align: center;
+}
+
+.textoContactanos3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.textoContactanos4 {
+  font-size: 18px!important;
+}
+
+.aux-3{
+  padding: 0px 100px;
+}
+
+.dejarComentario {
+  text-align: center;
+}
+
+.btnDondeEstaPedido2 {
+  margin-top: 0px!important;
+  left: 40px;
+}
+
+.paddingDondeEsta {
+  margin-bottom: 26px;
+}
+ 
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+  .dondePedido {
+    font-size: 24px!important;;
+}
+
+.textoContactanos6 {
+  font-size: 14px;
+}
+
+.paddingDondeEsta {
+  margin-bottom: 34px;
+}
+
+.aux-3{
+  padding: 0px 30px;
+}
+
+.btnDondeEstaPedido2 {
+  margin-top: 20px!important;
+  left: 0px;
+}
+
+
+    
+}
+
+@media (max-width: 350px) {
+  .textoContactanos5 {
+    width: 174px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.btnWhatContacto {
+  width: 207px;
+  height: 56px;
+  font-size: 11px!important;
+}
+
+.wtp {
+  font-size: 24px!important;
+}
+
+.btnDondeEstaPedido {
+  width: 167px;
+  height: 42px;
+  font-size: 16px;
+}
+
+.btnDondeEstaPedido2 {
+  width: 167px;
+  height: 42px;
+  font-size: 16px;
+}
+ }
+
+
+
+

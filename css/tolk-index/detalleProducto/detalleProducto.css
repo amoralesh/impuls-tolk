@@ -246,6 +246,9 @@ font-size: 12px!important;
     }
 
 
+
+
+
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
@@ -258,6 +261,14 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
+
+    .botonesAgregarComprar {
+        width: 195px;
+    }
+
+    .textoCompraProtegida {
+        font-size: 12px;
+    }
 
 }
 
@@ -332,14 +343,16 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
     }
 
     .btnFavoritoDetalle {
-        margin-left: 50px!important;
+        margin-left: 0px!important;
     }
-    #imgCompraProtegida{
-        margin-left: 50px!important;
-    }
+
 
     .compartir {
         font-size: 31px!important;
+    }
+
+    .botonesAgregarComprar {
+        width: 206px;
     }
 
 
@@ -361,6 +374,37 @@ MOVIL PEQUEÑOS (XS revisamos en 320px)
 
 
  }
+
+ @media (max-width: 350px) {
+    .textoDisponibilidad {
+        font-size: 10px!important;
+        padding: 0px 3px;
+    }
+
+    .disponibilidad {
+        width: 6.6rem!important;
+    }
+
+    .botonesAgregarComprar {
+        width: 159px!important;
+    }
+
+    .btnResenas {
+        width: 95px!important;
+        height: 50px;
+        font-size: 10px!important;
+
+    }
+
+    .btnPreguntas {
+        width: 114px!important;
+        height: 50px;
+    }
+
+    
+    
+    }
+
 
 
 

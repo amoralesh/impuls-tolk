@@ -214,3 +214,194 @@
     width: 100%;
     position: absolute;
     }
+
+    .contendorDondeBanner{
+        margin-bottom: 55px!important;
+        }
+
+
+    /*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+  
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+    .contendorDondeBanner{
+        margin-bottom: 85px!important;
+        }
+
+        .btnSesionSucursales {
+            width: 199px;
+            height: 59px;
+            font-size: 18px!important;
+        }
+
+        .btnSeguimientoSucursales {
+            width: 199px;
+            height: 59px;
+            font-size: 18px!important;
+        }
+
+        .textbannerSucursal3 {
+            font-size: 45px;
+        }
+
+        .textbannerSucursal2 {
+            font-size: 20px;
+            line-height: 1.27;
+
+        }
+
+        .btnBannerSucursal {
+            width: 151.4px;
+            height: 42px;
+            font-size: 17px!important;
+        }
+
+        .poppinsBold35 {
+            font-size: 30px;
+        }
+
+        .estilosInputSucursales {
+            height: 50px!important;
+            width: 90%;
+        }
+
+        .btnBuscar {
+
+            font-size: 16px!important;
+
+            width: 162px;
+            height: 50px;
+
+        }
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+    .aux-4{
+        margin-top: 20px;
+    }
+}
+
+  
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+    .aux-4{
+        margin-top: 20px;
+    }
+
+    
+.aux-6{
+    padding: 0px 20px;
+}
+
+.aux-7{
+    padding-left: 0px!important;
+}
+
+.estilosInputSucursales {
+    height: 40px!important;
+}
+
+.btnBuscar {
+
+    width: 207px;
+    height: 40px;
+}
+ 
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+    .btnBuscar {
+        width: 165px;
+        height: 35px;
+        font-size: 17px!important; 
+    }
+    
+    .estilosInputSucursales {
+        height: 35px!important;
+        border-radius: 9px!important;
+        -webkit-border-radius: 9px!important;
+        -moz-border-radius: 9px!important;
+        -ms-border-radius: 9px!important;
+        -o-border-radius: 9px!important;
+}
+
+.textbannerSucursal1 {
+    font-size: 14px;
+}
+
+.textbannerSucursal2 {
+    font-size: 17px;
+    line-height: 1;
+}
+
+.textbannerSucursal3 {
+    font-size: 40px;
+}
+
+.btnBannerSucursal {
+    width: 118.4px;
+    height: 26px;
+    font-size: 16px;
+}
+
+.aux-4{
+    margin-top: 20px;
+}
+    
+.estilosInputSucursales {
+    height: 33px!important;
+}
+
+.aux-6{
+    padding: 0px 20px;
+}
+
+.aux-7{
+    padding-left: 0px!important;
+}
+    
+}
+
+@media (max-width: 350px) {
+    .textbannerSucursal1 {
+        font-size: 11px;
+    }
+    .textbannerSucursal2 {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .textbannerSucursal3 {
+        font-size: 25px;
+    }
+
+    .btnBannerSucursal {
+        width: 95.4px;
+        height: 23px;
+        font-size: 10px!important;
+    }
+ }
+
+
+
+
+    
