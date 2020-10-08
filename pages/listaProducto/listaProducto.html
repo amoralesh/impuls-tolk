@@ -1194,6 +1194,11 @@
                <div class="d-none d-sm-none d-md-block col-3">
                   <h1 class="poppinsBold35">Niña</h1>
                </div>
+
+               <div class="d-block d-sm-block d-md-none col-12">
+                  <span style="font-size:30px;cursor:pointer;float: right;" onclick="openNavFiltros()"><i class="fas fa-sort-amount-down"></i></span>
+               </div>
+
                <div class="col-6 col-sm-6 col-md-3">
                   <div class="form-group row">
                      <label for="staticEmail" class="col-sm-5 col-form-label pr-0 ordenarPagina">Ordenar por:</label>
@@ -1223,7 +1228,7 @@
                </div>
                <div class="d-none d-sm-none d-md-block col-3 justify-content-end">
                   <div class="row">
-                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 ">
+                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 listaGrid">
                         <!-- grid/lista -->
                         <div class="view">
                            <p class="ordenarPagina">Vista:</p>
@@ -1472,6 +1477,8 @@
                </div>
                <!-- FIN COL CONTENEDOR CATEGORIAS -->
 
+
+                     
                <!--  COL CONTENEDOR FILTRAR POR -->
                <div class="col-3 contenedorFiltrosLP" style="display: none">
                   <h1 class="poppinsBold24pxLP">Filtrar por</h1>
@@ -1772,6 +1779,8 @@
                   </div>
                </div>
                <!-- FIN COL CONTENEDOR FILTRAR POR -->
+
+
 
                <!-- COL CONTENDOR LISTA DE PRODUCTOS-->
                <div class="col-12 col-sm-12 col-md-9">
@@ -2077,7 +2086,317 @@
                <!-- FIN COL CONTENDOR LISTA DE PRODUCTOS-->
             </div>
             <!--fin row-->
+
+   
+             <!-- MENU SIDEBAR FILTAR POR ... PARA CELULARES-->
+            <div class="row d-block d-sm-block d-md-none">
+               <div id="mySidenavFiltros" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavFiltros()">&times;</a>
+               <div class="col-12 contenedorFiltrosLP">
+                  <h1 class="poppinsBold24pxLP">Filtrar por</h1>
+                  <div class="row">
+                     <div class="form-group etiquetasFiltros">
+                        <input type="text" class="form-control etiquetasFiltros" name="color" value="Ranking,Talla,Precio" disabled/>
+                     </div>
+                     <!-- NAVBAR RANGO PRECIO --><!-- NAVBAR RANGO PRECIO -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion9" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoRango">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarRangoPrecioLP" href="#navBarRangoPrecioLP" aria-expanded="true" aria-controls="navBarRangoPrecioLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Rango precio
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarRangoPrecioLP">
+                                 <div class="slider-price d-flex align-items-center my-4">
+                                    <span class="font-weight-normal small text-muted mr-2">$80</span>
+                                    <form class="multi-range-field w-100">
+                                       <input id="multi" class="multi-range w-100" type="range"/>
+                                    </form>
+                                    <span class="font-weight-normal small text-muted ml-2">$2000</span>
+                                 </div>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR RANGO PRECIO --><!-- NAVBAR RANGO PRECIO -->
+                     <!-- NAVBAR MARCAS --><!-- NAVBAR MARCAS -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion10" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoMarcas">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarMarcasLP" href="#navBarMarcasLP" aria-expanded="true" aria-controls="navBarMarcasLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Marca
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarMarcasLP">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR MARCAS --><!-- NAVBAR MARCAS -->
+                     <!-- NAVBAR TALLAS --><!--FIN NAVBAR TALLAS -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion11" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoTallas">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarTallasLP" href="#navBarTallasLP" aria-expanded="true" aria-controls="navBarTallasLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Tallas
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarTallasLP">
+                                 <div class="row p-3" id="misTallasLP">
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="5"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="5.5"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="6"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="6.5"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="7"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="7.5"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="8"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="8.5"></input>
+                                    </div>
+                                    <div class="col-2 tallasLP p-0">
+                                       <input type="button" class=" tallasLP_a" value="9"></input>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR TALLAS --><!--FIN NAVBAR TALLAS -->
+                     <!-- COLLAPSE COLOR --><!--FIN NAVBAR COLOR -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion12" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoColores">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarColoresLP" href="#navBarColoresLP" aria-expanded="true" aria-controls="navBarColoresLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Colores
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarColoresLP">
+                                 <div class="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
+                                    <label class="btn rounded-circle white border-inset-grey p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle grey p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle black p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle green p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle blue p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle purple p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle yellow p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle indigo p-3 m-2">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle red p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                    <label class="btn rounded-circle orange p-3 m-2">
+                                    <input type="checkbox" autocomplete="off">
+                                    </label>
+                                 </div>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- COLLAPSE COLOR --><!--FIN NAVBAR COLOR -->
+                     <!-- NAVBAR MATERIAL --><!-- NAVBAR MATERIAL -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion13" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoMateriales">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarMaterialLP" href="#navBarMaterialLP" aria-expanded="true" aria-controls="navBarMaterialLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Material
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarMaterialLP">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR MATERIAL --><!-- NAVBAR MATERIAL -->
+                     <!-- NAVBAR NUEVO --><!-- NAVBAR NUEVO -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion14" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoNuevo">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarNuevoLP" href="#navBarNuevoLP" aria-expanded="true" aria-controls="navBarNuevoLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Nuevo
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarNuevoLP">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR NUEVO --><!-- NAVBAR NUEVO -->
+                     <!-- NAVBAR IDEAL PARA --><!-- NAVBAR IDEAL PARA -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion15" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoIdeal">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarIdealParaLP" href="#navBarIdealParaLP" aria-expanded="true" aria-controls="navBarIdealParaLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Ideal para ti
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarIdealParaLP">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR IDEAL PARA --><!-- NAVBAR IDEAL PARA -->
+                     <!-- NAVBAR TIPO ZAPATO --><!-- NAVBAR TIPO ZAPATO -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion16" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoTipoZapato">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarTipoZapatoLP" href="#navBarTipoZapatoLP" aria-expanded="true" aria-controls="navBarTipoZapatoLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Tipo Zapato
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarTipoZapatoLP">
+                                 <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Basket</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Escolar</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Indoor</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Soccer</a></li>
+                                    <li class="list-group-item"><a href="#!" class="irAFiltros">Deportivo</a></li>
+                                 </ul>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR TIPO ZAPATO --><!-- NAVBAR TIPO ZAPATO -->
+                     <!-- NAVBAR RANKING --><!-- NAVBAR RANKING -->
+                     <div class="col-12">
+                        <div class="panel-group" id="accordion17" role="tablist" aria-multiselectable="true">
+                           <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="encabezadoRanking">
+                                 <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#navBarRankingLP" href="#navBarRankingLP" aria-expanded="true" aria-controls="navBarRankingLP" class="borderNavbarPL">
+                                    <i class="more-less fa fa-plus" ></i>
+                                    Ranking
+                                    </a>
+                                 </h4>
+                              </div>
+                              <!-- contenido ocult0 -->
+                              <div class="collapse navbar-collapse" id="navBarRankingLP">
+                                 <div class="slider-price d-flex align-items-center my-4">
+                                    <span class="font-weight-normal small text-muted mr-2"><i class="fas fa-star fa-sm text-black"></i>1</span>
+                                    <form class="multi-range-field w-100">
+                                       <input id="multi2" class="multi-range w-100" type="range"/>
+                                    </form>
+                                    <span class="font-weight-normal small text-muted ml-2"><i class="fas fa-star fa-sm text-black"></i>5</span></span>
+                                 </div>
+                              </div>
+                              <!-- contenido ocult0 -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- NAVBAR RANKING --><!-- NAVBAR RANKING -->
+                  </div>
+               </div>
+              
+                </div>
+            </div>
+            <!-- FIN MENU SIDEBAR FILTAR POR ... PARA CELULARES-->
+
          </div>
+
       </section>
       <!--fin container-->
       <!--===============================================
@@ -2727,18 +3046,18 @@
          FIN MODAL OLVIDASTE CONTRASEÑA
          ================================================= -->
 
-               <!--===============================================
+      <!--===============================================
          MODAL VISTA RAPIDA PRODUCTO
          ================================================= -->
       <!-- Central Modal Small -->
       <div class="modal" id="modalVistaRapida" tabindex="-1" role="dialog" aria-labelledby="vistaRapida"
       aria-hidden="true">
       <!-- Change class .modal-sm to change the size of the modal -->
-      <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-dialog modal-lg mdVR" role="document">
          <div class="modal-content">
             <div class="modal-header">
                <div class="row">
-                  <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="col-11 col-sm-12 col-md-12 col-lg-6 mb-4 mb-md-0">
                      <div id="mdb-lightbox-ui"></div>
                      <div class="mdb-lightbox">
                         <div class="row product-gallery mx-1">
@@ -2810,7 +3129,7 @@
                      </div>
                   </div>
                   <!-- Detalles del producto -->
-                  <div class="col-md-6">
+                  <div class="col-md-12 col-lg-6">
                      <div class="row">
                         <div class="col-12">
                            <h6 id="sku" class="sku">SKU: 110290</h6>
@@ -2819,7 +3138,7 @@
                            <p class="textosPrecios">Precio Socio: <span class="mr-1"><strong class="precioSocio">$400.00 MXN</strong></span></p>
                         </div>
                         <hr>
-                        <div class="col-5 col-sm-5 col-md-6">
+                        <div class="col-10 col-sm-6 col-md-6">
                            <select id="seleccioneTalla" class="form-control seleccioneTalla">
                               <option selected>Seleccione Talla</option>
                               <option value="1">5</option>
@@ -2833,7 +3152,7 @@
                               <option value="3">9</option>
                            </select>
                         </div>
-                        <div class="col-7 col-sm-7 col-md-6">
+                        <div class="col-10 col-sm-6 col-md-6">
                            <div class="def-number-input number-input safari_only mb-0">
                               <label class="cantidadProducto pl-1" min="0" name="" type="text">Cantidad:</label>
                               <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"class="minus"></button>
@@ -2846,26 +3165,32 @@
                      <div class="col-12 pl-0 pt-3">
                         <p class="textoProductoDisponible">Producto disponible</p>
                         <div class="row">
-                           <div class="col-7">
-                              <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
-                              <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle" data-toggle="modal" data-target="#modalCompraInvitado">Comprar ahora</button>
+                           <div class="col-12 col-sm-6 col-md-7 col-lg-7 order-1">
+                            <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnAgregarCarritoDetalle">Agregar al carrito</button>
                            </div>
-                           <div class="col-5">
-                              <button class="btn btnFavorito agregarAFavoritos"> <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button><br>
-                              <div class="row mt-3">
-                                 <div class="col-auto pr-0">
-                                    <img src="../../img/imgOficial/iconos_logos/compra protegida.svg" alt="" class="img-fluid" id="imgCompraProtegida" >
-                                 </div>
-                                 <div class="col-8 p-0 pl-2">
-                                    <p class="textoCompraProtegida">Tu compra está protegida</p>
-                                 </div>
-                              </div>
+                           <div class="col-6  col-sm-6 col-md-5 col-lg-5 order-3 order-sm-2 order-sm-2 aux-1">
+                              <button class="btn btnFavoritoDetalle"> <img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="" class="img-fluid"></button>
                            </div>
-                        </div>
+
+                           <div class="col-12 col-sm-6 col-md-7 col-lg-7 order-2 order-sm-3 order-sm-3">
+                                <button type="button" class="btn  btn-lg mr-1 mb-2 botonesAgregarComprar btnComprarDetalle" data-toggle="modal" data-target="#modalCompraInvitado">Comprar ahora</button>
+                             </div>
+                             <div class="col-6 col-sm-6 col-md-5 col-lg-5 order-4 aux-1">
+                                <div class="row">
+                                 <div class="col-4 pr-2 m-0">
+                                    <img src="../../img/imgOficial/iconos_logos/compra protegida.svg" alt="" class="img-fluid imgCompraProtegida" id="" >
+                                 </div>
+                                 <div class="col-8 p-0 p-0">
+                                    <a class="textoCompraProtegida">Tu compra está protegida</a>
+                                 </div>
+                                </div>
+                                   
+                                </div>
+                             </div>
                      </div>
                   </div>
                </div>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <button type="button" class="close cerrarModalVR" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">&times;</span>
                </button>
             </div>
@@ -2873,17 +3198,17 @@
             <div class="modal-body">
                <div class="container">
                   <div class="row">
-                     <div class="col-12 col-sm-12 col-md-6 text-justify">
+                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-justify">
                         <h6 class="textoDescripcionModal">Descripción de producto</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint maiores, perspiciatis illum delectus cum officia blanditiis doloremque distinctio suscipit fugit illo? Quas magnam voluptate atque. Eos quidem ad porro.</p>
                      </div>
-                     <div class="col-12 col-sm-12 col-md-3">
+                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="borderMarca"  style="background-color: #ffff;">
                            <p class="caracteristicasDetalle pl-2 pt-2"><strong>Marca:</strong></p>
                            <img src="../../img/marcas/k-swiss.png" alt="" class="imgMarca img-fluid pr-2 pr-2">
                         </div>
                      </div>
-                     <div class="col-12 col-sm-12 col-md-3">
+                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <ul class="list-group list-group-flush">
                            <li class="list-group-item">Color:<strong>Plata</strong></li>
                            <li class="list-group-item">Talla: <strong>23/27 E</strong></li>
@@ -2997,11 +3322,20 @@
 
     -->
     <script type="text/javascript">
- 
       $('input[name="color"]').amsifySuggestags({
          type : 'amsify',
          suggestions: ['Black', 'White', 'Red', 'Blue', 'Green', 'Orange']
       });
+   </script>
+
+<script>
+   function openNavFiltros() {
+     document.getElementById("mySidenavFiltros").style.width = "250px";
+   }
+   
+   function closeNavFiltros() {
+     document.getElementById("mySidenavFiltros").style.width = "0";
+   }
    </script>
    
       <!--===============================================
