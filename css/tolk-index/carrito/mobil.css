@@ -2,4 +2,14 @@
     .btn2 {
         width: 100%;
     }
+    .Titulo_car {
+        font-size: 25px !important;
+        padding-top: 30px;
+    }
+    .nav-item-m{
+        width: 100%;
+    }
+    .car_tabl_title {
+        text-align: initial !important;
+    }
 }

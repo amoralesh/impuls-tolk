@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 991px) {
     .tituloModal {
         font-size: 20px;
     }
@@ -20,5 +20,9 @@
     .overf{
         height: 90vh;
         overflow: auto;
+    }
+    
+    #guias, #encuentra{
+        margin-top: 3% !important;
     }
 }
