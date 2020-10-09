@@ -1,40 +1,44 @@
-.textoSN{
-    font-family: PoppinsBold;
-    font-size: 22px;
-    font-weight: bold;
+/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
+/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
+
+.accionesDireccion{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 1.67;
     letter-spacing: normal;
-    color: #000000;
+    color: #9b9b9b;
 }
 
-.btnSN{
-    width: 175px;
-    height: 35px;
-    border-radius: 8px;
-    font-family: Poppins;
-    font-size: 14px!important;
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff!important;
+    border-color: #000000!important;
+    background-color: #000000!important;
+}
+
+.btnAgregarDireccion{
+    width: 289px!important;
+    height: 45px!important;
+  
+    font-family: PoppinsSemiBold;
+    font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
-    text-align: center;
+    text-align: center; 
     color: #ffffff;
+  
     text-transform: none;
-    margin-top: 40px!important;
+    border-radius:8px!important;
+    -webkit-border-radius:8px!important;
+    -moz-border-radius:8px!important;
+    -ms-border-radius:8px!important;
+    -o-border-radius:8px!important;
 }
-
-.textoSN1{
-    font-family: Poppins!important;
-    font-size: 16px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    color: #2c2c2c!important;
-}
-
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
@@ -60,7 +64,6 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
-
 }
 
 /*=============================================
@@ -68,8 +71,6 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
-
-
 
 }
  
@@ -79,7 +80,13 @@ MOVIL (XS revisamos en 576px)
 =============================================*/
 @media (max-width: 576px) { 
 
+    .btnAgregarDireccion {
+        width: 238px!important;
+        height: 42px!important;
+        font-size: 14px;
 
+    }
+    
 }
 
 @media (max-width: 350px) {
@@ -88,18 +95,6 @@ MOVIL (XS revisamos en 576px)
 }
 
 @media (max-width: 290px) {
-    .btnSN {
-        width: 121px;
-        height: 35px;
-        font-size: 14px!important;
-    }
 
-    .textoSN1 {
-        font-size: 11px!important;
-    }
-
-    .textoSN {
-        font-size: 17px;
-    }
 
 }

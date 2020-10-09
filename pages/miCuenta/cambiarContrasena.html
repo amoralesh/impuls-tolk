@@ -46,6 +46,8 @@
       <link rel="stylesheet" href="../../css/tolk-index/general/modales.css">
       <!-- Estilos TOLK MEGA MENU -->
       <link rel="stylesheet" href="../../css/tolk-index/general/megaMenu.css"/>
+         <!-- Estilos TOLK MEGA MENU HAMBURGUESA -->
+         <link rel="stylesheet" href="../../css/tolk-index/general/hamburguesa.css">
       <!-- Estilos TOLK ICONOS -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
       <!-- Estilos  MI CUENTA -->
@@ -59,20 +61,20 @@
       <!--===============================================
          HEADER
          ================================================= -->
-      <header>
-         <div class="container-fluid p-0">
-            <div class="row colorSecundario m-0 pt-1">
-               <div class="col-12 infoEntregasTexto text-center">
-                  Información sobre las entregas y promociones. <a href="#!" class="aqui"><u>Ver aquí.</u></a>
+         <header>
+            <div class="container-fluid p-0">
+               <div class="row colorSecundario m-0 pt-1">
+                  <div class="col-12 infoEntregasTexto text-center">
+                     Información sobre las entregas y promociones. <a href="#!" class="aqui"><u>Ver aquí.</u></a>
+                  </div>
                </div>
             </div>
-         </div>
-         <!--================================
-            NAVBAR ACCIONES CLIENTE 
-            ==================================== -->
+            <!--================================
+               NAVBAR ACCIONES CLIENTE 
+               ==================================== -->
             <section class="container-fluid p-0">
                <div class="row navbarLogin m-0">
-                  <div class="col-12 d-none d-sm-none d-md-block  m-0 p-0">
+                  <div class="col-12 d-none d-sm-none d-md-none d-lg-block m-0 p-0">
                      <!-- Navbar -->
                      <nav class="navbar navbar-expand-md navbar-light">
                         <!-- Collapse button -->
@@ -85,12 +87,12 @@
                            <!-- Right -->
                            <ul class="navbar-nav textoNavbarLogin">
                               <li class="nav-item">
-                                 <a href="#!" class="nav-link waves-effect">
+                                 <a href="../../pages/procesoCompra/rastreo-seguimiento.html" class="nav-link waves-effect">
                                  <strong class="negritasNavbarLogin">¿Dónde está mi pedido?</strong>
                                  </a>
                               </li>
                               <li class="nav-item">
-                                 <a href="#!" class="nav-link waves-effect ">
+                                 <a href="#!" class="nav-link waves-effect" data-toggle="modal" data-target="#modalEnviosGratis">
                                  <small>  ¿Quieres envíos <strong class="negritasNavbarLogin">GRATIS</strong>?</small>
                                  </a>
                               </li>
@@ -100,7 +102,7 @@
                                  </a>
                               </li>
                               <li class="nav-item">
-                                 <a href="#!" class="nav-link waves-effect ">
+                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="nav-link waves-effect ">
                                  <small>Afiliate a impuls</small>
                                  </a>
                               </li>
@@ -116,13 +118,13 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="sesionUsuario">
                                        <a class="dropdown-item" href="../../pages/miCuenta/miCuenta.html">Mi cuenta</a>
-                                       <a class="dropdown-item" href="../capturaPedido/captura-por-codigo-internet.html">Captura pedido</a>
+                                       <a class="dropdown-item" href="../../pages/capturaPedido/captura-por-codigo-internet.html">Captura pedido</a>
                                        <a class="dropdown-item" href="../../index.html" >Cerrar sesión</a>
                                     </div>
                                  </div>
                               </li>
                               <li class="nav-item">
-                                 <a href="../capturaPedido/captura-por-codigo-internet.html" class="nav-link waves-effect colorPrimario">
+                                 <a href="../../pages/capturaPedido/captura-por-codigo-internet.html" class="nav-link waves-effect colorPrimario">
                                  <strong class="textoCapturaPedido"><u>Captura tu pedido</u></strong>
                                  </a>
                               </li>
@@ -133,622 +135,1012 @@
                   </div>
                </div>
             </section>
-         <!-- Navbar -->
-         <!--================================
-            FIN NAVBAR ACCIONES CLIENTE 
-            ==================================== -->
-         <!--===========================================
-            NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
-            =============================================== -->
-         <!-- continer-fluid -->
-         <section class="container-fluid p-0 contenedorCategorias">
-            <div class="row  m-0 align-items-center">
-               <!-- row (img/navbar/carrito)--->
-               <!--col-2 logo-->
-               <div class="col-5 col-sm-5 col-md-5 col-lg-2  logoInicial p-0">
-                  <a href="../../index.html"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
-               </div>
-               <!--col-2 fin logo-->
-               <!--col-6 navbar-->
-               <div class="col-12 col-sm-12 col-md-2 col-lg-6 m-0 p-0 order-3 order-sm-3 order-md-3 order-lg-2 categoriasNavbar mb-2 mr-0">
-                  <!-- Navbar -->
-                  <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
-                     <!-- Navbar brand -->
-                     <!-- <a class="navbar-brand text-uppercase" href="#">Navbar</a> -->
-                     <!-- Collapse button -->
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
-                        aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <!-- Collapsible content -->
-                     <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-                        <!-- margin-left: 2.5rem!important; -->
-                        <!-- Links -->
-                        <ul class="navbar-nav mr-auto">
-                           <!-- DAMA -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Dama</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
-                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
-                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
-                                                <li class="list-inline-item"><a href="#!">Piso</a></li>
-                                                <li class="list-inline-item"><a href="#!">Plataforma</a></li>
-                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
-                                                <li class="list-inline-item"><a href="#!">Confort Piso</a></li>
-                                                <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
-                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
-                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">City</a></li>
-                                                <li class="list-inline-item"><a href="#!">Luvia</a></li>
-                                                <li class="list-inline-item"><a href="#!">Vestir</a></li>
-                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
-                                                <li class="list-inline-item"><a href="#!">Invernal</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual Moda</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Comfort</a></li>
-                                                <li class="list-inline-item"><a href="#!">Alto</a></li>
-                                                <li class="list-inline-item"><a href="#!">Bajo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM1">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN DAMA -->
-                           <!-- Caballero -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a  class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Caballero</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Piloto</a></li>
-                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Roper</a></li>
-                                                <li class="list-inline-item"><a href="#!">Vaquera</a></li>
-                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
-                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
-                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
-                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Comfort</a></li>
-                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Basket</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                                <li class="list-inline-item"><a href="#!">Indoor</a></li>
-                                                <li class="list-inline-item"><a href="#!">Soccer</a></li>
-                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
-                                                <li class="list-inline-item"><a href="#!">Industrial</a></li>
-                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vestir</a></li>
-                                                <li class="list-inline-item"><a href="#!">Vestir</a></li>
-                                                <li class="list-inline-item"><a href="#!">Botín</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM2">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="../../img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM2">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN Caballero -->
-                           <!-- Niña -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a  href="../../pages/listaProducto/listaProducto.html" class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4"
-                                 aria-haspopup="true" aria-expanded="false">Niña</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
-                                                <li class="list-inline-item"><a href="#!">Piso</a></li>
-                                                <li class="list-inline-item"><a href="#!">Plataforma</a></li>
-                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
-                                                <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
-                                                <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
-                                                <li class="list-inline-item"><a href="#!">City</a></li>
-                                                <li class="list-inline-item"><a href="#!">Invernal</a></li>
-                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
-                                                <li class="list-inline-item"><a href="#!">Bota</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
-                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
-                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
-                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM3">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM3">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN Niña -->
-                           <!-- Niño -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Niño
-                              </a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Hiking</a></li>
-                                                <li class="list-inline-item"><a href="#!">Guante</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                                <li class="list-inline-item"><a href="#!">Indoor</a></li>
-                                                <li class="list-inline-item"><a href="#!">Basket</a></li>
-                                                <li class="list-inline-item"><a href="#!">Deportivo</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
-                                                <li class="list-inline-item"><a href="#!">Casual</a></li>
-                                                <li class="list-inline-item"><a href="#!">Sport</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
-                                                <li class="list-inline-item"><a href="#!">Escolar</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
-                                                <li class="list-inline-item"><a href="#!">Abierta</a></li>
-                                                <li class="list-inline-item"><a href="#!">Cerrada</a></li>
-                                                <li class="list-inline-item"><a href="#!">Playera</a></li>
-                                                <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM4">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="../../img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM4">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- Accesorios -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Accesorios</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Calcetas</a></li>
-                                                <li class="list-inline-item"><a href="#!">Calceta</a></li>
-                                                <li class="list-inline-item"><a href="#!">Tines</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lustrador</a></li>
-                                                <li class="list-inline-item"><a href="#!">Lustrador</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Mochila</a></li>
-                                                <li class="list-inline-item"><a href="#!">Mochila</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Plantilla</a></li>
-                                                <li class="list-inline-item"><a href="#!">Plantilla</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM5">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="https://cdn.shopify.com/s/files/1/2075/9749/products/CC-C46914_BPProPCS_Blue_1@2x.png?v=1534954456" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM5">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN Accesorios -->
-                           <!-- Marcas -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Marcas</a> 
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Gucci</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nike</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Fila</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reef</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lacoste</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Puma</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vans</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reebok</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Converse</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM2">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Las mejores</h2>
-                                             <h1 class="textoBannerMM2">Marcas</h1>
-                                             <h1 class="textoBannerMM1">al mejor precio</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="https://www.seekpng.com/png/full/391-3910645_nike-logo-transparent-white-pictures-png-nike-png.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN Marcas -->
-                           <!-- Ofertas -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Ofertas</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-4 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Ofertas de Hoy</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-4 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballeros</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-4 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niños</a></li>
-                                             </ul>
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Accesorios</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM6">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Hasta</h2>
-                                             <h1 class="textoBannerMM2">50%</h1>
-                                             <h1 class="textoBannerMM1">de descuento</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="https://seeklogo.com/images/B/buen-fin-logo-2B3F830A05-seeklogo.com.png" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                          <div class="col-12">
-                                             <button class="btn btnBannerMM btnBMM6">Ver Más</button>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                           <!-- FIN Ofertas -->
-                           <!-- Catálogos -->
-                           <li class="nav-item dropdown mega-dropdown">
-                              <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
-                                 aria-haspopup="true" aria-expanded="false">Catálogos</a>
-                              <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
-                                 aria-labelledby="navbarDropdownMenuLink3">
-                                 <div class="row">
-                                    <div class="col-8">
-                                       <div class="row">
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Otoño-Invierno</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballero</a></li>
-                                             </ul>
-                                          </div>
-                                          <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
-                                             <ul class="list-group estilosUl mb-3">
-                                                <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--BANNER EN MEGA MENU-->
-                                    <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
-                                       <div class="row bannerMM7">
-                                          <div class="col-12">
-                                             <h2 class="textoBannerMM1">Los</h2>
-                                             <h1 class="textoBannerMM2">Catálogos</h1>
-                                             <h1 class="textoBannerMM1">que necesitas</h1>
-                                          </div>
-                                          <div class="col-12">
-                                             <img src="https://i.pinimg.com/474x/7c/4f/57/7c4f5728ecfdb0dc9913342e338fd086.jpg" alt="" class="img-fluid imgBennerMM">
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!--FIN BANNER EN MEGA MENU-->
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                        <!-- Links -->
-                     </div>
-                     <!-- Collapsible content -->
-                  </nav>
-                  <!-- Navbar -->
-               </div>
-               <!--Fin col-6 navbar-->
-               <!--col-3 Carrito de compras-->
-               <div class="col-6 col-sm-6 col-md-6 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
-                  <div class="right-inner-addon pull-left col-12 md-form ">
-                     <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
+            <!-- Navbar -->
+            <!--================================
+               FIN NAVBAR ACCIONES CLIENTE 
+               ==================================== -->
+            <!--===========================================
+               NAVBAR  CATEGORIAS Y CARRITO DE COMPRAS
+               =============================================== -->
+            <!-- continer-fluid -->
+            <section class="container-fluid p-0 contenedorCategorias">
+               <div class="row  m-0 align-items-center">
+                  <!-- row (img/navbar/carrito)--->
+                  <!--col-2 logo-->
+                  <div class="col-4 col-sm-4 col-md-4 col-lg-2  logoInicial p-0">
+                     <a href="../../index.html"><img class="img-fluid" src="../../img/imgOficial/iconos_logos/impuls_logo_negro.svg" alt="logo-impuls"></a>
                   </div>
-                  <a href="../miCuenta/listaDeseos.html"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
-                  <a href="../../pages/carritoCompra/carritoCompra.html"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
-                  <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
+                  <!--col-2 fin logo-->
+                  <!--col-6 navbar-->
+                  <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO--> <!--MEGA MENU ESCRITORIO-->
+                  <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 m-0 p-0 categoriasNavbar mb-2 mr-0">
+                     <!-- Navbar -->
+                     <nav class="navbar navbar-expand-lg navbar-light white " id="menuCategorias">
+                        <!-- Navbar brand -->
+                        <!-- <a class="navbar-brand text-uppercase" href="#">Navbar</a> -->
+                        <!-- Collapse button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+                           aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                           <!-- margin-left: 2.5rem!important; -->
+                           <!-- Links -->
+                           <ul class="navbar-nav mr-auto">
+                              <!-- DAMA -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Dama</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Piso</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Plataforma</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Confort Piso</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">City</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Luvia</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Vestir</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Invernal</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual Moda</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Comfort</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Alto</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Bajo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM1">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN DAMA -->
+                              <!-- Caballero -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a  class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Caballero</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Piloto</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Roper</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Vaquera</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Comfort</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Basket</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Indoor</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Soccer</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Industrial</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Industrial</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vestir</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Vestir</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Botín</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM2">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="../../img/imgOficial/fotos/01 home/z3.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM2">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN Caballero -->
+                              <!-- Niña -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a  href="../../pages/listaProducto/listaProducto.html" class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4"
+                                    aria-haspopup="true" aria-expanded="false">Niña</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Piso</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Plataforma</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Confort Alto</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                   <li class="list-inline-item"><a href="#!">City</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Invernal</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Bota</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Zapatilla</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Balerina</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM3">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="../../img/imgOficial/fotos/01 home/z7.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM3">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN Niña -->
+                              <!-- Niño -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Niño
+                                 </a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Hiking</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Guante</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Deportivo</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Indoor</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Basket</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Deportivo</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Urbano</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Sport</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Escolar</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Sandalia</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Abierta</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Playera</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Tipo Crocs</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Botas</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM4">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="../../img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM4">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- Accesorios -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Accesorios</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Calcetas</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Calceta</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Tines</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lustrador</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Lustrador</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Mochila</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Mochila</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Plantilla</a></li>
+                                                   <li class="list-inline-item"><a href="#!">Plantilla</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM5">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="https://cdn.shopify.com/s/files/1/2075/9749/products/CC-C46914_BPProPCS_Blue_1@2x.png?v=1534954456" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM5">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN Accesorios -->
+                              <!-- Marcas -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Marcas</a> 
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Gucci</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nike</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Fila</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reef</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Lacoste</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Puma</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Vans</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Reebok</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Converse</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Panams</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Charly</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Nautica</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">DC</a></li>
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">K-Swiss</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM2">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Las mejores</h2>
+                                                <h1 class="textoBannerMM2">Marcas</h1>
+                                                <h1 class="textoBannerMM1">al mejor precio</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="https://www.seekpng.com/png/full/391-3910645_nike-logo-transparent-white-pictures-png-nike-png.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN Marcas -->
+                              <!-- Ofertas -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Ofertas</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-4 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Ofertas de Hoy</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-4 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballeros</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-4 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niños</a></li>
+                                                </ul>
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Accesorios</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM6">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Hasta</h2>
+                                                <h1 class="textoBannerMM2">50%</h1>
+                                                <h1 class="textoBannerMM1">de descuento</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="https://seeklogo.com/images/B/buen-fin-logo-2B3F830A05-seeklogo.com.png" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                             <div class="col-12">
+                                                <button class="btn btnBannerMM btnBMM6">Ver Más</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                              <!-- FIN Ofertas -->
+                              <!-- Catálogos -->
+                              <li class="nav-item dropdown mega-dropdown">
+                                 <a class="nav-link dropdown-toggle textoTitulosCategorias" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Catálogos</a>
+                                 <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-4 px-4"
+                                    aria-labelledby="navbarDropdownMenuLink3">
+                                    <div class="row">
+                                       <div class="col-8">
+                                          <div class="row">
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Otoño-Invierno</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Dama</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Caballero</a></li>
+                                                </ul>
+                                             </div>
+                                             <div class="col-md-3 col-xl-3 sub-menu mb-md-0">
+                                                <ul class="list-group estilosUl mb-3">
+                                                   <li class="list-inline-item"><a href="#!" class="subcategoriaMM">Niñas</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--BANNER EN MEGA MENU-->
+                                       <div class="col-md-4 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                          <div class="row bannerMM7">
+                                             <div class="col-12">
+                                                <h2 class="textoBannerMM1">Los</h2>
+                                                <h1 class="textoBannerMM2">Catálogos</h1>
+                                                <h1 class="textoBannerMM1">que necesitas</h1>
+                                             </div>
+                                             <div class="col-12">
+                                                <img src="https://i.pinimg.com/474x/7c/4f/57/7c4f5728ecfdb0dc9913342e338fd086.jpg" alt="" class="img-fluid imgBennerMM">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--FIN BANNER EN MEGA MENU-->
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                           <!-- Links -->
+                        </div>
+                        <!-- Collapsible content -->
+                     </nav>
+                     <!-- Navbar -->
+                  </div>
+                  <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO--> <!--FIN MEGA MENU ESCRITORIO-->
+                  <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL--> <!-- MENU HAMBURGUESA MOVIL-->
+                  <div class="d-block d-sm-block d-md-block d-lg-none col-2 order-3 p-0">
+                     <div id="menuSmall" class="sidenav">
+                        <div class="row">
+                           <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm1" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezadoMM1">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#subCategoriasMM" href="#subCategoriasMM" aria-expanded="true" aria-controls="subCategoriasMM" class="borderNavbarHome">
+                                          Dama<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- SUBCATEGORIASSSSSSSS-->
+                                    <div class="collapse navbar-collapse" id="subCategoriasMM">
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm1" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM1">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM1" href="#subMM1" aria-expanded="true" aria-controls="subMM1" class="borderNavbarHome-s">
+                                                   Zapatillas<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM1">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-group-item"><a href="#!">Abierta</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm2" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM2">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM2" href="#subMM2" aria-expanded="true" aria-controls="subMM2" class="borderNavbarHome-s">
+                                                   Sandalia<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM2">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Piso</a></li>
+                                                   <li class="list-group-item"><a href="#!">Plataforma</a></li>
+                                                   <li class="list-group-item"><a href="#!">Playera</a></li>
+                                                   <li class="list-group-item"><a href="#!">Confort Piso</a></li>
+                                                   <li class="list-group-item"><a href="#!">Confort Alto</a></li>
+                                                   <li class="list-group-item"><a href="#!">Plataforma</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm3" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM3">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM3" href="#subMM3" aria-expanded="true" aria-controls="subMM3" class="borderNavbarHome-s">
+                                                   Escolar<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM3">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Escolar</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm4" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM4">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM4" href="#subMM4" aria-expanded="true" aria-controls="subMM4" class="borderNavbarHome-s">
+                                                   Balerina<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM4">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Abierta</a></li>
+                                                   <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm5" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM5">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM5" href="#subMM5" aria-expanded="true" aria-controls="subMM5" class="borderNavbarHome-s">
+                                                   Botas<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM5">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-group-item"><a href="#!">City</a></li>
+                                                   <li class="list-group-item"><a href="#!">Lluvia</a></li>
+                                                   <li class="list-group-item"><a href="#!">Vestir</a></li>
+                                                   <li class="list-group-item"><a href="#!">Hiking</a></li>
+                                                   <li class="list-group-item"><a href="#!">Invernal</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm6" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM6">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM6" href="#subMM6" aria-expanded="true" aria-controls="subMM6" class="borderNavbarHome-s">
+                                                   Urbano<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM6">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Casual</a></li>
+                                                   <li class="list-group-item"><a href="#!">Sport</a></li>
+                                                   <li class="list-group-item"><a href="#!">Casual Moda</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                       <!--SUBCATGORIA -->
+                                       <div class="panel-group" id="smm7" role="tablist" aria-multiselectable="true">
+                                          <div class="panel panel-default">
+                                             <div class="panel-heading" role="tab" id="subEncabezadoMM7">
+                                                <h4 class="panel-title">
+                                                   <a role="button" data-toggle="collapse" data-parent="#subMM7" href="#subMM7" aria-expanded="true" aria-controls="subMM7" class="borderNavbarHome-s">
+                                                   Confort<i class="more-less-subMenu fas fa-angle-right"></i>
+                                                   </a>
+                                                </h4>
+                                             </div>
+                                             <!-- ITEMS SUBCATGORIAS -->
+                                             <div class="collapse navbar-collapse" id="subMM7">
+                                                <ul class="list-group list-group-flush itemsSubcategorias">
+                                                   <li class="list-group-item"><a href="#!">Alto</a></li>
+                                                   <li class="list-group-item"><a href="#!">Bajo</a></li>
+                                                   <li class="list-group-item"><a href="#!">Guante</a></li>
+                                                </ul>
+                                             </div>
+                                             <!-- FIN ITEMS SUBCATGORIAS -->
+                                          </div>
+                                       </div>
+                                       <!--FIN SUBCATGORIA -->
+                                    </div>
+                                    <!-- FIN SUBCATEGORIASSSSSSS -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU DAMA --><!-- COLLAPSE MENU DAMA -->
+                           <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm2" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado2">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMCaballero" href="#megaMCaballero" aria-expanded="true" aria-controls="megaMCaballero" class="borderNavbarHome">
+                                          Caballero<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMCaballero">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Basket</a></li>
+                                          <li class="list-group-item"><a href="#!">Escolar</a></li>
+                                          <li class="list-group-item"><a href="#!">Indoor</a></li>
+                                          <li class="list-group-item"><a href="#!">Soccer</a></li>
+                                          <li class="list-group-item"><a href="#!">Deportivo</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU CABALLERO --><!-- COLLAPSE MENU CABALLERO -->
+                           <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm3" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado3">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMNina" href="#megaMNina" aria-expanded="true" aria-controls="megaMNina" class="borderNavbarHome">
+                                          Niña<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMNina">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU NIÑA --><!-- COLLAPSE MENU NIÑA -->
+                           <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm4" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado4">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMNino" href="#megaMNino" aria-expanded="true" aria-controls="megaMNino" class="borderNavbarHome">
+                                          Niño<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMNino">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU NIÑO --><!-- COLLAPSE MENU NIÑO -->
+                           <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm5" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado5">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMNAccesorios" href="#megaMNAccesorios" aria-expanded="true" aria-controls="megaMNAccesorios" class="borderNavbarHome">
+                                          Accesorios<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMNAccesorios">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU ACCESORIOS --><!-- COLLAPSE MENU ACCESORIOS -->
+                           <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm6" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado6">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMMarcas" href="#megaMMarcas" aria-expanded="true" aria-controls="megaMMarcas" class="borderNavbarHome">
+                                          Marcas<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMMarcas">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU MARCAS --><!-- COLLAPSE MENU MARCAS -->
+                           <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm7" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado7">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMOfertas" href="#megaMOfertas" aria-expanded="true" aria-controls="megaMOfertas" class="borderNavbarHome">
+                                          Ofertas<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMOfertas">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU OFERTAS --><!-- COLLAPSE MENU OFERTAS -->
+                           <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+                           <div class="col-12">
+                              <div class="panel-group" id="mm8" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="encabezado8">
+                                       <h4 class="panel-title">
+                                          <a role="button" data-toggle="collapse" data-parent="#megaMCatalogos" href="#megaMCatalogos" aria-expanded="true" aria-controls="megaMCatalogos" class="borderNavbarHome">
+                                          Catálogos<i class="more-less-menu fas fa-angle-right"></i>
+                                          </a>
+                                       </h4>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                    <div class="collapse navbar-collapse" id="megaMCatalogos">
+                                       <ul class="list-group list-group-flush">
+                                          <li class="list-group-item"><a href="#!">Casual</a></li>
+                                          <li class="list-group-item"><a href="#!">Piloto</a></li>
+                                          <li class="list-group-item"><a href="#!">Sport</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- contenido ocult0 -->
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
+   
+                           <!-- MAS OPCIONES --><!-- MAS OPCIONES -->
+                           <div class="col-12 colorFondoPrimarioMM">
+   
+                              <div class="row mt-5">
+                                 <div class="offset-1 col-10 text-center">
+                                    <button class="btn btnIniciarSMM colorSecundario" data-toggle="modal" data-target="#modalLogin">Iniciar sesión</button>
+                                    <h1 class="textoTodavia mt-4">¿Todavía no tienes cuenta?<a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a"> Registrate aquí</a></h1>
+                                 </div>
+                                 <div class="col-6">
+                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Dónde está mi cuenta?</a>
+                                 </div>
+                                 <div class="col-6">
+                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">Cambios y Devoluciones</a>
+                                 </div>
+                                 <div class="col-6">
+                                    <a href="#!" data-toggle="modal" data-target="#modalEnviosGratis" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                                 </div>
+                                 <div class="col-6">
+                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                                 </div>
+                              </div>
+                              
+                           </div>
+                           <!-- FIN MAS OPCIONES --><!-- FIN MAS OPCIONES -->
+                        </div>
+                     </div>
+                     <span style="font-size:30px;cursor:pointer" class="float-right" onclick="openNav()" id="abrirMM"><i class="fas fa-bars"></i></span>
+                     <span style="font-size:30px;cursor:pointer;display:none" class="float-right" onclick="closeNav()" id="cerrarMM"><i class="fas fa-times"></i></span>
+                  </div>
+                  <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL--> <!--FIN MENU HAMBURGUESA MOVIL-->
+                  <!--Fin col-6 navbar-->
+                  <!--col-3 Carrito de compras-->
+                  <div class="col-5 col-sm-5 col-md-5 col-lg-3  p-0  order-2 order-sm-2 order-md-2 order-lg-3 iconos pt-1">
+                     <div class="right-inner-addon pull-left md-form d-none d-sm-none d-md-none d-lg-block">
+                        <input type="text" name="buscar" id="buscar" placeholder="&#xF002;" style="font-family:Arial, FontAwesome"/>
+                     </div>
+                     <a href="#!"> <img src="../../img/imgOficial/iconos_logos/search icon.svg" alt="favoritos" class="d-inline d-sm-inline d-md-inline d-lg-none buscarInput" id="buscar" data-toggle="collapse" data-target="#buscarInput"></a>
+                     <a href="../../pages/miCuenta/listaDeseos.html"><img src="../../img/imgOficial/iconos_logos/favoritos icon.svg" alt="favoritos" class="verMisFavoritos" id="verMisFavoritos"></a>
+                     <a href="../../pages/carritoCompra/carritoCompra.html"><img src="../../img/imgOficial/iconos_logos/carrito icon.svg" alt="carrito compras" class="verCarritoCompras" id="verCarritoCompras"></a>
+                     <span class="badge badge-pill black cantidadCarrito" id="cantidadCarrito">4</span>
+                  </div>
+                  <!--Fin col-3 Carrito de compras-->    
+                  <div class="col-12 collapse order-4" id="buscarInput">
+                     <div class="md-form my-0">
+                        <input class="form-control my-0" type="text" placeholder="Buscar" aria-label="Buscar">
+                     </div>
+                  </div>
                </div>
-               <!--Fin col-3 Carrito de compras-->
-            </div>
-            <!-- Fin row (img/navbar/carrito)--->
-         </section>
-         <!-- Fin container (img/navbar/carrito)--->
-      </header>
+               <!-- Fin row (img/navbar/carrito)--->
+               <div class="row">
+               </div>
+            </section>
+            <!-- Fin container (img/navbar/carrito)--->
+         </header>
       <!--===============================================
          FIN  HEADER
          ================================================= -->
@@ -757,68 +1149,77 @@
                      CAMBIAR CONTRASEÑA 
          ================================================= -->
               <!--container-->
-      <section class="container-fluid colorFondoPrimario seccionMiCuenta">
+              <section class="colorFondoPrimario seccionMiCuenta">
          <div class="container">
+
             <div class="row">
-               <div class="col-6">
+                 <div class="col-12 col-sm-12 col-md-12 col-lg-3  mt-4">
                   <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
+                     <ul class="list-group list-group-flush textoMiCuenta">
+                        <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
+                        <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
+                        <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
+                        <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
+                        <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
+                        <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
+                        <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
+                        <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
+                        <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
+                        <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
+                        <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
+                     </ul>
+                     <br>
+                     <ul class="list-group list-group-flush textoMiCuenta">
+                        <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
+                        <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
+                        <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
+                        <li class="list-group-item"><a href="#!">Entrega</a></li>
+                        <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
+                        <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
+                        <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
+                        <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
+                     </ul>
                </div>
-            </div>
-            <div class="row">
-               <div class="col-3">
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
-                     <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
-                     <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
-                     <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
-                     <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
-                     <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
-                     <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
-                     <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
-                     <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
-                     <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
-                     <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
-                  </ul>
-                  <br>
-                  <ul class="list-group list-group-flush textoMiCuenta">
-                     <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
-                     <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
-                     <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
-                     <li class="list-group-item"><a href="#!">Entrega</a></li>
-                     <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
-                     <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
-                     <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
-                     <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
-                  </ul>
-               </div>
-               <div class="col-9 p-5" style="background-color: #fff;">
-                 <h4 class="textoCambiarC mb-5">Cambiar su contraseña</h4>
+
+               <div class="col-12 col-sm-12 col-md-12 col-lg-9 p-5">
+                  <div class="mt-5">
+                     
+                  </div> 
+
+                  <div class="row p-5 aux-cc-1" style="background-color: #fff;">
+                  <div class="col-12">
+
+                     <h4 class="textoCambiarC mb-5">Cambiar su contraseña</h4>
  
-                 <form action="">
-                     <div class="form-group">
-                         <label for="contrasena" class="textoInputCambiarC">Contraseña anterior</label>
-                         <input type="text" class="form-control estiloInputCambiarC" id="contrasenaA" placeholder="Contraseña anterior" value="">
-                       </div>
-                       <div class="form-group">
-                         <label for="contrasenaN" class="textoInputCambiarC">Nueva contraseña</label>
-                         <input type="text" class="form-control estiloInputCambiarC" id="contrasenaN" placeholder="Nueva contraseña" value="">
-                       </div>
-                       <div class="form-group">
-                         <label for="contrasenaC" class="textoInputCambiarC">Confirmar nueva contraseña</label>
-                         <input type="text" class="form-control estiloInputCambiarC" id="contrasenaC" placeholder="Confirmar nueva contraseña" value="">
-                       </div>
- 
-                       <div class="row mt-5">
-                           <div class="col-6">
-                             <button class="btn botonesCambiarC colorSecundario" type="submit">Cancelar</button>
+                     <form action="">
+                         <div class="form-group">
+                             <label for="contrasena" class="textoInputCambiarC">Contraseña anterior</label>
+                             <input type="text" class="form-control estiloInputCambiarC" id="contrasenaA" placeholder="Contraseña anterior" value="">
                            </div>
-                           <div class="col-6">
-                             <button class="btn botonesCambiarC colorSecundario" type="submit">Confirmar</button>
+                           <div class="form-group">
+                             <label for="contrasenaN" class="textoInputCambiarC">Nueva contraseña</label>
+                             <input type="text" class="form-control estiloInputCambiarC" id="contrasenaN" placeholder="Nueva contraseña" value="">
                            </div>
-                       </div>
+                           <div class="form-group">
+                             <label for="contrasenaC" class="textoInputCambiarC">Confirmar nueva contraseña</label>
+                             <input type="text" class="form-control estiloInputCambiarC" id="contrasenaC" placeholder="Confirmar nueva contraseña" value="">
+                           </div>
+     
+                           <div class="row mt-5">
+                               <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                 <button class="btn botonesCambiarC colorSecundario" type="submit">Cancelar</button>
+                               </div>
+                               <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-3 mt-sm-3 mt-md-0">
+                                 <button class="btn botonesCambiarC colorSecundario" type="submit">Confirmar</button>
+                               </div>
+                           </div>
+     
+     
+                     </form>
+
+                  </div>
+                  </div>
  
- 
-                 </form>
  
     
                </div>
@@ -1324,6 +1725,7 @@
       <script type="text/javascript" src="../../js/tolk-index/general.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
    
+ 
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->

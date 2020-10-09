@@ -76,3 +76,85 @@
     padding: 0px 10px!important;
 }
 
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+  
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+   
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+
+
+}
+ 
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+
+}
+
+@media (max-width: 350px) {
+     tr {
+        display: inline-block;
+    }
+
+    .textoMembresia {
+        font-size: 25px!important;
+    }
+
+    .textoCabeceraMembresia th {
+        font-size: 10px;
+        line-height: 1.13;
+    }
+
+    .textoCuerpoMembresia td {
+        font-size: 27px;
+    }
+
+}
+
+@media (max-width: 290px) {
+
+    .textoMembresia {
+        font-size: 18px!important;
+    }
+    .textoCuerpoMembresia td {
+        font-size: 18px;
+    }
+
+    .textoMembresia4 {
+        font-size: 19px;
+
+    }
+
+}
+

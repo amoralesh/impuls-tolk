@@ -81,3 +81,84 @@
   color: #ffffff;
   text-transform: none;
 }
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+  
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+   
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+  .botonesCambiarC {
+    width: 145px;
+}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+  .botonesCambiarC {
+    width: 205px;
+}
+        
+}
+ 
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+  .botonesCambiarC {
+    width: 109px;
+    height: 31px;
+}
+.textoCambiarC {
+  font-size: 17px!important;
+}
+
+.textoInputCambiarC {
+  font-size: 12px!important;
+  line-height: 1.53;
+    
+}
+}
+
+@media (max-width: 350px) {
+  .textoTitulosSeccion {
+    font-size: 13px;
+
+ }
+ .textoMiCuenta1 {
+  font-size: 16px;
+}
+  .botonesCambiarC {
+    width: 122px;
+    height: 31px;
+    font-size: 15px!important;
+}
+
+  .aux-cc-1{
+    padding: 0px!important;
+  }
+}
+

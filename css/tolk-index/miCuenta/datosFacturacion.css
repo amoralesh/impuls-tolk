@@ -101,3 +101,88 @@
     color: #ffffff;
     text-transform: none;
 }
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+  
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+   
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+  .botonesDatosFac {
+    width: 207px;
+    height: 45px;
+    font-size: 12px!important;
+  
+  }
+
+}
+ 
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+  .textoDatosFac {
+    font-size: 19px!important;
+}
+
+.custom-control-label {
+  font-size: 12px;
+}
+
+.botonesDatosFac {
+  width: 229px;
+  height: 45px;
+  font-size: 13px!important;
+}
+    
+}
+
+@media (max-width: 350px) {
+  .botonesDatosFac {
+    width: 193px;
+    height: 45px;
+    font-size: 12px!important;
+}
+
+
+}
+
+@media (max-width: 290px) {
+  .botonesDatosFac {
+    width: 129px;
+    height: 45px;
+    font-size: 10px!important;
+}
+
+.textoDatosFac {
+  font-size: 14px!important;
+}
+
+}
+

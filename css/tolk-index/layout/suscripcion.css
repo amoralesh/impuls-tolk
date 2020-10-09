@@ -102,6 +102,12 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
         top:0px;
         padding-top: 32px;
     }
+
+    .btnSuscripcion {
+        width: 244px;
+        height: 48px;
+        font-size: 25px!important;
+    }
     
 }
 
@@ -120,6 +126,11 @@ MOVIL (XS revisamos en 320px)
         padding-top: 32px;
     }
 
+    .btnSuscripcion {
+        width: 165px;
+        font-size: 19px!important;
+    }
+
 }
 
 /*=============================================
@@ -135,6 +146,11 @@ MOVIL (XS revisamos en 576px)
         background-color: #f3f3f3;
         top:0px;
         padding-top: 32px;
+    }
+
+    .btnSuscripcion {
+        width: 105px;
+        font-size: 13px!important;
     }
  
 }

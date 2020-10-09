@@ -199,3 +199,121 @@ font-family: PoppinsBold;
     letter-spacing: normal;
     color: #000000;
 }
+
+
+    /*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+  
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .btnsCarrito {
+        width: 240px;
+    }
+    .tc{
+        font-size: 13px; 
+    }
+
+    .accionesCompraCarrito {
+        font-size: 10px;
+    }
+   
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .accionesCompraCarrito {
+        font-size: 15px;
+    }
+    .textAlerta {
+        text-align: justify;
+    }
+
+}
+
+  
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .nombreProductoCC {
+        font-size: 14px;
+    }
+
+    .skuCC {
+        font-size: 13px;
+    }
+    .tc{
+        font-size: 12px; 
+    }
+
+    .accionesCompraCarrito {
+        font-size: 10px;
+    }
+    .textAlerta {
+        font-size: 11px;
+        text-align: justify;
+    }
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+    .textAlerta {
+        font-size: 11px;
+        text-align: justify;
+    }
+
+    .nombreProductoCC {
+        font-size: 12px;
+    }
+
+    .skuCC {
+        font-size: 10px;
+    }
+
+    .accionesCompraCarrito {
+        font-size: 10px;
+    }
+
+    .tc{
+        font-size: 11px; 
+    }
+
+    .tituloCarrito {
+        font-size: 28px;
+    }
+
+    .textDetalleCompra {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    .btnsCarrito {
+        width: 248px;
+
+    }
+ }
+
+
+
+
+    

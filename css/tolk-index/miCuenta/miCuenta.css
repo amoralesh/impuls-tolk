@@ -21,7 +21,7 @@ position: relative;
 
 .textoMiCuenta2{
     font-family: Poppins!important;
-    font-size: 16px;
+    font-size: 16px; 
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -90,46 +90,110 @@ position: relative;
 }
 
 
-/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
-/*DIRECCIONES--DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES---DIRECCIONES*/
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
 
-.accionesDireccion{
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #9b9b9b;
-}
-
-.custom-control-input:checked~.custom-control-label::before {
-    color: #fff!important;
-    border-color: #000000!important;
-    background-color: #000000!important;
-}
-
-.btnAgregarDireccion{
-    width: 289px!important;
-    height: 45px!important;
+@media (min-width:1200px){
   
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  
-    text-transform: none;
-    border-radius:8px!important;
-    -webkit-border-radius:8px!important;
-    -moz-border-radius:8px!important;
-    -ms-border-radius:8px!important;
-    -o-border-radius:8px!important;
 }
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+  .gn{
+    font-size: 26px!important;
+    margin-right: 80px;
+  }
+  
+   
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+  .seccionMiCuenta {
+    padding-bottom: 37px;
+  }
+  .gn{
+    font-size: 21px!important;
+    margin-right: 80px;
+  }
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+
+  .seccionMiCuenta {
+    padding-bottom: 37px;
+  }
+}
+ 
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+.seccionMiCuenta {
+  padding-bottom: 37px;
+}
+
+.estiloInputMiCuenta {
+  height: 34px!important;
+}
+
+.textoMiCuenta1 {
+  font-size: 17px;
+}
+
+.textoMiCuenta2 {
+  font-size: 13px;
+}
+
+.textoMiCuenta3 {
+  font-size: 13px;
+}
+
+.btnEditar {
+  width: 110px!important;
+  height: 33px!important;
+  font-size: 15px!important;
+
+}
+
+.gn{
+  font-size: 16px!important;
+  margin-right: 190px;
+}
+
+    
+}
+
+@media (max-width: 350px) {
+
+  .aux-1-mc{
+    padding: 0px!important;
+  }
+}
+
+@media (max-width: 290px) {
+
+  .aux-1-mc{
+    padding: 0px!important;
+  }
+}
+
+
 
 
