@@ -1,15 +1,81 @@
 @media only screen and (max-width: 900px) {
     .btn2 {
         width: 100%;
+        margin: 18px 0px !important;
     }
     .Titulo_car {
         font-size: 25px !important;
         padding-top: 30px;
     }
     .nav-item-m{
-        width: 100%;
+        width: auto;
+        padding: 5px;
     }
     .car_tabl_title {
         text-align: initial !important;
+    }
+    .contenedorEstatus img{
+        width: 90%;
+    }
+    .number_oval {
+        box-shadow: none !important;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.91;
+        letter-spacing: normal;
+    }
+    .show_span {
+        padding: 6px 9px !important;
+        text-transform: none!important;
+        color: white!important;
+        background-color: black !important;
+    }
+    .skin-light .classic-tabs .nav.tabs-primary li a {
+        color: #6c757d;
+        font-weight: 500;
+        font-size: 12px !important;
+    }
+    .car_span {
+        padding: 6px 8px !important;
+        border: solid 1px #6f6f6f;
+        text-transform: none!important;
+        color: #6f6f6f !important;
+        background-color: transparent !important;
+    }
+    .form_section {
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .form_section {
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .label_datos {
+        font-family: Poppins;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000 !important;
+    }
+    #tienda {
+        padding-left: 19px!important;
     }
 }

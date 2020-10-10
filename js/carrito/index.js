@@ -54,4 +54,8 @@ $(document).ready(function(){
            }
            
        });
+       $(".car_tabl_title").click(function(){
+            alert(this.attr("id"))
+       });
+      
   });
