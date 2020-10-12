@@ -53,7 +53,7 @@ $(document).ready(function() {
 $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
 
-});
+}); 
 
 $(".irAFiltros").click(function(){
   $(".contenedorCategoriasLP").hide();
@@ -75,7 +75,54 @@ $('#multi').mdbRange({
   }
 });
 
+$('#multi').mdbRange({
+  value: {
+    min: 80,
+    max: 2000
+  },
+  single: {
+    active: true,
+    multi: {
+      active: true,
+      rangeLength: 1
+    },
+  }
+});
+
 $('#multi2').mdbRange({
+  value: {
+    min: 1,
+    max: 5
+  },
+  single: {
+    active: true,
+    multi: {
+      active: true,
+      rangeLength: 1
+    },
+  }
+});
+
+// movil // movil // movil // movil// movil
+
+$('#multi-m').mdbRange({
+  value: {
+    min: 80,
+    max: 2000
+  },
+  single: {
+    active: true,
+    multi: {
+      active: true,
+      rangeLength: 1
+    },
+  }
+});
+
+
+
+
+$('#multi2-m').mdbRange({
   value: {
     min: 1,
     max: 5

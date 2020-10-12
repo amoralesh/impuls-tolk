@@ -5,10 +5,16 @@
 .ayudaMiCuenta{
 position: relative;
 /* bottom: 210px!important; */
+} 
+
+.textoMiCuenta li{
+
+  padding: 5px 10px!important;
+  display: flex!important;
 }
 
 .textoMiCuenta li a{
-    font-family: Poppins!important;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -17,35 +23,41 @@ position: relative;
     letter-spacing: normal;
     color: #2c2c2c!important;
     padding: 0px 10px!important;
+
 }
 
-.textoMiCuenta2{
-    font-family: Poppins!important;
-    font-size: 16px; 
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33!important;
-    letter-spacing: normal;
-    color: #2c2c2c!important;
+.textoMiCuenta li strong{
+
+  padding: 10px 10px!important;
 }
 
-.textoMiCuenta li{
 
-    padding: 5px 15px!important;
-}
+
 
 
 .textoMiCuenta1{
-    font-family: PoppinsBold;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: PoppinsBold!important;
+    font-size: 24px!important;
+    font-weight: bold!important;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 2;
     letter-spacing: normal;
     color: #000000;
 }
+
+
+.textoMiCuenta2{
+  font-family: Poppins!important;
+  font-size: 16px; 
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33!important;
+  letter-spacing: normal;
+  color: #2c2c2c!important;
+}
+
 
 .textoMiCuenta3{
   font-family: PoppinsBold;
@@ -87,6 +99,12 @@ position: relative;
   -moz-border-radius:8px!important;
   -ms-border-radius:8px!important;
   -o-border-radius:8px!important;
+}
+
+.more-less-cuenta {
+  float: right;
+  color: #000000;
+  font-size: 15px;
 }
 
 

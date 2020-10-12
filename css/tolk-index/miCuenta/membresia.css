@@ -99,6 +99,7 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+    
 
 
 }
@@ -109,7 +110,10 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-
+    
+    .aux-1-mem{
+        padding:20px 15px 15px 15px!important;
+    }
 
 }
  
@@ -119,7 +123,9 @@ MOVIL (XS revisamos en 576px)
 =============================================*/
 @media (max-width: 576px) { 
 
-
+    .aux-1-mem{
+        padding:20px 15px 15px 15px!important;
+    }
 }
 
 @media (max-width: 350px) {

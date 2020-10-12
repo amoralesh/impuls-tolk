@@ -3,7 +3,7 @@
     height: 400px;
     }
 .rowPrincipalF{
-    position: absolute;
+    position: relative;
     top: -100px;
 }
 

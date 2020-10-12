@@ -141,7 +141,7 @@ MOVIL (XS revisamos en 320px)
     #formasPagos{
         position: relative;
         padding-bottom: 15px;
-        left: 7px!important;
+        left: 0px!important;
         height: 125px;
     }
 

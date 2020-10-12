@@ -72,6 +72,10 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
+    .aux-1-dr{
+        padding:20px 15px 15px 15px!important;
+    }
+
 }
  
 
@@ -86,11 +90,20 @@ MOVIL (XS revisamos en 576px)
         font-size: 14px;
 
     }
+
+    
+    .aux-1-dr{
+        padding:20px 15px 15px 15px!important;
+    }
     
 }
 
 @media (max-width: 350px) {
-
+    .btnAgregarDireccion {
+        width: 169px!important;
+        height: 39px!important;
+        font-size: 9px!important;
+    }
 
 }
 

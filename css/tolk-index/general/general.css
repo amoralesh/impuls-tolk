@@ -395,7 +395,9 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
-
+  .textoTitulosSeccion{
+    font-size: 30px;
+}
 }
 
 /*=============================================

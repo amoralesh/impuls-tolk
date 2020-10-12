@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
   var altoHeader =$("header").height();
-   $(".sidenav").css("top", altoHeader);
+   $("#menuSmall").css("top", altoHeader);
 
 
   //  $('#modalOfertaRelampago').modal('toggle');
@@ -36,7 +36,7 @@ $("#fechaN").inputmask("datetime", {
   $(".conSesion").show();
   $(".sinSesion").hide(); 	
 
-});
+}); 
 
 $( ".cerrarS" ).click(function() {
   $(".conSesion").hide();
@@ -90,7 +90,16 @@ function adjustCSS(){
 if($(window).width() <= 767){ 
 
 
-  new Glide('#carrucelMV', {
+  $("#collapseTiendalinea").addClass("collapse");
+  $("#collapseIniciaNegocio").addClass("collapse");
+  $("#collapseAcercaNosostros").addClass("collapse");
+  $("#collapseMicuenta").addClass("collapse");
+  $("#collapseAyuda").addClass("collapse");
+
+  $(".contenedorCategoriasLP").css("display", "none");
+  $(".contenedorFiltrosLP").css("display", "none");
+
+    new Glide('#carrucelMV', {
     type: 'carousel',
   startAt: 0,
   autoplay: 442000,
@@ -108,17 +117,18 @@ if($(window).width() <= 767){
     }
   }).mount();  
 
+
 }else{
-
-  $("#collapseTiendalinea").addClass("collapse");
-  $("#collapseIniciaNegocio").addClass("collapse");
-  $("#collapseAcercaNosostros").addClass("collapse");
-  
-
 
   $("#collapseTiendalinea").removeClass("collapse");
   $("#collapseIniciaNegocio").removeClass("collapse");
   $("#collapseAcercaNosostros").removeClass("collapse");
+  $("#collapseMicuenta").removeClass("collapse");
+  $("#collapseAyuda").removeClass("collapse");
+
+  $(".contenedorCategoriasLP").css("display", "block");
+
+  
 }
 
 }
@@ -139,6 +149,11 @@ function toggleIcon(e) {
       .prev('.panel-heading-2')
       .find(".more-less-footer")
       .toggleClass('fa-minus');
+
+      $(e.target)
+      .prev('.panel-heading-5')
+      .find(".more-less-cuenta")
+      .toggleClass('fa-minus-square');
 }
 
 
@@ -179,10 +194,66 @@ function toggleIcon(e) {
 
 $( window ).on( "orientationchange", function( event ) {
 
-  setTimeout(function(){ 
+  setTimeout(function(){
+
+
+    if($(window).width() <= 767){ 
+
+
+    
+   
+    
+      $("#collapseTiendalinea").addClass("collapse");
+      $("#collapseIniciaNegocio").addClass("collapse");
+      $("#collapseAcercaNosostros").addClass("collapse");
+      $("#collapseMicuenta").addClass("collapse");
+      $("#collapseAyuda").addClass("collapse");
+
+      $(".contenedorCategoriasLP").css("display", "none");
+      $(".contenedorFiltrosLP").css("display", "none");
+
+      new Glide('#carrucelMV', {
+        type: 'carousel',
+      startAt: 0,
+      autoplay: 442000,
+      hoverpause: true,
+      gap: 20,
+      // animationTimingFunc: ease,
+        perView: 5,
+        breakpoints: {
+           1000: {
+              perView: 4
+           },
+        800: {
+              perView: 2
+           }
+        }
+      }).mount();  
+    
+    }else{
+    
+      $("#collapseTiendalinea").removeClass("collapse");
+      $("#collapseIniciaNegocio").removeClass("collapse");
+      $("#collapseAcercaNosostros").removeClass("collapse");
+      $("#collapseMicuenta").removeClass("collapse");
+      $("#collapseAyuda").removeClass("collapse");
+
+      $(".contenedorCategoriasLP").css("display", "block");
+    
+    }
+    
+    
     var altoHeader2 =$("header").height();
-    $(".sidenav").css("top", altoHeader2);
+    $("#menuSmall").css("top", altoHeader2);
+
+
+  }, 700);
+
   
-  }, 2000);
+
+
+
+
+
 
 });
