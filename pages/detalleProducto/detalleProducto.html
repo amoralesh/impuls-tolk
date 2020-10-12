@@ -1701,7 +1701,7 @@
                      </div>
                      <div class="col-12 compartir">
                         <label class="mr-3">Compartir</label>
-                        <img src="../../img/imgOficial/iconos_logos/whatsapp.svg" alt="" class="img-fluid">
+                       <a href="#" id="redSocialW"> <img src="../../img/imgOficial/iconos_logos/whatsapp.svg" alt="" class="img-fluid"></a>
                         <img src="../../img/imgOficial/iconos_logos/facebook.svg" alt="" class="img-fluid iconoFace">
                         <img src="../../img/imgOficial/iconos_logos/twitter.svg" alt="" class="img-fluid">
                         <img src="../../img/imgOficial/iconos_logos/pinterest-02.svg" alt="" class="img-fluid iconoPinteres">
@@ -2785,7 +2785,17 @@
          ================================================= -->
          <script>
             // Add active class to the current button (highlight it)
+
           
+            $( document ).ready(function() {
+               var URLactual = window.location;
+               alert(URLactual);
+               document.getElementById("redSocialW").setAttribute("href", "https://api.whatsapp.com/send?text=TEXTO%Prueba%20+URLactual"); 
+               return false;
+});
+           
+              
+        
             </script>
   
    </body>

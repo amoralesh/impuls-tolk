@@ -102,6 +102,28 @@
     text-transform: none;
 }
 
+.optgroup {
+  font-family: PoppinsSemiBold;
+  font-size: 14px!important;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: PoppinsBold;
+  font-size: 13px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+
+
+
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
@@ -137,7 +159,10 @@ MOVIL (XS revisamos en 320px)
     width: 207px;
     height: 45px;
     font-size: 12px!important;
-  
+  }
+
+  .aux-df{
+    padding: 0px!important;
   }
 
 }
