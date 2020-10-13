@@ -54,8 +54,31 @@ $(document).ready(function(){
            }
            
        });
-       $(".car_tabl_title").click(function(){
-            alert(this.attr("id"))
-       });
       
+       $('#advancedTab a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show');
+        var id = $(this).attr('id');
+        show(id)
+      });
+      $('#realizar-pago').click(function(){
+        $("#pago-tab").trigger("click");
+      });
+      $('#finalizar_pago').click(function(){
+        $("#pedido_completo-tab").trigger("click");
+      });
+      
+      function show(id){
+    
+        $( "#description-tab span" ).removeClass( "show_span" );
+        $( "#pago-tab span" ).removeClass( "show_span" );
+        $( "#pedido_completo-tab span" ).removeClass( "show_span" );
+    
+        $( "#description-tab span" ).addClass( "car_span" );
+        $( "#pago-tab span" ).addClass( "car_span" );
+        $( "#pedido_completo-tab span" ).addClass( "car_span" );
+        $( "."+id).removeClass( "car_span" );
+        $( "."+id ).addClass( "show_span" );
+        
+    }
   });

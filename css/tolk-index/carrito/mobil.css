@@ -55,6 +55,16 @@
         letter-spacing: normal;
         color: #000000;
     }
+    .text_title_table {
+    font-family: Poppins;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000;
+}
     .form_section {
         font-family: Poppins;
         font-size: 16px !important;
