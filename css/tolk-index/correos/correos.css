@@ -225,3 +225,105 @@ ul.stepper.horizontal .step.active .step-title:before {
   .sinSombra{
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)!important;
 }
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+    
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+    .contenedorCorreo {
+        padding: 0px;
+        background-color: #f8f8f8;
+    }
+
+    .textoEstatusPedido {
+        font-size: 10px!important;
+    }
+
+    .textoEstatusPedido2 {
+        font-size: 15px!important;
+    }
+
+    .textoEstatusPedido3 {
+        font-family: Poppins!important;
+        font-size: 13px!important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .anchoPasos {
+        height: 650px!important;
+    }
+
+    .nombreProductoCorreo {
+        font-size: 10px;
+    }
+
+    .sku-correo {
+        font-size: 9px!important;
+    }
+
+    .textoCorreo-a {
+        font-size: 12px;
+        line-height: 1.41;
+    }
+
+    li, .dEnvio p {
+        font-size: 11px!important;
+    }
+
+    .textoCorreo-b {
+        font-family: Poppins;
+        font-size: 11px;
+        text-align: justify;
+
+    }
+    
+
+    
+}
+
+@media (max-width: 350px) {
+
+ }

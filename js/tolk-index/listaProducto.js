@@ -146,5 +146,17 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+function openNavFiltros() {
+  document.getElementById("mySidenavFiltros").style.width = "100%";
+
+  $('body').css("overflow", "hidden");
+}
+
+function closeNavFiltros() {
+  document.getElementById("mySidenavFiltros").style.width = "0";
+
+  $('body').css("overflow", "auto");
+}
+
 
 

@@ -57,7 +57,7 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #000000;
   }
   
   .sidenav .closebtn {
@@ -198,7 +198,7 @@ MOVIL (XS revisamos en 320px)
 }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #000000;
   }
   
   .sidenav .closebtn {
@@ -336,7 +336,7 @@ MOVIL (XS revisamos en 576px)
 }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #000000;
   }
   
   .sidenav .closebtn {
