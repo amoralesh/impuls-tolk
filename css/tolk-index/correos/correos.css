@@ -242,7 +242,13 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
 @media (max-width:1199px) and (min-width:992px){
+    .textoEstatusPedido3 {
+        line-height: 1.51;
+    }
 
+    .textoCorreo-a {
+        line-height: 1.51;
+    }
 }
 
 /*=============================================
@@ -251,7 +257,17 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
+    .contenedorCorreo {
+        padding: 0px;
+        background-color: #f8f8f8;
+    }
 
+    .anchoPasos {
+        height: 650px!important;
+    }
+    .textoEstatusPedido3 {
+        line-height: 1.51;
+    }
     
 }
 
@@ -260,6 +276,26 @@ MOVIL (XS revisamos en 320px)
 =============================================*/
 
 @media (max-width:767px){
+
+    .contenedorCorreo {
+        padding: 0px;
+    }
+
+    .nombreProductoCorreo {
+        font-size: 11px;
+    }
+
+    .sku-correo {
+        font-size: 10px!important;
+    }
+
+    .anchoPasos {
+        height: 650px!important;
+    }
+    .textoEstatusPedido4 {
+        font-size: 16px!important;
+        line-height: 2.81;
+    }
 
 }
 
@@ -270,7 +306,6 @@ MOVIL (XS revisamos en 576px)
 
     .contenedorCorreo {
         padding: 0px;
-        background-color: #f8f8f8;
     }
 
     .textoEstatusPedido {

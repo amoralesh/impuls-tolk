@@ -1701,12 +1701,13 @@
                      </div>
                      <div class="col-12 compartir">
                         <label class="mr-3">Compartir</label>
-                       <a href="#" id="redSocialW"> <img src="../../img/imgOficial/iconos_logos/whatsapp.svg" alt="" class="img-fluid"></a>
-                        <img src="../../img/imgOficial/iconos_logos/facebook.svg" alt="" class="img-fluid iconoFace">
-                        <img src="../../img/imgOficial/iconos_logos/twitter.svg" alt="" class="img-fluid">
-                        <img src="../../img/imgOficial/iconos_logos/pinterest-02.svg" alt="" class="img-fluid iconoPinteres">
-                        <img src="../../img/imgOficial/iconos_logos/mail.svg" alt="" class="img-fluid">
-                        <br><br> 
+                       <a href="#"  id="redSocialW"> <img src="../../img/imgOficial/iconos_logos/whatsapp.svg" alt="" class="img-fluid" target="_blank"></a>
+                       <a href="#" title="Compartir en Facebook" id="comparteFacebook" target="_blank"><img src="../../img/imgOficial/iconos_logos/facebook.svg" alt="" class="img-fluid iconoFace" ></a>
+                       <a  href="#" title="Compartir en Twitter" id="comparteTwitter" target="_blank">
+                        <img src="../../img/imgOficial/iconos_logos/twitter.svg" alt="" class="img-fluid"></a>
+                        <a data-pin-do="buttonBookmark" data-pin-custom="true" href="https://www.pinterest.com/pin/create/button/"><img src="../../img/imgOficial/iconos_logos/pinterest-02.svg" height="25"/></a>
+                        <a href="#" id="comparteCorreo" target="_blank"><img src="../../img/imgOficial/iconos_logos/mail.svg" alt="" class="img-fluid"></a> 
+                        <br><br>
                         <hr>
                      </div>
                      <div class="col-12 contenedorCalificacionRangos">
@@ -2780,6 +2781,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/4.0.0/jquery.inputmask.bundle.min.js" integrity="sha512-zga+VodKkETi2MA9yVZQXNUlPEl8poxOMKRYHI/JQz8XBZUMULoFroIgqPV3kGg95F0/PuIT8hnzzsyDiELz6g==" crossorigin="anonymous"></script>
      <!--Detalle Producto-->
      <script type="text/javascript" src="../../js/tolk-index/detalleProducto.js"></script>
+
+     <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->
@@ -2790,8 +2793,33 @@
             $( document ).ready(function() {
                var URLactual = window.location;
                document.getElementById("redSocialW").setAttribute("href", "https://api.whatsapp.com/send?text=TEXTO%20Prueba%20"+URLactual); 
-               return false;
-});
+
+               document.getElementById("comparteCorreo").setAttribute("href", "mailto:?Subject=Mira %20lo%20que%20tiene%20Impuls&body="+URLactual); 
+
+    
+               
+
+   
+
+            var facebookShareButton = document.getElementById('comparteFacebook');
+            var facebookShareButtonHref='http://www.facebook.com/sharer/sharer.php?';
+            facebookShareButtonHref += 'u='+document.URL;
+            facebookShareButtonHref += '&title='+document.title;
+            facebookShareButton.href = facebookShareButtonHref;
+            document.getElementById("comparteFacebook").setAttribute("href",facebookShareButtonHref);
+
+            var twitterShareButton = document.getElementById('comparteTwitter');
+            var twitterShareButtonHref='https://twitter.com/share?';
+            twitterShareButtonHref += 'url='+document.URL;
+            twitterShareButtonHref += '&via=impuls_zapatos';
+            twitterShareButtonHref += '&text='+document.title;
+            twitterShareButton.href = twitterShareButtonHref;
+            document.getElementById("comparteTwitter").setAttribute("href",twitterShareButtonHref);
+
+
+
+            return false;
+            });
            
               
         
