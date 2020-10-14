@@ -1,0 +1,248 @@
+#modalOfertaRelampago{
+    background-color: rgba(255, 0, 0, 0) !important;
+    width: 100%;
+    height: auto;
+    position: absolute!important;
+   
+}
+
+.pieRelampago{
+    display: contents!important;
+}
+
+.colorCabeceraOferta{
+    margin: -2rem 0rem 1rem 0rem!important;
+    padding: 2px 5px!important;
+    background-color: rgb(248, 3, 3);
+    height: 56px!important;
+    width: 430px!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+}
+
+.colorCuerpoOferta{
+    border-radius: 10px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+  background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
+}
+
+.modalRelampago{
+    width: 500px!important; 
+}
+
+.modalRelampago .modal-content{
+padding: 0px 10px!important;
+}
+
+.tiempoReloj{
+    position: relative;
+    bottom: -8px!important;
+    left: -15px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.07;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: 38%;
+}
+
+.textoRelampago{
+  font-family: PoppinsBold;
+  font-size: 24px!important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.textoRelampago2{
+    font-family: PoppinsBold;
+    font-size: 30px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoRelampago3{
+    font-family: Poppins;
+    font-size: 18px!important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoRelampago4{
+    font-family: Poppins;
+    font-size: 14px!important;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.closeRelampago{
+    position: relative;
+    bottom: 49px;
+}
+
+.closeRelampago i{
+    font-size: 30px;
+    color: #bfbfbf;
+}
+#seleccioneCantidad{
+    height: 36px!important;
+    width: 47px!important;
+    background-color: transparent;
+    color: #ffffff!important;
+}
+
+#seleccioneCantidad::placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff!important;
+   }
+
+   .relampago{
+width: 45px;
+height: 45px;
+overflow-x: hidden;
+overflow-y: auto;
+   }
+
+   .seleccioneTallaRelampago{
+        height: 35px;
+        width: 57px;
+        background-color: transparent;
+        color: #000000!important;
+    }
+
+    .seleccioneTallaRelampago option {
+        margin: 40px;
+        background:#ffffff;
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+        background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
+    }
+
+    .btnFavoritoDetalleR{
+        border-radius: 8px;
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+        border: solid 0.8px #000000;
+    }
+
+    .btnRelampago{
+        width: 160px;
+        height: 40px;
+        text-transform: none;
+        font-family: PoppinsBold;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 10px!important;
+        -webkit-border-radius: 10px!important;
+        -moz-border-radius: 10px!important;
+        -ms-border-radius: 10px!important;
+        -o-border-radius: 10px!important;
+}
+
+.textoAntesRelampago{
+    font-family: PoppinsSemiBold!important;
+    font-size: 14px!important;
+    font-weight: 600!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.textoPrecioRelampago{
+    font-family: PoppinsSemiBold!important;
+  font-size: 18px!important;
+  font-weight: 600!important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    #modalOfertaRelampago {
+
+        position: fixed!important;
+        left: 0px;
+        overflow-x: hidden;
+    overflow-y: auto;
+    }
+
+    .modalRelampago {
+        /* margin-top: 100%!important;
+        margin-right: 33%!important; */
+    }
+
+    .modalRelampago {
+        /* width: 500px!important;
+        height: 250px; */
+          /* margin-top: 100%!important; */
+        /* margin-right: 3%!important; */
+    }
+
+
+  
+        
+}
+
+/*=============================================
+MOVIL PEQUEÑOS (XS revisamos en 320px)
+=============================================*/
+/*WhatsApp y Chat*/
+@media (max-width: 576px) { 
+  
+
+
+ }
+
+
+
+

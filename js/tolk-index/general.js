@@ -13,13 +13,13 @@ $(document).ready(function(){
 
 
   //  $('#modalOfertaRelampago').modal('toggle');
-  // $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
-  // $('body').css("overflow", "hidden");
+  $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
+  //$('body').css("overflow", "hidden");
 
   $('#CerrarModalUnete').click(function(){
-    $('body').css("overflow", "auto");
+    // $('body').css("overflow", "auto");
     $('#modalOfertaRelampago').modal({backdrop: 'hide', keyboard: false});
-    // $('.modal-backdrop').removeClass("modal-backdrop"); 
+    $('.modal-backdrop').removeClass("modal-backdrop"); 
   });
 
 
