@@ -1,0 +1,237 @@
+.contenedorB3{
+    position: relative;
+    height: 480px;
+    }
+
+
+    .rowPrincipalF3{
+        position: relative;
+        top: -100px;
+    }
+
+.b3-flotante-2{
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(117deg, #774363 -5%, #c26ea2 97%);
+    padding: 6%;
+}
+
+.subTitulosFlotantes3-2 {
+    font-family: PoppinsExtramBold;
+    font-size: 54px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.subTitulosFlotantes3-1 {
+    font-family: PoppinsSemiBold;
+    font-size: 23px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.contenedorIMG-B3-2 {
+    position: relative;
+    width: 100%;
+    height: 164px;
+}
+
+.btnGeneralFlotante3-b{
+    position: relative;
+    width: 166px;
+    height: 52px;
+    text-transform: none;
+    font-family: PoppinsBold;
+    font-size: 17px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #ffffff!important;
+    border-radius: 11px!important;
+    -webkit-border-radius: 11px!important;
+    -moz-border-radius: 11px!important;
+    -ms-border-radius: 11px!important;
+    -o-border-radius: 11px!important;
+    margin-top: 37px!important;
+}
+
+
+  
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+    .contenedorB3 {
+        position: relative;
+        height: 500px;
+    }
+    
+    .rowPrincipalF3 {
+        position: relative;
+        top: -55px;
+    }
+
+    .subTitulosFlotantes3-1 {
+        font-size: 21px;
+        line-height: 2.14;
+
+    }
+
+    .subTitulosFlotantes3-2 {
+        font-size: 55px;
+        line-height: 0.53;
+    }
+
+    .btnGeneralFlotante3-b {
+        margin-top: 18px!important;
+    }
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .rowPrincipalF3 {
+        position: relative;
+        top: -71px;
+    }
+
+    .contenedorB3 {
+        height: 370px;
+    }
+    .btnGeneralFlotante3-b {
+        margin-top: 33px!important;
+        width: 124px;
+        height: 38px;
+        font-size: 17px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+
+.subTitulosFlotantes3-2 {
+    font-size: 37px;
+    line-height: 0.8;
+}
+
+.subTitulosFlotantes3-1 {
+    font-size: 13px;
+}
+
+.contenedorIMG-B3-2 {
+    position: relative;
+    width: 100%;
+    height: 98px;
+}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .rowPrincipalF3 {
+        top: -80px;
+    }
+
+    .contenedorB3 {
+        height: 1277px;
+    }
+
+    .btnGeneralFlotante3-b {
+        width: 133px;
+        height: 40px;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+        margin-top: 37px!important;
+}
+
+.subTitulosFlotantes3-2 {
+    font-size: 35px;
+}
+
+.subTitulosFlotantes3-1 {
+    font-size: 18px;
+    line-height: 0.53;
+}
+}
+
+
+/*=============================================
+MOVIL (XS revisamos en 576px)
+=============================================*/
+@media (max-width: 576px) { 
+
+    .contenedorB3 {
+        position: relative;
+        height: 990px;
+    }
+
+    .rowPrincipalF3 {
+        position: relative;
+        top: -25px;
+    }
+
+    .subTitulosFlotantes3-1 {
+        font-size: 11px;
+    }
+
+    .subTitulosFlotantes3-2 {
+        font-size: 25px;
+    }
+
+    .contenedorIMG-B3-2 {
+        height: 100px;
+    }
+
+    .btnGeneralFlotante3-b {
+        margin-top: 23px!important;
+        width: 80px;
+        height: 25px;
+        font-size: 10px!important;
+        border-radius: 6px!important;
+        -webkit-border-radius: 6px!important;
+        -moz-border-radius: 6px!important;
+        -ms-border-radius: 6px!important;
+        -o-border-radius: 6px!important;
+}
+
+
+
+}
+
+@media (max-width: 350px) {
+
+ }
+

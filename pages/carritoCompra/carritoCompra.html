@@ -62,6 +62,11 @@
        <!-- Estilos PROCESO DE COMPRA  -->
        <link rel="stylesheet" href="../../css/tolk-index/detalleProducto/modalEnvios.css">
 
+           <!-- Estilos TOLK CARRUSEL MARCAS -->
+      <link href="../../css/tolk-index/home/carruselMarcas.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="../../js/glide-3.4.1/dist/css/glide.core.min.css">
+      <link rel="stylesheet" href="../../js/glide-3.4.1/dist/css/glide.theme.min.css">
+
 
    </head>
    <body class="skin-light">
@@ -774,7 +779,7 @@
                                              <!-- ITEMS SUBCATGORIAS -->
                                              <div class="collapse navbar-collapse" id="subMM1">
                                                 <ul class="list-group list-group-flush itemsSubcategorias">
-                                                   <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-group-item"><a href="../../pages/listaProducto/listaProducto.html">Cerrada</a></li>
                                                    <li class="list-group-item"><a href="#!">Abierta</a></li>
                                                 </ul>
                                              </div>
@@ -1093,17 +1098,15 @@
                               </div>
                            </div>
                            <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
-   
                            <!-- MAS OPCIONES --><!-- MAS OPCIONES -->
                            <div class="col-12 colorFondoPrimarioMM">
-   
                               <div class="row mt-5">
                                  <div class="offset-1 col-10 text-center">
                                     <button class="btn btnIniciarSMM colorSecundario" data-toggle="modal" data-target="#modalLogin">Iniciar sesión</button>
                                     <h1 class="textoTodavia mt-4">¿Todavía no tienes cuenta?<a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a"> Registrate aquí</a></h1>
                                  </div>
                                  <div class="col-6">
-                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Dónde está mi cuenta?</a>
+                                    <a href="../../pages/miCuenta/rastreo-de-envio.html" class="textoTodavia-a">¿Dónde está mi pedido?</a>
                                  </div>
                                  <div class="col-6">
                                     <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">Cambios y Devoluciones</a>
@@ -1112,10 +1115,9 @@
                                     <a href="#!" data-toggle="modal" data-target="#modalEnviosGratis" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
                                  </div>
                                  <div class="col-6">
-                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                                    <a href="../../carga-tupedido/captura-por-codigo-internet.html" class="textoTodavia-a">Captura tu Pedido</a>
                                  </div>
                               </div>
-                              
                            </div>
                            <!-- FIN MAS OPCIONES --><!-- FIN MAS OPCIONES -->
                         </div>
@@ -1428,186 +1430,294 @@
       <!--===============================================
          PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
-      <section class="container contenedorMasVendido">
-         <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
-         <div class="row margenProductos">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-1-a.jpg" alt="mas vendidos">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
+         <section class="container contenedorMasVendido d-none d-sm-none d-md-block">
+            <h5 class="textoTitulosSeccion text-center">Los más vendidos</h5>
+            <div class="row margenProductos">
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaMV">
                            <h6 class="textoEtiqueta">NUEVO</h6>
                         </span>
-                     </h4>
-                     <a href="pages/detalleProducto/index.html" target="_blank">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto"
-                              src="../../img/mas vendido/tenis-1.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 imgMasV-b"
+                                 src="../../img/mas vendido/tenis-3.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body  m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">$38.99</h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body  m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
-                    <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto"
-                              src="../../img/mas vendido/tenis-2.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaOferta">
+                           <h6 class="textoEtiqueta">OFERTA</h6>
+                        </span>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 "
+                                 src="../../img/mas vendido/tenis-2.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-3-a.jpg" alt="mas vendidos">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaMV">
                            <h6 class="textoEtiqueta">NUEVO</h6>
                         </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto"
-                              src="../../img/mas vendido/tenis-3.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100 "
+                                 src="../../img/mas vendido/tenis-3.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body  m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-4-a.jpg" alt="mas vendidos">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-4.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaMV">
                            <h6 class="textoEtiqueta">NUEVO</h6>
                         </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto"
-                              src="../../img/mas vendido/tenis-4.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100"
+                                 src="../../img/mas vendido/tenis-4.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body  m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <!-- Image with zoom -->
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5-a.jpg" alt="mas vendidos">
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-5.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaOferta">
+                           <h6 class="textoEtiqueta">OFERTA</h6>
+                        </span>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100"
+                                 src="../../img/mas vendido/tenis-2.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">
+                           <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                           <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                        </h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <!-- Image with zoom -->
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class=" textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
-                  </div>
+                  <!-- Card -->
                </div>
-               <!-- Card -->
-            </div>
-            <!-- Fin col-2 -->
-            <!-- col-2 -->
-            <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-               <!-- Card -->
-               <div class="card eliminarSombra">
-                  <div class="view zoom overlay">
-                     <img class="img-fluid w-100 verProducto" src="../../img/mas vendido/tenis-2-a.jpg" alt="mas vendidos">
-                     <h4 class="mb-0">
-                        <span class="badge badge-pill badge-news etiqueta">
+               <!-- Fin col-2 -->
+               <!-- col-2 -->
+               <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                  <!-- Card -->
+                  <div class="card eliminarSombra mt-0 mt-sm-0 mt-md-5 mt-lg-0">
+                     <div class="view zoom overlay">
+                        <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                        <span class="badge badge-pill badge-news etiquetaMV">
                            <h6 class="textoEtiqueta">NUEVO</h6>
                         </span>
-                     </h4>
-                     <a href="#!">
-                        <div class="mask">
-                           <img class="img-fluid w-100 verProducto"
-                              src="../../img/mas vendido/tenis-2.jpg">
-                           <div class="mask"></div>
-                        </div>
-                     </a>
+                        <a href="#!">
+                           <div class="mask">
+                              <img class="img-fluid w-100"
+                                 src="../../img/mas vendido/tenis-2.jpg">
+                              <div class="mask"></div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="card-body  m-0 p-0">
+                        <h6 class="textoNombreProducto">Nombre producto</h6>
+                        <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                        <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                     </div>
                   </div>
-                  <div class="card-body m-0 p-0">
-                     <h6 class="textoNombreProducto">Nombre producto</h6>
-                     <h6 class="mb-3 textoPrecioProducto">
-                        <span class="textoPrecioProducto"><s>$36.99</s></span>
-                        <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
-                     </h6>
-                     <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                  <!-- Card -->
+               </div>
+               <!-- Fin col-2 -->
+            </div>
+            <!-- Fin row -->
+         </section>
+         <!-- SECCION PARA ESCRITORIO -->  <!-- SECCION PARA ESCRITORIO -->
+         <!-- SECCION PARA CELULARES ETC -->  <!-- SECCION PARA CELULARES ETC -->
+         <section class="container-fluid d-block d-sm-block d-md-none p-0">
+            <h1 class="textoTitulosSeccion">Los más vendidos</h1>
+            <div class="wrap">
+               <div class="glide carruselMV" id="carrucelMV">
+                  <div class="glide__track" data-glide-el="track">
+                     <ul class="glide__slides">
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaMV">
+                                    <h6 class="textoEtiqueta">NUEVO</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body  m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaOferta">
+                                    <h6 class="textoEtiqueta">OFERTA</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">
+                                    <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                                    <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                                 </h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaMV">
+                                    <h6 class="textoEtiqueta">NUEVO</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body  m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-4.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaMV">
+                                    <h6 class="textoEtiqueta">NUEVO</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body  m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-2.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaOferta">
+                                    <h6 class="textoEtiqueta">OFERTA</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">
+                                    <span class=" textoPrecioProducto-a"><s>$36.99</s></span>
+                                    <span class="text-danger mr-1 textoPrecioProducto">$12.99</span>
+                                 </h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                        <li class="glide__slide">
+                           <!-- Card -->
+                           <div class="card eliminarSombra">
+                              <div class="view overlay">
+                                 <img class="img-fluid imgMasV-a" src="../../img/mas vendido/tenis-3.jpg" alt="mas vendidos">
+                                 <span class="badge badge-pill badge-news etiquetaMV">
+                                    <h6 class="textoEtiqueta">NUEVO</h6>
+                                 </span>
+                              </div>
+                              <div class="card-body  m-0 p-0">
+                                 <h6 class="textoNombreProducto">Nombre producto</h6>
+                                 <h6 class="mb-3 textoPrecioProducto">$36.99</h6>
+                                 <button class="btn btn-md btnMasVendido colorSecundario agregarACarrito">Agregar a carrito</button>
+                              </div>
+                           </div>
+                           <!-- Card -->
+                        </li>
+                     </ul>
                   </div>
                </div>
-               <!-- Card -->
             </div>
-            <!-- Fin col-2 -->
-         </div>
-         <!-- Fin row -->
-      </section>
-      <!-- Fin container -->
+         </section>
       <!--===============================================
          FIN  PRODUCTOS RECOMENTADOS PARA TI
          ================================================= -->
@@ -1648,81 +1758,99 @@
       <!--===============================================
          FOOTER
          ================================================= -->
-      <footer class="container-fluid p-0 m-0">
-         <div class="row p-0 m-0 footerImpuls">
-            <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
-               <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
-               <a href="https://www.facebook.com/impulsventaporcatalogo/"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://www.pinterest.com.mx/impulsmoda/"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://www.youtube.com/user/ImpulsModa/"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-               <a href="https://twitter.com/impuls_zapatos/"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+         <footer class="container-fluid p-0 m-0">
+            <div class="row p-0 m-0 footerImpuls">
+               <div class="col-5 col-sm-5 col-md-3 col-lg-3 p-0 m-0 linea-1 imgFooter">
+                  <div class="row"> 
+                     <div class="col-12">
+                        <a href="../../index.html"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
+                     </div>
+                     <div class="col-12 d-none d-sm-none d-md-block">
+                        <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+                        <a href="https://www.instagram.com/impulsventaporcatalogo/?hl=es-la" target="_blank"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                        <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                        <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group" >
+                  <div class="panel-heading-2">
+                     <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseTiendalinea">Tienda en línea<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                  </div> 
+                  <div id="collapseTiendalinea" class="collapse">
+                     <a href="../../terminos-condiciones.html">
+                        <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
+                     </a>
+                     <a href="../../preguntas-frecuentes.html">
+                        <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
+                     </a>
+                     <a href="../../politica-de-devolucion.html">
+                        <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
+                     </a>
+                     <a href="../../como-comprar.html">
+                        <p class="textoFoooterSecundario pl-5">Cómo comprar</p>
+                     </a>
+                     <a href="../../aviso-de-privacidad.html">
+                        <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+                  <div class="panel-heading-2">
+                     <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseIniciaNegocio">Inicia tu propio negocio<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                  </div>
+                  <div id="collapseIniciaNegocio" class="collapse">
+                     <a href="../../afiliate-a-impuls.html">
+                        <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
+                     </a>
+                     <a href="../../descuentos-beneficios.html">
+                        <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
+                     </a>
+                     <!-- <a href="#!">
+                        <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
+                     </a>
+                     <a href="#!">
+                        <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
+                     </a> -->
+                     <a href="#!">
+                        <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
+                     </a>
+                     <a href="../../mas-informacion.html">
+                        <p class="textoFoooterSecundario pl-5">Más información</p>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+                  <div class="panel-heading-2">
+                     <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseAcercaNosostros">Acerca de Nosotros<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                  </div>
+                  <div id="collapseAcercaNosostros" class="collapse">
+                     <a href="../../historia.html">
+                        <p class="textoFoooterSecundario pl-5">Historia</p>
+                     </a>
+                     <a href="../../mision-vision.html">
+                        <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
+                     </a>
+                     <a href="../../pages/contactanos/contactanos.html">
+                        <p class="textoFoooterSecundario pl-5">Contáctanos</p>
+                     </a>
+                     <a href="../../pages/sucursales/sucursales.html">
+                        <p class="textoFoooterSecundario pl-5">Sucursales</p>
+                     </a>
+                     <a href="../../compra-segura.html">
+                        <p class="textoFoooterSecundario pl-5">Compra segura</p>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-12 d-block d-sm-block d-md-none">
+                  <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+                  <a href="https://www.instagram.com/impulsventaporcatalogo/?hl=es-la" target="_blank"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4"></a>
+                  <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4"></a>
+                  <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4"></a>
+               </div>
+               <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-               <a href="#!">
-                  <h4 class="textoFoooter pl-5">Tienda en línea</h4>
-               </a>
-               <a href="../../terminos-condiciones.html">
-                  <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
-               </a>
-               <a href="../../preguntas-frecuentes.html">
-                  <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
-               </a>
-               <a href="../../politica-de-devolucion.html">
-                  <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
-               </a>
-               <a href="../../como-comprar.html">
-                  <p class="textoFoooterSecundario pl-5">Como comprar</p>
-               </a>
-               <a href="../../aviso-de-privacidad.html">
-                  <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
-               </a>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
-               <a href="#!">
-                  <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
-               </a>
-               <a href="../../afiliate-a-impuls.html">
-                  <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
-               </a>
-               <a href="../../descuentos-beneficios.html">
-                  <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
-               </a>
-               <a href="#!">
-                  <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
-               </a>
-               <a href="../../mas-informacion.html">
-                  <p class="textoFoooterSecundario pl-5">Más información</p>
-               </a>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-               <a href="#!">
-                  <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
-               </a>
-               <a href="../../historia.html">
-                  <p class="textoFoooterSecundario pl-5">Historia</p>
-               </a>
-               <a href="../../mision-vision.html">
-                  <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
-               </a>
-               <a href="../contactanos/contactanos.html">
-                  <p class="textoFoooterSecundario pl-5">Contáctanos</p>
-               </a>
-               <a href="../sucursales/sucursales.html">
-                  <p class="textoFoooterSecundario pl-5">Sucursales</p>
-               </a>
-               <a href="../../compra-segura.html">
-                  <p class="textoFoooterSecundario pl-5">Compra segura</p>
-               </a>
-            </div>
-            <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
-         </div>
-      </footer>
+         </footer>
       <!--===============================================
          FIN FOOTER
          ================================================= -->

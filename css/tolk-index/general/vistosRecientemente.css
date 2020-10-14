@@ -199,6 +199,11 @@ MOVIL (XS revisamos en 320px)
   .visto {
     height: 1007px;
 }
+
+.tarjetaRecientemente {
+  height: 416px!important;
+}
+
   
 }
 
@@ -207,8 +212,13 @@ MOVIL (XS revisamos en 576px)
 =============================================*/
 @media (max-width: 576px) { 
 
+  /* .skin-light .card {
+    height: 316px!important;
+} */
+
   .tarjetaRecientemente {
     min-width: 100%!important;
+    height: 316px!important;
 }
 
 
@@ -222,8 +232,9 @@ MOVIL (XS revisamos en 576px)
     
     /*Fodo Recomendados*/
     .visto {
-      height: 735px!important;
-      margin-bottom: 30%!important;
+      height: 735px!important; 
+    margin-bottom: 49%!important;
+
   }
 .textoTarjeta1-v{
   font-size: 14px;

@@ -631,6 +631,10 @@ MOVIL (XS revisamos en 576px)
         font-family: PoppinsSemiBold;
         font-size: 40px;
     }
+
+    .descripcionComentariosContenedor {
+        height: 2445px;
+    }
  }
 
 

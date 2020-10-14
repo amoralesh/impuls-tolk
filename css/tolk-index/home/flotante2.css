@@ -1,7 +1,8 @@
 .contenedorB2{
     position: relative;
-    height: 400px;
+    height: 480px;
     }
+
 
     .rowPrincipalF2{
         position: relative;
@@ -42,6 +43,15 @@
     line-height: 0.53;
     letter-spacing: normal;
     color: #ffffff;
+}
+
+.b2-flotante-1{
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: radial-gradient(circle at 11% 1%, #cc6930 23%, #6c3a1b 128%);
+    padding: 6%;
+    width: 100%;
+    margin-bottom: 1%;
 }
 
 .b2-flotante-2{
@@ -106,7 +116,7 @@
 
 .btn-b2-Flotante1{
     margin-top: 22px!important;
-    background-color: #c9be9b!important;
+    background-color: #e57b3e;
 }
 
 .btn-b2-Flotante2{
@@ -166,10 +176,15 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
-    .rowPrincipalF {
-        top: -55px;
-    }
+    .contenedorB2 {
+    position: relative;
+    height: 500px;
+}
 
+.rowPrincipalF2 {
+    position: relative;
+    top: -55px;
+}
     .subTitulosFlotantes1 {
         font-size: 29px;
     }
@@ -181,9 +196,13 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
         font-size: 25px;
     }
 
-    .contenedorIMG-B1-1 {
-        height: 279px;
+    .contenedorIMG-B2-1 {
+        position: relative;
+        width: 100%;
+        height: 165px;
     }
+
+
 
  
 }
@@ -193,6 +212,10 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
 @media (max-width:991px) and (min-width:768px){
+
+    .contenedorB2 {
+        height: 370px;
+    }
 
     .subTitulosFlotantes2-2 {
         font-size: 35px;
@@ -368,37 +391,5 @@ MOVIL (XS revisamos en 576px)
 }
 
 @media (max-width: 350px) {
-    .titulosFlotantes {
-        font-size: 10px;
-    }
 
-    .subTitulosFlotantes1 {
-        font-size: 11px;
-    }
-
-    .subTitulosFlotantes2 {
-        font-size: 20px;
-    }
-
-    .subTitulosFlotantes3 {
-        font-size: 11px;
-    }
-
-    .btnGeneralFlotante {
-        width: 80px;
-        height: 25px;
-        font-size: 10px!important;
-}
-
-.contenedorIMG-B1-1 {
-    height: 90px;
-}
-
-.contenedorIMG-B1-2 {
-    height: 90px;
-}
-
-.contenedorIMG-B1-3 {
-    height: 90px;
-}
  }

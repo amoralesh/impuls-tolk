@@ -118,6 +118,11 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 
 @media (max-width:1199px) and (min-width:992px){
 
+
+  .zoom .img-fluid {
+    height: 153px!important;
+}
+
   .etiquetaOferta {
     width: 48%!important;
     height: 15%!important;

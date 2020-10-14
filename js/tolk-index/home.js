@@ -1,21 +1,21 @@
 $("#opcion1").click(function(){
     $("#bannersHome").show();
-    $("#bannersHome-a").hide();
-    $("#bannersHome-b").hide();
+    $("#bannersHome-2").hide();
+    $("#bannersHome-3").hide();
   
   });
   
   $("#opcion2").click(function(){
-    $("#bannersHome-a").hide();
     $("#bannersHome").hide();
-    $("#bannersHome-b").show();
+    $("#bannersHome-2").hide();
+    $("#bannersHome-3").show();
   
   });
 
   $("#opcion3").click(function(){
     $("#bannersHome").hide();
-    $("#bannersHome-b").hide();
-    $("#bannersHome-a").show();
+    $("#bannersHome-2").show();
+    $("#bannersHome-3").hide();
   
   });
 

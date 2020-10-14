@@ -99,24 +99,25 @@ if($(window).width() <= 767){
   $(".contenedorCategoriasLP").css("display", "none");
   $(".contenedorFiltrosLP").css("display", "none");
 
+  if ( $("#carrucelMV").length > 0 ) {
     new Glide('#carrucelMV', {
-    type: 'carousel',
-  startAt: 0,
-  autoplay: 442000,
-  hoverpause: true,
-  gap: 20,
-  // animationTimingFunc: ease,
-    perView: 5,
-    breakpoints: {
-       1000: {
-          perView: 4
-       },
-    800: {
-          perView: 2
-       }
-    }
-  }).mount();  
-
+      type: 'carousel',
+    startAt: 0,
+    autoplay: 442000,
+    hoverpause: true,
+    gap: 20,
+    // animationTimingFunc: ease,
+      perView: 5,
+      breakpoints: {
+         1000: {
+            perView: 4
+         },
+      800: {
+            perView: 2
+         }
+      }
+    }).mount();  
+  }
 
 }else{
 
@@ -212,23 +213,27 @@ $( window ).on( "orientationchange", function( event ) {
       $(".contenedorCategoriasLP").css("display", "none");
       $(".contenedorFiltrosLP").css("display", "none");
 
-      new Glide('#carrucelMV', {
-        type: 'carousel',
-      startAt: 0,
-      autoplay: 442000,
-      hoverpause: true,
-      gap: 20,
-      // animationTimingFunc: ease,
-        perView: 5,
-        breakpoints: {
-           1000: {
-              perView: 4
-           },
-        800: {
-              perView: 2
-           }
-        }
-      }).mount();  
+      if ( $("#carrucelMV").length > 0 ) {
+        new Glide('#carrucelMV', {
+          type: 'carousel',
+        startAt: 0,
+        autoplay: 442000,
+        hoverpause: true,
+        gap: 20,
+        // animationTimingFunc: ease,
+          perView: 5,
+          breakpoints: {
+             1000: {
+                perView: 4
+             },
+          800: {
+                perView: 2
+             }
+          }
+        }).mount();  
+      }
+
+   
     
     }else{
     

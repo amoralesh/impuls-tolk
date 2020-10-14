@@ -1,6 +1,6 @@
 .contenedorB1{
     position: relative;
-    height: 400px;
+    height: 480px;
     }
 .rowPrincipalF{
     position: relative;
@@ -161,6 +161,11 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
         top: -55px;
     }
 
+
+    .contenedorIMG-B1-1 {
+        height: 233px;
+    }
+
     .subTitulosFlotantes1 {
         font-size: 29px;
     }
@@ -172,9 +177,20 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
         font-size: 25px;
     }
 
-    .contenedorIMG-B1-1 {
-        height: 279px;
+    .contenedorIMG-B1-3 {
+        height: 174px;
     }
+
+    .contenedorIMG-B1-2 {
+        height: 174px;
+    }
+
+    .btn-b1-Flotante1 {
+        margin-top: 54px!important;
+        background-color: #c9be9b!important;
+    }
+
+   
 }
 
 /*=============================================
@@ -183,20 +199,30 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 @media (max-width:991px) and (min-width:768px){
 
+    .contenedorB1 {
+        position: relative;
+        height: 311px;
+    }
+
+    .rowPrincipalF {
+        top: -40px;
+    }
+
+
     .titulosFlotantes{
         font-size: 15px;
     }
     
     .subTitulosFlotantes1{
-        font-size: 24px;
+        font-size: 21px;
     }
     
-    .subTitulosFlotantes2{
-        font-size: 50px;
+    .subTitulosFlotantes2 {
+        font-size: 40px;
     }
     
-    .subTitulosFlotantes3{
-        font-size: 19px;
+    .subTitulosFlotantes3 {
+        font-size: 16px;
     }
 
     
@@ -204,13 +230,6 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
     height: 171px;
     margin-top: 10px;
     } 
-    .contenedorIMG-B1-2 {
-        height: 162px;
-    }
-
-    .contenedorIMG-B1-3 {
-        height: 155px;
-    }
 
     .btnGeneralFlotante {
         width: 129px;
@@ -225,6 +244,14 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
 .btn-b1-Flotante1 {
     margin-top: 56px!important;
+}
+
+.contenedorIMG-B1-3 {
+    height: 139px;
+}
+
+.contenedorIMG-B1-2 {
+    height: 139px;
 }
   
 }
@@ -278,9 +305,7 @@ MOVIL (XS revisamos en 320px)
     height: 143px;
 }
 
-.b1-flotante-1, .b1-flotante-2{
-    margin-bottom: 20px!important;
-        }
+
 }
 
 
@@ -343,12 +368,7 @@ MOVIL (XS revisamos en 576px)
         height: 100px;
     }
 
-    .b1-flotante-1{
-margin-bottom: 20px!important;
-    }
-    .b1-flotante-2{
-        margin-bottom: 20px!important;
-            }
+
 
 }
 

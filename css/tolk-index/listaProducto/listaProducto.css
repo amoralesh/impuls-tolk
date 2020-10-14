@@ -5,6 +5,9 @@
    
 }
 
+
+
+
 .imgBannerLP{
     position: absolute;
     width: 100%;
@@ -74,6 +77,7 @@
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    /* height: 475px!important; */
 }
 
 .item.list-group-item
@@ -676,7 +680,7 @@ height: 12px!important;
           -o-border-radius: 13px;
 }
 
-.list-group-flush .list-group-item{
+.menuListaP .list-group-flush .list-group-item{
 
     font-family: Poppins;
     font-size: 14px;
@@ -691,7 +695,7 @@ height: 12px!important;
 
 }
 
-.list-group-flush .list-group-item strong{
+.menuListaP .list-group-flush .list-group-item strong{
     font-family: Poppins;
     font-size: 16px;
     font-weight: normal;
@@ -804,6 +808,12 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
     .bannerListaProducto {
         height: 158px;
     }
+
+    .textoPromocional2 {
+        font-family: PoppinsSemiBold;
+        font-size: 20px;
+
+    }
     .textoBannerLP-1 {
         padding: 20px;
     }
@@ -826,10 +836,9 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
     }
 
     .btnAgregarLista {
-        width: 118px;
-        height: 33px;
-        font-size: 11px!important;
-
+        width: 108px;
+        height: 36px;
+        font-size: 12px!important;
     }
 
     .textoPromocional3 {
@@ -849,6 +858,13 @@ ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 
     .botonesAgregarComprar {
         width: 203px;
+
+    }
+
+    .btnPromocionalLista {
+        width: 166px;
+        height: 52px;
+        margin-top: 24px!important;
 
     }
 
@@ -915,6 +931,10 @@ MOVIL (XS revisamos en 320px)
 MOVIL (XS revisamos en 576px)
 =============================================*/
 @media (max-width: 576px) { 
+
+    /* .thumbnail {
+        height: 362px!important;
+    } */
 
 
     .bannerListaProducto {

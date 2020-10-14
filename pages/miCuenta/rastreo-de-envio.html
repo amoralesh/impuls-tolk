@@ -776,7 +776,7 @@
                                              <!-- ITEMS SUBCATGORIAS -->
                                              <div class="collapse navbar-collapse" id="subMM1">
                                                 <ul class="list-group list-group-flush itemsSubcategorias">
-                                                   <li class="list-group-item"><a href="#!">Cerrada</a></li>
+                                                   <li class="list-group-item"><a href="../../pages/listaProducto/listaProducto.html">Cerrada</a></li>
                                                    <li class="list-group-item"><a href="#!">Abierta</a></li>
                                                 </ul>
                                              </div>
@@ -1095,17 +1095,15 @@
                               </div>
                            </div>
                            <!-- COLLAPSE MENU CATÁLOGOS --><!-- COLLAPSE MENU CATÁLOGOS -->
-   
                            <!-- MAS OPCIONES --><!-- MAS OPCIONES -->
                            <div class="col-12 colorFondoPrimarioMM">
-   
                               <div class="row mt-5">
                                  <div class="offset-1 col-10 text-center">
                                     <button class="btn btnIniciarSMM colorSecundario" data-toggle="modal" data-target="#modalLogin">Iniciar sesión</button>
                                     <h1 class="textoTodavia mt-4">¿Todavía no tienes cuenta?<a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a"> Registrate aquí</a></h1>
                                  </div>
                                  <div class="col-6">
-                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Dónde está mi cuenta?</a>
+                                    <a href="../../pages/miCuenta/rastreo-de-envio.html" class="textoTodavia-a">¿Dónde está mi pedido?</a>
                                  </div>
                                  <div class="col-6">
                                     <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">Cambios y Devoluciones</a>
@@ -1114,10 +1112,9 @@
                                     <a href="#!" data-toggle="modal" data-target="#modalEnviosGratis" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
                                  </div>
                                  <div class="col-6">
-                                    <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
+                                    <a href="../../carga-tupedido/captura-por-codigo-internet.html" class="textoTodavia-a">Captura tu Pedido</a>
                                  </div>
                               </div>
-                              
                            </div>
                            <!-- FIN MAS OPCIONES --><!-- FIN MAS OPCIONES -->
                         </div>
@@ -1161,36 +1158,67 @@
               <section class="colorFondoPrimario seccionMiCuenta">
         <div class="container">
            <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                 <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
-              </div>
-           </div>
-           <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-               <ul class="list-group list-group-flush textoMiCuenta">
-                  <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
-                  <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
-                  <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
-                  <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
-                  <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
-                  <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
-                  <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
-                  <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
-                  <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
-                  <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
-                  <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
-               </ul>
-               <br>
-               <ul class="list-group list-group-flush textoMiCuenta">
-                  <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
-                  <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
-                  <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
-                  <li class="list-group-item"><a href="#!">Entrega</a></li>
-                  <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
-                  <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
-                  <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
-                  <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
-               </ul>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 mt-4">
+
+               <div class="row">
+  
+                  <div class="col-md-6 col-lg-12 p-md-auto  p-lg-0 m-lg-0">
+                     <h1 class="textoTitulosSeccion text-left">Mi Cuenta</h1>
+                     <ul class="list-group list-group-flush textoMiCuenta">
+                        
+                        <div class="d-none d-sm-none d-md-block">
+                           <li class="list-group-item textoMiCuenta1">Mi cuenta</li>
+                        </div>
+                       
+                        <div class="panel-group d-block d-sm-block d-md-none">
+                           <div class="panel-heading-5">
+                              <li class="list-group-item textoMiCuenta1 justify-content-between" data-toggle="collapse" data-target="#collapseMicuenta"></i><strong>Mi cuenta</strong><i class="more-less-cuenta fas fa-plus-circle align-self-center"></i></li>
+                           </div>
+                        </div>
+
+                        <div id="collapseMicuenta" class="collapse">
+                        <li class="list-group-item"><a href="miCuenta.html">Mis datos</a></li>
+                        <li class="list-group-item"><a href="historialCompras.html" >Historia de compras</a></li>
+                        <li class="list-group-item"><a href="direccion.html" >Direcciones</a></li>
+                        <li class="list-group-item"><a href="datosFacturacion.html" >Datos de facturación</a></li>
+                        <li class="list-group-item"><a href="saldoFavor.html" >Salda a favor</a></li>
+                        <li class="list-group-item"><a href="listaDeseos.html" >Lista de deseos</a></li>
+                        <li class="list-group-item"><a href="materialPromocional.html" >Material promociones</a></li>
+                        <li class="list-group-item"><a href="subscripcionNotificacion.html">Suscripción / Notificación</a></li>
+                        <li class="list-group-item"><a href="membresia.html">Membresía</a></li>
+                        <li class="list-group-item"><a href="cambiarContrasena.html" >Cambiar contraseña</a></li>
+                        </div>
+
+                     </ul>
+                  </div>
+
+                  <div class="col-md-6 col-lg-12 p-md-auto   p-lg-0 m-lg-0 ">
+                     <ul class="list-group list-group-flush textoMiCuenta">
+
+                        <div class="d-none d-sm-none d-md-block mt-5">
+                           <li class="list-group-item textoMiCuenta1">¿Necesitas Ayuda?</li>
+                        </div>
+                       
+                        <div class="panel-group d-block d-sm-block d-md-none mt-2 mt-sm-2 mt-md-5 mt-lg-5 ">
+                           <div class="panel-heading-5">
+                              <li class="list-group-item textoMiCuenta1 justify-content-between" data-toggle="collapse" data-target="#collapseAyuda"></i><strong>¿Necesitas Ayuda?</strong><i class="more-less-cuenta fas fa-plus-circle align-self-center"></i></li>
+                           </div>
+                        </div>
+
+                        <div id="collapseAyuda" class="collapse">
+                        <li class="list-group-item "><a href="#!">¿Dónde está mi pedido?</a></li>
+                        <li class="list-group-item"><a href="#!">Pedidos y Formas de pago</a></li>
+                        <li class="list-group-item"><a href="#!">Entrega</a></li>
+                        <li class="list-group-item"><a href="#!">Promociones y códigos de descuento</a></li>
+                        <li class="list-group-item"><a href="#!">Devoluciones y reembolsos</a></li>
+                        <li class="list-group-item"><a href="#!">Cuentas y Suscripciones</a></li>
+                        <li class="list-group-item"><a href="../sucursales/sucursales.html">Sucursales</a></li>
+                     </div>
+                     </ul>
+                  </div>
+               </div>
+             
+          
             </div>
               <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 p-5 p-md-3" style="background-color: #fff;">
                 <div class="col-12 d-flex justify-content-end">
@@ -1285,81 +1313,99 @@
          <!--===============================================
             FOOTER
             ================================================= -->
-         <footer class="container-fluid p-0 m-0">
-            <div class="row p-0 m-0 footerImpuls">
-               <div class="col-5 col-sm-5 col-md-5 col-lg-3 p-0 m-0 linea imgFooter">
-                  <a href="#!"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
-                  <a href="https://www.facebook.com/impulsventaporcatalogo/"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid d-none d-sm-none d-md-inline-block"></a>
-                  <a href="https://www.pinterest.com.mx/impulsmoda/"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-                  <a href="https://www.youtube.com/user/ImpulsModa/"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
-                  <a href="https://twitter.com/impuls_zapatos/"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4 d-none d-sm-none d-md-inline-block"></a>
+            <footer class="container-fluid p-0 m-0">
+               <div class="row p-0 m-0 footerImpuls">
+                  <div class="col-5 col-sm-5 col-md-3 col-lg-3 p-0 m-0 linea-1 imgFooter">
+                     <div class="row"> 
+                        <div class="col-12">
+                           <a href="../../index.html"><img src="../../img/imgOficial/iconos_logos/impuls_logo_blanco.svg" alt="" class="img-fluid impulsBlanco"></a>
+                        </div>
+                        <div class="col-12 d-none d-sm-none d-md-block">
+                           <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+                           <a href="https://www.instagram.com/impulsventaporcatalogo/?hl=es-la" target="_blank"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                           <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                           <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-md-1 ml-lg-4"></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group" >
+                     <div class="panel-heading-2">
+                        <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseTiendalinea">Tienda en línea<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                     </div> 
+                     <div id="collapseTiendalinea" class="collapse">
+                        <a href="../../terminos-condiciones.html">
+                           <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
+                        </a>
+                        <a href="../../preguntas-frecuentes.html">
+                           <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
+                        </a>
+                        <a href="../../politica-de-devolucion.html">
+                           <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
+                        </a>
+                        <a href="../../como-comprar.html">
+                           <p class="textoFoooterSecundario pl-5">Cómo comprar</p>
+                        </a>
+                        <a href="../../aviso-de-privacidad.html">
+                           <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+                     <div class="panel-heading-2">
+                        <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseIniciaNegocio">Inicia tu propio negocio<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                     </div>
+                     <div id="collapseIniciaNegocio" class="collapse">
+                        <a href="../../afiliate-a-impuls.html">
+                           <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
+                        </a>
+                        <a href="../../descuentos-beneficios.html">
+                           <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
+                        </a>
+                        <!-- <a href="#!">
+                           <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
+                        </a>
+                        <a href="#!">
+                           <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
+                        </a> -->
+                        <a href="#!">
+                           <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
+                        </a>
+                        <a href="../../mas-informacion.html">
+                           <p class="textoFoooterSecundario pl-5">Más información</p>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-3 col-lg-3 p-0 m-0 linea panel-group">
+                     <div class="panel-heading-2">
+                        <h4 class="textoFoooter pl-0 pl-sm-0 pl-md-5" data-toggle="collapse" data-target="#collapseAcercaNosostros">Acerca de Nosotros<i class="more-less-footer fas fa-plus d-block d-sm-block d-md-none"></i></h4>
+                     </div>
+                     <div id="collapseAcercaNosostros" class="collapse">
+                        <a href="../../historia.html">
+                           <p class="textoFoooterSecundario pl-5">Historia</p>
+                        </a>
+                        <a href="../../mision-vision.html">
+                           <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
+                        </a>
+                        <a href="../../pages/contactanos/contactanos.html">
+                           <p class="textoFoooterSecundario pl-5">Contáctanos</p>
+                        </a>
+                        <a href="../../pages/sucursales/sucursales.html">
+                           <p class="textoFoooterSecundario pl-5">Sucursales</p>
+                        </a>
+                        <a href="../../compra-segura.html">
+                           <p class="textoFoooterSecundario pl-5">Compra segura</p>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-12 d-block d-sm-block d-md-none">
+                     <a href="https://www.facebook.com/impulsventaporcatalogo/" target="_blank"><img src="../../img/imgOficial/iconos_logos/fb.svg" alt="" class="img-fluid"></a>
+                     <a href="https://www.instagram.com/impulsventaporcatalogo/?hl=es-la" target="_blank"><img src="../../img/imgOficial/iconos_logos/in.svg" alt="" class="img-fluid ml-4"></a>
+                     <a href="https://www.youtube.com/user/ImpulsModa/" target="_blank"><img src="../../img/imgOficial/iconos_logos/yt.svg" alt="" class="img-fluid ml-4"></a>
+                     <a href="https://twitter.com/impuls_zapatos/" target="_blank"><img src="../../img/imgOficial/iconos_logos/tw.svg" alt="" class="img-fluid ml-4"></a>
+                  </div>
+                  <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
                </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-                  <a href="#!">
-                     <h4 class="textoFoooter pl-5">Tienda en línea</h4>
-                  </a>
-                  <a href="../../terminos-condiciones.html">
-                     <p class="textoFoooterSecundario pl-5">Términos y Condiciones</p>
-                  </a>
-                  <a href="../../preguntas-frecuentes.html">
-                     <p class="textoFoooterSecundario pl-5">Preguntas frecuentes</p>
-                  </a>
-                  <a href="../../politica-de-devolucion.html">
-                     <p class="textoFoooterSecundario pl-5">Politicas de devolución</p>
-                  </a>
-                  <a href="../../como-comprar.html">
-                     <p class="textoFoooterSecundario pl-5">Como comprar</p>
-                  </a>
-                  <a href="../../aviso-de-privacidad.html">
-                     <p class="textoFoooterSecundario pl-5">Aviso de privacidad</p>
-                  </a>
-               </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea">
-                  <a href="#!">
-                     <h4 class="textoFoooter  pl-5">Inicia tu propio negocio</h4>
-                  </a>
-                  <a href="../../afiliate-a-impuls.html">
-                     <p class="textoFoooterSecundario pl-5">Afíliate a Impuls</p>
-                  </a>
-                  <a href="../../descuentos-beneficios.html">
-                     <p class="textoFoooterSecundario pl-5">Descuentos y Beneficios</p>
-                  </a>
-                  <a href="#!">
-                     <p class="textoFoooterSecundario pl-5">Beneficios de ser socio</p>
-                  </a>
-                  <a href="#!">
-                     <p class="textoFoooterSecundario pl-5">Tutoriales para socio</p>
-                  </a>
-                  <a href="#!">
-                     <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
-                  </a>
-                  <a href="../../mas-informacion.html">
-                     <p class="textoFoooterSecundario pl-5">Más información</p>
-                  </a>
-               </div>
-               <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-0 m-0 linea" >
-                  <a href="#!">
-                     <h4 class="textoFoooter  pl-5">Acerca de Nosotros</h4>
-                  </a>
-                  <a href="../../historia.html">
-                     <p class="textoFoooterSecundario pl-5">Historia</p>
-                  </a>
-                  <a href="../../mision-vision.html">
-                     <p class="textoFoooterSecundario pl-5">Misión y Visión</p>
-                  </a>
-                  <a href="../contactanos/contactanos.html">
-                     <p class="textoFoooterSecundario pl-5">Contáctanos</p>
-                  </a>
-                  <a href="../sucursales/sucursales.html">
-                     <p class="textoFoooterSecundario pl-5">Sucursales</p>
-                  </a>
-                  <a href="../../compra-segura.html">
-                     <p class="textoFoooterSecundario pl-5">Compra segura</p>
-                  </a>
-               </div>
-               <h6 class="derechosReservados">&copy;Impuls Todos los derechos reservados.</h6>
-            </div>
-         </footer>
+            </footer>
          <!--===============================================
             FIN FOOTER
             ================================================= -->
