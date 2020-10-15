@@ -1,167 +1,151 @@
-
-.textoSaldoFavor{
-    font-family: PoppinsBold;
-    font-size: 22px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #000000;
+.textoSaldoFavor {
+	font-family: PoppinsBold;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.precioSaldoF{
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-    color: #41ca54;
+.precioSaldoF {
+	font-family: Poppins;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #41ca54;
 }
 
-#tablaSaldoFavor_length , #tablaSaldoFavor_filter{
-    display: none!important;
+#tablaSaldoFavor_length,
+#tablaSaldoFavor_filter {
+	display: none!important;
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-    color: #ffff!important;
-    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	color: #ffff!important;
+	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
 }
 
-.textoCabeceraSaldoF th{
-    font-family: PoppinsSemiBold;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.textoCabeceraSaldoF th {
+	font-family: PoppinsSemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-
-.estiloInputSaldoF{
-    height: 35px!important;
-    border: solid 1px #000000!important;
-    border-radius: 6px!important;
-    -webkit-border-radius: 6px!important;
-    -moz-border-radius: 6px!important;
-    -ms-border-radius: 6px!important;
-    -o-border-radius: 6px!important;
-    background-color: rgb(255, 255, 255);
+.estiloInputSaldoF {
+	height: 35px!important;
+	border: solid 1px #000000!important;
+	border-radius: 6px!important;
+	-webkit-border-radius: 6px!important;
+	-moz-border-radius: 6px!important;
+	-ms-border-radius: 6px!important;
+	-o-border-radius: 6px!important;
+	background-color: rgb(255, 255, 255);
 }
-
-
 
 .estiloInputSaldoF::-webkit-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
- 
-  }
-
-  .estiloInputSaldoF::-webkit-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-   
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
+
+.estiloInputSaldoF::-webkit-input-placeholder {
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+}
+
 .estiloInputSaldoF:-moz-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
+
 .estiloInputSaldoF::-moz-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
+
 .estiloInputSaldoF:-ms-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
-
-
 
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
-  
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-
-   
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
+@media (max-width:991px) and (min-width:768px) {}
 
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-    .aux-1-sf{
-        padding:20px 15px 15px 15px!important;
-    }
+@media (max-width:767px) {
+	.aux-1-sf {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
- 
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
-    .aux-1-sf{
-        padding:20px 15px 15px 15px!important;
-    }
- 
+
+@media (max-width: 576px) {
+	.aux-1-sf {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 350px) {}
 
-
-}
-
-@media (max-width: 290px) {
-
-
-}
-
-
+@media (max-width: 290px) {}

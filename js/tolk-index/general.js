@@ -14,10 +14,9 @@ $(document).ready(function(){
 
   //  $('#modalOfertaRelampago').modal('toggle');
   $('#modalUneteImpuls').modal({backdrop: 'static', keyboard: false});
-  //$('body').css("overflow", "hidden");
+
 
   $('#CerrarModalUnete').click(function(){
-    // $('body').css("overflow", "auto");
     $('#modalOfertaRelampago').modal({backdrop: 'hide', keyboard: false});
     $('.modal-backdrop').removeClass("modal-backdrop"); 
   });
@@ -44,10 +43,6 @@ $( ".cerrarS" ).click(function() {
   location.reload();
 });
 
-$(".open-button").click(function(){
-});
-$(".open-button").click(function(){
-});
 
 
 

@@ -1,136 +1,120 @@
-#tablaHostorialC_length , #tablaHostorialC_filter{
-    display: none!important;
+#tablaHostorialC_length,
+#tablaHostorialC_filter {
+	display: none!important;
 }
 
-
-.textoHistorial1{
-    font-family: PoppinsBold;
-    font-size: 22px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #000000;
+.textoHistorial1 {
+	font-family: PoppinsBold;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-
-.textoHistorial2{
-    font-family: PoppinsBold;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #000000;
+.textoHistorial2 {
+	font-family: PoppinsBold;
+	font-size: 28px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.cuerpoPedidos tr{
-    height: 65px!important;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.cuerpoPedidos tr {
+	height: 65px!important;
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.verDetalleHostorial{
-    height: 65px!important;
-    font-family: PoppinsBold;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.verDetalleHostorial {
+	height: 65px!important;
+	font-family: PoppinsBold;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-
-
-.textoCabeceraHistorial th{
-    font-family: PoppinsSemiBold;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.textoCabeceraHistorial th {
+	font-family: PoppinsSemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-    color: #ffff!important;
-    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	color: #ffff!important;
+	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #000000 100%);
 }
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
-  
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-
-   
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
+@media (max-width:991px) and (min-width:768px) {}
 
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-    .aux-1-hc{
-        padding:20px 15px 15px 15px!important;
-    }
+@media (max-width:767px) {
+	.aux-1-hc {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
- 
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-    .textoHistorial1 {
-        font-size: 17px;
-    }
-
-    .textoHistorial2 {
-        font-size: 22px;
-    }
-
-    .aux-1-hc{
-        padding:20px 15px 15px 15px!important;
-    }
-    
+@media (max-width: 576px) {
+	.textoHistorial1 {
+		font-size: 17px;
+	}
+	.textoHistorial2 {
+		font-size: 22px;
+	}
+	.aux-1-hc {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 350px) {}
 
-
-}
-
-@media (max-width: 290px) {
-
-
-}
+@media (max-width: 290px) {}

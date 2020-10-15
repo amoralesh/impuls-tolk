@@ -1,640 +1,586 @@
-
-.descripcionComentariosContenedor{
-    height: 1400px;
-    background-color: #f8f8f8;
-}
-.descProducto{
-    font-family: PoppinsSemiBold;
-    font-size: 22px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-    color: #2c2c2c; 
+.descripcionComentariosContenedor {
+	height: 1400px;
+	background-color: #f8f8f8;
 }
 
-.descProducto~p{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000;
+.descProducto {
+	font-family: PoppinsSemiBold;
+	font-size: 22px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.imgMarcaDetalle{
-    float: right;
-    width: 78px;
-    height: 49px;
-    /* display:flex;
+.descProducto~p {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.imgMarcaDetalle {
+	float: right;
+	width: 78px;
+	height: 49px;
+	/* display:flex;
     margin:auto; */
 }
 
-.caracteristicasDetalle{
-
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000;
-
+.caracteristicasDetalle {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.borderDetalle{
-    border-bottom: 1px solid black;
+.borderDetalle {
+	border-bottom: 1px solid black;
 }
 
-.accionesCompra:hover{
-   background-color: #0000;
-   color: black;
+.accionesCompra:hover {
+	background-color: #0000;
+	color: black;
 }
 
-.caracteristicasDetalle>strong{
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #000000;
+.caracteristicasDetalle>strong {
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.btnResenas{
-    width: 191px;
-    height: 56px;
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    text-align: center;
-    text-transform: none;
-    border-radius: 10px!important;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
+.btnResenas {
+	width: 191px;
+	height: 56px;
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	text-align: center;
+	text-transform: none;
+	border-radius: 10px!important;
+	-webkit-border-radius: 10px!important;
+	-moz-border-radius: 10px!important;
+	-ms-border-radius: 10px!important;
+	-o-border-radius: 10px!important;
 }
 
-.btnPreguntas{
-    width: 280px;
-    height: 56px;
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    text-align: center;
-    text-transform: none;
-    margin-left: 27px!important;
-    border-radius: 10px!important;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
+.btnPreguntas {
+	width: 280px;
+	height: 56px;
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	text-align: center;
+	text-transform: none;
+	margin-left: 27px!important;
+	border-radius: 10px!important;
+	-webkit-border-radius: 10px!important;
+	-moz-border-radius: 10px!important;
+	-ms-border-radius: 10px!important;
+	-o-border-radius: 10px!important;
 }
 
-.btnEstilo1{
-    background-color: #888888;
-    color: #ffffff!important;
-
+.btnEstilo1 {
+	background-color: #888888;
+	color: #ffffff!important;
 }
 
-.btnEstilo2{
-    background-color: #ffffff;
-    color: #000000;
-    border: solid 1px #000000;
-
+.btnEstilo2 {
+	background-color: #ffffff;
+	color: #000000;
+	border: solid 1px #000000;
 }
 
-.comentariosContenedor{
-    width: 100%;
-    height:948px;
-    background-color: #ffffff;
-    margin-top: 40px;
-    padding: 30px;
+.comentariosContenedor {
+	width: 100%;
+	height: 948px;
+	background-color: #ffffff;
+	margin-top: 40px;
+	padding: 30px;
 }
 
-.contenedorRespuestas{
-    width: 100%;
-    height:658px;
-    margin-top: 40px;
-    padding: 0px;
-    overflow-y: scroll;
-    margin-bottom: 26px;
+.contenedorRespuestas {
+	width: 100%;
+	height: 658px;
+	margin-top: 40px;
+	padding: 0px;
+	overflow-y: scroll;
+	margin-bottom: 26px;
 }
 
-.contenedorResenas{
-    overflow-y: scroll;
-    height:658px;
-    
+.contenedorResenas {
+	overflow-y: scroll;
+	height: 658px;
 }
 
-.textoPorcentaje{
-    font-family: Poppins!important;
-    font-size: 16px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000;
+.textoPorcentaje {
+	font-family: Poppins!important;
+	font-size: 16px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-#tienesPregunta{
-    border-radius: 10px;
-    border: solid 1px #000000;
+#tienesPregunta {
+	border-radius: 10px;
+	border: solid 1px #000000;
 }
 
-.respuestaTienda{
-    margin-bottom: 45px;
+.respuestaTienda {
+	margin-bottom: 45px;
 }
 
-.respuestaTienda>p{
-    margin-bottom: 0.5px;
+.respuestaTienda>p {
+	margin-bottom: 0.5px;
 }
 
-.fechaPregunta{
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.85;
-    letter-spacing: normal;
-    color: #6f6f6f;
-    margin:7px 0px!important ;
+.fechaPregunta {
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.85;
+	letter-spacing: normal;
+	color: #6f6f6f;
+	margin: 7px 0px!important;
 }
 
-.masRespuestas{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #6f6f6f;
-    margin-top: 7px;
-    border-bottom: 1px solid  #6f6f6f;
+.masRespuestas {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #6f6f6f;
+	margin-top: 7px;
+	border-bottom: 1px solid #6f6f6f;
 }
 
-.masOpiniones{
-    width: 195px;
-    height: 41px;
-    border-radius: 5px;
-    background-color: #7588b1;
-    text-transform: none;
-
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
+.masOpiniones {
+	width: 195px;
+	height: 41px;
+	border-radius: 5px;
+	background-color: #7588b1;
+	text-transform: none;
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
 }
 
-.accionesCompra{
-    position: relative;
-    padding: 0px 6px;
-    top:-8px;
+.accionesCompra {
+	position: relative;
+	padding: 0px 6px;
+	top: -8px;
 }
 
-.textoAccionesCompra{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #6f6f6f;
+.textoAccionesCompra {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #6f6f6f;
 }
 
-.compartir{
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #2c2c2c;
-    margin: 20px 0px;
+.compartir {
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #2c2c2c;
+	margin: 20px 0px;
 }
 
-.compartir  img{
-    width: 33px;
-    height: 33px;
+.compartir img {
+	width: 33px;
+	height: 33px;
 }
 
-.iconoFace{
-position: relative;
-bottom: 2px;
-}
-.iconoPinteres{
-    width: 34px!important;
-    height: 34px!important;
+.iconoFace {
+	position: relative;
+	bottom: 2px;
 }
 
-.contenedorCalificacionRangos{
-    background-color: #ffffff;
-    padding: 20px!important;
+.iconoPinteres {
+	width: 34px!important;
+	height: 34px!important;
 }
 
-.tituloEvaluaciones{
-    font-family: PoppinsBold;
-    font-size: 30px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
+.contenedorCalificacionRangos {
+	background-color: #ffffff;
+	padding: 20px!important;
 }
 
-.textoRangos{
-    font-family: PoppinsSemiBold;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: #2c2c2c;
-    margin-bottom: 0px;
+.tituloEvaluaciones {
+	font-family: PoppinsBold;
+	font-size: 30px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
 }
+
+.textoRangos {
+	font-family: PoppinsSemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	color: #2c2c2c;
+	margin-bottom: 0px;
+}
+
 
 /*RANGOS*/
-.rangosCalificaciones{
-  height: 0px!important;
+
+.rangosCalificaciones {
+	height: 0px!important;
 }
 
 .custom-range::-webkit-slider-thumb {
-    background: rgb(0, 0, 0);
-  }
-  
-  .custom-range::-moz-range-thumb {
-    background: rgb(0, 0, 0);
-  }
-  
-  .custom-range::-ms-thumb {
-    background: rgb(0, 0, 0);
-  }
-
-  /*RESEÑAS*/
-.textResenas1{
-    font-family: PoppinsSemiBold!important;
-    font-size: 35px!important;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.57;
-    letter-spacing: normal;
-    color: #2c2c2c;
-}  
-
-.textResenas2{
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    color: #2c2c2c;
+	background: rgb(0, 0, 0);
 }
 
-.textResenas3{
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.85;
-    letter-spacing: normal;
-    color: #000000;
+.custom-range::-moz-range-thumb {
+	background: rgb(0, 0, 0);
 }
 
-.textResenas4{
-    font-family: PoppinsBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #000000;
+.custom-range::-ms-thumb {
+	background: rgb(0, 0, 0);
 }
 
-.textResenas5{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000;
+
+/*RESEÑAS*/
+
+.textResenas1 {
+	font-family: PoppinsSemiBold!important;
+	font-size: 35px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.57;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.colorUtil{
-    color: #6f6f6f!important;
+.textResenas2 {
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.colorUtil a{
-    color: #6f6f6f!important;
+.textResenas3 {
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.85;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.imgResena{
-    width: 180px;
-    height: 128px;
+.textResenas4 {
+	font-family: PoppinsBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #000000;
 }
+
+.textResenas5 {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.colorUtil {
+	color: #6f6f6f!important;
+}
+
+.colorUtil a {
+	color: #6f6f6f!important;
+}
+
+.imgResena {
+	width: 180px;
+	height: 128px;
+}
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-    .comentariosContenedor {
-        width: 100%;
-        height: 990px;
-    }
-
-    .masOpiniones {
-margin-top: 40px!important;
-    }
-
-    .imgResena {
-        width: 180px;
-        height: 103px;
-    }
-
-    .btnResenas {
-        width: 172px;
-    }
-
-    .btnPreguntas {
-        width: 271px;
-    }
-
-    .skin-light .number-input.number-input {
-        width: 196px!important;
-    }
-
-    .cantidadProducto {
-        font-size: 12px;
-        margin: 0px 10px 0px 5px;
-    }
-
-    .skin-light .number-input.number-input button {
-        width: 1rem;
-        height: .7rem;
-    }
-
-    .disponibilidad {
-        width: 8.6rem!important;
-    }
-
-    .textoDisponibilidad {
-        font-size: 14px;
-        padding: 0px 4px;
-        margin: 7px 0px!important;
-    }
- 
-
+@media (max-width:1199px) and (min-width:992px) {
+	.comentariosContenedor {
+		width: 100%;
+		height: 990px;
+	}
+	.masOpiniones {
+		margin-top: 40px!important;
+	}
+	.imgResena {
+		width: 180px;
+		height: 103px;
+	}
+	.btnResenas {
+		width: 172px;
+	}
+	.btnPreguntas {
+		width: 271px;
+	}
+	.skin-light .number-input.number-input {
+		width: 196px!important;
+	}
+	.cantidadProducto {
+		font-size: 12px;
+		margin: 0px 10px 0px 5px;
+	}
+	.skin-light .number-input.number-input button {
+		width: 1rem;
+		height: .7rem;
+	}
+	.disponibilidad {
+		width: 8.6rem!important;
+	}
+	.textoDisponibilidad {
+		font-size: 14px;
+		padding: 0px 4px;
+		margin: 7px 0px!important;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-
-    .comentariosContenedor {
-        height: 997px;
-    }
-    .btnResenas {
-        width: 132px;
-        height: 56px;
-        font-size: 15px!important;
-    }
-
-    .btnPreguntas {
-        width: 193px;
-        height: 56px;
-        font-size: 18px;
-        margin-left: 10px!important;
-    }
-
-    .imgResena {
-        width: 180px;
-        height: 78px;
-    }
-
-    .masOpiniones {
-margin-top: 40px!important;
-
-    }
- 
-
-    
+@media (max-width:991px) and (min-width:768px) {
+	.comentariosContenedor {
+		height: 997px;
+	}
+	.btnResenas {
+		width: 132px;
+		height: 56px;
+		font-size: 15px!important;
+	}
+	.btnPreguntas {
+		width: 193px;
+		height: 56px;
+		font-size: 18px;
+		margin-left: 10px!important;
+	}
+	.imgResena {
+		width: 180px;
+		height: 78px;
+	}
+	.masOpiniones {
+		margin-top: 40px!important;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-    .descripcionComentariosContenedor {
-        height: 2138px;
-    }
-
-    .comentariosContenedor {
-        width: 100%;
-        height: 990px;
-    }
- 
-    .btnResenas {
-        width: 144px;
-    }
-
-    .btnPreguntas {
-        width: 263px;
-    }
-
-    .masOpiniones {
-       margin-top: 40px!important;
-    }
- 
- 
+@media (max-width:767px) {
+	.descripcionComentariosContenedor {
+		height: 2138px;
+	}
+	.comentariosContenedor {
+		width: 100%;
+		height: 990px;
+	}
+	.btnResenas {
+		width: 144px;
+	}
+	.btnPreguntas {
+		width: 263px;
+	}
+	.masOpiniones {
+		margin-top: 40px!important;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-    .comentariosContenedor {
-        height: 975px;
-    }
-    .descripcionComentariosContenedor {
-        height: 2237px;
-    }
-
-    .btnResenas {
-        width: 104px;
-        height: 50px;
-        font-size: 11px!important;
-        border-radius: 6px!important;
-        -webkit-border-radius: 6px!important;
-        -moz-border-radius: 6px!important;
-        -ms-border-radius: 6px!important;
-        -o-border-radius: 6px!important;
-}
-.btnPreguntas {
-    width: 150px;
-    height: 50px;
-    font-size: 11px!important;
-    margin-left: 11px!important;
-    border-radius: 6px!important;
-    -webkit-border-radius: 6px!important;
-    -moz-border-radius: 6px!important;
-    -ms-border-radius: 6px!important;
-    -o-border-radius: 6px!important;
-}
-
-.imgResena {
-    width: 100%;
-    height: 63px;
-}
-
-.textResenas5 {
-    font-size: 13px;
-}
-
-.masOpiniones {
-    width: 169px;
-    height: 39px;
-    margin-top: 40px!important;
-
-}
-
-.caracteristicasDetalle {
-    font-size: 13px;
-}
-
-.fechaPregunta {
-    font-size: 11px;
-}
-
-.masRespuestas {
-    font-size: 13px;
-}
-
-.skin-light .number-input.number-input input[type=number] {
-    max-width: 2rem;
-    padding: 0rem;
-    border: none!important;
-    border-width: 0 1px;
-    font-size: 0.8rem;
-    height: 2rem;
-}
-
-.cantidadProducto {
-    font-size: 11px;
-    margin: 0px 6px 0px 3px;
-}
-
-.skin-light .number-input.number-input {
-    width: 159px!important;
-}
-
-.skin-light .number-input.number-input button {
-    width: 1rem!important;
-    height: .7rem!important;
-
-}
-
-.textoDisponibilidad {
-    font-size: 12px; 
-    padding: 0px 7px;
-
-}
-
-.disponibilidad {
-    width: 8.6rem;
-    border-radius: 8px;
-    border: solid 0.8px #000000;
-    margin-right: -13px;
-    cursor: pointer;
-    height: 50px;
-}
-
-.botonesAgregarComprar {
-    width: 175px;
-    height: 45px;
-    font-size: 12px!important;
-}
-
-.textoCompraProtegida {
-    font-size: 11px;
-}
-
-#tienesPregunta {
-    border-radius: 10px;
-    border: solid 1px #000000;
-}
-
-.descProducto~p {
-    font-size: 16px;
-    text-align: justify;
-
-}
-.skin-light .number-input.number-input button {
-    width: 1.5rem;
-    height: .7rem;
-}
-
-
-
-
-    
+@media (max-width: 576px) {
+	.comentariosContenedor {
+		height: 975px;
+	}
+	.descripcionComentariosContenedor {
+		height: 2237px;
+	}
+	.btnResenas {
+		width: 104px;
+		height: 50px;
+		font-size: 11px!important;
+		border-radius: 6px!important;
+		-webkit-border-radius: 6px!important;
+		-moz-border-radius: 6px!important;
+		-ms-border-radius: 6px!important;
+		-o-border-radius: 6px!important;
+	}
+	.btnPreguntas {
+		width: 150px;
+		height: 50px;
+		font-size: 11px!important;
+		margin-left: 11px!important;
+		border-radius: 6px!important;
+		-webkit-border-radius: 6px!important;
+		-moz-border-radius: 6px!important;
+		-ms-border-radius: 6px!important;
+		-o-border-radius: 6px!important;
+	}
+	.imgResena {
+		width: 100%;
+		height: 63px;
+	}
+	.textResenas5 {
+		font-size: 13px;
+	}
+	.masOpiniones {
+		width: 169px;
+		height: 39px;
+		margin-top: 40px!important;
+	}
+	.caracteristicasDetalle {
+		font-size: 13px;
+	}
+	.fechaPregunta {
+		font-size: 11px;
+	}
+	.masRespuestas {
+		font-size: 13px;
+	}
+	.skin-light .number-input.number-input input[type=number] {
+		max-width: 2rem;
+		padding: 0rem;
+		border: none!important;
+		border-width: 0 1px;
+		font-size: 0.8rem;
+		height: 2rem;
+	}
+	.cantidadProducto {
+		font-size: 11px;
+		margin: 0px 6px 0px 3px;
+	}
+	.skin-light .number-input.number-input {
+		width: 159px!important;
+	}
+	.skin-light .number-input.number-input button {
+		width: 1rem!important;
+		height: .7rem!important;
+	}
+	.textoDisponibilidad {
+		font-size: 12px;
+		padding: 0px 7px;
+	}
+	.disponibilidad {
+		width: 8.6rem;
+		border-radius: 8px;
+		border: solid 0.8px #000000;
+		margin-right: -13px;
+		cursor: pointer;
+		height: 50px;
+	}
+	.botonesAgregarComprar {
+		width: 175px;
+		height: 45px;
+		font-size: 12px!important;
+	}
+	.textoCompraProtegida {
+		font-size: 11px;
+	}
+	#tienesPregunta {
+		border-radius: 10px;
+		border: solid 1px #000000;
+	}
+	.descProducto~p {
+		font-size: 16px;
+		text-align: justify;
+	}
+	.skin-light .number-input.number-input button {
+		width: 1.5rem;
+		height: .7rem;
+	}
 }
 
 @media (max-width: 350px) {
-    .compartir {
-        font-family: PoppinsSemiBold;
-        font-size: 40px;
-    }
-
-    .descripcionComentariosContenedor {
-        height: 2445px;
-    }
- }
-
-
+	.compartir {
+		font-family: PoppinsSemiBold;
+		font-size: 40px;
+	}
+	.descripcionComentariosContenedor {
+		height: 2445px;
+	}
+}

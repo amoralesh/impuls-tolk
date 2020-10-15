@@ -1,450 +1,395 @@
-
 /*BOTON VER MAS DE RECOMENDADOS*/
+
 .skin-light .btn.btn-md {
-    font-size: 12.24px;
-    padding: 5px;
+	font-size: 12.24px;
+	padding: 5px;
 }
-
-
 
 
 /*Fondo Recomendados*/
-.recomendados{
-    height: 580px;
-    background-color: #efefef;
-    margin-bottom: 114px !important;
+
+.recomendados {
+	height: 580px;
+	background-color: #efefef;
+	margin-bottom: 114px !important;
 }
 
-.precioTarjeta{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000!important;
+.precioTarjeta {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.textoPrecioProducto-b{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
-  }
-
-
-.btnRecomendados{
-    width: 99px!important;
-    height: 30px!important;
-   
-    font-family: PoppinsSemiBold;
-    font-size: 11px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: -0.2px;
-    color: #ffffff!important;
-    text-transform: none;
-
-    border-radius: 5px!important;
+.textoPrecioProducto-b {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000;
 }
 
+.btnRecomendados {
+	width: 99px!important;
+	height: 30px!important;
+	font-family: PoppinsSemiBold;
+	font-size: 11px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: -0.2px;
+	color: #ffffff!important;
+	text-transform: none;
+	border-radius: 5px!important;
+}
 
-.lupaTarjeta{
-    width:25px;
-    height:23px;
+.lupaTarjeta {
+	width: 25px;
+	height: 23px;
 }
-.favoritoTarjeta{
-    width:23px;
-    height:24px;
+
+.favoritoTarjeta {
+	width: 23px;
+	height: 24px;
 }
-.carritoTarjeta{
-    width:28px;
-    height:23px;
+
+.carritoTarjeta {
+	width: 28px;
+	height: 23px;
 }
+
 
 /*Imagenes de tarjetas*/
+
 .imgRadius {
-    position: relative;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    height: 217px!important;
-    top: -45px;
-    align-self: center;
-    border-radius: 25px;
-    left: 5%;
-    width: 90%;
-    cursor: pointer; 
+	position: relative;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	height: 217px!important;
+	top: -45px;
+	align-self: center;
+	border-radius: 25px;
+	left: 5%;
+	width: 90%;
+	cursor: pointer;
 }
+
+
 /*Sobreescribimos el css por deefcto de la imagen en las tarejtas*/
+
 .skin-light .card-img-top {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
+
 
 /*Acortamos la distancia entre la imagen y la descripcion*/
-.textoTarjeta1{
-    margin-top: -12%;
-    font-family: PoppinsSemiBold;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000!important;
+
+.textoTarjeta1 {
+	margin-top: -12%;
+	font-family: PoppinsSemiBold;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.textoTarjeta2{
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000!important;
+.textoTarjeta2 {
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.textoTarjeta3{
-    font-family: PoppinsSemiBold;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: -0.42;
-    color: #000000!important;
+.textoTarjeta3 {
+	font-family: PoppinsSemiBold;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.6;
+	letter-spacing: -0.42;
+	color: #000000!important;
 }
-
 
 
 /*Posición de badge Recomendados*/
-.etiquetaRecomendados{
-    width: 30%!important;
-    height: 12%!important;
-    position: absolute;
-    background-color: #bababa!important;
-    top: -8%;
-    left: 12%;
-    border-radius: 5px!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    -ms-border-radius: 5px!important;
-    -o-border-radius: 5px!important;
+
+.etiquetaRecomendados {
+	width: 30%!important;
+	height: 12%!important;
+	position: absolute;
+	background-color: #bababa!important;
+	top: -8%;
+	left: 12%;
+	border-radius: 5px!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	-ms-border-radius: 5px!important;
+	-o-border-radius: 5px!important;
 }
 
-.textoEtiquetaR{
-    font-family: Poppins;
-    font-size: 10px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: 0.01px;
-    text-align: center;
-    color: #ffffff!important;
-    margin-top: 4px!important;
-  }
+.textoEtiquetaR {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: 0.01px;
+	text-align: center;
+	color: #ffffff!important;
+	margin-top: 4px!important;
+}
 
 
 /*Posición de badge Recomendados*/
-.etiquetaRecomendadosOferta{
-    width: 30%!important;
-    height: 12%!important;
-   position: absolute;
-   top: -8%;
-   left: 56%;
-   background-color: #f75454!important;
-   border-radius: 5px!important;
-   -webkit-border-radius: 5px!important;
-   -moz-border-radius: 5px!important;
-   -ms-border-radius: 5px!important;
-   -o-border-radius: 5px!important;
+
+.etiquetaRecomendadosOferta {
+	width: 30%!important;
+	height: 12%!important;
+	position: absolute;
+	top: -8%;
+	left: 56%;
+	background-color: #f75454!important;
+	border-radius: 5px!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	-ms-border-radius: 5px!important;
+	-o-border-radius: 5px!important;
 }
 
-
-
-
-
-@media screen and (max-width:1230px){
-
-
-}
+@media screen and (max-width:1230px) {}
 
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
-    .imgRadius {
-        height: 173px!important;
-    }
-
-    .btnRecomendados {
-        width: 69px!important;
-        height: 36px!important;
-        font-size: 10px!important;
-    }
-
-
+@media (max-width:1199px) and (min-width:992px) {
+	.imgRadius {
+		height: 173px!important;
+	}
+	.btnRecomendados {
+		width: 69px!important;
+		height: 36px!important;
+		font-size: 10px!important;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-
-    .btnRecomendados {
-        width: 142px!important;
-        height: 35px!important;
-        font-size: 16px!important;
-    }
-    .recomendados {
-        height: 1145px;
-    }
-
-    .imgRadius {
-        height: 265px!important;
-
-    }
-
-            
-/*Posición de badge Recomendados*/
-.etiquetaRecomendados{
-    top: -8%;
-    width: 25%!important;
-    height: 10%!important;
-    left: 18%;
-
-  
+@media (max-width:991px) and (min-width:768px) {
+	.btnRecomendados {
+		width: 142px!important;
+		height: 35px!important;
+		font-size: 16px!important;
+	}
+	.recomendados {
+		height: 1145px;
+	}
+	.imgRadius {
+		height: 265px!important;
+	}
+	/*Posición de badge Recomendados*/
+	.etiquetaRecomendados {
+		top: -8%;
+		width: 25%!important;
+		height: 10%!important;
+		left: 18%;
+	}
+	.textoEtiquetaR {
+		font-size: 10px;
+	}
+	/*Posición de badge Recomendados*/
+	.etiquetaRecomendadosOferta {
+		top: -8%;
+		width: 25%!important;
+		height: 10%!important;
+		left: 60%;
+	}
 }
 
-.textoEtiquetaR{
-    font-size: 10px;
-  }
-
-
-/*Posición de badge Recomendados*/
-.etiquetaRecomendadosOferta{
-    top: -8%;
-    width: 25%!important;
-    height: 10%!important;
-    left: 60%;
-}
-
-
-    
- 
-
-    
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-    .recomendados {
-        height: 1070px;
-    }
-
-    .etiqueta {
-        width: 30%!important;
-        height: 13%!important;
-    }
-
- 
+@media (max-width:767px) {
+	.recomendados {
+		height: 1070px;
+	}
+	.etiqueta {
+		width: 30%!important;
+		height: 13%!important;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-    .poppins18 {
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.59;
-        letter-spacing: normal;
-        color: #2c2c2c;
-    }
-
-        /*Fondo Recomendados*/
-        .recomendados {
-            height: 820px;
-            background-color: #efefef;
-            margin-bottom: 140px !important;
-        }
-    
-        
-        .tituloRecomendadosSecundario{
-            font-family: Poppins;
-            font-size: 10px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-          
-        }
-    
-        /*Acortamos la distancia entre la imagen y la descripcion*/
-        .textoTarjeta1{
-            margin-top: -32%;
-            font-size: 14px;
-            font-weight: 600;
-    
-        }
-        .textoTarjeta2{
-            font-size: 12px;
-            font-weight: bold;
-       
-        }
-    
-        .textoTarjeta3{
-            font-size: 10px!important;
-            font-weight: 600;
-            margin-bottom: 0px!important;
-        }
-    
-        .textoPrecioProducto-b{
-            font-family: Poppins;
-            font-size: 13px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.33;
-            letter-spacing: normal;
-            color: #000000;
-          }
-    
-        .btnRecomendados{
-            width: 50px!important;
-            height: 20px!important;
-    
-            font-family: PoppinsSemiBold;
-            font-size: 8px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.23;
-            letter-spacing: -0.2px;
-            color: #ffffff!important;
-            text-transform: none;
-        }
-        
-     
-    
-        .lupaTarjeta{
-            width:15px;
-            height:14px;
-            padding: 0px!important;
-            margin: 0px 0px 0px 0px!important;
-            
-        }
-    
-        .favoritoTarjeta{
-            width:14px;
-            height:15px;
-            padding: 0px!important;
-            margin: 0px 0px 0px 0px!important;
-        }
-    
-        .carritoTarjeta{
-            width:20px;
-            height:16px;
-            padding: 0px!important;
-            margin: 0px 0px 0px 0px!important;
-        }
-    
-      
-        /*Imagenes de tarjetas*/
-        .imgRadius {
-            position: relative;
-            -ms-flex-negative: 0;
-            flex-shrink: 0;
-            height: 120px!important;
-            top: -45px;
-            align-self: center;
-            border-radius: 25px;
-            left: 5%;
-            width: 90%;
-            cursor: pointer; 
-        }
-    
-        .skin-light .btn.btn-md {
-            font-size: 7.24px;
-            padding: 5px;
-        }
-
-        
-/*Posición de badge Recomendados*/
-.etiquetaRecomendados{
-    top: -28%;
-    width: 30%!important;
-    height: 16%!important;
-    left: 18%;
-
-  
-}
-
-.textoEtiquetaR{
-    font-size: 8px;
-  }
-
-
-/*Posición de badge Recomendados*/
-.etiquetaRecomendadosOferta{
-    top: -28%;
-    width: 30%!important;
-    height: 16%!important;
-    left: 51%;
-}
-
-
-       
-    
+@media (max-width: 576px) {
+	.poppins18 {
+		font-family: Poppins;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.59;
+		letter-spacing: normal;
+		color: #2c2c2c;
+	}
+	/*Fondo Recomendados*/
+	.recomendados {
+		height: 820px;
+		background-color: #efefef;
+		margin-bottom: 140px !important;
+	}
+	.tituloRecomendadosSecundario {
+		font-family: Poppins;
+		font-size: 10px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+	}
+	/*Acortamos la distancia entre la imagen y la descripcion*/
+	.textoTarjeta1 {
+		margin-top: -32%;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.textoTarjeta2 {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.textoTarjeta3 {
+		font-size: 10px!important;
+		font-weight: 600;
+		margin-bottom: 0px!important;
+	}
+	.textoPrecioProducto-b {
+		font-family: Poppins;
+		font-size: 13px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.33;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	.btnRecomendados {
+		width: 50px!important;
+		height: 20px!important;
+		font-family: PoppinsSemiBold;
+		font-size: 8px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.23;
+		letter-spacing: -0.2px;
+		color: #ffffff!important;
+		text-transform: none;
+	}
+	.lupaTarjeta {
+		width: 15px;
+		height: 14px;
+		padding: 0px!important;
+		margin: 0px 0px 0px 0px!important;
+	}
+	.favoritoTarjeta {
+		width: 14px;
+		height: 15px;
+		padding: 0px!important;
+		margin: 0px 0px 0px 0px!important;
+	}
+	.carritoTarjeta {
+		width: 20px;
+		height: 16px;
+		padding: 0px!important;
+		margin: 0px 0px 0px 0px!important;
+	}
+	/*Imagenes de tarjetas*/
+	.imgRadius {
+		position: relative;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		height: 120px!important;
+		top: -45px;
+		align-self: center;
+		border-radius: 25px;
+		left: 5%;
+		width: 90%;
+		cursor: pointer;
+	}
+	.skin-light .btn.btn-md {
+		font-size: 7.24px;
+		padding: 5px;
+	}
+	/*Posición de badge Recomendados*/
+	.etiquetaRecomendados {
+		top: -28%;
+		width: 30%!important;
+		height: 16%!important;
+		left: 18%;
+	}
+	.textoEtiquetaR {
+		font-size: 8px;
+	}
+	/*Posición de badge Recomendados*/
+	.etiquetaRecomendadosOferta {
+		top: -28%;
+		width: 30%!important;
+		height: 16%!important;
+		left: 51%;
+	}
 }
 
 @media (max-width: 350px) {
-    .btnRecomendados {
-        width: 36px!important;
-        height: 17px!important;
-        font-family: PoppinsSemiBold;
-        font-size: 5px!important;
-        padding: 0px!important;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.23;
-        letter-spacing: -0.2px;
-        color: #ffffff!important;
-        text-transform: none;
-    }
-
-    .lupaTarjeta,.favoritoTarjeta,.carritoTarjeta  {
-        width: 11px;
-        height: 11px;
-    }
- }
-
+	.btnRecomendados {
+		width: 36px!important;
+		height: 17px!important;
+		font-family: PoppinsSemiBold;
+		font-size: 5px!important;
+		padding: 0px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.23;
+		letter-spacing: -0.2px;
+		color: #ffffff!important;
+		text-transform: none;
+	}
+	.lupaTarjeta,
+	.favoritoTarjeta,
+	.carritoTarjeta {
+		width: 11px;
+		height: 11px;
+	}
+}

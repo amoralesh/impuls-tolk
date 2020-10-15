@@ -1,110 +1,106 @@
-.seccionMiCuenta{
-  padding-bottom: 200px;
+.seccionMiCuenta {
+	padding-bottom: 200px;
 }
 
-.ayudaMiCuenta{
-position: relative;
-/* bottom: 210px!important; */
-} 
-
-.textoMiCuenta li{
-
-  padding: 5px 10px!important;
-  display: flex!important;
+.ayudaMiCuenta {
+	position: relative;
+	/* bottom: 210px!important; */
 }
 
-.textoMiCuenta li a{
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #2c2c2c!important;
-    padding: 0px 10px!important;
-
+.textoMiCuenta li {
+	padding: 5px 10px!important;
+	display: flex!important;
 }
 
-.textoMiCuenta li strong{
-
-  padding: 10px 10px!important;
+.textoMiCuenta li a {
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #2c2c2c!important;
+	padding: 0px 10px!important;
 }
 
-
-
-
-
-.textoMiCuenta1{
-    font-family: PoppinsBold!important;
-    font-size: 24px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: #000000;
+.textoMiCuenta li strong {
+	padding: 10px 10px!important;
 }
 
-
-.textoMiCuenta2{
-  font-family: Poppins!important;
-  font-size: 16px; 
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33!important;
-  letter-spacing: normal;
-  color: #2c2c2c!important;
+.textoMiCuenta1 {
+	font-family: PoppinsBold!important;
+	font-size: 24px!important;
+	font-weight: bold!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-
-.textoMiCuenta3{
-  font-family: PoppinsBold;
-  font-size: 16px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-  color: #2c2c2c;
+.textoMiCuenta2 {
+	font-family: Poppins!important;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33!important;
+	letter-spacing: normal;
+	color: #2c2c2c!important;
 }
 
-.estiloInputMiCuenta{
-    border: solid 1px #000000!important;
-    border-radius: 6px!important;
-    -webkit-border-radius: 6px!important;
-    -moz-border-radius: 6px!important;
-    -ms-border-radius: 6px!important;
-    -o-border-radius: 6px!important;
+.textoMiCuenta3 {
+	font-family: PoppinsBold;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.btnEditar{
-  width: 200px!important;
-  height: 45px!important;
+.estiloInputMiCuenta {
+	border: solid 1px #000000!important;
+	border-radius: 6px!important;
+	-webkit-border-radius: 6px!important;
+	-moz-border-radius: 6px!important;
+	-ms-border-radius: 6px!important;
+	-o-border-radius: 6px!important;
+}
 
-  font-family: PoppinsSemiBold;
-  font-size: 14px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.43;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-
-  text-transform: none;
-  border-radius:8px!important;
-  -webkit-border-radius:8px!important;
-  -moz-border-radius:8px!important;
-  -ms-border-radius:8px!important;
-  -o-border-radius:8px!important;
+.btnEditar {
+	width: 200px!important;
+	height: 45px!important;
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+	border-radius: 8px!important;
+	-webkit-border-radius: 8px!important;
+	-moz-border-radius: 8px!important;
+	-ms-border-radius: 8px!important;
+	-o-border-radius: 8px!important;
 }
 
 .more-less-cuenta {
-  float: right;
-  color: #000000;
-  font-size: 15px;
+	float: right;
+	color: #000000;
+	font-size: 15px;
+}
+
+.SelectionActive{
+	font-family: PoppinsBold;
+	font-size: 16px!important;
+	font-weight: bold!important;
+    color: #000000!important;
 }
 
 
@@ -112,106 +108,86 @@ position: relative;
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
-  
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
-  .gn{
-    font-size: 26px!important;
-    margin-right: 80px;
-  }
-  
-   
+@media (max-width:1199px) and (min-width:992px) {
+	.gn {
+		font-size: 26px!important;
+		margin-right: 80px;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-  .seccionMiCuenta {
-    padding-bottom: 37px;
-  }
-  .gn{
-    font-size: 21px!important;
-    margin-right: 80px;
-  }
+@media (max-width:991px) and (min-width:768px) {
+	.seccionMiCuenta {
+		padding-bottom: 37px;
+	}
+	.gn {
+		font-size: 21px!important;
+		margin-right: 80px;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-
-  .seccionMiCuenta {
-    padding-bottom: 37px;
-  }
+@media (max-width:767px) {
+	.seccionMiCuenta {
+		padding-bottom: 37px;
+	}
 }
- 
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-.seccionMiCuenta {
-  padding-bottom: 37px;
-}
-
-.estiloInputMiCuenta {
-  height: 34px!important;
-}
-
-.textoMiCuenta1 {
-  font-size: 17px;
-}
-
-.textoMiCuenta2 {
-  font-size: 13px;
-}
-
-.textoMiCuenta3 {
-  font-size: 13px;
-}
-
-.btnEditar {
-  width: 110px!important;
-  height: 33px!important;
-  font-size: 15px!important;
-
-}
-
-.gn{
-  font-size: 16px!important;
-  margin-right: 190px;
-}
-
-    
+@media (max-width: 576px) {
+	.seccionMiCuenta {
+		padding-bottom: 37px;
+	}
+	.estiloInputMiCuenta {
+		height: 34px!important;
+	}
+	.textoMiCuenta1 {
+		font-size: 17px;
+	}
+	.textoMiCuenta2 {
+		font-size: 13px;
+	}
+	.textoMiCuenta3 {
+		font-size: 13px;
+	}
+	.btnEditar {
+		width: 110px!important;
+		height: 33px!important;
+		font-size: 15px!important;
+	}
+	.gn {
+		font-size: 16px!important;
+		margin-right: 190px;
+	}
 }
 
 @media (max-width: 350px) {
-
-  .aux-1-mc{
-    padding: 0px!important;
-  }
+	.aux-1-mc {
+		padding: 0px!important;
+	}
 }
 
 @media (max-width: 290px) {
-
-  .aux-1-mc{
-    padding: 0px!important;
-  }
+	.aux-1-mc {
+		padding: 0px!important;
+	}
 }
-
-
-
-

@@ -1,176 +1,156 @@
-.videoImpuls{
-    position: relative;
-    height: 744px;
-    background-image:url("../../../img/imgOficial/fotos/bloque_beneficios1.png");
-    padding: 177px 1px 194px 117px!important;
-    margin-top: 139px!important;
+.videoImpuls {
+	position: relative;
+	height: 744px;
+	background-image: url("../../../img/imgOficial/fotos/bloque_beneficios1.png");
+	padding: 177px 1px 194px 117px!important;
+	margin-top: 139px!important;
 }
-
 
 #videoPromosional {
-   -webkit-box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
-   -moz-box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
-   box-shadow: 0px 0px 34px -2px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 34px -2px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 0px 34px -2px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 34px -2px rgba(0, 0, 0, 1);
 }
 
- .tituloVideoImpuls{
-  font-family: PoppinsExtramBold;
-  font-size: 40px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  padding: 0px 25px 0px 70px!important;
- }
- 
- .tituloVideoImpuls2{
-    font-family: Poppins;
-    font-size: 17px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.41;
-    letter-spacing: -0.47px;
-    color: #ffffff;
-    padding: 0px 0px 0px 70px;
- }
-
- .btnVideoImpuls{
-  width: 174px!important;
-  height: 58px!important;
-  border-radius: 10px!important;
-  background-color: #ffffff;
-  text-transform: none;
-  -webkit-border-radius: 10px!important;
-  -moz-border-radius: 10px!important;
-  -ms-border-radius: 10px!important;
-  -o-border-radius: 10px!important;
-  margin: 45px 25px 0px 70px!important;
-  
+.tituloVideoImpuls {
+	font-family: PoppinsExtramBold;
+	font-size: 40px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+	padding: 0px 25px 0px 70px!important;
 }
 
- .textoBtnVideoImpils{
-   font-family: PoppinsBold;
-    font-size: 20px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: -0.3px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 0px;
- }
+.tituloVideoImpuls2 {
+	font-family: Poppins;
+	font-size: 17px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.41;
+	letter-spacing: -0.47px;
+	color: #ffffff;
+	padding: 0px 0px 0px 70px;
+}
 
- 
+.btnVideoImpuls {
+	width: 174px!important;
+	height: 58px!important;
+	border-radius: 10px!important;
+	background-color: #ffffff;
+	text-transform: none;
+	-webkit-border-radius: 10px!important;
+	-moz-border-radius: 10px!important;
+	-ms-border-radius: 10px!important;
+	-o-border-radius: 10px!important;
+	margin: 45px 25px 0px 70px!important;
+}
+
+.textoBtnVideoImpils {
+	font-family: PoppinsBold;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: -0.3px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 0px;
+}
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
-   .videoImpuls {
-      height: 590px;
-      padding: 60px 1px 60px 40px!important;
-      margin-top: 139px!important;
-  }
-
-
+@media (max-width:1199px) and (min-width:992px) {
+	.videoImpuls {
+		height: 590px;
+		padding: 60px 1px 60px 40px!important;
+		margin-top: 139px!important;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-   .videoImpuls {
-      height: 819px;
-      padding: 34px 50px 190px 50px!important;
-      margin-top: 139px!important;
-  }
-
-  .tituloVideoImpuls {
-   padding: 50px 0px 0px 0px!important;
+@media (max-width:991px) and (min-width:768px) {
+	.videoImpuls {
+		height: 819px;
+		padding: 34px 50px 190px 50px!important;
+		margin-top: 139px!important;
+	}
+	.tituloVideoImpuls {
+		padding: 50px 0px 0px 0px!important;
+	}
+	.tituloVideoImpuls2 {
+		padding: 0px 0px 0px 0px;
+	}
+	.btnVideoImpuls {
+		width: 200px!important;
+		height: 60px!important;
+		margin: 45px 25px 0px 0px!important;
+	}
 }
 
-  .tituloVideoImpuls2 {
-   padding: 0px 0px 0px 0px;
-}
-
-.btnVideoImpuls {
-   width: 200px!important;
-   height: 60px!important;
-   margin: 45px 25px 0px 0px!important;
-}
-    
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-  
-
-   .videoImpuls{
-      position: relative;
-      height: 744px;
-      background-image:url("../../../img/imgOficial/fotos/bloque_beneficios1.png");
-      padding: 14px 14px 14px 14px!important;
-      margin-top: 19px!important;
-  }
-
-  .tituloVideoImpuls{
-   font-family: PoppinsExtramBold;
-   font-size: 40px;
-   font-weight: bold;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: normal;
-   letter-spacing: normal;
-   color: #ffffff;
-   padding: 0px 0px 0px 0px!important;
-  }
-  
-  .tituloVideoImpuls2{
-     font-family: Poppins;
-     font-size: 17px;
-     font-weight: normal;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1.41;
-     letter-spacing: -0.47px;
-     color: #ffffff;
-     padding: 0px 0px 0px 0px;
-  }
-
-  .btnVideoImpuls {
-   width: 174px!important;
-   height: 58px!important;
-   border-radius: 10px!important;
-   background-color: #ffffff;
-   text-transform: none;
-   -webkit-border-radius: 10px!important;
-   -moz-border-radius: 10px!important;
-   -ms-border-radius: 10px!important;
-   -o-border-radius: 10px!important;
-   margin: 50px 0px 0px 0px!important
+@media (max-width:767px) {
+	.videoImpuls {
+		position: relative;
+		height: 744px;
+		background-image: url("../../../img/imgOficial/fotos/bloque_beneficios1.png");
+		padding: 14px 14px 14px 14px!important;
+		margin-top: 19px!important;
+	}
+	.tituloVideoImpuls {
+		font-family: PoppinsExtramBold;
+		font-size: 40px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #ffffff;
+		padding: 0px 0px 0px 0px!important;
+	}
+	.tituloVideoImpuls2 {
+		font-family: Poppins;
+		font-size: 17px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.41;
+		letter-spacing: -0.47px;
+		color: #ffffff;
+		padding: 0px 0px 0px 0px;
+	}
+	.btnVideoImpuls {
+		width: 174px!important;
+		height: 58px!important;
+		border-radius: 10px!important;
+		background-color: #ffffff;
+		text-transform: none;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
+		margin: 50px 0px 0px 0px!important
+	}
 }
-
-
- 
-}
-
-
-    

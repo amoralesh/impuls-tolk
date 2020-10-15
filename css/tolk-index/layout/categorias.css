@@ -1,19 +1,19 @@
 .contenedorCategorias {
-    height: 99px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	height: 99px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .logoInicial {
-    margin-left: 8%!important;
-     margin-top: 10px;
+	margin-left: 8%!important;
+	margin-top: 10px;
 }
 
 .categoriasNavbar {
 	border-bottom: 0px solid #ffff!important;
 	max-width: 50%!important;
 	margin-left: 27px;
-    margin-right: 20px;
-    margin-bottom: -1rem!important;
+	margin-right: 20px;
+	margin-bottom: -1rem!important;
 }
 
 .textoTitulosCategorias {
@@ -28,8 +28,8 @@
 }
 
 
-
 /* Mega Menu */
+
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
@@ -40,9 +40,10 @@
 
 
 /* BUSQUEDA FABORITOS CARRTIO */
+
 .right-inner-addon {
 	position: relative;
-    width: 160px;
+	width: 160px;
 }
 
 .right-inner-addon input {
@@ -51,8 +52,8 @@
 }
 
 .verMisFavoritos {
-    position: relative;
-    top: 20px;
+	position: relative;
+	top: 20px;
 }
 
 .verCarritoCompras {
@@ -60,148 +61,123 @@
 	top: 20px;
 }
 
-.cantidadCarrito{
-    position: relative;
+.cantidadCarrito {
+	position: relative;
 	top: 20px;
 }
-
 
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
-@media (min-width:1200px){
 
- 
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-    .logoInicial {
-        margin-left: 1.5%!important;
-    }
-    .categoriasNavbar {
-        max-width: 55%!important;
-    }
-
-    .textoTitulosCategorias {
-        font-size: 13.5px;
-    }
-
-
-
+@media (max-width:1199px) and (min-width:992px) {
+	.logoInicial {
+		margin-left: 1.5%!important;
+	}
+	.categoriasNavbar {
+		max-width: 55%!important;
+	}
+	.textoTitulosCategorias {
+		font-size: 13.5px;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-    .contenedorCategorias {
-        height: auto;
-    }
-    
-    .logoInicial {
-        margin-left: 3%!important;
-    }
-
-    .iconos {
-        position: relative;
-        top: 0px;
-        text-align: right;
-    }
-
-    .verMisFavoritos {
-        position: relative;
-        width: 27px;
-        height: 50px;
-        top: 0px;
-        padding-right: 5px;
-    }
-    
-    .verCarritoCompras {
-        position: relative;
-        width: 27px;
-        height: 50px;
-        top: 0px;
-        padding-right: 5px;
-    }
-    
-    .cantidadCarrito{
-        position: relative;
-        width: 28px;
-        height: 22px;
-        top: 0px;
-    }
-
-    .buscarInput{
-        width: 28px;
-        height: 56px;
-        position: relative;
-        top: 0px;
-        padding-right: 5px;
-    }
-
-
+@media (max-width:991px) and (min-width:768px) {
+	.contenedorCategorias {
+		height: auto;
+	}
+	.logoInicial {
+		margin-left: 3%!important;
+	}
+	.iconos {
+		position: relative;
+		top: 0px;
+		text-align: right;
+	}
+	.verMisFavoritos {
+		position: relative;
+		width: 27px;
+		height: 50px;
+		top: 0px;
+		padding-right: 5px;
+	}
+	.verCarritoCompras {
+		position: relative;
+		width: 27px;
+		height: 50px;
+		top: 0px;
+		padding-right: 5px;
+	}
+	.cantidadCarrito {
+		position: relative;
+		width: 28px;
+		height: 22px;
+		top: 0px;
+	}
+	.buscarInput {
+		width: 28px;
+		height: 56px;
+		position: relative;
+		top: 0px;
+		padding-right: 5px;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-    .contenedorCategorias {
-        height: auto;
-    }
-    
-    .logoInicial {
-        margin-left: 3%!important;
-    }
-
-    .iconos {
-        position: relative;
-        top: 0px;
-        text-align: right;
-    }
-
-    .verMisFavoritos {
-        position: relative;
-        width: 27px;
-        height: 50px;
-        top: 0px;
-        padding-right: 5px;
-    }
-    
-    .verCarritoCompras {
-        position: relative;
-        width: 27px;
-        height: 50px;
-        top: 0px;
-        padding-right: 5px;
-    }
-    
-    .cantidadCarrito{
-        position: relative;
-        width: 28px;
-        height: 22px;
-        top: 0px;
-    }
-
-    .buscarInput{
-        width: 28px;
-        height: 56px;
-        position: relative;
-        top: 0px;
-        padding-right: 5px;
-    }
-
-
-
-	
+@media (max-width:767px) {
+	.contenedorCategorias {
+		height: auto;
+	}
+	.logoInicial {
+		margin-left: 3%!important;
+	}
+	.iconos {
+		position: relative;
+		top: 0px;
+		text-align: right;
+	}
+	.verMisFavoritos {
+		position: relative;
+		width: 27px;
+		height: 50px;
+		top: 0px;
+		padding-right: 5px;
+	}
+	.verCarritoCompras {
+		position: relative;
+		width: 27px;
+		height: 50px;
+		top: 0px;
+		padding-right: 5px;
+	}
+	.cantidadCarrito {
+		position: relative;
+		width: 28px;
+		height: 22px;
+		top: 0px;
+	}
+	.buscarInput {
+		width: 28px;
+		height: 56px;
+		position: relative;
+		top: 0px;
+		padding-right: 5px;
+	}
 }
-

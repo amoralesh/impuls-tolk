@@ -1,248 +1,676 @@
-#modalOfertaRelampago{
-    background-color: rgba(255, 0, 0, 0) !important;
-    width: 100%;
-    height: auto;
-    position: absolute!important;
-   
+#modalOfertaRelampago {
+	background-color: rgba(255, 0, 0, 0) !important;
+	width: 100%;
+	height: auto;
+	position: absolute!important;
 }
 
-.pieRelampago{
-    display: contents!important;
+.pieRelampago {
+	display: contents!important;
 }
 
-.colorCabeceraOferta{
-    margin: -2rem 0rem 1rem 0rem!important;
-    padding: 2px 5px!important;
-    background-color: rgb(248, 3, 3);
-    height: 56px!important;
-    width: 430px!important;
-    border-radius: 10px!important;
-    -webkit-border-radius: 10px!important;
-    -moz-border-radius: 10px!important;
-    -ms-border-radius: 10px!important;
-    -o-border-radius: 10px!important;
+.colorCabeceraOferta {
+	margin: -2rem 0rem 1rem 0rem!important;
+	padding: 2px 5px!important;
+	background-color: rgb(248, 3, 3);
+	height: 56px!important;
+	width: 430px!important;
+	border-radius: 10px!important;
+	-webkit-border-radius: 10px!important;
+	-moz-border-radius: 10px!important;
+	-ms-border-radius: 10px!important;
+	-o-border-radius: 10px!important;
 }
 
-.colorCuerpoOferta{
-    border-radius: 10px;
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-  background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
+.colorCuerpoOferta {
+	border-radius: 10px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
 }
 
-.modalRelampago{
-    width: 500px!important; 
+.modalRelampago {
+	width: 500px!important;
 }
 
-.modalRelampago .modal-content{
-padding: 0px 10px!important;
+.modalRelampago .modal-content {
+	padding: 0px 10px!important;
 }
 
-.tiempoReloj{
-    position: relative;
-    bottom: -8px!important;
-    left: -15px;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 3.07;
-    letter-spacing: normal;
-    color: #ffffff;
-    width: 38%;
+.tiempoReloj {
+	position: relative;
+	bottom: -8px!important;
+	left: -15px;
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 3.07;
+	letter-spacing: normal;
+	color: #ffffff;
+	width: 38%;
 }
 
-.textoRelampago{
-  font-family: PoppinsBold;
-  font-size: 24px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.79;
-  letter-spacing: normal;
-  color: #ffffff;
+.textoRelampago {
+	font-family: PoppinsBold;
+	font-size: 24px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoRelampago2{
-    font-family: PoppinsBold;
-    font-size: 30px!important;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoRelampago2 {
+	font-family: PoppinsBold;
+	font-size: 30px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoRelampago3{
-    font-family: Poppins;
-    font-size: 18px!important;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoRelampago3 {
+	font-family: Poppins;
+	font-size: 18px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.22;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoRelampago4{
-    font-family: Poppins;
-    font-size: 14px!important;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoRelampago4 {
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.closeRelampago{
-    position: relative;
-    bottom: 49px;
+.closeRelampago {
+	position: relative;
+	bottom: 49px;
 }
 
-.closeRelampago i{
-    font-size: 30px;
-    color: #bfbfbf;
-}
-#seleccioneCantidad{
-    height: 36px!important;
-    width: 47px!important;
-    background-color: transparent;
-    color: #ffffff!important;
+.closeRelampago i {
+	font-size: 30px;
+	color: #bfbfbf;
 }
 
-#seleccioneCantidad::placeholder { /* Internet Explorer 10-11 */
-    color: #ffffff!important;
-   }
-
-   .relampago{
-width: 45px;
-height: 45px;
-overflow-x: hidden;
-overflow-y: auto;
-   }
-
-   .seleccioneTallaRelampago{
-        height: 35px;
-        width: 57px;
-        background-color: transparent;
-        color: #000000!important;
-    }
-
-    .seleccioneTallaRelampago option {
-        margin: 40px;
-        background:#ffffff;
-        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-        background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
-    }
-
-    .btnFavoritoDetalleR{
-        border-radius: 8px;
-        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-        border: solid 0.8px #000000;
-    }
-
-    .btnRelampago{
-        width: 160px;
-        height: 40px;
-        text-transform: none;
-        font-family: PoppinsBold;
-        font-size: 16px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;
-        border-radius: 10px!important;
-        -webkit-border-radius: 10px!important;
-        -moz-border-radius: 10px!important;
-        -ms-border-radius: 10px!important;
-        -o-border-radius: 10px!important;
+#seleccioneCantidad {
+	height: 36px!important;
+	width: 47px!important;
+	background-color: transparent;
+	color: #ffffff!important;
 }
 
-.textoAntesRelampago{
-    font-family: PoppinsSemiBold!important;
-    font-size: 14px!important;
-    font-weight: 600!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #ffffff;
+#seleccioneCantidad::placeholder {
+	/* Internet Explorer 10-11 */
+	color: #ffffff!important;
 }
 
-.textoPrecioRelampago{
-    font-family: PoppinsSemiBold!important;
-  font-size: 18px!important;
-  font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: normal;
-  color: #ffffff;
+.relampago {
+	width: 45px;
+	height: 45px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
+.seleccioneTallaRelampago {
+	height: 35px;
+	width: 57px;
+	background-color: transparent;
+	color: #000000!important;
+}
+
+.seleccioneTallaRelampago option {
+	margin: 40px;
+	background: #ffffff;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
+}
+
+.btnFavoritoDetalleR {
+	border-radius: 8px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	border: solid 0.8px #000000;
+}
+
+.btnRelampago {
+	width: 160px;
+	height: 40px;
+	text-transform: none;
+	font-family: PoppinsBold;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 10px!important;
+	-webkit-border-radius: 10px!important;
+	-moz-border-radius: 10px!important;
+	-ms-border-radius: 10px!important;
+	-o-border-radius: 10px!important;
+}
+
+.textoAntesRelampago {
+	font-family: PoppinsSemiBold!important;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.textoPrecioRelampago {
+	font-family: PoppinsSemiBold!important;
+	font-size: 18px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.17;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+
+
+/*MOVIL MOVIL MOVIÑ MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL/
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button-2 {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    width: 280px;
+	left: 2%;
+	z-index: 999;
+}
+  
+  /* The popup chat - hidden by default */
+  .ofertaMovilRelampago {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 2%;
+	z-index: 9999;
+    bottom: 2%;
+}
+
+  
+  /* Add styles to the form container */
+  .formOfertaMovilRelampago {
+	max-width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+
+  }
+  
+  /* Full-width textarea */
+  .bodyRelampago {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	background-image: radial-gradient(circle at 19% -10%, #14cedb, #0b8e97 44%, #025358 104%);
+	resize: none;
+	min-height: 200px;
+  }
+  
+
+  /* Set a style for the submit/send button */
+  .formOfertaMovilRelampago .btn {
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+  }
+  
+ 
+  
+  /* Add some hover effects to buttons */
+  .formOfertaMovilRelampago .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
 
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
-@media (min-width:1200px){
 
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
+@media (max-width:991px) and (min-width:768px) {
+	#modalOfertaRelampago {
+		position: fixed!important;
+		left: 0px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
 
-    #modalOfertaRelampago {
+	.textoRelampagoMovil2 {
+		font-family: PoppinsBold;
+		font-size: 20px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
 
-        position: fixed!important;
-        left: 0px;
-        overflow-x: hidden;
-    overflow-y: auto;
-    }
+	.lineaRelampago{
+	    margin-top: 0.3rem!important;
+    margin-bottom:0.3rem!important;
+	}
 
-    .modalRelampago {
-        /* margin-top: 100%!important;
-        margin-right: 33%!important; */
-    }
+	.textoRelampagoMovil3 {
+		font-family: Poppins;
+		font-size: 14px!important;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.22;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
 
-    .modalRelampago {
-        /* width: 500px!important;
-        height: 250px; */
-          /* margin-top: 100%!important; */
-        /* margin-right: 3%!important; */
-    }
+	.textoRelampagoMovil4 {
+		font-family: Poppins;
+		font-size: 12px!important;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.43;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoAntesRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 11px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoPrecioRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 13px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.17;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
 
 
-  
-        
+	.formOfertaMovilRelampago {
+		max-width: 290px;
+		max-height: 500px;
+		padding: 10px;
+		background-color: rgb(0, 0, 0);
+	}
+
+	.open-button-2 {
+		background-color: rgb(0, 0, 0);
+		color: white;
+		padding: 5px 5px;
+		border: none;
+		cursor: pointer;
+		opacity: 1;
+		position: fixed;
+		bottom: 75px;
+		width: 75px;
+		left: 2%;
+		z-index: 999;
+		border-radius: 10px!important;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
 }
+
+	.dimensionRelampago {
+		width: 39px;
+		height: 35px;
+	}
+
+	.textoRelampagoMovil {
+		font-family: PoppinsBold;
+		font-size: 17px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.79;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.btnRelampagoMovil {
+		width: 160px;
+		height: 40px;
+		font-family: PoppinsBold;
+		font-size: 10px!important;
+		color: #ffffff;
+		text-transform: none;
+		border-radius: 8px!important;
+		-webkit-border-radius: 8px!important;
+		-moz-border-radius: 8px!important;
+		-ms-border-radius: 8px!important;
+		-o-border-radius: 8px!important;
+}
+
+.btnFavoritoDetalleRMovil {
+	position: relative;
+	float: right;
+	border-radius: 8px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	border: solid 0.0px #000000;
+}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.textoRelampagoMovil2 {
+		font-family: PoppinsBold;
+		font-size: 20px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.lineaRelampago{
+	    margin-top: 0.3rem!important;
+    margin-bottom:0.3rem!important;
+	}
+
+	.textoRelampagoMovil3 {
+		font-family: Poppins;
+		font-size: 14px!important;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.22;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoRelampagoMovil4 {
+		font-family: Poppins;
+		font-size: 12px!important;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.43;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoAntesRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 11px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoPrecioRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 13px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.17;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+
+	.formOfertaMovilRelampago {
+		max-width: 290px;
+		max-height: 500px;
+		padding: 10px;
+		background-color: rgb(0, 0, 0);
+	}
+
+	.open-button-2 {
+		background-color: rgb(0, 0, 0);
+		color: white;
+		padding: 5px 5px;
+		border: none;
+		cursor: pointer;
+		opacity: 1;
+		position: fixed;
+		bottom: 75px;
+		width: 75px;
+		left: 2%;
+		z-index: 999;
+		border-radius: 10px!important;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
+}
+
+	.dimensionRelampago {
+		width: 39px;
+		height: 35px;
+	}
+
+	.textoRelampagoMovil {
+		font-family: PoppinsBold;
+		font-size: 17px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.79;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.btnRelampagoMovil {
+		width: 160px;
+		height: 40px;
+		font-family: PoppinsBold;
+		font-size: 10px!important;
+		color: #ffffff;
+		text-transform: none;
+		border-radius: 8px!important;
+		-webkit-border-radius: 8px!important;
+		-moz-border-radius: 8px!important;
+		-ms-border-radius: 8px!important;
+		-o-border-radius: 8px!important;
+}
+
+.btnFavoritoDetalleRMovil {
+	position: relative;
+	float: right;
+	border-radius: 8px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	border: solid 0.0px #000000;
+}
+ 
+}
+
 
 /*=============================================
 MOVIL PEQUEÑOS (XS revisamos en 320px)
 =============================================*/
+
+
 /*WhatsApp y Chat*/
-@media (max-width: 576px) { 
-  
+
+@media (max-width: 576px) {
+
+	.textoRelampagoMovil2 {
+		font-family: PoppinsBold;
+		font-size: 20px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.lineaRelampago{
+	    margin-top: 0.3rem!important;
+    margin-bottom:0.3rem!important;
+	}
+
+	.textoRelampagoMovil3 {
+		font-family: Poppins;
+		font-size: 14px!important;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.22;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoRelampagoMovil4 {
+		font-family: Poppins;
+		font-size: 12px!important;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.43;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoAntesRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 11px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+
+	.textoPrecioRelampagoMovil {
+		font-family: PoppinsSemiBold!important;
+		font-size: 13px!important;
+		font-weight: 600!important;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.17;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
 
 
- }
+	.formOfertaMovilRelampago {
+		max-width: 290px;
+		max-height: 500px;
+		padding: 10px;
+		background-color: rgb(0, 0, 0);
+	}
 
+	.open-button-2 {
+		background-color: rgb(0, 0, 0);
+		color: white;
+		padding: 5px 5px;
+		border: none;
+		cursor: pointer;
+		opacity: 1;
+		position: fixed;
+		bottom: 75px;
+		width: 75px;
+		left: 2%;
+		z-index: 999;
+		border-radius: 10px!important;
+		-webkit-border-radius: 10px!important;
+		-moz-border-radius: 10px!important;
+		-ms-border-radius: 10px!important;
+		-o-border-radius: 10px!important;
+}
 
+	.dimensionRelampago {
+		width: 39px;
+		height: 35px;
+	}
 
+	.textoRelampagoMovil {
+		font-family: PoppinsBold;
+		font-size: 17px!important;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.79;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
 
+	.btnRelampagoMovil {
+		width: 160px;
+		height: 40px;
+		font-family: PoppinsBold;
+		font-size: 10px!important;
+		color: #ffffff;
+		text-transform: none;
+		border-radius: 8px!important;
+		-webkit-border-radius: 8px!important;
+		-moz-border-radius: 8px!important;
+		-ms-border-radius: 8px!important;
+		-o-border-radius: 8px!important;
+}
+
+.btnFavoritoDetalleRMovil {
+	position: relative;
+	float: right;
+	border-radius: 8px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	border: solid 0.0px #000000;
+}
+}

@@ -1,135 +1,124 @@
 .wrap {
-  max-width: 1000px;
-  margin: 0 auto;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .glide__slide {
-  border: 1px solid black;
-  text-align: center;
+	border: 1px solid black;
+	text-align: center;
 }
 
-
-.glide__slide a img{
-  filter: grayscale(1);
-
+.glide__slide a img {
+	filter: grayscale(1);
 }
-
 
 .carruselM .glide__slides {
-  background-color: #ffffff;
-  margin-top: 40px;
-  padding: 20px 0;
+	background-color: #ffffff;
+	margin-top: 40px;
+	padding: 20px 0;
 }
+
 .carruselM .glide__slide {
-  position: relative;
-  height: 60px;
-  border: none;
+	position: relative;
+	height: 60px;
+	border: none;
 }
+
 .carruselM a {
-  display: block;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
+
 .carruselM img {
-  margin: 0 auto;
-  display: block;
-  max-width: 70%;
-  max-height: 60px;
+	margin: 0 auto;
+	display: block;
+	max-width: 70%;
+	max-height: 60px;
 }
 
 button.glide__arrow {
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  font-size: 11px;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font-size: 11px;
 }
+
 button.glide__arrow--left {
-  left: -60px;
-  box-shadow: 0 0em 0em 0 rgba(0,0,0,0.1);
+	left: -60px;
+	box-shadow: 0 0em 0em 0 rgba(0, 0, 0, 0.1);
 }
+
 button.glide__arrow--right {
-  right: -60px;
-  box-shadow: 0 0em 0em 0 rgba(0,0,0,0.1);
+	right: -60px;
+	box-shadow: 0 0em 0em 0 rgba(0, 0, 0, 0.1);
 }
 
-.fa-chevron-left,.fa-chevron-right{
-  color: #8a8a8a;
-  font-size: 52px;
-
+.fa-chevron-left,
+.fa-chevron-right {
+	color: #8a8a8a;
+	font-size: 52px;
 }
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-  button.glide__arrow--right {
-    display: none;
-} 
-
-button.glide__arrow--left {
-  display: none;
+@media (max-width:1199px) and (min-width:992px) {
+	button.glide__arrow--right {
+		display: none;
+	}
+	button.glide__arrow--left {
+		display: none;
+	}
 }
 
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-  button.glide__arrow--right {
-    display: none;
-} 
-
-button.glide__arrow--left {
-  display: none;
+@media (max-width:991px) and (min-width:768px) {
+	button.glide__arrow--right {
+		display: none;
+	}
+	button.glide__arrow--left {
+		display: none;
+	}
 }
 
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-  button.glide__arrow--right {
-    display: none;
-} 
-
-button.glide__arrow--left {
-  display: none;
-}
+@media (max-width:767px) {
+	button.glide__arrow--right {
+		display: none;
+	}
+	button.glide__arrow--left {
+		display: none;
+	}
 }
 
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-  button.glide__arrow--right {
-    display: none;
-} 
-
-button.glide__arrow--left {
-  display: none;
+@media (max-width: 576px) {
+	button.glide__arrow--right {
+		display: none;
+	}
+	button.glide__arrow--left {
+		display: none;
+	}
 }
-}
-
-
-
-
-
-
-
-

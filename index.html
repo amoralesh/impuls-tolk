@@ -116,7 +116,7 @@
                               </a>
                            </li>
                            <li class="nav-item">
-                              <a href="#!" class="nav-link waves-effect ">
+                              <a href="politica-de-devolucion.html" class="nav-link waves-effect ">
                               <small>Cambios y Devoluciones</small>
                               </a>
                            </li>
@@ -1116,13 +1116,13 @@
                                  <a href="pages/miCuenta/rastreo-de-envio.html" class="textoTodavia-a">¿Dónde está mi pedido?</a>
                               </div>
                               <div class="col-6">
-                                 <a href="#!" data-toggle="modal" data-target="#modalRegistro" class="textoTodavia-a">Cambios y Devoluciones</a>
+                                 <a href="politica-de-devolucion.html" class="textoTodavia-a">Cambios y Devoluciones</a>
                               </div>
                               <div class="col-6">
                                  <a href="#!" data-toggle="modal" data-target="#modalEnviosGratis" class="textoTodavia-a">¿Quierés envíos GRATIS?</a>
                               </div>
                               <div class="col-6">
-                                 <a href="carga-tupedido/captura-por-codigo-internet.html" class="textoTodavia-a">Captura tu Pedido</a>
+                                 <a href="pages/capturaPedido/captura-por-codigo-internet.html" class="textoTodavia-a">Captura tu Pedido</a>
                               </div>
                            </div>
                         </div>
@@ -1160,6 +1160,88 @@
       <!--===============================================
          FIN  HEADER
          ================================================= -->
+
+           <!--===============================================
+                   OFERTA RELÁMPAGO MOVIL
+         ================================================= -->
+
+         <section class="d-block d-lg-none">
+            <button class="open-button-2" onclick="abrirRelampago()"><img src="img/relampago.svg" alt="relampago" class="img-fluid dimensionRelampago">Oferta</button>
+
+            <div class="chat-popup ofertaMovilRelampago" id="ofertaMovilRelampago">
+               <div class="form-container formOfertaMovilRelampago">
+
+                  <div class="row">
+                     <div class="offset-1 col-10" style="background-color: red;">
+                        <h4 class="modal-title w-100 textoRelampagoMovil p-0 pt-1" id="miOfertaR"> Oferta Relámpago <i class="fas fa-minus" style="position: relative;float: right;" onclick="cerrarRelampago()"></i></h4>
+                      
+                     </div>
+                  </div>
+                
+               <!-- cuerpo de anuncio -->
+               <div class="row bodyRelampago">
+                  <div class="col-12">
+                     <h4 class="textoRelampagoMovil2">50% de descuento</h4>
+                     <hr class="lineaRelampago" style="background-color: #fff;">
+                     
+                     <p class="textoRelampagoMovil3">Bubble. Gum Kilian Tela VIR FIU/ROS 12/17</p>
+                     <h6 class="textoRelampagoMovil4">SKU: 110290 <img src="img/imgOficial/iconos_logos/favoritos icon-a.svg" alt="" class="img-fluid btnFavoritoDetalleRMovil"></h6>
+                  </div>
+                  <div class="col-7">
+
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="form-group row">
+                              <label for="seleccioneTallaRelampago" class="col-sm-5 col-form-label textoRelampagoMovil4">Talla:</label>
+                              <div class="col-sm-5 pr-0 pl-2">
+                                 <select class="form-control seleccioneTallaRelampago" id="seleccioneTallaRelampago">
+                                    <option value="1" class="optionTallas">5</option>
+                                    <option value="2" class="optionTallas">5.5</option>
+                                    <option value="3">6</option>
+                                    <option value="3">6.5</option>
+                                    <option value="3">7</option>
+                                    <option value="3">7.5</option>
+                                    <option value="3">8</option>
+                                    <option value="3">8.5</option>
+                                    <option value="3">9</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 pl-0">
+                           <div class="form-group row">
+                              <label for="seleccioneCantidad" class="col-sm-7 col-form-label textoRelampagoMovil4">Cantidad:</label>
+                              <div class="col-sm-5 pr-0">
+                                 <input type="text" class="form-control" id="seleccioneCantidad" placeholder="0">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="textoRelampagoMovil4">Antes:  <s class="textoAntesRelampagoMovil">$1,200.00 MXN</s></p>
+                     <p class="textoRelampagoMovil4">Precio: <strong class="textoPrecioRelampagoMovil">$600.00 MXN</strong> </p>
+                  </div>
+                  <div class="col-5 align-self-center imgRelampago pl-0 pr-0">
+                     <img src="img/imgOficial/fotos/01 home/z1.1.png" alt="" class="img-fluid imgRelampago">
+                  </div>
+
+                  <div class="col-6 pl-0">
+                     <button type="button" class="btn colorPrimario btnRelampagoMovil">Agregar al carrito</button>
+                  </div>
+                  <div class="col-6 pl-0">
+                     <button type="button" class="btn colorSecundario btnRelampagoMovil">Comprar</button>
+                  </div>
+               </div>
+              <!-- FIN cuerpo de anuncio -->
+
+
+               </div>
+             </div>
+             
+         </section>
+
+           <!--===============================================
+                      FIN  OFERTA RELÁMPAGO MOVIL
+         ================================================= -->
       <!--===============================================
          BANNER PRINCIPAL
          ================================================= -->
@@ -1181,17 +1263,17 @@
       <div class="custom-control custom-radio">
          <input type="radio" class="custom-control-input" id="opcion1" name="defaultExampleRadios" checked>
          <label class="custom-control-label" for="opcion1">3</label>
-         </div>
+      </div>
       <!-- Default checked -->
       <div class="custom-control custom-radio">
          <input type="radio" class="custom-control-input" id="opcion2" name="defaultExampleRadios">
          <label class="custom-control-label" for="opcion2">4</label>
-         </div>
+      </div>
       <!-- Default checked -->
       <div class="custom-control custom-radio">
          <input type="radio" class="custom-control-input" id="opcion3" name="defaultExampleRadios">
          <label class="custom-control-label" for="opcion3">5</label>
-         </div>
+      </div>
       <!--===============================================
          PRODUCTOS FLOTANTES
          ================================================= -->
@@ -1370,7 +1452,6 @@
             </div>
          </div>
       </section>
-      
       <section id="bannersHome-3"  style="display: none">
          <div class="container contenedorB3">
             <div class="row rowPrincipalF3 justify-content-center">
@@ -1457,7 +1538,6 @@
             </div>
          </div>
       </section>
-
       <!--===============================================
          FIN PRODUCTOS FLOTANTES
          ================================================= -->
@@ -1806,7 +1886,7 @@
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon-b.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
@@ -1901,7 +1981,7 @@
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon-b.svg" alt="favorito" class="favoritoTarjeta agregarAFavoritos">
                            </a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-auto col-lg-auto  p-0 ml-0 mx-0 ml-sm-0 ml-md-1 mr-sm-0 mr-md-0 mr-md-2">
@@ -2399,6 +2479,8 @@
       <!--===============================================
          FIN CATÁLOGOS
          ================================================= -->   
+
+
       <!--===============================================
          WHATSAPP / CHAT
          ================================================= -->
@@ -2408,8 +2490,8 @@
             <img src="img/whatsAppIcon.png" class="img-fluid floatWhats" alt="">
          </a>
          <button class="open-button btnAbrirChat colorSecundario textoChatHover" onclick="openForm()"> <img src="img/chat.svg" alt="" class="img-fluid imgCaht"></button>
-         <div class="chat-popup" id="miChat">
-            <form action="/action_page.php" class="form-container pl-0 pr-0 pt-0" >
+         <div class="chat-popup chatImpuls" id="miChat">
+            <form action="/action_page.php" class="form-container chatForm pl-0 pr-0 pt-0" >
                <div class="container-fluid">
                   <div class="row cabeceraFormulario colorSecundario">
                      <div class="col-10 align-self-end">
@@ -2434,10 +2516,6 @@
                            </div>
                         </div>
                         <div class="icons grey-text">
-                           <!-- <a class="feature"><i class="fas fa-video mr-2"></i></a>
-                              <a class="feature"><i class="fas fa-phone mr-2"></i></a>
-                              <a class="feature"><i class="fas fa-cog mr-2"></i></a>
-                              <a id="closeButton"><i class="fas fa-times mr-2"></i></a> -->
                         </div>
                      </div>
                      <div class="my-custom-scrollbar" id="message">
@@ -2485,6 +2563,8 @@
             </form>
          </div>
       </div>
+
+
       <!--===============================================
          FIN WHATSAPP / CHAT
          ================================================= -->
@@ -2522,7 +2602,7 @@
                         </div>
                         <div class="col-2 pl-0">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon-b.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
                            </a>
                         </div>
                      </div>
@@ -2591,7 +2671,7 @@
                         </div>
                         <div class="col-2 pl-0">
                            <a href="#">
-                           <img src="img/imgOficial/iconos_logos/favoritos icon.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
+                           <img src="img/imgOficial/iconos_logos/favoritos icon-b.svg" alt="favorito" class="favoritoRecientemente agregarAFavoritos">
                            </a>
                         </div>
                      </div>
@@ -2762,7 +2842,7 @@
                      </a> -->
                   <!-- <a href="#!">
                      <p class="textoFoooterSecundario pl-5">Materiales para socio</p>
-                  </a> -->
+                     </a> -->
                   <a href="mas-informacion.html">
                      <p class="textoFoooterSecundario pl-5">Más información</p>
                   </a>
@@ -3240,7 +3320,7 @@
       <!--===============================================
          MODAL OFERTA RELAMPAGO
          ================================================= -->
-      <section class="modal fade left " id="modalOfertaRelampago" tabindex="-1" role="dialog" aria-labelledby="miOfertaR"
+      <section class="modal fade left d-none d-lg-block" id="modalOfertaRelampago" tabindex="-1" role="dialog" aria-labelledby="miOfertaR"
          aria-hidden="true">
          <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
          <div class="modal-dialog modal-side cascading-modal modal-bottom-left modalRelampago" role="document">
@@ -3381,5 +3461,15 @@
       <!--===============================================
          FIN SCRIPTS
          ================================================= -->
+
+         <script>
+            function abrirRelampago() {
+              document.getElementById("ofertaMovilRelampago").style.display = "block";
+            }
+            
+            function cerrarRelampago() {
+              document.getElementById("ofertaMovilRelampago").style.display = "none";
+            }
+            </script>
    </body>
 </html>

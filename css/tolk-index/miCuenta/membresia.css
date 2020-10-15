@@ -1,166 +1,144 @@
-.textoMembresia{
-    font-family: PoppinsBold;
-    font-size: 22px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #000000;
+.textoMembresia {
+	font-family: PoppinsBold;
+	font-size: 22px!important;
+	font-weight: bold!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.textoMembresia2{
-    font-family: PoppinsSemiBold!important;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000!important;
-    padding: 0px 10px!important;
-
+.textoMembresia2 {
+	font-family: PoppinsSemiBold!important;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000!important;
+	padding: 0px 10px!important;
 }
 
-
-
-.textoCabeceraMembresia th{
-    font-family: Poppins!important;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000!important;
-    padding: 0px 10px!important;
+.textoCabeceraMembresia th {
+	font-family: Poppins!important;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000!important;
+	padding: 0px 10px!important;
 }
 
-.textoCuerpoMembresia td{
-    text-align: center;
-    font-family: PoppinsBold!important;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000!important;
-    padding: 0px 10px!important;
+.textoCuerpoMembresia td {
+	text-align: center;
+	font-family: PoppinsBold!important;
+	font-size: 32px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000!important;
+	padding: 0px 10px!important;
 }
 
-.textoMembresia3{
-    text-align: center;
-    font-family: Poppins!important;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000!important;
-    padding: 0px 10px!important;
-
+.textoMembresia3 {
+	text-align: center;
+	font-family: Poppins!important;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000!important;
+	padding: 0px 10px!important;
 }
 
-.textoMembresia4{
-    text-align: center;
-    font-family: PoppinsBold!important;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000!important;
-    padding: 0px 10px!important;
+.textoMembresia4 {
+	text-align: center;
+	font-family: PoppinsBold!important;
+	font-size: 32px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000!important;
+	padding: 0px 10px!important;
 }
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
-  
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-
-   
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-    
+@media (max-width:991px) and (min-width:768px) {}
 
-
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-    
-    .aux-1-mem{
-        padding:20px 15px 15px 15px!important;
-    }
-
+@media (max-width:767px) {
+	.aux-1-mem {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
- 
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-    .aux-1-mem{
-        padding:20px 15px 15px 15px!important;
-    }
+@media (max-width: 576px) {
+	.aux-1-mem {
+		padding: 20px 15px 15px 15px!important;
+	}
 }
 
 @media (max-width: 350px) {
-     tr {
-        display: inline-block;
-    }
-
-    .textoMembresia {
-        font-size: 25px!important;
-    }
-
-    .textoCabeceraMembresia th {
-        font-size: 10px;
-        line-height: 1.13;
-    }
-
-    .textoCuerpoMembresia td {
-        font-size: 27px;
-    }
-
+	tr {
+		display: inline-block;
+	}
+	.textoMembresia {
+		font-size: 25px!important;
+	}
+	.textoCabeceraMembresia th {
+		font-size: 10px;
+		line-height: 1.13;
+	}
+	.textoCuerpoMembresia td {
+		font-size: 27px;
+	}
 }
 
 @media (max-width: 290px) {
-
-    .textoMembresia {
-        font-size: 18px!important;
-    }
-    .textoCuerpoMembresia td {
-        font-size: 18px;
-    }
-
-    .textoMembresia4 {
-        font-size: 19px;
-
-    }
-
+	.textoMembresia {
+		font-size: 18px!important;
+	}
+	.textoCuerpoMembresia td {
+		font-size: 18px;
+	}
+	.textoMembresia4 {
+		font-size: 19px;
+	}
 }
-

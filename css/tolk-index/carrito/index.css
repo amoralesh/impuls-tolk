@@ -1,365 +1,399 @@
-#direccion{
-    display: none;
+#direccion {
+	display: none;
 }
 
-.estilos1{
-    font-family: PoppinsSemiBold;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
+.estilos1 {
+	font-family: PoppinsSemiBold;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.estilos2{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000!important;
+.estilos2 {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.estilos3{
-    font-size: 12px;
-    line-height: 1.5;
-    color: #6f6f6f!important;
-    padding-left: 32px;
+.estilos3 {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #6f6f6f!important;
+	padding-left: 32px;
 }
 
-.btn1{
-    width: 153px;
-    height: 50px;
-    background-color: #888888;
-    font-family: PoppinsBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    text-transform: none;
-    border-radius: 10px!important;
+.btn1 {
+	width: 153px;
+	height: 50px;
+	background-color: #888888;
+	font-family: PoppinsBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+	border-radius: 10px!important;
 }
 
-.btn2{
-    width: 330px;
-    height: 66px;
-    font-family: PoppinsSemiBold;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    text-transform: none;
-    border-radius: 8px!important;
+.btn2 {
+	width: 330px;
+	height: 66px;
+	font-family: PoppinsSemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+	border-radius: 8px!important;
 }
 
+.cssInputs {
+	border-radius: 10px!important;
+	border: solid 1px #000000;
+}
 
-.cssInputs{
-    border-radius: 10px!important;
-    border: solid 1px #000000;
+.car_detalles_input {
+	width: 41px !important;
+	height: 31px !important;
+	border-radius: 8px;
+	border: solid 0.8px #000000;
 }
-.car_detalles_input{
-    width: 41px !important;
-    height: 31px !important;
-    border-radius: 8px;
-    border: solid 0.8px #000000;
+
+.car_list {
+	list-style: none;
 }
-.car_list{
-    list-style:none;
+
+.car_ul {
+	padding: 0px !important;
 }
-.car_ul{
-    padding: 0px !important;
+
+.car_nav {
+	border-bottom: 1px solid #dee2e6 !important;
 }
-.car_nav{
-    border-bottom: 1px solid #dee2e6 !important;
+
+.car_nav .nav-item {
+	border: none !important;
 }
-.car_nav .nav-item{
-    border: none !important;
-}
+
 .skin-light .classic-tabs .nav.tabs-primary li a.active {
-    color: #000000 !important;
-    border-color: #000000 !important;
+	color: #000000 !important;
+	border-color: #000000 !important;
 }
+
 .classic-tabs {
-    border: none !important;
+	border: none !important;
 }
-.show{
-    font-family: Poppins;
-    font-size: 22px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-    color: #000000;
-      
+
+.show {
+	font-family: Poppins;
+	font-size: 22px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #000000;
 }
-.show_span{
-    padding: 6px 13px !important;
-        text-transform: none!important;
-    color: white!important;
-    background-color: black !important;
+
+.show_span {
+	padding: 6px 13px !important;
+	text-transform: none!important;
+	color: white!important;
+	background-color: black !important;
 }
+
 .textoEstatusPedido {
-    font-family: Poppins!important;
-    font-size: 14px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    color: #ffffff;
+	font-family: Poppins!important;
+	font-size: 14px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.21;
+	letter-spacing: normal;
+	color: #ffffff;
 }
+
 .textoEstatusPedido2 {
-    font-family: PoppinsBold!important;
-    font-size: 20px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    color: #ffffff;
+	font-family: PoppinsBold!important;
+	font-size: 20px!important;
+	font-weight: bold!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.21;
+	letter-spacing: normal;
+	color: #ffffff;
 }
+
 .contenedorEstatus {
-    padding: 25px 15px 15px 15px;
-    border-radius: 5px;
-    background-image: linear-gradient(141deg, #1653a1 30%, #263c84 73%);
-}
-.car_tabl_title{
-      text-transform: none!important;
-    font-family: Poppins;
-    font-size: 22px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-    color: #6f6f6f;
-}
-.car_span{
-    padding: 6px 10px !important;
-    border: solid 1px #6f6f6f;
-    text-transform: none!important;
-    color: #6f6f6f !important;
-    background-color: transparent !important;
-}
-.input_datos, #direccionesGuardadas{
-    border-radius: 10px;
-    border: solid 1px #000000;
-}
-.label_datos{
-    font-family: Poppins;
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #000000 !important;
-}
-.form_section{
-    font-family: Poppins;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
-}
-.bnt_car_color{
-     text-transform: none!important;
-    border-radius: 8px !important;
-    background-color: #7588b1 !important;
-    font-family: Poppins;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-}
-.input_car_secDos{
-    border:none;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-}
-.detalles_product_title{
-    font-family: Poppins;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-}
-    
-
-.detalles_list_txt{
-    font-family: Poppins;
-    font-size: 16px !important;
-    font-weight: normal !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-}
-.desProTitle{
-    font-family: Poppins;
-    font-size: 14px !important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.29;
-    letter-spacing: -0.1px;
-    color: #000000;
-}
-.Tex-Icon{
-    font-family: Poppins;
-    font-size: 12px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #9b9b9b;
-}
-.txt_car_sec{
-    font-family: Poppins;
-    font-size: 14px!important;
-    font-weight: normal!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #6f6f6f;
-    text-decoration: none;
-}
-.limk_envio{
-    text-decoration: underline;
-    font-family: Poppins;
-    font-size: 14px!important;
-    font-weight: 600!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #000000;
-}
-.car_li_ayuda{
-    font-family: Poppins;
-    font-size: 16px !important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.13;
-    letter-spacing: normal;
-    color: #6f6f6f !important;
-    text-decoration: underline;
-}
-.fz-icon{
-    font-size: 40px;
-}
-.icon{
-    width: 35px;
-    height: auto;
-}
-.con_link{
-    padding: inherit !important;
+	padding: 25px 15px 15px 15px;
+	border-radius: 5px;
+	background-image: linear-gradient(141deg, #1653a1 30%, #263c84 73%);
 }
 
-.number_oval{
-    box-shadow: none !important;
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.91;
-    letter-spacing: normal;
-}
-.Titulo_car{
-    font-size: 35px !important;
-    font-weight: bold !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: normal;
-    color: #000000;
-}
-.heder_card{
-    color: white;
-    border-radius: 5px;
-    background-image: linear-gradient(133deg, #1653a1 34%, #263c84 69%);
-}
-.hc_title{
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: #ffffff;
-}
-.hc_title_small{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: #ffffff; 
-}
-.tex_general_PC{
-    font-family: Poppins;
-    font-size: 14px !important;
-    font-weight: normal !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.57;
-    letter-spacing: normal;
-    color: #000000;
-}
-.text_title_table{
-    font-family: Poppins;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: #000000;
-}
-.img_table{
-    width: 126px;
-    height: 84px; 
-}
-.tex_titlePC{
-    font-family: Poppins;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.81;
-    letter-spacing: normal;
-    color: #000000;
+.car_tabl_title {
+	text-transform: none!important;
+	font-family: Poppins;
+	font-size: 22px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #6f6f6f;
 }
 
-#tienda{
-    padding-left: 40px!important;
+.car_span {
+	padding: 6px 10px !important;
+	border: solid 1px #6f6f6f;
+	text-transform: none!important;
+	color: #6f6f6f !important;
+	background-color: transparent !important;
+}
+
+.input_datos,
+#direccionesGuardadas {
+	border-radius: 10px;
+	border: solid 1px #000000;
+}
+
+.label_datos {
+	font-family: Poppins;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000 !important;
+}
+
+.form_section {
+	font-family: Poppins;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.bnt_car_color {
+	text-transform: none!important;
+	border-radius: 8px !important;
+	background-color: #7588b1 !important;
+	font-family: Poppins;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.input_car_secDos {
+	border: none;
+	border-radius: 10px;
+	background-color: #f3f3f3;
+}
+
+.detalles_product_title {
+	font-family: Poppins;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.detalles_list_txt {
+	font-family: Poppins;
+	font-size: 16px !important;
+	font-weight: normal !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.desProTitle {
+	font-family: Poppins;
+	font-size: 14px !important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: -0.1px;
+	color: #000000;
+}
+
+.Tex-Icon {
+	font-family: Poppins;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.67;
+	letter-spacing: normal;
+	color: #9b9b9b;
+}
+
+.txt_car_sec {
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: normal!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #6f6f6f;
+	text-decoration: none;
+}
+
+.limk_envio {
+	text-decoration: underline;
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.car_li_ayuda {
+	font-family: Poppins;
+	font-size: 16px !important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.13;
+	letter-spacing: normal;
+	color: #6f6f6f !important;
+	text-decoration: underline;
+}
+
+.fz-icon {
+	font-size: 40px;
+}
+
+.icon {
+	width: 35px;
+	height: auto;
+}
+
+.con_link {
+	padding: inherit !important;
+}
+
+.number_oval {
+	box-shadow: none !important;
+	font-family: Poppins;
+	font-size: 22px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+}
+
+.Titulo_car {
+	font-size: 35px !important;
+	font-weight: bold !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.heder_card {
+	color: white;
+	border-radius: 5px;
+	background-image: linear-gradient(133deg, #1653a1 34%, #263c84 69%);
+}
+
+.hc_title {
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.hc_title_small {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.tex_general_PC {
+	font-family: Poppins;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.text_title_table {
+	font-family: Poppins;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.img_table {
+	width: 126px;
+	height: 84px;
+}
+
+.tex_titlePC {
+	font-family: Poppins;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.81;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+#tienda {
+	padding-left: 40px!important;
 }

@@ -1,285 +1,244 @@
-
-
-.contenedorMasVendido{
-margin-bottom: 119px;
-margin-top: 93px!important;
-}
-.margenProductos{
-    margin-top: 41px!important;
+.contenedorMasVendido {
+	margin-bottom: 119px;
+	margin-top: 93px!important;
 }
 
-.zoom .img-fluid{
-height: 187px;
-
-
+.margenProductos {
+	margin-top: 41px!important;
 }
 
-.textoNombreProducto{
-    font-family: PoppinsSemiBold;
-    font-size: 15px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
-    color: #000000;
+.zoom .img-fluid {
+	height: 187px;
 }
 
-.textoPrecioProducto{
-    font-family: PoppinsSemiBold;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
-  }
-
-  .textoPrecioProducto-a{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
-  }
-
-.btnMasVendido{
-    width: 126px;
-    height: 30px;
-    font-family: PoppinsSemiBold;
-    font-size: 11px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: -0.2px;
-    color: #ffffff!important;
-    text-transform: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.textoNombreProducto {
+	font-family: PoppinsSemiBold;
+	font-size: 15px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.etiquetaOferta{
-    width: 42%!important;
-    height: 15%!important;
-    background-color: #f75454!important;
-    left: 65px!important;
-    border-radius: 5px!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    -ms-border-radius: 5px!important;
-    -o-border-radius: 5px!important;
-  }
-
-  .etiquetaMV {
-    width: 42%!important;
-    height: 15%!important;
-    background-color: #bababa!important;
-    border-radius: 5px!important;
-    -webkit-border-radius: 5px!important;
-    -moz-border-radius: 5px!important;
-    -ms-border-radius: 5px!important;
-    -o-border-radius: 5px!important;
+.textoPrecioProducto {
+	font-family: PoppinsSemiBold;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000;
 }
-  
 
+.textoPrecioProducto-a {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #000000;
+}
 
+.btnMasVendido {
+	width: 126px;
+	height: 30px;
+	font-family: PoppinsSemiBold;
+	font-size: 11px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: -0.2px;
+	color: #ffffff!important;
+	text-transform: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
 
+.etiquetaOferta {
+	width: 42%!important;
+	height: 15%!important;
+	background-color: #f75454!important;
+	left: 65px!important;
+	border-radius: 5px!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	-ms-border-radius: 5px!important;
+	-o-border-radius: 5px!important;
+}
+
+.etiquetaMV {
+	width: 42%!important;
+	height: 15%!important;
+	background-color: #bababa!important;
+	border-radius: 5px!important;
+	-webkit-border-radius: 5px!important;
+	-moz-border-radius: 5px!important;
+	-ms-border-radius: 5px!important;
+	-o-border-radius: 5px!important;
+}
 
 .eliminarSombra {
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0)!important;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.0)!important;
 }
 
-.imgMasV-a{
-    position: relative;
-    top: 10px;
-    width: 100%;
-    padding:10px;
+.imgMasV-a {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	padding: 10px;
 }
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
-
-  .zoom .img-fluid {
-    height: 153px!important;
+@media (max-width:1199px) and (min-width:992px) {
+	.zoom .img-fluid {
+		height: 153px!important;
+	}
+	.etiquetaOferta {
+		width: 48%!important;
+		height: 15%!important;
+	}
+	.etiquetaMV {
+		width: 48%!important;
+		height: 15%!important;
+	}
 }
 
-  .etiquetaOferta {
-    width: 48%!important;
-    height: 15%!important;
-  }
-  
-  .etiquetaMV {
-    width: 48%!important;
-    height: 15%!important;
-  }
-
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-  .zoom .img-fluid {
-    height: 230px;
+@media (max-width:991px) and (min-width:768px) {
+	.zoom .img-fluid {
+		height: 230px;
+	}
+	.etiquetaOferta {
+		width: 30%!important;
+		height: 13%!important;
+	}
+	.etiquetaMV {
+		width: 30%!important;
+		height: 13%!important;
+	}
+	.btnMasVendido {
+		width: 95%;
+		height: 37px;
+		font-size: 16px!important;
+	}
 }
 
-.etiquetaOferta {
-  width: 30%!important;
-  height: 13%!important;
-}
-
-.etiquetaMV {
-width: 30%!important;
-height: 13%!important;
-}
-
-.btnMasVendido {
-  width: 95%;
-  height: 37px;
-  font-size: 16px!important;
-
-}
-
-
-
-    
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-  .textoNombreProducto {
-    font-size: 25px;
-}
-
-.textoPrecioProducto-a {
-  font-size: 23px;
-}
-
-.textoPrecioProducto {
-  font-size: 26px;
-}
-
-  .etiquetaOferta {
-    width: 30%!important;
-    height: 8%!important;
-    left: 190px!important;
-}
-
-.etiquetaMV {
-  width: 30%!important;
-  height: 8%!important;
-}
-
-
-
-
-
-.glide__slides {
-  position: relative;
-  width: 100%;
-  list-style: none;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  touch-action: pan-Y;
-  overflow: hidden;
-  padding: 0;
-  white-space: nowrap;
-  display: flex;
-  flex-wrap: nowrap;
-  will-change: transform;
-  left: 82px;
-}
-
-.carruselMV .glide__slide {
-  position: relative;
-  border: none;
-}
-
-.btnMasVendido {
-  width: 93%;
-  height: 41px;
-  font-size: 14px!important;
-}
-
+@media (max-width:767px) {
+	.textoNombreProducto {
+		font-size: 25px;
+	}
+	.textoPrecioProducto-a {
+		font-size: 23px;
+	}
+	.textoPrecioProducto {
+		font-size: 26px;
+	}
+	.etiquetaOferta {
+		width: 30%!important;
+		height: 8%!important;
+		left: 190px!important;
+	}
+	.etiquetaMV {
+		width: 30%!important;
+		height: 8%!important;
+	}
+	.glide__slides {
+		position: relative;
+		width: 100%;
+		list-style: none;
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+		touch-action: pan-Y;
+		overflow: hidden;
+		padding: 0;
+		white-space: nowrap;
+		display: flex;
+		flex-wrap: nowrap;
+		will-change: transform;
+		left: 82px;
+	}
+	.carruselMV .glide__slide {
+		position: relative;
+		border: none;
+	}
+	.btnMasVendido {
+		width: 93%;
+		height: 41px;
+		font-size: 14px!important;
+	}
 }
 
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-  
-  .textoPrecioProducto{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #000000;
-  }  
-
-  .etiquetaOferta{
-    width: 35%!important;
-    height: 11%!important;
-    left: 65px!important;
-  }
-
-  .etiquetaMV {
-    width: 35%!important;
-    height: 11%!important;
-  }
-  
-
-  .carruselMV .glide__slide {
-    position: relative;
-    border: none;
-  }
-
-  .glide__slides {
-    position: relative;
-    width: 100%;
-    list-style: none;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    touch-action: pan-Y;
-    overflow: hidden;
-    padding: 0;
-    white-space: nowrap;
-    display: flex;
-    flex-wrap: nowrap;
-    will-change: transform;
-    left: 82px;
+@media (max-width: 576px) {
+	.textoPrecioProducto {
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.33;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	.etiquetaOferta {
+		width: 35%!important;
+		height: 11%!important;
+		left: 65px!important;
+	}
+	.etiquetaMV {
+		width: 35%!important;
+		height: 11%!important;
+	}
+	.carruselMV .glide__slide {
+		position: relative;
+		border: none;
+	}
+	.glide__slides {
+		position: relative;
+		width: 100%;
+		list-style: none;
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+		touch-action: pan-Y;
+		overflow: hidden;
+		padding: 0;
+		white-space: nowrap;
+		display: flex;
+		flex-wrap: nowrap;
+		will-change: transform;
+		left: 82px;
+	}
 }
-
-  
-}
-

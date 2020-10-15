@@ -1,763 +1,744 @@
-.bannerListaProducto{
-    position: relative;
-   width: 100%;
-    height: 200px;
-   
+.bannerListaProducto {
+	position: relative;
+	width: 100%;
+	height: 200px;
 }
 
-
-
-
-.imgBannerLP{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.imgBannerLP {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
-    .textoBannerLP-1{
-        position: absolute;
-        top: 0px;
-        left: 0; 
-         right: 0;
-        padding:45px;
-    }
+.textoBannerLP-1 {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	padding: 45px;
+}
 
-    .textoBannerLP-2{
-        position: absolute;
-        top: 40px;
-        left: 0; 
-        right: 0;
-        padding:45px;
-    }
+.textoBannerLP-2 {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	padding: 45px;
+}
 
-    .textoBannerLP-3{
-        position: absolute;
-        top: 75px;
-        left: 0; 
-        right: 0;
-        padding:45px;
-    }
+.textoBannerLP-3 {
+	position: absolute;
+	top: 75px;
+	left: 0;
+	right: 0;
+	padding: 45px;
+}
 
+.view p {
+	top: 5px;
+	margin: 0 10px 0 0;
+}
 
-    .view p  { top: 5px; margin: 0 10px 0 0; } 
-    .view p,
-    .view a { 
-        float: left; 
-        display: inline-block;
-        text-decoration: none;
-        position: relative;
-    }
-    .icon-grid {
-        background: url("../../../img/imgOficial/iconos_logos/grid-view.png") no-repeat 0 0;
-        height: 16px;
-        width: 16px;
-        top: 7px;
-    }
-    .icon-list {
-        background: url("../../../img/imgOficial/iconos_logos/list-view.png") no-repeat 0 0;
-        height: 32px;
-        width: 32px;
-    }
+.view p,
+.view a {
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+}
 
-    
+.icon-grid {
+	background: url("../../../img/imgOficial/iconos_logos/grid-view.png") no-repeat 0 0;
+	height: 16px;
+	width: 16px;
+	top: 7px;
+}
 
+.icon-list {
+	background: url("../../../img/imgOficial/iconos_logos/list-view.png") no-repeat 0 0;
+	height: 32px;
+	width: 32px;
+}
 
 .view-group {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-.thumbnail
-{
-    margin-bottom: 30px;
-    padding: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    /* height: 475px!important; */
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	padding-left: 0;
+	margin-bottom: 0;
 }
 
-.item.list-group-item
-{
-    float: none;
-    width: 100%;
-    background-color: #fff;
-    margin-bottom: 30px;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding: 0 1rem;
-    border: 0;
+.thumbnail {
+	margin-bottom: 30px;
+	padding: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	/* height: 475px!important; */
 }
+
+.item.list-group-item {
+	float: none;
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 30px;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding: 0 1rem;
+	border: 0;
+}
+
 .item.list-group-item .img-event {
-    float: left;
-    width: 30%;
+	float: left;
+	width: 30%;
 }
 
-.item.list-group-item .list-group-image
-{
-    margin-right: 10px;
-}
-.item.list-group-item .thumbnail
-{
-    margin-bottom: 0px;
-    display: inline-block;
-}
-.item.list-group-item .caption
-{
-    float: left;
-    width: 70%;
-    margin: 0;
+.item.list-group-item .list-group-image {
+	margin-right: 10px;
 }
 
-.item.list-group-item:before, .item.list-group-item:after
-{
-    display: table;
-    content: " ";
+.item.list-group-item .thumbnail {
+	margin-bottom: 0px;
+	display: inline-block;
 }
 
-.item.list-group-item:after
-{
-    clear: both;
+.item.list-group-item .caption {
+	float: left;
+	width: 70%;
+	margin: 0;
 }
 
-.etiquetaLista
-{
-    width: 53px;
-    height: 20px;
-    background-color: #bababa;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+.item.list-group-item:before,
+.item.list-group-item:after {
+	display: table;
+	content: " ";
 }
 
-.etiquetaOfertaLista
-{
-    left: 190px!important;
-    top: 10px!important;
-    width: 53px;
-    height: 20px;
-    background-color: #f75454;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-}
-  
-      .textoEtiquetaLista{
-          font-family: PoppinsSemiBold;
-          font-size: 11px;
-            font-weight: 600;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.45;
-            letter-spacing: 0px;
-            text-align: center;
-            color: #ffffff;
-      }
-
-      .textoPrecioAntesL{
-        font-family: Poppins;
-        font-size: 12px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 2;
-        letter-spacing: normal;
-        color: #6f6f6f;
-      }
-
-      .textoPrecioProducto-L{
-        font-family: Poppins;
-        font-size: 15px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.6;
-        letter-spacing: normal;
-        color: #000000;
-
-      }
-
-      .textoPrecioProducto-Lferta{
-        font-family: PoppinsSemiBold;
-        font-size: 16px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        color: #f75454;
-      }
-
-
-
-
-.ordenarPagina{
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #2c2c2c;
-}
-.btnAgregarLista{
-
-    width: 138px;
-    height: 33px;
-    border-radius: 10px;
-
-    font-family: PoppinsBold;
-    font-size: 13px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: -0.2px;
-    text-align: center;
-    color: #ffffff;
-
-    text-transform: none;
-
+.item.list-group-item:after {
+	clear: both;
 }
 
-.favoritoLista{
-    width: 23px;
-    height: 21px;
-    cursor: pointer;
-
+.etiquetaLista {
+	width: 53px;
+	height: 20px;
+	background-color: #bababa;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
 }
 
-.marginTopTemporal{
-    margin-top: 45px;
+.etiquetaOfertaLista {
+	left: 190px!important;
+	top: 10px!important;
+	width: 53px;
+	height: 20px;
+	background-color: #f75454;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
 }
 
-.group .list-group-image .img-fluid{
-height: 12px!important;
+.textoEtiquetaLista {
+	font-family: PoppinsSemiBold;
+	font-size: 11px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.45;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #ffffff;
 }
 
-.imgBorder-B-lista{
-    border-bottom: solid 1px #bababa;
-
+.textoPrecioAntesL {
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: #6f6f6f;
 }
 
-.imgBorder-R-lista{
-    border-right:  solid 1px #bababa;
+.textoPrecioProducto-L {
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.contenedorCategoriasLP{
-    padding: 20px;
-    background-color:#ffff;
-    height: 100%;
+.textoPrecioProducto-Lferta {
+	font-family: PoppinsSemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #f75454;
 }
 
-
-.contenedorFiltrosLP{
-    padding: 20px;
-    background-color:#ffff;
-    height: 100%;
+.ordenarPagina {
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
+
+.btnAgregarLista {
+	width: 138px;
+	height: 33px;
+	border-radius: 10px;
+	font-family: PoppinsBold;
+	font-size: 13px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: -0.2px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+}
+
+.favoritoLista {
+	width: 23px;
+	height: 21px;
+	cursor: pointer;
+}
+
+.marginTopTemporal {
+	margin-top: 45px;
+}
+
+.group .list-group-image .img-fluid {
+	height: 12px!important;
+}
+
+.imgBorder-B-lista {
+	border-bottom: solid 1px #bababa;
+}
+
+.imgBorder-R-lista {
+	border-right: solid 1px #bababa;
+}
+
+.contenedorCategoriasLP {
+	padding: 20px;
+	background-color: #ffff;
+	height: 100%;
+}
+
+.contenedorFiltrosLP {
+	padding: 20px;
+	background-color: #ffff;
+	height: 100%;
+}
+
 
 /*//////////////////////////////////7*/
 
-.borderNavbarPL{
-    border-bottom: solid 0.5px #bababa;
+.borderNavbarPL {
+	border-bottom: solid 0.5px #bababa;
 }
-
-
 
 .vistaRapida {
-   position: absolute;
-   display: none;
-   bottom: 0px;
-   left: 15px;
-   text-transform: none;
-   background-color: #000000;
-   color: #fff;
+	position: absolute;
+	display: none;
+	bottom: 0px;
+	left: 15px;
+	text-transform: none;
+	background-color: #000000;
+	color: #fff;
 }
 
-.iraDetalle{
-    position: relative;
+.iraDetalle {
+	position: relative;
 }
 
-.iraDetalle:hover  .vistaRapida, .vistaRapida:hover {
-    display: inline-block;
-    color: #fff;
+.iraDetalle:hover .vistaRapida {
+	display: inline-block;
+	color: #fff;
 }
 
-.imgTarhjetaLista{
-    width: 100%;
-    height: 210px!important;
+.imgTarhjetaLista {
+	width: 100%;
+	height: 210px!important;
 }
 
-.tarjetaPromocional{
-    border-radius: 10px;
-    background-image: linear-gradient(340deg, #774363 105%, #c26ea2 18%)
+.tarjetaPromocional {
+	border-radius: 10px;
+	background-image: linear-gradient(340deg, #774363 105%, #c26ea2 18%)
 }
 
-.imgPromocional{
-    width: 85%!important;
-    height: 100%!important;
-    display:block;
-    margin:auto;
+.imgPromocional {
+	width: 85%!important;
+	height: 100%!important;
+	display: block;
+	margin: auto;
 }
 
-.textoPromocional1{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.94;
-    letter-spacing: 0.13px;
-    color: #ffffff;
-
+.textoPromocional1 {
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.94;
+	letter-spacing: 0.13px;
+	color: #ffffff;
 }
 
-.textoPromocional2{
-    font-family: PoppinsSemiBold;
-    font-size: 24px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoPromocional2 {
+	font-family: PoppinsSemiBold;
+	font-size: 24px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.67;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoPromocional3{
-    font-family: PoppinsSemiBold;
-    font-size: 50px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.8;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoPromocional3 {
+	font-family: PoppinsSemiBold;
+	font-size: 50px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.8;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.btnPromocionalLista{
-    width: 166px;
-    height: 52px;
-    background-color: #e98dc6;
-    font-family: PoppinsBold;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    text-transform: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.btnPromocionalLista {
+	width: 166px;
+	height: 52px;
+	background-color: #e98dc6;
+	font-family: PoppinsBold;
+	font-size: 17px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.18;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.sombraTarjeta:hover {
+	-webkit-box-shadow: 0px -1px 19px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px -1px 19px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px -1px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.tallasLP_a {
+	height: 100%!important;
+	width: 100%!important;
+	font-family: Poppins!important;
+	font-size: 11px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	background-color: #fff;
+	border: none;
+}
+
+.tallasLP .active,
+.tallasLP_a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.tallasLP {
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	height: 39px;
+	padding: 3px 15px;
 }
 
 
-.sombraTarjeta:hover{
-    -webkit-box-shadow: 0px -1px 19px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px -1px 19px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px -1px 19px 1px rgba(0,0,0,0.75);
-}
+/*collapse*/ /*collapse*/  /*collapse*/ /*collapse*/
 
-.tallasLP_a{
-    height: 100%!important;
-    width: 100%!important;
 
-    font-family: Poppins!important;
-    font-size: 11px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    background-color: #fff;
-    border: none;
-}
- 
-.tallasLP .active,.tallasLP_a:hover{
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.tallasLP{
-    border:  2px solid rgba(0, 0, 0, 0.1);
-    height: 39px;
-    padding: 3px 15px;
-}
-
-/*collapse*//*collapse*//*collapse*/
-/*collapse*//*collapse*//*collapse*/
-/*collapse*//*collapse*//*collapse*/
 /*******************************
 * Does not work properly if "in" is added after "collapse".
 * Get free snippets on bootpen.com
 *******************************/
+
 .panel-group .panel {
-    border-radius: 0;
-    box-shadow: none;
-    border-color: #EEEEEE;
+	border-radius: 0;
+	box-shadow: none;
+	border-color: #EEEEEE;
 }
 
-.panel-default > .panel-heading {
-    padding: 0;
-    border-radius: 0;
-    color: #212121;
-    background-color: #ffffff;
-    border-color: #EEEEEE;
+.panel-default>.panel-heading {
+	padding: 0;
+	border-radius: 0;
+	color: #212121;
+	background-color: #ffffff;
+	border-color: #EEEEEE;
 }
 
 .panel-title {
-    font-size: 14px;
+	font-size: 14px;
 }
 
-.panel-title > a {
-    display: block;
-    text-decoration: none;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.89;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.panel-title>a {
+	display: block;
+	text-decoration: none;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.89;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
 .more-less {
-    float: right;
-    color: #212121;
+	float: right;
+	color: #212121;
 }
 
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
-    border-top-color: #EEEEEE;
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border-top-color: #EEEEEE;
 }
+
 
 /* ----- v CAN BE DELETED v ----- */
 
 
-/*collapse*//*collapse*//*collapse*/
-/*collapse*//*collapse*//*collapse*/
-/*collapse*//*collapse*//*collapse*/
+/*collapse*/ /*collapse*/ /*collapse*/ /*collapse*/
+
 
 
 .tag {
-  font-size: 14px;
-  padding: .3em .4em .4em;
-  margin: 0 .1em;
+	font-size: 14px;
+	padding: .3em .4em .4em;
+	margin: 0 .1em;
 }
+
 .tag a {
-  color: #bbb;
-  cursor: pointer;
-  opacity: 0.6;
+	color: #bbb;
+	cursor: pointer;
+	opacity: 0.6;
 }
+
 .tag a:hover {
-  opacity: 1.0
+	opacity: 1.0
 }
+
 .tag .remove {
-  vertical-align: bottom;
-  top: 0;
+	vertical-align: bottom;
+	top: 0;
 }
+
 .tag a {
-  margin: 0 0 0 .3em;
+	margin: 0 0 0 .3em;
 }
+
 .tag a .glyphicon-white {
-  color: #fff;
-  margin-bottom: 2px;
+	color: #fff;
+	margin-bottom: 2px;
 }
 
 
+/*MODAL VISTA RAPIDA*/ /*MODAL VISTA RAPIDA*/ /*MODAL VISTA RAPIDA*/ /*MODAL VISTA RAPIDA*/
 
-/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
-/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
-/*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*//*MODAL VISTA RAPIDA*/
 
-  
-      .sku{
-          font-family: Poppins;
-          font-size: 14px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.71;
-          letter-spacing: normal;
-          color: #000000;
-      }
-      .nombreProductoDetalle{
-          font-family: PoppinsBold;
-          font-size: 24px;
-          font-weight: bold;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.25;
-          letter-spacing: normal;
-          color: #000000; 
-      }
-  
-      .textosPrecios{
-          font-family: Poppins;
-          font-size: 14px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.43;
-          letter-spacing: normal;
-          color: #2c2c2c; 
-      }
-  
-      .precioSocio{
-          font-family: PoppinsSemiBold;
-          font-size: 22px;
-          font-weight: 600;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 0.91;
-          letter-spacing: normal;
-          color: #f75454;
-      }
-
-  
-      .skin-light .number-input.number-input {
-          width: 180px!important;
-          border-radius: 8px;
-          border: solid 0.1px #DCD4D4;
-          margin-right: -13px;
-      }
-
-      .skin-light .number-input.number-input button:before, .skin-light .number-input.number-input button:after {
-        width: .5rem;
-        background-color: #495057;
-        opacity: 0.3;
-    }
-
-    .skin-light .number-input.number-input input[type=number] {
-        max-width: 2rem;
-        padding: .5rem;
-        border: none!important;
-        border-width: 0 1px;
-        font-size: 1rem;
-        height: 2rem;
-        color: #000000;
-    }
-
-    .skin-light .number-input.number-input button {
-      width: 1.5rem;
-      height: .7rem;
-  }
-  
-      .cantidadValor{
-          font-family: PoppinsSemiBold;
-          font-size: 20px;
-          font-weight: 600;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1;
-          letter-spacing: normal;
-          text-align: center;
-          color: #2c2c2c;
-      }
-  
-      .cantidadProducto{
-          font-family: Poppins;
-          font-size: 14px;
-          font-weight: 600;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.43;
-          letter-spacing: normal;
-          color: #2c2c2c;
-          margin: 0px -5px 0px 5px;
-      }
-  
-      .btnFavorito{
-          border-radius: 8px;
-          box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-          border: solid 0.8px #000000;
-      }
-  
-      .textoCompraProtegida{
-          font-family: Poppins;
-          font-size: 12px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.21;
-          letter-spacing: normal;
-          color: #6f6f6f;
-      }
-  
-      
-      .botonesAgregarComprar{
-          width: 180px;
-          height: 45px;
-          border-radius: 8px;
-  
-          font-family: Poppins;
-          font-size: 14px;
-          font-weight: 600;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.43;
-          letter-spacing: normal;
-          text-align: center;
-          color: #ffffff;
-          text-transform: none;
-      }
-  
-      .btnAgregarCarritoDetalle{
-          background-color: #7588b1;  
-      }
-  
-      .btnComprarDetalle{
-          background-color: #000000;
-      }
-  
-      .textoProductoDisponible{
-          font-family: Poppins;
-          font-size: 16px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.25;
-          letter-spacing: normal;
-          color: #3ea832;
-      }
-
-      .seleccioneTalla{
-          height: 54px;
-      }
-
-      .textoDescripcionModal{
-        font-family: PoppinsSemiBold;
-        font-size: 22px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 0.91;
-        letter-spacing: normal;
-        color: #2c2c2c;
-      }
-
-      .textoDescripcionModal >p{
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.29;
-        letter-spacing: normal;
-        color: #000000;
-      }
-  
-
-      .imgMarca {
-          width: 75px;
-          height: 40px;
-          float: right;
-      }
-
-      .borderMarca{
-          width: 160px;
-          height: 110px;
-          border: black 1px solid;
-          border-radius: 13px;
-          -webkit-border-radius: 13px;
-          -moz-border-radius: 13px;
-          -ms-border-radius: 13px;
-          -o-border-radius: 13px;
+.sku {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.menuListaP .list-group-flush .list-group-item{
-
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #000000;
-    padding:0px!important;
-  
-
+.nombreProductoDetalle {
+	font-family: PoppinsBold;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.menuListaP .list-group-flush .list-group-item strong{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #000000;
+.textosPrecios {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.irAFiltros{
-    text-align: left!important;
-    border-bottom: 1px solid black!important;
-
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.89;
-    letter-spacing: normal;
-    color: #6f6f6f;
+.precioSocio {
+	font-family: PoppinsSemiBold;
+	font-size: 22px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #f75454;
 }
 
-.subcategorias{
-    align-items: left!important;
+.skin-light .number-input.number-input {
+	width: 180px!important;
+	border-radius: 8px;
+	border: solid 0.1px #DCD4D4;
+	margin-right: -13px;
+}
+
+.skin-light .number-input.number-input button:before,
+.skin-light .number-input.number-input button:after {
+	width: .5rem;
+	background-color: #495057;
+	opacity: 0.3;
+}
+
+.skin-light .number-input.number-input input[type=number] {
+	max-width: 2rem;
+	padding: .5rem;
+	border: none!important;
+	border-width: 0 1px;
+	font-size: 1rem;
+	height: 2rem;
+	color: #000000;
+}
+
+.skin-light .number-input.number-input button {
+	width: 1.5rem;
+	height: .7rem;
+}
+
+.cantidadValor {
+	font-family: PoppinsSemiBold;
+	font-size: 20px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	color: #2c2c2c;
+}
+
+.cantidadProducto {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #2c2c2c;
+	margin: 0px -5px 0px 5px;
+}
+
+.btnFavorito {
+	border-radius: 8px;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+	border: solid 0.8px #000000;
+}
+
+.textoCompraProtegida {
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.21;
+	letter-spacing: normal;
+	color: #6f6f6f;
+}
+
+.botonesAgregarComprar {
+	width: 180px;
+	height: 45px;
+	border-radius: 8px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
+}
+
+.btnAgregarCarritoDetalle {
+	background-color: #7588b1;
+}
+
+.btnComprarDetalle {
+	background-color: #000000;
+}
+
+.textoProductoDisponible {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	color: #3ea832;
+}
+
+.seleccioneTalla {
+	height: 54px;
+}
+
+.textoDescripcionModal {
+	font-family: PoppinsSemiBold;
+	font-size: 22px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.91;
+	letter-spacing: normal;
+	color: #2c2c2c;
+}
+
+.textoDescripcionModal>p {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.imgMarca {
+	width: 75px;
+	height: 40px;
+	float: right;
+}
+
+.borderMarca {
+	width: 160px;
+	height: 110px;
+	border: black 1px solid;
+	border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-ms-border-radius: 13px;
+	-o-border-radius: 13px;
+}
+
+.menuListaP .list-group-flush .list-group-item {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #000000;
+	padding: 0px!important;
+}
+
+.menuListaP .list-group-flush .list-group-item strong {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.irAFiltros {
+	text-align: left!important;
+	border-bottom: 1px solid black!important;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.89;
+	letter-spacing: normal;
+	color: #6f6f6f;
+}
+
+.subcategorias {
+	align-items: left!important;
 }
 
 .skin-light .navbar .navbar-nav {
-    -webkit-box-align: left!important;
-    -ms-flex-align: left!important;
-    align-items: left!important;
+	-webkit-box-align: left!important;
+	-ms-flex-align: left!important;
+	align-items: left!important;
 }
 
 .amsify-suggestags-area .amsify-suggestags-input-area .amsify-suggestags-input {
-    max-width: 200px;
-    padding: 0px 4px;
-    border: 0;
+	max-width: 200px;
+	padding: 0px 4px;
+	border: 0;
 }
+
 
 /*ETIQUETAS FILTROS*/
-.etiquetasFiltros{
-    border: none!important;
+
+.etiquetasFiltros {
+	border: none!important;
 }
 
 .amsify-suggestags-area .amsify-suggestags-input-area .amsify-suggestags-input {
-    max-width: 200px;
-    padding: 0px 4px;
-    border: 0;
-    pointer-events: none!important;
-    display: none!important;
+	max-width: 200px;
+	padding: 0px 4px;
+	border: 0;
+	pointer-events: none!important;
+	display: none!important;
 }
 
 .amsify-suggestags-input-area .amsify-select-tag.col-bg {
-    background: #ffff!important;
-    color: black!important;
-    border: 1px solid black!important;
-    border-radius: 6px!important;
-    -webkit-border-radius: 6px!important;
-    -moz-border-radius: 6px!important;
-    -ms-border-radius: 6px!important;
-    -o-border-radius: 6px!important;
+	background: #ffff!important;
+	color: black!important;
+	border: 1px solid black!important;
+	border-radius: 6px!important;
+	-webkit-border-radius: 6px!important;
+	-moz-border-radius: 6px!important;
+	-ms-border-radius: 6px!important;
+	-o-border-radius: 6px!important;
 }
 
 
@@ -765,399 +746,326 @@ height: 12px!important;
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
-    .textoPromocional3 {
-        font-size: 40px;
-    }
-
-    .textoPromocional2 {
-
-        font-size: 20px;
-    }
-
-    .btnPromocionalLista {
-
-        margin-top: 40px!important;
-    }
-
-    .etiquetaOfertaLista {
-        left: 142px!important;
-    }
-
-    .listaGrid{
-        padding: 0%;
-    }
-
+@media (max-width:1199px) and (min-width:992px) {
+	.textoPromocional3 {
+		font-size: 40px;
+	}
+	.textoPromocional2 {
+		font-size: 20px;
+	}
+	.btnPromocionalLista {
+		margin-top: 40px!important;
+	}
+	.etiquetaOfertaLista {
+		left: 142px!important;
+	}
+	.listaGrid {
+		padding: 0%;
+	}
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
+@media (max-width:991px) and (min-width:768px) {
+	.bannerListaProducto {
+		height: 158px;
+	}
+	.textoPromocional2 {
+		font-family: PoppinsSemiBold;
+		font-size: 20px;
+	}
+	.textoBannerLP-1 {
+		padding: 20px;
+	}
+	.textoBannerLP-2 {
+		top: 28px;
+		padding: 20px;
+	}
+	.poppinsBold40pxLP {
+		font-size: 35px;
+	}
+	.poppinsSemiBold24LP {
+		font-size: 19px;
+	}
+	.textoBannerLP-3 {
+		top: 65px;
+		padding: 20px;
+	}
+	.etiquetaOfertaLista {
+		left: 75px!important;
+	}
+	.btnAgregarLista {
+		width: 108px;
+		height: 36px;
+		font-size: 12px!important;
+	}
+	.textoPromocional3 {
+		font-size: 48px;
+	}
+	.panel-title>a {
+		font-size: 15px;
+	}
+	.poppinsBold24pxLP {
+		font-size: 20px;
+	}
+	.botonesAgregarComprar {
+		width: 203px;
+	}
+	.btnPromocionalLista {
+		width: 166px;
+		height: 52px;
+		margin-top: 24px!important;
+	}
 
-    .bannerListaProducto {
-        height: 158px;
-    }
-
-    .textoPromocional2 {
-        font-family: PoppinsSemiBold;
-        font-size: 20px;
-
-    }
-    .textoBannerLP-1 {
-        padding: 20px;
-    }
-    .textoBannerLP-2 {
-        top: 28px;
-        padding: 20px;
-    }
-    .poppinsBold40pxLP {
-        font-size: 35px;
-    }
-    .poppinsSemiBold24LP {
-        font-size: 19px;
-    }
-    .textoBannerLP-3 {
-        top: 65px;
-        padding: 20px;
-    }
-    .etiquetaOfertaLista {
-        left: 75px!important;
-    }
-
-    .btnAgregarLista {
-        width: 108px;
-        height: 36px;
-        font-size: 12px!important;
-    }
-
-    .textoPromocional3 {
-        font-size: 48px;
-    }
-
-    
-
-    .panel-title > a {
-        font-size: 15px;
-    }
-
-    .poppinsBold24pxLP {
-        font-size: 20px;
-
-    }
-
-    .botonesAgregarComprar {
-        width: 203px;
-
-    }
-
-    .btnPromocionalLista {
-        width: 166px;
-        height: 52px;
-        margin-top: 24px!important;
-
-    }
-
-    
+	.iraDetalle:hover .vistaRapida {
+		display: none;
+		color: #fff;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
+@media (max-width:767px) {
 
-    .bannerListaProducto {
-        height: 120px;
-    }
+	.iraDetalle:hover .vistaRapida {
+		display: none;
+		color: #fff;
+	}
 
-    .mdVR{
-        margin: 1.5rem 6.5rem!important;
-    }
-
-
- 
-    .etiquetaOfertaLista {
-        left: 150px!important;
-        top: 20px!important;
-    }
-
-    .etiquetaLista {
-        top: 20px!important;
-        left: 30px!important;
-    }
-
-    .textoBannerLP-1 {
-        padding: 20px;
-    }
-    .textoBannerLP-2 {
-        top: 25px;
-        padding: 20px;
-    }
-    .poppinsBold40pxLP {
-        font-size: 30px;
-    }
-    .poppinsSemiBold24LP {
-        font-size: 19px;
-    }
-    .textoBannerLP-3 {
-        top: 58px;
-        padding: 20px;
-    }
-
-    .btnPromocionalLista {
-        width: 166px;
-        height: 43px;
-        margin-top: 45px!important;
-    }
-
-    #mySidenavFiltros{
-        padding-top: 45px!important;
-    }
- 
+	.bannerListaProducto {
+		height: 120px;
+	}
+	.mdVR {
+		margin: 1.5rem 6.5rem!important;
+	}
+	.etiquetaOfertaLista {
+		left: 150px!important;
+		top: 20px!important;
+	}
+	.etiquetaLista {
+		top: 20px!important;
+		left: 30px!important;
+	}
+	.textoBannerLP-1 {
+		padding: 20px;
+	}
+	.textoBannerLP-2 {
+		top: 25px;
+		padding: 20px;
+	}
+	.poppinsBold40pxLP {
+		font-size: 30px;
+	}
+	.poppinsSemiBold24LP {
+		font-size: 19px;
+	}
+	.textoBannerLP-3 {
+		top: 58px;
+		padding: 20px;
+	}
+	.btnPromocionalLista {
+		width: 166px;
+		height: 43px;
+		margin-top: 45px!important;
+	}
+	#mySidenavFiltros {
+		padding-top: 45px!important;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-    /* .thumbnail {
-        height: 362px!important;
-    } */
+@media (max-width: 576px) {
+	.bannerListaProducto {
+		height: 79px;
+	}
+	.poppinsSemiBold24LP {
+		font-size: 11px;
+	}
+	.textoBannerLP-1,
+	.textoBannerLP-2,
+	.textoBannerLP-3 {
+		padding: 12px;
+	}
+	.poppinsBold40pxLP {
+		font-size: 17px;
+	}
+	.textoBannerLP-2 {
+		top: 16px;
+	}
+	.textoBannerLP-3 {
+		top: 35px;
+	}
+	.poppinsBold18LP {
+		font-size: 12px;
+	}
+	.poppins15LP {
+		font-size: 10px;
+	}
+	.textoPrecioProducto-L {
+		font-size: 12px;
+	}
+	.textoPrecioProducto-Lferta {
+		font-size: 13px;
+	}
+	.btnAgregarLista {
+		width: 86px;
+		height: 24px;
+		font-size: 7px!important;
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-ms-border-radius: 6px;
+		-o-border-radius: 6px;
+	}
+	.textoPromocional2 {
+		font-size: 14px;
+	}
+	.textoPromocional3 {
+		font-size: 48px;
+	}
+	.btnPromocionalLista {
+		width: 109px;
+		height: 35px;
+		font-size: 9px!important;
+		margin-top: 6px!important;
+	}
+	.skin-light .number-input.number-input {
+		width: 233px!important;
+		margin-top: 20px;
+	}
+	.skin-light .number-input.number-input button {
+		width: 2.5rem;
+		height: .7rem;
+	}
+	.etiquetaOfertaLista {
+		left: 80px!important;
+		top: 20px!important;
+	}
+	.textoPrecioAntesL {
+		font-size: 10px;
+	}
+	.poppinsSemiBold16LP {
+		font-size: 10px;
+	}
+	.botonesAgregarComprar {
+		width: 241px;
+		font-size: 12px!important;
+	}
+	.textoDescripcionModal {
+		font-size: 17px;
+	}
+	.sku {
+		font-size: 10px;
+	}
+	.nombreProductoDetalle {
+		font-size: 12px;
+	}
+	.textosPrecios {
+		font-size: 11px;
+	}
+	.precioSocio {
+		font-size: 16px;
+	}
+	.seleccioneTalla {
+		height: 35px;
+	}
+	.cantidadProducto {
+		font-size: 18px;
+	}
+	.btnFavorito {
+		border-radius: 8px;
+		box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+		border: solid 0.8px #000000;
+		float: right;
+	}
+	.aux-1 {
+		margin-top: 20px;
+	}
+	.borderMarca {
+		width: 100%;
+	}
+	.mdVR {
+		margin: 1.5rem!important;
+	}
+	.cerrarModalVR {
+		left: -46px!important;
+		position: relative;
+		font-size: 2.5rem!important;
+	}
 
-
-    .bannerListaProducto {
-        height: 79px;
-    }
-    
-    .poppinsSemiBold24LP {
-        font-size: 11px;
-    }
-    
-    .textoBannerLP-1,.textoBannerLP-2,.textoBannerLP-3 {
-        padding: 12px;
-    }
-
-    .poppinsBold40pxLP {
-        font-size: 17px;
-    }
-
-    .textoBannerLP-2 {
-        top: 16px;
-    }
-
-    
-    .textoBannerLP-3 {
-        top: 35px;
-    }
-    .poppinsBold18LP {
-        font-size: 12px;
-    }
-
-    .poppins15LP {
-        font-size: 10px;
-    }
-
-    .textoPrecioProducto-L {
-        font-size: 12px;
-    }
-
-    .textoPrecioProducto-Lferta {
-        font-size: 13px;
-    }
-
-    .btnAgregarLista {
-        width: 86px;
-    height: 24px;
-    font-size: 7px!important;
-        border-radius: 6px;
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        -ms-border-radius: 6px;
-        -o-border-radius: 6px;
-}
-
-
-.textoPromocional2 {
-    font-size: 14px;
-}
-
-.textoPromocional3 {
-    font-size: 48px;
-}
-
-.btnPromocionalLista {
-    width: 109px;
-    height: 35px;
-    font-size: 9px!important;
-    margin-top: 6px!important;
-}
-
-.skin-light .number-input.number-input {
-    width: 233px!important;
-    margin-top: 20px;
-}
-
-.skin-light .number-input.number-input button {
-    width: 2.5rem;
-    height: .7rem;
-}
-
-
-.etiquetaOfertaLista {
-    left: 80px!important;
-    top: 20px!important;
-}
-.textoPrecioAntesL {
-    font-size: 10px;
-}
-
-.poppinsSemiBold16LP {
-    font-size: 10px;
-}
-.botonesAgregarComprar {
-    width: 241px;
-    font-size: 12px!important;
-}
-
-.textoDescripcionModal {
-    font-size: 17px;
-}
-
-
-
-.sku {
-    font-size: 10px;
-}
-
-.nombreProductoDetalle {
-    font-size: 12px;
-}
-
-.textosPrecios {
-    font-size: 11px;
-}
-
-.precioSocio {
-    font-size: 16px;
-}
-
-.seleccioneTalla {
-    height: 35px;
-}
-
-
-.cantidadProducto {
-    font-size: 18px;
-}
-
-.btnFavorito{
-    border-radius: 8px;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
-    border: solid 0.8px #000000;
-    float: right;
-}
-
-.aux-1{
-    margin-top: 20px;
-}
-
-.borderMarca {
-    width: 100%;
-
-}
-
-.mdVR{
-    margin: 1.5rem!important;
-}
-
-.cerrarModalVR{
-    left: -46px!important;
-    position: relative;
-    font-size: 2.5rem!important;
-}
-    
+	.iraDetalle:hover .vistaRapida {
+		display: none;
+		color: #fff;
+	}
 }
 
 @media (max-width: 350px) {
-    .etiquetaOfertaLista {
-        left: 55px!important;
-    }
-
-    .cerrarModalVR {
-        left: -73px!important;
-        position: relative;
-        font-size: 1.5rem!important;
-    }
-
-    .btnAgregarLista {
-        width: 72px;
-        height: 21px;
-        font-size: 6px!important;
-    }
-
-    .textoPrecioProducto-L {
-        font-size: 10px;
-    }
-
-    .textoPromocional3 {
-        font-size: 32px;
-    }
-
-    .btnPromocionalLista {
-        width: 90px;
-        height: 32px;
-        font-size: 7px!important;
-        margin-top: 20px!important;
-    }
-
-    .ordenarPagina {
-        font-size: 12px;
-    }
-
-    .mdVR{
-        margin: 1.5rem!important;
-    }
-
-    .cantidadProducto {
-        font-size: 13px;
-    }
-
-    .skin-light .number-input.number-input button {
-        width: 2.5rem;
-        height: .7rem;
-    }
-
-    .skin-light .number-input.number-input {
-        width: 217px!important;
-        margin-top: 20px;
-    }
-
-    .textoCompraProtegida {
-        font-size: 9px;
-    }
-
-    .textoDescripcionModal {
-        font-size: 14px;
-    }
-
-    .textoDescripcionModal >p{
-        font-size: 10px!important;
-      }
-    
- }
-
-
-
-
+	.etiquetaOfertaLista {
+		left: 55px!important;
+	}
+	.cerrarModalVR {
+		left: -73px!important;
+		position: relative;
+		font-size: 1.5rem!important;
+	}
+	.btnAgregarLista {
+		width: 72px;
+		height: 21px;
+		font-size: 6px!important;
+	}
+	.textoPrecioProducto-L {
+		font-size: 10px;
+	}
+	.textoPromocional3 {
+		font-size: 32px;
+	}
+	.btnPromocionalLista {
+		width: 90px;
+		height: 32px;
+		font-size: 7px!important;
+		margin-top: 20px!important;
+	}
+	.ordenarPagina {
+		font-size: 12px;
+	}
+	.mdVR {
+		margin: 1.5rem!important;
+	}
+	.cantidadProducto {
+		font-size: 13px;
+	}
+	.skin-light .number-input.number-input button {
+		width: 2.5rem;
+		height: .7rem;
+	}
+	.skin-light .number-input.number-input {
+		width: 217px!important;
+		margin-top: 20px;
+	}
+	.textoCompraProtegida {
+		font-size: 9px;
+	}
+	.textoDescripcionModal {
+		font-size: 14px;
+	}
+	.textoDescripcionModal>p {
+		font-size: 10px!important;
+	}
+}

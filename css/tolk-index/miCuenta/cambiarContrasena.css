@@ -1,164 +1,151 @@
-.textoCambiarC{
-    font-family: PoppinsBold;
-    font-size: 22px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #000000;
+.textoCambiarC {
+	font-family: PoppinsBold;
+	font-size: 22px!important;
+	font-weight: bold!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.textoInputCambiarC{
-    font-family: PoppinsBold;
-    font-size: 16px!important;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.13;
-    letter-spacing: normal;
-    color: #000000;
-    margin: 0px;
-  }
-
-.estiloInputCambiarC{
-    height: 35px!important;
-    border: solid 1px #000000!important;
-    border-radius: 6px!important;
-    -webkit-border-radius: 6px!important;
-    -moz-border-radius: 6px!important;
-    -ms-border-radius: 6px!important;
-    -o-border-radius: 6px!important;
-    background-color: rgb(255, 255, 255);
+.textoInputCambiarC {
+	font-family: PoppinsBold;
+	font-size: 16px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+	color: #000000;
+	margin: 0px;
 }
 
-
+.estiloInputCambiarC {
+	height: 35px!important;
+	border: solid 1px #000000!important;
+	border-radius: 6px!important;
+	-webkit-border-radius: 6px!important;
+	-moz-border-radius: 6px!important;
+	-ms-border-radius: 6px!important;
+	-o-border-radius: 6px!important;
+	background-color: rgb(255, 255, 255);
+}
 
 .estiloInputCambiarC::-webkit-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
- 
-  }
-
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+}
 
 .estiloInputCambiarC::-moz-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
+
 .estiloInputCambiarC:-ms-input-placeholder {
-     font-family: PoppinsBold;
-  font-size: 13px!important;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsBold;
+	font-size: 13px!important;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
-
-.botonesCambiarC{
-  width: 242px;
-  height: 45px;
-  border-radius: 8px;
-  font-family: PoppinsSemiBold;
-  font-size: 14px!important;
-  font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.43;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  text-transform: none;
+.botonesCambiarC {
+	width: 242px;
+	height: 45px;
+	border-radius: 8px;
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-transform: none;
 }
+
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
-  
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-
-   
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-  .botonesCambiarC {
-    width: 145px;
+@media (max-width:991px) and (min-width:768px) {
+	.botonesCambiarC {
+		width: 145px;
+	}
 }
 
-
-}
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-  .botonesCambiarC {
-    width: 205px;
+@media (max-width:767px) {
+	.botonesCambiarC {
+		width: 205px;
+	}
 }
-        
-}
- 
+
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
-  .botonesCambiarC {
-    width: 109px;
-    height: 31px;
-}
-.textoCambiarC {
-  font-size: 17px!important;
-}
 
-.textoInputCambiarC {
-  font-size: 12px!important;
-  line-height: 1.53;
-    
-}
+@media (max-width: 576px) {
+	.botonesCambiarC {
+		width: 109px;
+		height: 31px;
+	}
+	.textoCambiarC {
+		font-size: 17px!important;
+	}
+	.textoInputCambiarC {
+		font-size: 12px!important;
+		line-height: 1.53;
+	}
 }
 
 @media (max-width: 350px) {
-  .textoTitulosSeccion {
-    font-size: 13px;
-
- }
- .textoMiCuenta1 {
-  font-size: 16px;
+	.textoTitulosSeccion {
+		font-size: 13px;
+	}
+	.textoMiCuenta1 {
+		font-size: 16px;
+	}
+	.botonesCambiarC {
+		width: 122px;
+		height: 31px;
+		font-size: 15px!important;
+	}
+	.aux-cc-1 {
+		padding: 0px!important;
+	}
 }
-  .botonesCambiarC {
-    width: 122px;
-    height: 31px;
-    font-size: 15px!important;
-}
-
-  .aux-cc-1{
-    padding: 0px!important;
-  }
-}
-

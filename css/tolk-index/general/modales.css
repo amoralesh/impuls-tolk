@@ -1,280 +1,273 @@
 .modal-dialog.cascading-modal {
-    margin-top: 3%;
+	margin-top: 3%;
 }
 
 .espacioInput {
-    margin-bottom: 0.5rem!important;
+	margin-bottom: 0.5rem!important;
 }
 
-
-.textCabeceraModales{
-    font-family: PoppinsBold;
-    font-size: 25px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    color: #ffffff;
+.textCabeceraModales {
+	font-family: PoppinsBold;
+	font-size: 25px!important;
+	font-weight: bold!important;
+	font-stretch: normal!important;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoSubCabeceraModal{
-    font-family: Poppins;
-    font-size: 16px!important;
-    font-weight: normal!important;
-    font-stretch: normal!important;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: normal;
-    color: #ffffff;
+.textoSubCabeceraModal {
+	font-family: Poppins;
+	font-size: 16px!important;
+	font-weight: normal!important;
+	font-stretch: normal!important;
+	font-style: normal;
+	line-height: 1.88;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.estiloInput{
-    height: 40px!important;
-    border: 1px solid black!important;
+.estiloInput {
+	height: 40px!important;
+	border: 1px solid black!important;
 }
 
-.estiloInputRegistro{
-    height: 26px!important;
-    border: 1px solid black!important;
+.estiloInputRegistro {
+	height: 26px!important;
+	border: 1px solid black!important;
 }
 
-
-
-.estiloInput::-webkit-input-placeholder,.estiloInputRegistro::-webkit-input-placeholder {
-    font-family: PoppinsSemiBold;
-     font-size: 14px!important;
-    font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
- 
-  }
-
-
-.estiloInput:-moz-placeholder,.estiloInputRegistro:-moz-input-placeholder {
-    font-family: PoppinsSemiBold;
-     font-size: 14px!important;
-    font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+.estiloInput::-webkit-input-placeholder,
+.estiloInputRegistro::-webkit-input-placeholder {
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
-.estiloInput:-ms-input-placeholder,.estiloInputRegistro:-ms-input-placeholder  {
-    font-family: PoppinsSemiBold;
-     font-size: 14px!important;
-    font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+.estiloInput:-moz-placeholder,
+.estiloInputRegistro:-moz-input-placeholder {
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
-
-
-
-.textoNotas{
-    font-family: Poppins;
-    font-size: 18px!important;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #000000!important;
+.estiloInput:-ms-input-placeholder,
+.estiloInputRegistro:-ms-input-placeholder {
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
-.textoNotas-a{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
-    color: #000000;
+.textoNotas {
+	font-family: Poppins;
+	font-size: 18px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.67;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.titutoInput{
-    font-family: PoppinsSemiBold;
-    font-size: 14px!important;
-    font-weight: 600!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #000000!important;
+.textoNotas-a {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.28;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-
-
-
-.btnModales{
-    text-transform: none;
-    width: 152px;
-    height: 45px;
-    background-color: #000000;
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 8px!important;
-    -webkit-border-radius: 8px!important;
-    -moz-border-radius: 8px!important;
-    -ms-border-radius: 8px!important;
-    -o-border-radius: 8px!important;
+.titutoInput {
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #000000!important;
 }
 
-.olvidaste{
-    position: relative;
-    bottom: 20px;
+.btnModales {
+	text-transform: none;
+	width: 152px;
+	height: 45px;
+	background-color: #000000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 8px!important;
+	-webkit-border-radius: 8px!important;
+	-moz-border-radius: 8px!important;
+	-ms-border-radius: 8px!important;
+	-o-border-radius: 8px!important;
 }
 
-.preguntasLogin{
-    font-family: PoppinsSemiBold;
-    font-size: 13px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.54;
-    letter-spacing: normal;
-    color: #000000;
+.olvidaste {
+	position: relative;
+	bottom: 20px;
 }
 
-.regresarLogin{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #6f6f6f;
+.preguntasLogin {
+	font-family: PoppinsSemiBold;
+	font-size: 13px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.54;
+	letter-spacing: normal;
+	color: #000000;
 }
+
+.regresarLogin {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #6f6f6f;
+}
+
 
 /* OFERTA RELAMPAGO */
 
-
-
-.textoRegresar{
-    font-family: PoppinsSemiBold;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    color: #6f6f6f;  
+.textoRegresar {
+	font-family: PoppinsSemiBold;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	color: #6f6f6f;
 }
 
-    
+
 /* UNETE A LA FAMILIA*/
-.imgUnete{
-width: 40px!important;
-height: 40px!important;
+
+.imgUnete {
+	width: 40px!important;
+	height: 40px!important;
 }
 
-.textCabeceraUnete{
-    font-family: Poppins!important;
-    font-size: 24px!important;
-    font-weight: bold!important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.79;
-    letter-spacing: normal;
-    color: #ffffff;
+.textCabeceraUnete {
+	font-family: Poppins!important;
+	font-size: 24px!important;
+	font-weight: bold!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
-.textoUnete2{
-    font-family: PoppinsSemiBold!important;
-    font-size: 22px!important;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.27;
-    letter-spacing: normal;
-    color: #2c2c2c;
+.textoUnete2 {
+	font-family: PoppinsSemiBold!important;
+	font-size: 22px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.27;
+	letter-spacing: normal;
+	color: #2c2c2c;
 }
 
-.textoUnete3{
-    font-family: Poppins;
-  font-size: 16px!important;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #000000;
+.textoUnete3 {
+	font-family: Poppins;
+	font-size: 16px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
 }
 
-.textoUnete-a{
-  font-family: Poppins;
-  font-size: 14px!important;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #000000;
+.textoUnete-a {
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
 }
 
 div.picker.datepicker .picker__box {
-    border: none;
-    border-radius: 5px;
-    position: relative;
-    top: -407px!important;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	top: -407px!important;
 }
 
-.estilosInputUnete{
-    height: 38px!important;
-    border: 1px solid black!important;
+.estilosInputUnete {
+	height: 38px!important;
+	border: 1px solid black!important;
 }
 
-.estilosInputUnete2{
-    border: 1px solid black!important;
+.estilosInputUnete2 {
+	border: 1px solid black!important;
 }
 
-.estilosInputUnete::-webkit-input-placeholder{
-    font-family: Poppins;
-    font-size: 14px!important;
-    font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
-  }
+.estilosInputUnete::-webkit-input-placeholder {
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
+}
 
 .estilosInputUnete:-moz-placeholder {
-    font-family: PoppinsSemiBold;
-     font-size: 14px!important;
-    font-weight: 600!important;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+	font-family: PoppinsSemiBold;
+	font-size: 14px!important;
+	font-weight: 600!important;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
-.estilosInputUnete:-ms-input-placeholder  {
-    font-family: Poppins;
-    font-size: 14px!important;
-    font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.13;
-  letter-spacing: normal;
+.estilosInputUnete:-ms-input-placeholder {
+	font-family: Poppins;
+	font-size: 14px!important;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.13;
+	letter-spacing: normal;
 }
 
 .cabeceraUnete {
-    max-width: 400px!important;
+	max-width: 400px!important;
 }
+
 
 /* OFERTA RELAMPAGO */
 
@@ -282,173 +275,139 @@ div.picker.datepicker .picker__box {
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
-@media (min-width:1200px){
 
-}
+@media (min-width:1200px) {}
+
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:1199px) and (min-width:992px) {}
 
-}
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-    
-    .modal-dialog.cascading-modal {
-        margin-top: 12%;
-    }
-
-    
+@media (max-width:991px) and (min-width:768px) {
+	.modal-dialog.cascading-modal {
+		margin-top: 12%;
+	}
 }
+
 
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
-
-      
-    .modal-dialog.cascading-modal {
-        margin-top: 8%;
-        margin-left: 8%;
-    }
-
-    .textCabeceraModales {
-        font-size: 25px!important;
-    }
-
-    .textoSubCabeceraModal {
-        font-size: 17px!important;
-    }
-
-    .textoNotas {
-        font-size: 16px!important;
-    }
-
-    .modal-dialog {
-        margin: 1.5rem;
-    }
-
-    .preguntasLogin {
-        font-size: 12px;
-    }
-
-    .btnModales {
-        width: 100px;
-        height: 31px;
-        font-size: 14px;
-        border-radius: 4px!important;
-        -webkit-border-radius: 4px!important;
-        -moz-border-radius: 4px!important;
-        -ms-border-radius: 4px!important;
-        -o-border-radius: 4px!important;
+@media (max-width:767px) {
+	.modal-dialog.cascading-modal {
+		margin-top: 8%;
+		margin-left: 8%;
+	}
+	.textCabeceraModales {
+		font-size: 25px!important;
+	}
+	.textoSubCabeceraModal {
+		font-size: 17px!important;
+	}
+	.textoNotas {
+		font-size: 16px!important;
+	}
+	.modal-dialog {
+		margin: 1.5rem;
+	}
+	.preguntasLogin {
+		font-size: 12px;
+	}
+	.btnModales {
+		width: 100px;
+		height: 31px;
+		font-size: 14px;
+		border-radius: 4px!important;
+		-webkit-border-radius: 4px!important;
+		-moz-border-radius: 4px!important;
+		-ms-border-radius: 4px!important;
+		-o-border-radius: 4px!important;
+	}
+	.textoNotas-a {
+		font-size: 12px;
+		text-align: justify;
+	}
+	.estiloInput {
+		height: 31px!important;
+		border: 1px solid black!important;
+	}
 }
 
-.textoNotas-a {
-    font-size: 12px;
-    text-align: justify;
-
-}
-
-.estiloInput {
-    height: 31px!important;
-    border: 1px solid black!important;
-}
-        
-}
 
 /*=============================================
 MOVIL PEQUEÑOS (XS revisamos en 320px)
 =============================================*/
+
+
 /*WhatsApp y Chat*/
-@media (max-width: 576px) { 
-  
-    .modal-dialog.cascading-modal {
-        margin-top: 38%;
-    }
 
-    .textCabeceraModales {
-        font-size: 16px!important;
-    }
-
-    .textoSubCabeceraModal {
-        font-size: 10px!important;
-    }
-
-    .textoNotas {
-        font-size: 14px!important;
-    }
-
-    .modal-dialog {
-        margin: 1.5rem;
-    }
-
-    .preguntasLogin {
-        font-size: 10px;
-    }
-
-    .btnModales {
-        width: 100px;
-        height: 31px;
-        font-size: 14px;
-        border-radius: 4px!important;
-        -webkit-border-radius: 4px!important;
-        -moz-border-radius: 4px!important;
-        -ms-border-radius: 4px!important;
-        -o-border-radius: 4px!important;
+@media (max-width: 576px) {
+	.modal-dialog.cascading-modal {
+		margin-top: 38%;
+	}
+	.textCabeceraModales {
+		font-size: 16px!important;
+	}
+	.textoSubCabeceraModal {
+		font-size: 10px!important;
+	}
+	.textoNotas {
+		font-size: 14px!important;
+	}
+	.modal-dialog {
+		margin: 1.5rem;
+	}
+	.preguntasLogin {
+		font-size: 10px;
+	}
+	.btnModales {
+		width: 100px;
+		height: 31px;
+		font-size: 14px;
+		border-radius: 4px!important;
+		-webkit-border-radius: 4px!important;
+		-moz-border-radius: 4px!important;
+		-ms-border-radius: 4px!important;
+		-o-border-radius: 4px!important;
+	}
+	.textoNotas-a {
+		font-size: 12px;
+		text-align: justify;
+	}
+	.estiloInput {
+		height: 31px!important;
+		border: 1px solid black!important;
+	}
+	.textCabeceraUnete {
+		font-size: 14px!important;
+	}
+	.closeRelampago i {
+		font-size: 30px;
+		position: relative;
+		top: 20px;
+	}
+	.textoUnete2 {
+		font-size: 15px!important;
+	}
+	.textoUnete3 {
+		font-size: 11px!important;
+	}
+	.textoUnete-a {
+		font-size: 12px!important;
+	}
+	.estilosInputUnete {
+		height: 30px!important;
+	}
+	.estilosInputUnete2 {
+		border: 1px solid black!important;
+		height: 30px;
+	}
 }
-
-.textoNotas-a {
-    font-size: 12px;
-    text-align: justify;
-
-}
-
-.estiloInput {
-    height: 31px!important;
-    border: 1px solid black!important;
-}
-
-
-
-
-.textCabeceraUnete {
-    font-size: 14px!important;
-}
-
-.closeRelampago i {
-    font-size: 30px;
-    position: relative;
-    top: 20px;
-}
-
-.textoUnete2 {
-    font-size: 15px!important;
-}
-
-.textoUnete3 {
-    font-size: 11px!important;
-}
-
-.textoUnete-a {
-    font-size: 12px!important;
-}
-
-.estilosInputUnete {
-    height: 30px!important;
-}
-
-.estilosInputUnete2 {
-    border: 1px solid black!important;
-    height: 30px;
-}
-
-
- }

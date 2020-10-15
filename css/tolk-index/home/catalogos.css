@@ -1,5 +1,3 @@
-
-
 .textoTarjetaCatalogos {
 	font-family: PoppinsBold;
 	font-size: 18px;
@@ -40,41 +38,34 @@
 	width: 90%;
 }
 
-.sombraTarjeta{
+.sombraTarjeta {
 	box-shadow: 0 6px 17px 0 rgb(0 0 0 / 44%)!important;
 	min-width: 250px;
 }
 
 
- 
-
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 =============================================*/
 
-@media (min-width:1200px){
+@media (min-width:1200px) {}
 
-}
 
 /*=============================================
 ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 =============================================*/
 
-@media (max-width:1199px) and (min-width:992px){
-
+@media (max-width:1199px) and (min-width:992px) {
 	.sombraTarjeta {
 		min-width: 225px;
 	}
-
 	.textoTarjetaCatalogos {
 		font-size: 16px;
 		line-height: 1.5;
 	}
-
 	.textoTarjetaCatalogosVer {
 		font-size: 25px;
 	}
-
 	.imgRadiusCatalogo {
 		height: 277px;
 		border-radius: 10px!important;
@@ -83,50 +74,41 @@ ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
 		-ms-border-radius: 10px!important;
 		-o-border-radius: 10px!important;
 	}
-
-
-
-
 }
+
 
 /*=============================================
 ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
 =============================================*/
 
-@media (max-width:991px) and (min-width:768px){
-
-    .imgRadiusCatalogo {
+@media (max-width:991px) and (min-width:768px) {
+	.imgRadiusCatalogo {
 		height: 365px;
 	}
-
 	.textoTarjetaCatalogos {
 		font-size: 24px;
 	}
-
 	.textoTarjetaCatalogosVer {
 		font-size: 30px;
 	}
 }
 
+
 /*=============================================
 MOVIL (XS revisamos en 320px)
 =============================================*/
 
-@media (max-width:767px){
+@media (max-width:767px) {}
 
- 
-}
 
 /*=============================================
 MOVIL (XS revisamos en 576px)
 =============================================*/
-@media (max-width: 576px) { 
 
-	
+@media (max-width: 576px) {
 	.sombraTarjeta {
 		min-width: 100%;
 	}
-
 	.imgRadiusCatalogo {
 		height: 180px;
 		width: 90%;
@@ -136,32 +118,24 @@ MOVIL (XS revisamos en 576px)
 		-moz-border-radius: 10px!important;
 		-ms-border-radius: 10px!important;
 		-o-border-radius: 10px!important;
+	}
+	.textoTarjetaCatalogos {
+		font-size: 13px;
+		line-height: 1.2;
+	}
+	.textoTarjetaCatalogosVer {
+		font-size: 14px;
+	}
 }
 
-.textoTarjetaCatalogos {
-    font-size: 13px;
-    line-height: 1.2;
-}
-
-.textoTarjetaCatalogosVer {
-    font-size: 14px;
-
-}
-}
-
-
-@media (max-width: 350px) { 
+@media (max-width: 350px) {
 	.imgRadiusCatalogo {
 		height: 140px;
 	}
-
 	.textoTarjetaCatalogos {
 		font-size: 10px;
 	}
-	
-
 	.textoTarjetaCatalogosVer {
 		font-size: 11px;
 	}
-
 }
