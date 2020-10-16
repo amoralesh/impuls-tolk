@@ -441,6 +441,11 @@ MOVIL (XS revisamos en 576px)
 		right: 2%;
 	}
 
+	/* .chatImpuls {
+
+		height: 100%;
+	} */
+
 
 	.textoTitulosSeccion {
 		font-family: PoppinsExtramBold;
@@ -462,4 +467,48 @@ MOVIL (XS revisamos en 576px)
 		color: #ffffff!important;
 		margin-top: 4px!important;
 	}
+}
+
+@media (max-width: 350px)  {
+	/* .chatImpuls {
+		display: none;
+		position: fixed;
+		bottom: 10px;
+		right: 15px;
+		border: 3px solid #f1f1f1;
+		z-index: 9999!important;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-o-border-radius: 10px;
+		margin-left: 0px!important;
+	} */
+
+	.chatForm {
+		max-width: 270px;
+		max-height: 285px;
+		padding: 10px;
+		background-color: white;
+	}
+
+	.contenedorChat {
+		overflow-y: scroll!important;
+		height: 170px;
+	}
+}
+
+@media (max-height: 340px)  {
+	/* .contenedorChat {
+		display: none!important;
+	}
+	
+
+	.chatImpuls {
+		display: none!important;
+	}
+
+	.btnAbrirChat {
+		display: none!important;
+	} */
 }

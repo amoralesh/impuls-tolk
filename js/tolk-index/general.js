@@ -8,6 +8,27 @@ AOS.init({
 $(document).ready(function(){
 
 
+
+  $(window).on('scroll', function () { // Evento de Scroll
+    if (($(window).scrollTop() + $(window).height()) == $(document).height()) { // Si estamos al final de la página
+        // $('.open-button-2').stop(true).animate({ // Escondemos el elemento
+             
+        // }, 250);
+
+        $(".open-button-2").css("display","none");
+        $(".comunicacion").css("display","none");
+         
+    } else { // Si no
+        // $('.open-button-2').stop(true).css({ // Mostramos el elemento
+        // display:block
+        // }, 200);
+
+        $(".open-button-2").css("display","block");
+        $(".comunicacion").css("display","block");
+    }
+  });
+
+
   var altoHeader =$("header").height();
    $("#menuSmall").css("top", altoHeader);
 
@@ -160,12 +181,18 @@ function toggleIcon(e) {
 
        function openForm() {
         document.getElementById("miChat").style.display = "block";
-        $(".floatWhats").css("right", "240px")
+        $(".floatWhats").css("right", "240px");
+
+        $(".open-button-2").css("display","none");
+       
       }
       
       function closeForm() {
         document.getElementById("miChat").style.display = "none";
-        $(".floatWhats").css("right", "20px")
+        $(".floatWhats").css("right", "20px");
+        $(".open-button-2").css("display","block");
+
+        
       }
 
       function openNav() {

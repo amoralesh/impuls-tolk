@@ -364,3 +364,30 @@ MOVIL (XS revisamos en 576px)
 		height: 90px;
 	}
 }
+
+@media (max-width: 240px){
+
+	.textoUnete2 {
+		font-size: 11px!important;
+	}
+	.textoUnete3 {
+		font-size: 10px!important;
+	}
+.btnGeneralFlotante {
+    width: 63px;
+    height: 25px;
+    font-size: 10px!important;
+}
+
+.contenedorIMG-B1-3 {
+    height: 64px;
+}
+
+.contenedorIMG-B1-2 {
+    height: 74px;
+}
+
+.textoUnete-a {
+    font-size: 8px!important;
+}
+}
