@@ -318,3 +318,12 @@ MOVIL (XS revisamos en 576px)
 		font-size: 12px;
 	}
 }
+
+
+@media (max-width: 250px) {
+	.imgVistos {
+		width: 69px!important;
+		height: 70px!important;
+	}
+}
+

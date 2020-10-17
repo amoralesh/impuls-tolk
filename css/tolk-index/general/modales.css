@@ -2,6 +2,11 @@
 	margin-top: 3%;
 }
 
+.aux-modal{
+	overflow-x: hidden!important;
+    overflow-y: auto!important;
+}
+
 .espacioInput {
 	margin-bottom: 0.5rem!important;
 }

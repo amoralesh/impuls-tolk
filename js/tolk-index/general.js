@@ -7,21 +7,23 @@ AOS.init({
   
 $(document).ready(function(){
 
+//   $(document.body).on('touchmove', onScroll); // for mobile
+// $(window).on('touchmove', onScroll); 
+
+// // callback
+// function onScroll(){ 
+//       $(".open-button-2").css("display","none");
+//       $(".comunicacion").css("display","none");
+// }
+
 
 
   $(window).on('scroll', function () { // Evento de Scroll
-    if (($(window).scrollTop() + $(window).height()) == $(document).height()) { // Si estamos al final de la página
-        // $('.open-button-2').stop(true).animate({ // Escondemos el elemento
-             
-        // }, 250);
+    if (($(window).scrollTop() + $(window).height()) == $(document).height()) {
 
         $(".open-button-2").css("display","none");
         $(".comunicacion").css("display","none");
-         
-    } else { // Si no
-        // $('.open-button-2').stop(true).css({ // Mostramos el elemento
-        // display:block
-        // }, 200);
+    } else { 
 
         $(".open-button-2").css("display","block");
         $(".comunicacion").css("display","block");

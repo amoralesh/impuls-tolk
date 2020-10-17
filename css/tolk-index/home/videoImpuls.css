@@ -154,3 +154,12 @@ MOVIL (XS revisamos en 320px)
 		margin: 50px 0px 0px 0px!important
 	}
 }
+
+@media (max-width: 576px) {
+	.tituloVideoImpuls {
+		font-family: PoppinsExtramBold;
+		font-size: 25px!important;
+	}
+}
+
+

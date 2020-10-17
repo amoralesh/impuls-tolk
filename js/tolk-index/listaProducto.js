@@ -11,13 +11,15 @@ $(document).ready(function() {
       $('.parte-1').addClass('col-md-6');
       $('.parte-2').addClass('col-md-6');
 
-      $('.contenedorBtnFavoritos').removeClass('marginTopTemporal');
+      $('.contenedorBtnFavoritos').addClass('marginTopTemporal');
 
       $('.list-group-image').addClass('imgBorder-R-lista');
       $('.list-group-image').removeClass('imgBorder-B-lista');
 
       $('.imgPromocional').removeClass('imgBorder-R-lista');
       $('.imgPromocional').removeClass('imgBorder-B-lista');
+
+      $('.tlp').removeClass('tarjetaListaP');
 
       
 
@@ -33,10 +35,13 @@ $(document).ready(function() {
       $('.parte-1').addClass('col-md-12');
       $('.parte-2').addClass('col-md-12');
 
-      $('.contenedorBtnFavoritos').addClass('marginTopTemporal');
+
+      $('.contenedorBtnFavoritos').removeClass('marginTopTemporal');
       
       $('.list-group-image').removeClass('imgBorder-R-lista');
       $('.list-group-image').addClass('imgBorder-B-lista');
+
+      $('.tlp').addClass('tarjetaListaP');
 
       
     

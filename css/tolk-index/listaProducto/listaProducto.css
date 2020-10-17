@@ -78,6 +78,10 @@
 	/* height: 475px!important; */
 }
 
+.tarjetaListaP{
+	height: 465px!important;
+}
+
 .item.list-group-item {
 	float: none;
 	width: 100%;
@@ -690,13 +694,28 @@
 	text-align: left!important;
 	border-bottom: 1px solid black!important;
 	font-family: Poppins;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: normal;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.89;
 	letter-spacing: normal;
 	color: #6f6f6f;
+	padding-left: 10px;
+}
+
+.filtrosMovil {
+	text-align: left!important;
+	border-bottom: 1px solid black!important;
+	font-family: Poppins!important;
+	font-size: 15px!important;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.89;
+	letter-spacing: normal;
+	color: #6f6f6f;
+	padding-left: 10px;
 }
 
 .subcategorias {
@@ -892,6 +911,10 @@ MOVIL (XS revisamos en 576px)
 =============================================*/
 
 @media (max-width: 576px) {
+
+	.tarjetaListaP {
+		height: 366px!important;
+	}
 	.bannerListaProducto {
 		height: 79px;
 	}
