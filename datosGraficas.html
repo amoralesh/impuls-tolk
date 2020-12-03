@@ -8,12 +8,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5fc678941636900011868df1&product=inline-share-buttons" async="async"></script> 
+
     <meta property="og:url"           content="https://amoralesh.github.io/impuls-tolk/datosGraficasImg.html" />
-    <meta property="og:type"          content="website" />
+    <meta property="og:type"          content="website"/>
     <meta property="og:title"         content="POLLS MX" />
     <meta property="og:description"   content="Descripción del sitio y de la gráfica" />
     <meta property="og:image"         content="https://amoralesh.github.io/impuls-tolk/grafica1.png" />
+    <meta property="og:image:width"   content="828"/>
+    <meta property="og:image:height"  content="450"/>
   </head>
   <body>
     <a href="#" class="btn-floating compartirRedes btn-sm btn-white" type="button" role="button" id="shareWhatsaApp" target="_blanck"><i class="fab fa-whatsapp"></i>Whatsapp 1.1</a>
@@ -64,6 +66,18 @@ $( document ).ready(function() {
 
   var URLactual = 'https://amoralesh.github.io/impuls-tolk/datosGraficasImg.html';
 	   document.getElementById("shareWhatsaApp").setAttribute("href", "https://api.whatsapp.com/send?text=Graficas20202%20Elecciones%20"+URLactual); 
+
+     
+
+     var twitterShareButton = document.getElementById('shareTwitter');
+         var twitterShareButtonHref='https://twitter.com/share?';
+         twitterShareButtonHref += 'url=https://amoralesh.github.io/impuls-tolk/datosGraficasImg.html';
+         twitterShareButtonHref += '&via=impuls_zapatos';
+         twitterShareButtonHref += '&text='+document.title;
+         twitterShareButton.href = twitterShareButtonHref;
+         document.getElementById("shareTwitter").setAttribute("href",twitterShareButtonHref);
+
+
     /*===== PETICION DATOS GRAFICA TABLA DE ENCUESTADORAS LINEALES APROBACION HOMEPAGE=====
     ========================================================================================*/ 
    

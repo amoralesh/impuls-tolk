@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5fc678941636900011868df1&product=inline-share-buttons" async="async"></script> 
     <meta property="og:url"           content="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="POLLS MX" />
-    <meta property="og:description"   content="Descripción del sitio de POLLS y de la Gráfica"/>
+    <meta property="og:type"          content="website"/>
+    <meta property="og:title"         content="POLLS MX."/>
+    <meta property="og:description"   content="Descripción del sitio de POLLS y de la Gráfica."/>
     <meta property="og:image"         content="https://amoralesh.github.io/impuls-tolk/grafica1.png"/>
   </head>
   <body>
@@ -109,11 +109,10 @@ $( document ).ready(function() {
     <script>
        $(document).ready(function() {
 
-        // $('li').click(function() {
-        //   var myid = $(this).attr("id");
-        //   alert(myid);
-        //  });
-
+        var link = document.createElement('meta');
+        link.setAttribute('property', 'og:image');
+        link.content = "https://amoralesh.github.io/impuls-tolk/grafica1.png";
+        document.getElementsByTagName('head')[0].appendChild(link);
 
  });
     </script>
