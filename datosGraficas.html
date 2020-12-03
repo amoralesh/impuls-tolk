@@ -16,7 +16,7 @@
     <meta property="og:image"         content="grafica1" />
   </head>
   <body>
-
+    <a href="#" class="btn-floating compartirRedes btn-sm btn-white" type="button" role="button" id="shareWhatsaApp" target="_blanck"><i class="fab fa-whatsapp"></i></a>
   <figure class="highcharts-figure">
     <div id="tablaEncuestadosLineal"></div>
     <p class="highcharts-description text-center">
@@ -62,7 +62,8 @@ data-layout="button_count">
 
 $( document ).ready(function() {
 
-
+  var URLactual = window.location;
+	   document.getElementById("shareWhatsaApp").setAttribute("href", "https://api.whatsapp.com/send?text=Graficas20202%20Elecciones%20"+URLactual); 
     /*===== PETICION DATOS GRAFICA TABLA DE ENCUESTADORAS LINEALES APROBACION HOMEPAGE=====
     ========================================================================================*/ 
    
